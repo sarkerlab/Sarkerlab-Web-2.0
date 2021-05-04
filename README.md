@@ -8,6 +8,8 @@ This document will explain how to modify the website content
 
 Since this is a simple HTML website, you can easily download the whole project and make changes on top of it.
 
+For more information about updating: [Link](https://docs.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository)
+
 ## Add New Page
 
 For example, if you want a new url: sarkerlab.org/example.html, you can leave example.html in the root directory.
