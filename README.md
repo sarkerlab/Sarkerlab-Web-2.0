@@ -2,11 +2,13 @@
 
 This document will explain how to modify the website content
 
+The website is hosted on [Netlify](https://www.netlify.com/), please use this github account to log in.
+
 ---
 
 # Updating the Website
 
-Since this is a simple HTML website, you can easily download the whole project and make changes on top of it.
+Since this is a simple HTML website, you can easily download the whole project and make changes on top of it through Github.
 
 For more information about updating: [Link](https://docs.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository)
 
