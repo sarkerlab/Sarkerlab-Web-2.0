@@ -20,6 +20,14 @@ For sarkerlab.org/dir/example.html, you can create a directory and put example.h
 
 Just simply copy paste and change the content.
 
+Remember:
+
+1. Image should save in the folder assets/img
+
+2. 4 people in one row for people page
+
+3. Publication font can be change and found at: [link](https://fontawesome.com/)
+
 ## Add Blog Page
 
 In the folder blogs, there is a template html called "sample_blog.html" that you can modify and add as a new page.
