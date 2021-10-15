@@ -49,7 +49,7 @@
   .card {
     margin: 20px;
     padding: 20px;
-    width: 280px;
+    width: 300px;
     min-height: 190px;
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
