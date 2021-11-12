@@ -109,6 +109,7 @@ h5 {
 }
 
 .our-team .social li a {
+  margin: auto;
   display: block;
   padding: 10px;
   font-size: 17px;
@@ -118,6 +119,11 @@ h5 {
 }
 
 .our-team .social li a:hover {
-  color: #1369ce;
-  background-color: #f7f5ec;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #7c8a9b;
 }
