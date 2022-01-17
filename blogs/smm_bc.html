@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sarker Lab</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Page CSS -->
+   <link href="../assets/css/navbar.css" rel="stylesheet">
+
+   <!-- Theme CSS -->
+   <link id="theme-style" rel="stylesheet" href="../assets/css/theme-1.css">
+
+  </head>
+
+  <!-- Nav Bar -->
+  <header class="header">
+    <div class="nav-box">
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../publication.html">Publications</a>
+        <a href="../dashboard.html">Dashboard</a>
+        <a href="../people.html">People</a>
+        <div class="animation start-projects"></div>
+      </nav>
+    </div>
+  </header>
+ 
+  <body>
+    <main role="main" class="container">
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">Social Media Mining for Breast Cancer Research</h2>
+				    <div class="meta mb-3"><span class="date">Last Update: Dec 11, 2020</span></div>
+			    </header>
+			    
+			    <div class="blog-post-body">
+		                    <h3 class="mt-5">Overview</h3>
+		                    <hr>
+		
+		                    <p>
+		                        Breast cancer patients often discontinue their long-term treatments, such as hormone therapy, increasing the risk of cancer recurrence. These discontinuations are often caused by adverse patient-centered outcomes (PCOs) due to hormonal drug side effects or other factors. PCOs are not detectable through laboratory tests, and are sparsely documented in electronic health records. Thus, there is a need to explore other sources of information for PCOs associated with breast cancer treatments. Social media is a promising resource, but extracting true PCOs from it first requires the accurate detection of breast cancer patients. We describe a natural language processing (NLP) architecture for automatically detecting breast cancer patients from Twitter based on their self-reports. The architecture employs breast cancer related keywords to collect streaming data from Twitter, applies NLP patterns to pre-filter noisy posts, and then employs a machine learning classifier trained using manually-annotated data (n=5019) for distinguishing firsthand self-reports of breast cancer from other tweets. A classifier based on bidirectional encoder representations from transformers (BERT) showed human-like performance and achieved F1-score of 0.857 (inter-annotator agreement: 0.845; Cohen's kappa) for the positive class, considerably outper-forming the next best classifier--a deep neural network (F1-score: 0.665). Qualitative analyses of posts from automatically-detected users revealed discussions about side effects, non-adherence and mental health conditions, illustrating the feasibility of our social media-based approach for studying breast cancer related PCOs from a large population. 
+		                    </p>
+		                    <p>
+		                        Publication:</br>
+		                    Al-Garadi M.A. et al. (2020) Automatic Breast Cancer Cohort Detection from Social Media for Studying Factors Affecting Patient-Centered Outcomes. In: Michalowski M., Moskovitch R. (eds) Artificial Intelligence in Medicine. AIME 2020. Lecture Notes in Computer Science, vol 12299. Springer, Cham. <br/>
+		                    Data: <a href = "https://drive.google.com/file/d/1pavaeanWcxgjtc-5Ye7-6AZh6deFThJ1/view?usp=sharing"> available here </a>
+		                        
+		                    </p>
+		
+
+			    </div>
+		    </div><!--//container-->
+	    </article>
+
+    </main><!-- /.container -->
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; 2021 Abeed Sarker · <a class="text-secondary" href="terms.html">Terms</a></p>
+    </footer>
+
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

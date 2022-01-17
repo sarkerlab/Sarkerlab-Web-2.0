@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,72 +8,70 @@
 
     <!-- Bootstrap CSS -->
     <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="assets/css/index.css" rel="stylesheet"> -->
 
+   <!-- Page CSS -->
+   <link href="../assets/css/navbar.css" rel="stylesheet">
 
-</head>
+   <!-- Theme CSS -->
+   <link id="theme-style" rel="stylesheet" href="../assets/css/theme-1.css">
 
+  </head>
 
-<body>
-
-    <!-- Nav Bar -->
-    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
-        <p class="h5 my-0 me-md-auto fw-normal">Sarker Lab</p>
-        <nav class="my-2 my-md-0 me-md-3">
-            <a class="p-2 text-dark" href="../index.html">Home</a>
-            <a class="p-2 text-dark" href="../people.html">People</a>
-            <a class="p-2 text-dark" href="../publication.html">Publications</a>
-            <a class="p-2 text-dark" href="../dashboard.html">Dashboard</a>
-        </nav>
-    </header>
-
-
+  <!-- Nav Bar -->
+  <header class="header">
+    <div class="nav-box">
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../publication.html">Publications</a>
+        <a href="../dashboard.html">Dashboard</a>
+        <a href="../people.html">People</a>
+        <div class="animation start-projects"></div>
+      </nav>
+    </div>
+  </header>
+ 
+  <body>
     <main role="main" class="container">
-        <div class="row">
-            <div class="blog-main">
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">A Light-weight Text Summarization System for Fast Access to Medical Evidence</h2>
+				    <div class="meta mb-3"><span class="date">Last Update: Dec 11, 2020</span></div>
+			    </header>
+			    
+			    <div class="blog-post-body">
+		                    <!-- Subtitle -->
+		                    <h3 class="mt-5">Overview</h3>
+		                    <hr>
+		
+		                    <p>
+		                        As the volume of published medical research continues to grow rapidly, staying up to date with the best-available research evidence regarding specific topics is becoming an increasingly challenging problem for medical experts and researchers. The current COVID19 pandemic is a good example of a topic on which research evidence is rapidly evolving. Automatic query-focused text summarization approaches may help researchers to swiftly review research evidence by presenting salient and query-relevant information from newly-published articles in a condensed manner. However, typical medical text summarization approaches are resource-heavy, and the performances of such systems rely on resource-heavy medical domain-specific knowledge sources and preprocessing methods (e.g., classification or deep learning) for deriving semantic information. Consequently, these systems are often difficult to speedily customize, extend or deploy in low-resource settings, and they are operationally slow. In this paper, we propose a fast and simple extractive summarization approach that can be easily deployed and run, and may thus aid medical experts and researchers to stay up to date regarding the latest research evidence.
+		                    </p>
+		
+		                    <!-- Subtitle -->
+		                    <h3 class="mt-5">Resources</h3>
+		                    <hr>
+		
+		                    <p>
+		                        Extrinsic evaluation gold standard (small):
+		                    </p>
+		
+		                    <p class="text-center">
+		                        <a class="text-secondary" target="_blank" href="https://github.com/coreyrshaw/Website/blob/master/assets/data/extrinsic_gold_standard.txt"><u>Download</u></a>
+		                    </p>
 
-                <div class="blog-post">
-
-                    <!-- Title -->
-                    <h1 class="blog-post-title">A Light-weight Text Summarization System for Fast Access to Medical Evidence</h1>
-                    
-                    <!-- Time -->
-                    <p class="blog-post-meta text-secondary">Last Update: Dec 11, 2020</p>
-
-                    <!-- Subtitle -->
-                    <h3 class="mt-5">Overview</h3>
-                    <hr>
-
-                    <p>
-                        As the volume of published medical research continues to grow rapidly, staying up to date with the best-available research evidence regarding specific topics is becoming an increasingly challenging problem for medical experts and researchers. The current COVID19 pandemic is a good example of a topic on which research evidence is rapidly evolving. Automatic query-focused text summarization approaches may help researchers to swiftly review research evidence by presenting salient and query-relevant information from newly-published articles in a condensed manner. However, typical medical text summarization approaches are resource-heavy, and the performances of such systems rely on resource-heavy medical domain-specific knowledge sources and preprocessing methods (e.g., classification or deep learning) for deriving semantic information. Consequently, these systems are often difficult to speedily customize, extend or deploy in low-resource settings, and they are operationally slow. In this paper, we propose a fast and simple extractive summarization approach that can be easily deployed and run, and may thus aid medical experts and researchers to stay up to date regarding the latest research evidence.
-                    </p>
-
-                    <!-- Subtitle -->
-                    <h3 class="mt-5">Resources</h3>
-                    <hr>
-
-                    <p>
-                        Extrinsic evaluation gold standard (small):
-                    </p>
-
-                    <p class="text-center">
-                        <a class="text-secondary" target="_blank" href="https://github.com/coreyrshaw/Website/blob/master/assets/data/extrinsic_gold_standard.txt"><u>Download</u></a>
-                    </p>
-
-
-                </div><!-- /.blog-main -->
-
-            </div><!-- /.row -->
+			    </div>
+		    </div><!--//container-->
+	    </article>
 
     </main><!-- /.container -->
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2021 Abeed Sarker · <a class="text-secondary" href="terms.html">Terms</a></p>
-      </footer>
+      <p class="mb-1">&copy; 2021 Abeed Sarker · <a class="text-secondary" href="terms.html">Terms</a></p>
+    </footer>
 
-    <!-- Bootstrap JS -->
     <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</body>
-
+  </body>
 </html>
