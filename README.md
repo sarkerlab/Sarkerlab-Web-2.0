@@ -1,101 +1,129 @@
-# Welcome to the [Sarker Lab](https://sarkerlab.org/) Website!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dcf3d5d0-a4a4-486f-bd9a-64b612392aad/deploy-status)](https://app.netlify.com/sites/brave-bell-c85a34/deploys)
 
-This document will explain how to modify the website content
+# Research lab website template
 
-The website is hosted on [Netlify](https://www.netlify.com/), please use this github account to log in.
+This website is built with [Jekyll](https://jekyllrb.com/).
+It is derived from the great template provided by the
+[Allan Lab](https://www.allanlab.org/aboutwebsite.html), at Leiden University.
 
+## Setup
+
+``` bash
+brew install ruby
+gem install bundler jekyll
+```
+
+Clone this repository, then install the dependencies:
+
+``` bash
+bundle install
+```
+
+## Run
+
+Run the local webserver with:
+
+``` bash
+bundle exec jekyll serve
+```
+
+## Contribute
+
+### Add a new member
+
+New members are stored as markdown files under
+[_pages/team/_posts](_pages/team/_posts).
+
+Each new member `.md` file must look like this:
+
+``` yaml
+---
+layout: member
+category: staff
+title: Researcher Name
+image: researcher.png
+role: Lab Director
+permalink: 'team/researcher-name'
+social:
+    twitter: https://twitter.com/
+    linkedin: https://www.linkedin.com/
+    google-scholar: https://scholar.google.fr/
+    github: https://github.com/
+    website:
+    orcid: https://orcid.org/
+    research-gate: https://www.researchgate.net/
+education:
+ - Education
 ---
 
-# Updating the Website
-
-Since this is a simple HTML website, you can easily download the whole project and make changes on top of it through Github.
-
-For more information about updating: [Link](https://docs.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository)
-
-## Add New Page
-
-For example, if you want a new url: sarkerlab.org/example.html, you can leave example.html in the root directory.
-
-For sarkerlab.org/dir/example.html, you can create a directory and put example.html in it.
-
-## Add Home Page, People, or Publications
-
-Just simply copy paste and change the content.
-
-Remember:
-
-1. Image should save in the folder assets/img
-
-2. 4 people in one row for people page
-
-3. Publication font can be change and found at: [link](https://fontawesome.com/)
-
-## Add Blog Page
-
-In the folder blogs, there is a template html called "sample_blog.html" that you can modify and add as a new page.
-
-All content should be added between
-
-```html
-<div class="blog-post"></div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
 ```
 
-## Sample Code
+### Add a new publication
 
-### Title
+Publications are stored as `.json` file under
+[_data/publications.json](_data/publications.json).
+This json file is exported from [Zotero](https://www.zotero.org/)
+bibliography tool.
 
-```html
-<h1 class="blog-post-title">Title</h1>
+Just add a new entry to the list like this:
+
+``` json
+{
+  "id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
+  "type": "article-journal",
+  "title": "Foo",
+  "container-title": "IEEE Transactions on Medical Imaging",
+  "page": "448-459",
+  "volume": "38",
+  "issue": "2",
+  "source": "IEEE Xplore",
+  "abstract": "Bar",
+  "DOI": "10.1109/TMI.2018.2865709",
+  "author": [
+    {
+      "family": "",
+      "given": ""
+    },
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2019",
+        2
+      ]
+    ]
+  }
+}
 ```
 
-### Headding Level 1 (Subtitle)
+### Add news
 
-```html
-<h3 class="mt-5">Subtitle</h3>
+News are stored as `.yml` file under [_data/news.yml](_data/news.yml).
+
+An entry looks like the following:
+
+```yaml
+- date: 03/09/19
+  title: "Something great"
+  tags:
+    - some
+    - tags
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Eu turpis egestas pretium aenean. Luctus venenatis lectus magna fringilla
+    urna porttitor. Lorem ipsum dolor sit amet. Pellentesque massa placerat
+    duis ultricies. Commodo viverra maecenas accumsan lacus vel.
 ```
 
-### Headding Level 2 (Sub-Subtitle)
+### Edit template
 
-```html
-<h5 class="mt-4">Sub-Subtitle</h5>
-```
-
-### Divider
-
-```html
-<hr>
-```
-
-### Time
-
-```html
-<p class="blog-post-meta text-secondary">Last Update: Dec 11, 2020</p>
-```
-
-### Text
-
-```html
-<p>
-    Some Text Here    
-</p>
-```
-
-### Link Example
-
-```html
-<p class="text-center">
-    Center: <a class="text-secondary" target="_blank" href="https://www.google.com"><u>Google</u></a>
-</p>
-
-<p>
-    Not Center: <a class="text-secondary" target="_blank" href="https://www.google.com"><u>Google</u></a>
-</p>
-```
-
-### List Example
-
-```html
-<li>
-    List Example Here
-</li>
-```
+We use [Bootstrap](https://getbootstrap.com/) for designing the website.
+Feel free to modify either the [_pages](_pages/) or the
+[_layouts](_layouts/) components.
