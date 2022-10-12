@@ -10,7 +10,7 @@ title: Sarker Lab @ Emory University
 email: abeed@dbmi.emory.edu
 description: > # this means to ignore newlines until "baseurl:"
   Website of the Sarker Lab.
-baseurl: "/_site"
+baseurl: ""
 url: "https://sarkerlab.org"
 
 include:
