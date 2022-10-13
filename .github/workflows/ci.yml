@@ -2,7 +2,8 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - main # or master before October 2020
 
 jobs:
   build-and-deploy:
