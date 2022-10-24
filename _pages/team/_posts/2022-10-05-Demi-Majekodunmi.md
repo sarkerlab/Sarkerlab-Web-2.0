@@ -4,6 +4,8 @@ category: Alumni
 title: Demi Majekodunmi
 image: demi.png
 role: Undergraduate Research Assistant
+interest: None
+expertise: None
 permalink: 'team/Demi-Majekodunmi'
 weight: 31
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-
+Interest: None; Expertise: None

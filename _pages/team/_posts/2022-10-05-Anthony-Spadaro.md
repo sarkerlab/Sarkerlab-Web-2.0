@@ -4,6 +4,8 @@ category: Collaborators
 title: Anthony Spadaro
 image: anthony.jpg
 role: Associate Fellow<br>University of Pennsylvania
+interest: None
+expertise: Substance Abuse
 permalink: 'team/Anthony-Spadaro'
 weight: 18
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>Epidemiology, Health Equity, Policy, Qualitative Methods, Social Determinants of Health, Substance Abuse
+Interest: None; Expertise: Substance Abuse

@@ -4,6 +4,8 @@ category: Collaborators
 title: Jennifer Love
 image: jennifer.jpg
 role: NIH Research Fellow<br>Mount Sinai
+interest: None
+expertise: Emergency Medicine
 permalink: 'team/Jennifer-Love'
 weight: 15
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>Emergency Medicine
+Interest: None; Expertise: Emergency Medicine

@@ -4,6 +4,8 @@ category: Collaborators
 title: Graciela Gonzalez Hernandez
 image: Graciela.jpg
 role: Associate Professor<br>University of Pennsylvania
+interest: None
+expertise: Social Media Mining
 permalink: 'team/Graciela-Gonzalez-Hernandez'
 weight: 13
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>Biomedical Informatics, NLP, Social Media Mining
+Interest: None; Expertise: Social Media Mining

@@ -4,6 +4,8 @@ category: Alumni
 title: Wesley Siu
 image: wesley-3.jpeg
 role: Graduate Research Assistant
+interest: None
+expertise: None
 permalink: 'team/Wesley-Siu'
 weight: 32
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-
+Interest: None; Expertise: None

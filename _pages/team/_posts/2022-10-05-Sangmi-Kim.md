@@ -4,6 +4,8 @@ category: Collaborators
 title: Sangmi Kim
 image: sangmi.jpg
 role: Assistant Professor<br>Emory University
+interest: None
+expertise: Women's Health
 permalink: 'team/Sangmi-Kim'
 weight: 14
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>Data Science, Health Disparities, Public Health Nursing, Vulnerable Populations, Women's Health
+Interest: None; Expertise: Women's Health

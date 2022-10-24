@@ -4,6 +4,8 @@ category: Collaborators
 title: Cecile Paris
 image: cecile.jpeg
 role: Chief Research Scientist<br>Data61
+interest: None
+expertise: Social Media Analytics
 permalink: 'team/Cecile-Paris'
 weight: 17
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>NLP, Artificial Intelligence, Social Media Analytics
+Interest: None; Expertise: Social Media Analytics

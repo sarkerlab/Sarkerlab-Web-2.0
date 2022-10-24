@@ -4,6 +4,8 @@ category: Collaborators
 title: Davy Weissenbacher
 image: davy.jpg
 role: Postdoctoral Researcher<br>University of Pennsylvania
+interest: None
+expertise: Machine Learning
 permalink: 'team/Davy-Weissenbacher'
 weight: 19
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>NLP, Biomedical Informatics, Machine Learning
+Interest: None; Expertise: Machine Learning

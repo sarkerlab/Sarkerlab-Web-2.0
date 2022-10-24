@@ -4,6 +4,8 @@ category: Alumni
 title: Sabrina Li
 image: sabrinali.jpg
 role: Undergraduate Research Assistant
+interest: None
+expertise: None
 permalink: 'team/Sabrina-Li'
 weight: 30
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-
+Interest: None; Expertise: None

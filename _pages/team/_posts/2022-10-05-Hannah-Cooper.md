@@ -4,6 +4,8 @@ category: Collaborators
 title: Hannah Cooper
 image: hannah_cooper.jpg
 role: Professor<br>Emory University
+interest: None
+expertise: HIV/AIDS Prevention, Social Epidemiology
 permalink: 'team/Hannah-Cooper'
 weight: 8
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>Addiction/Substance Abuse, Behavior and Health, Health Disparities, HIV/AIDS Prevention, Social Epidemiology
+Interest: None; Expertise: HIV/AIDS Prevention, Social Epidemiology

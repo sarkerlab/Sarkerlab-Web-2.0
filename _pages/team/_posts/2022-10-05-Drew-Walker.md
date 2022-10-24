@@ -4,6 +4,8 @@ category: Alumni
 title: Drew Walker
 image: drew_cropped.jpg
 role: PhD Rotation Student
+interest: Gaming, Music
+expertise: Program Implementation and Evaluation
 permalink: 'team/Drew-Walker'
 weight: 23
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest: </strong>Language and Bias, NLP, Data Science, Skateboarding, Surfing, Gaming, Music<br><strong>Expertise: </strong>Adolescent/Young Adult Palliative Care, Social and Behavioral Health, Program Implementation and Evaluation
+Interest: Gaming, Music; Expertise: Program Implementation and Evaluation

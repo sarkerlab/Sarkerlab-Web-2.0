@@ -4,6 +4,8 @@ category: Alumni
 title: Whitney Bremer
 image: whitney.jpg
 role: Project Manager/<br>Software Engineer
+interest: Clinical Informatics
+expertise: Project Management
 permalink: 'team/Whitney-Bremer'
 weight: 21
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest: </strong>Mobile App Development, Clinical Informatics<br><strong>Expertise: </strong>iOS Development, Program Management, Project Management
+Interest: Clinical Informatics; Expertise: Project Management

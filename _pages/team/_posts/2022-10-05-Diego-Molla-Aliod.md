@@ -4,6 +4,8 @@ category: Collaborators
 title: Diego Molla-Aliod
 image: diego.png
 role: Senior Lecturer<br>Macquarie University
+interest: None
+expertise: Text Summarisation
 permalink: 'team/Diego-Molla-Aliod'
 weight: 16
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>NLP, Information Extraction, Text-based Question Answering, Text Summarisation
+Interest: None; Expertise: Text Summarisation

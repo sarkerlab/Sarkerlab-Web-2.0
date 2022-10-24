@@ -4,6 +4,8 @@ category: Collaborators
 title: Michael Goodman
 image: michael_goodman.jpg
 role: Professor<br>Emory University
+interest: None
+expertise: Cancer Risk Evaluation
 permalink: 'team/Michael-Goodman'
 weight: 9
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>Public Health, Cancer EpidemiologyCancer Risk Evaluation
+Interest: None; Expertise: Cancer Risk Evaluation

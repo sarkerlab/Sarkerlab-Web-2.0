@@ -4,6 +4,8 @@ category: Collaborators
 title: Mohammed Ali AI-Garadi
 image: mohammed_ali.jpg
 role: Postdoctoral Scholar
+interest:  Sports, Science
+expertise: Surveilliance Methods
 permalink: 'team/Mohammed-Ali-AI-Garadi'
 weight: 10
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest:</strong> Sports, Science<br><strong>Expertise:</strong> NLP, Social Media, Surveilliance Methods
+Interest:  Sports, Science; Expertise: Surveilliance Methods

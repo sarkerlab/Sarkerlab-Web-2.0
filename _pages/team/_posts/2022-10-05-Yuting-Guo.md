@@ -4,6 +4,8 @@ category: Team-Members
 title: Yuting Guo
 image: yuting.jpg
 role: PhD Student
+interest: Programming, Anime
+expertise: NLP, Deep Learning
 permalink: 'team/Yuting-Guo'
 weight: 1
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest:</strong>Programming, Anime<br><strong>Expertise:</strong>NLP, Deep Learning
+Interest: Programming, Anime; Expertise: NLP, Deep Learning

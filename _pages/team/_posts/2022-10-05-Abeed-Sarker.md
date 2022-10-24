@@ -4,6 +4,8 @@ category: Team-Members
 title: Abeed Sarker
 image: abeed2.jpg
 role: Principal Investigator
+interest: Literature, Gaming, Big Data, AI
+expertise: Patient-centered Data Science
 permalink: 'team/Abeed-Sarker'
 weight: 3
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest: </strong>Programming, Sports, Music, Literature, Gaming, Big Data, AI<br><strong>Expertise: </strong>NLP, Applied Machine Learning, Social Media Mining, Patient-centered Data Science
+Interest: Literature, Gaming, Big Data, AI; Expertise: Patient-centered Data Science

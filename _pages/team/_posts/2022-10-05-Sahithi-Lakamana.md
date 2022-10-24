@@ -4,6 +4,8 @@ category: Team-Members
 title: Sahithi Lakamana
 image: sahithi_la.jpg
 role: Systems Software Engineer
+interest: Art and Crafts
+expertise: Visualization
 permalink: 'team/Sahithi-Lakamana'
 weight: 2
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest: </strong>Data Visualization, Data Classification, Coding, Art and Crafts<br><strong>Expertise: </strong>Python and Data Visualization
+Interest: Art and Crafts; Expertise: Visualization

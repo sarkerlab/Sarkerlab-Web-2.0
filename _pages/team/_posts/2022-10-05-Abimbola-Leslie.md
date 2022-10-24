@@ -4,6 +4,8 @@ category: Alumni
 title: Abimbola Leslie
 image: leslie.png
 role: Graduate Research Assistant
+interest: Movies, Music, Traveling
+expertise: Public Health
 permalink: 'team/Abimbola-Leslie'
 weight: 28
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest: </strong>Movies, Music, Traveling<br><strong>Expertise: </strong>Public Health
+Interest: Movies, Music, Traveling; Expertise: Public Health

@@ -4,6 +4,8 @@ category: Alumni
 title: Yuan-Chi Yang
 image: yuan-chi.jpg
 role: Postdoctoral Scholar
+interest: Computation, Physics
+expertise: None
 permalink: 'team/Yuan-Chi-Yang'
 weight: 27
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest: </strong>Machine Learning, Natural Language Processing, Data Science, Quantum Computation, Physics
+Interest: Computation, Physics; Expertise: None

@@ -4,6 +4,8 @@ category: Collaborators
 title: Imon Banerjee
 image: imon.png
 role: Lead AI Scientist<br>Mayo Clinic
+interest: None
+expertise: Biomedical Data Mining and Predictive Modeling
 permalink: 'team/Imon-Banerjee'
 weight: 7
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Expertise: </strong>NLP, Computer Vision, Biomedical Data Mining and Predictive Modeling
+Interest: None; Expertise: Biomedical Data Mining and Predictive Modeling

@@ -4,6 +4,8 @@ category: Alumni
 title: Nimita Deshpande
 image: nimita_5.jpg
 role: Undergraduate Intern
+interest: Music, Dance
+expertise: None
 permalink: 'team/Nimita-Deshpande'
 weight: 25
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest:</strong>Music, Dance
+Interest: Music, Dance; Expertise: None

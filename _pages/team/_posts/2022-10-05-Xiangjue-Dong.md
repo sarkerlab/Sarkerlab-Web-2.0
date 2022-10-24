@@ -4,6 +4,8 @@ category: Alumni
 title: Xiangjue Dong
 image: xiangjue.png
 role: Graduate Research Assistant
+interest: Sports
+expertise: NLP, AI
 permalink: 'team/Xiangjue-Dong'
 weight: 26
 social:
@@ -16,4 +18,4 @@ social:
     research-gate: https://www.researchgate.net/
 ---
 
-<strong>Interest: </strong>Piano, Long-distance running, Sports<br><strong>Expertise: </strong>NLP, AI
+Interest: Sports; Expertise: NLP, AI
