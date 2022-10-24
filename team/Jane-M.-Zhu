@@ -55,7 +55,7 @@
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/team">Team</a></li>
-            <li class="breadcrumb-item text-capitalize"><a href="/team#Alumni">Alumni</a></li>
+            <li class="breadcrumb-item text-capitalize"><a href="/team#Collaborators">Collaborators</a></li>
             <li class="breadcrumb-item active" aria-current="page">Jane M. Zhu</li>
         </ol>
         </nav>
