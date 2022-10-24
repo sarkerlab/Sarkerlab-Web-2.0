@@ -26,25 +26,14 @@ jobs:
           bundle exec jekyll build
         
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.6.2
+        uses: JamesIves/github-pages-deploy-action@@4.0.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: main
           FOLDER: _site
 	  CLEAN-EXCLUDE: |
-                CNAME
-                CODE_OF_CONDUCT.md
-                LICENSE
-                README.md
-                fonts
+                [A-Z]*
+                _*
                 js
-                Gemfile
-                Gemfile.lock
-                _config.yml
-                _data
-                _includes
-                _layouts
-                _pages
-                _plugins
-                _sass
+                fonts
           CLEAN: true
