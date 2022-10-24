@@ -1,6 +1,6 @@
 ---
 layout: member
-category: Alumni
+category: Team-Members
 title: Whitney Bremer
 image: whitney.jpg
 role: Project Manager/<br>Software Engineer

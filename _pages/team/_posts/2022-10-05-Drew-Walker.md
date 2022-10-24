@@ -1,6 +1,6 @@
 ---
 layout: member
-category: Alumni
+category: Team-Members
 title: Drew Walker
 image: drew_cropped.jpg
 role: PhD Rotation Student
