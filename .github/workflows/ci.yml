@@ -19,6 +19,16 @@ jobs:
         with:
           ruby-version: 2.7
 
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.3
+        with:
+          path: ./team
+
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.3
+        with:
+          path: ./research
+
       - name: Install and Build
         run: |
           gem install bundler
@@ -31,9 +41,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: main
           FOLDER: _site
-          CLEAN-EXCLUDE: |
-                [A-Z]*
-                _*
-                js
-                fonts
-          CLEAN: true
