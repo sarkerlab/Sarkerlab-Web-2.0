@@ -3,7 +3,7 @@ layout: member
 category: Collaborators
 title: Mohammed Ali AI-Garadi
 image: mohammed_ali.jpg
-role: Postdoctoral Scholar
+role: Assistant Professor<br>Vanderbilt University Medical Center
 interest:  Sports, Science
 expertise: Surveilliance Methods
 permalink: 'team/Mohammed-Ali-AI-Garadi'
