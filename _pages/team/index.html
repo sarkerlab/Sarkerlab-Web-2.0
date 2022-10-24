@@ -10,7 +10,7 @@ permalink: /team/
 
 <h2><a id="staff"></a>Team Members</h2>
 {% assign number_printed = 0 %}
-{% assign members = site.posts | where: 'category', 'Team-Members' | sort: 'weight' %}
+{% assign members = site.posts | where: 'category', 'Team-Members' | sort: 'title' %}
 {% for member in members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -102,7 +102,7 @@ permalink: /team/
 <h2><a id="alumni"></a>Alumni</h2>
 
 {% assign number_printed = 0 %}
-{% assign members = site.posts | where: 'category', 'Alumni' | sort: 'weight' %}
+{% assign members = site.posts | where: 'category', 'Alumni' | sort: 'title' %}
 {% for member in members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
