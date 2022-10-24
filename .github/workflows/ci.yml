@@ -31,4 +31,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: main
           FOLDER: _site
-          CLEAN: false
+	  CLEAN-EXCLUDE: _*
+	  CLEAN-EXCLUDE: [A-Z]*
+	  CLEAN-EXCLUDE: js
+	  CLEAN-EXCLUDE: fonts
+          CLEAN: true
