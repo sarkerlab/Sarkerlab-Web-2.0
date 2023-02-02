@@ -11,21 +11,26 @@ brew install ruby
 gem install bundler jekyll
 ```
 
-Clone this repository, then install the dependencies:
+* If you use Mac, you may meet the problem of failing to write the Ruby directory.
+That is because Mac does not allow the user to modify its original Ruby even with a root account.
+One solution is to use `conda` to create an independent dev environment for the website development.
+This way you need to run `conda install ruby` instead of `brew install ruby`.
 
+Clone this repository, then install the dependencies.
 ``` bash
 bundle install
 ```
 
-## Run
+## Run the website locally
 
-Run the local webserver with:
+It is a good practice to test your modification locally before pushing the code to the remote branch.
+Run the local web server with:
 
 ``` bash
 bundle exec jekyll serve
 ```
 
-## Contribute
+## Update the website
 
 ### Add a new member
 
