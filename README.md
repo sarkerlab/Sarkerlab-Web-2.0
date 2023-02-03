@@ -14,7 +14,8 @@ gem install bundler jekyll
 * If you use Mac, you may meet the problem of failing to write the Ruby directory.
 That is because Mac does not allow the user to modify its original Ruby even with a root account.
 One solution is to use `conda` to create an independent dev environment for the website development.
-This way you need to run `conda install ruby` instead of `brew install ruby`.
+This way you may need to run `conda install ruby` instead of `brew install ruby`.
+* If you can not solve the problem, try to follow the steps in this [blog](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
 
 Clone this repository, then install the dependencies.
 ``` bash
@@ -30,9 +31,22 @@ Run the local web server with:
 bundle exec jekyll serve
 ```
 
-## Update the website
+If the website is successfully launched, you should see the following logs in your terminal.
+Enter the address `http://127.0.0.1:4000/` to the broswer to open the website.
+```
+ Auto-regeneration: enabled for '/Users/gyt/Sarkerlab-Web-2.0'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+```
 
-### Add a new member
+## Update the website
+Usually we need to regularly update the pages of `team`, `research`, and `publication`.
+All the related files are put in the folders starting with `_`.
+For example, the team member introductions are put in `_pages/team/_posts`.
+The folder `image` is the only exception, where stores the images used in the website.
+The left of this section introduces the specific steps of updating the website.
+
+### Add/edit a team member
 
 New members are stored as markdown files under
 [_pages/team/_posts](_pages/team/_posts).
@@ -60,7 +74,7 @@ social:
 Add more detials here.
 ```
 
-### Add/Edit research projects
+### Add/edit research projects
 
 Research projects are stored as markdown files under
 New members are stored as markdown files under
@@ -85,5 +99,5 @@ Add more detials here.
 The article with the smallest weight would be shown at the top.
 
 
-<strong>Note for all the markdown files under `_posts` must be named following the format of `year-month-day-your-content` 
+<strong>Note for all the markdown files under `_posts` must be named following the format of `year-month-day-xxx` 
 such as `2022-10-05-breast-cancer.md`. </strong>
