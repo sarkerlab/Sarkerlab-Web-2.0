@@ -1,4 +1,4 @@
-# Research lab website template
+# Sarker lab website
 
 This website is built with [Jekyll](https://jekyllrb.com/).
 It is derived from the template at [ericdaat/research-lab-website](https://github.com/ericdaat/research-lab-website), originally provided by the
