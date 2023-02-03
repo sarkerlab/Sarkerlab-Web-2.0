@@ -40,6 +40,18 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: main
-          FOLDER: _site
-          CLEAN: false
+          folder: _site
+          clean: true
+          clean-exclude: |
+            _*
+            assets
+            css
+            fonts
+            images
+            js
+            *.md
+            CNAME
+            LICENSE
+            Gemfile
+
 
