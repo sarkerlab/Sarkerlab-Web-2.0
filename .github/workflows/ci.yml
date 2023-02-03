@@ -16,6 +16,8 @@ jobs:
 
       - name: Set Ruby
         uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0' # Not needed with a .ruby-version file
 
       - name: Remove File
         uses: JesseTG/rm@v1.0.3
