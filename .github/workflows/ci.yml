@@ -19,16 +19,6 @@ jobs:
         with:
           ruby-version: '3.0' # Not needed with a .ruby-version file
 
-      - name: Remove File
-        uses: JesseTG/rm@v1.0.3
-        with:
-          path: ./team
-
-      - name: Remove File
-        uses: JesseTG/rm@v1.0.3
-        with:
-          path: ./research
-
       - name: Install and Build
         run: |
           gem install bundler
