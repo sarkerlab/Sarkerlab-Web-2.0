@@ -101,3 +101,12 @@ The article with the smallest weight would be shown at the top.
 
 <strong>Note for all the markdown files under `_posts` must be named following the format of `year-month-day-xxx` 
 such as `2022-10-05-breast-cancer.md`. </strong>
+
+
+## Troubleshooting
+* What if the website is not updated after I pushed my changes?
+There are several possible reasons that may cause this problem.
+Try the following ways.
+1) clear the brower cache and re-launch the website;
+2) make sure that there is no errors in the new website code you pushed;
+3) TBD
