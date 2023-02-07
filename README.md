@@ -28,8 +28,11 @@ It is a good practice to test your modification locally before pushing the code 
 Run the local web server with:
 
 ``` bash
-bundle exec jekyll serve
+bundle exec jekyll server --config _config_dev.yml
 ```
+When running the website locally, we use a different config file for development.
+`_config_dev.yml` should be the same as `_config.yml` except for the variable `baseurl`.
+
 
 If the website is successfully launched, you should see the following logs in your terminal.
 Enter the address `http://127.0.0.1:4000/` to the broswer to open the website.
