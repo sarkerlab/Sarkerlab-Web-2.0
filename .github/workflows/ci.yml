@@ -34,14 +34,5 @@ jobs:
           clean: true
           clean-exclude: |
             _*
-            assets
-            css
-            fonts
-            images
-            js
-            *.md
             CNAME
-            LICENSE
             Gemfile
-
-

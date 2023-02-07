@@ -22,16 +22,14 @@ Clone this repository, then install the dependencies.
 bundle install
 ```
 
-## Run the website locally
+## Test the website locally
 
 It is a good practice to test your modification locally before pushing the code to the remote branch.
 Run the local web server with:
 
 ``` bash
-bundle exec jekyll server --config _config_dev.yml
+bundle exec jekyll serve --baseurl=""
 ```
-When running the website locally, we use a different config file for development.
-`_config_dev.yml` should be the same as `_config.yml` except for the variable `baseurl`.
 
 
 If the website is successfully launched, you should see the following logs in your terminal.
