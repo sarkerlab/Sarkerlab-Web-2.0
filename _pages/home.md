@@ -28,7 +28,7 @@ The following are some of our current specific focus areas:
 
 
 ### We are hiring!
-We are currently setting up the lab and are keen to speak to potential postdoctoral researchers, software engineers and Ph.D. students. Please contact Dr. Abeed Sarker via email (abeed@dbmi.emory.edu). We have some exciting projects involving big natural language data in the pipeline.
+We are currently setting up the lab and are keen to speak to potential postdoctoral researchers, software engineers and doctoral students. Please contact Dr. Abeed Sarker via email (abeed@dbmi.emory.edu) if you are interested. 
 
 
 
