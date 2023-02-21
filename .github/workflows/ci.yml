@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with: 
-          persist-credentials: false
+          persist-credentials: true
 
       - name: Set Ruby
         uses: ruby/setup-ruby@v1
@@ -32,7 +32,7 @@ jobs:
           BRANCH: main
           folder: _site
           clean: true
-          clean-exclude: |
+          clean-exclude: | # the files started with _ are the source codes
             _*
             CNAME
             Gemfile
