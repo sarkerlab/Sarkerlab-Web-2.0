@@ -19,6 +19,10 @@ jobs:
         with:
           ruby-version: '2.7' # Not needed with a .ruby-version file
 
+      - name: Remove files
+        run: |
+          rm *.html
+
       - name: Install and Build
         run: |
           gem install bundler
