@@ -2,7 +2,7 @@
 layout: member
 category: Team-Members
 title: Rida Naseeb
-image: researcher.png
+image: student.png
 role: Undergrad Student
 permalink: 'team/rida'
 interest: Pursuing an MPH
