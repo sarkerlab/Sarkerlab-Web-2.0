@@ -33,4 +33,9 @@ jobs:
           TOKEN: ${{ secrets.YT_GITHUB_TOKEN }}
           BRANCH: main
           folder: _src/_site
-          clean: true
+          clean: false
+          clean-exclude: | # the files started with _ are the source codes
+            _src
+            CNAME
+            *.md
+            LICENSE
