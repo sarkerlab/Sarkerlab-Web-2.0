@@ -10,7 +10,7 @@ The `Netlify` service keeps monitoring the main branch. If there is any change, 
 Similarly to Github Pages, the `Netlify` service gives a default domain name to the website like `xxxnetlify.com`.
 We maps the default address to our website domain name `sarkerlab.org` via `Wordpress`, which is the domain provider.
 The overall workflow is as below:
-![flow](images/other/flow.png)
+![flow](_src/images/other/flow.png)
 
 ## Setup
 

@@ -21,7 +21,7 @@ jobs:
 
       - name: Install and Build
         run: |
-          cd src
+          cd _src
           gem install bundler
           bundle install
           bundle exec jekyll build
@@ -32,5 +32,5 @@ jobs:
         with:
           TOKEN: ${{ secrets.YT_GITHUB_TOKEN }}
           BRANCH: main
-          folder: src/_site
+          folder: _src/_site
           clean: true
