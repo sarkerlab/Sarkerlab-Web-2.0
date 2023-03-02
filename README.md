@@ -4,6 +4,14 @@ This website is built with [Jekyll](https://jekyllrb.com/).
 It is derived from the template at [ericdaat/research-lab-website](https://github.com/ericdaat/research-lab-website), originally provided by the
 [Allan Lab](https://www.allanlab.org/aboutwebsite.html), at Leiden University.
 
+## How the website is hosted
+The website is not using Github Pages, and we use `Netlify` to host the website.
+The `Netlify` service keeps monitoring the main branch. If there is any change, it will trigger the `Netlify` service to rebuild the website.
+Similarly to Github Pages, the `Netlify` service gives a default domain name to the website like `xxxnetlify.com`.
+We maps the default address to our website domain name `sarkerlab.org` via `Wordpress`, which is the domain provider.
+The overall workflow is as below:
+![flow](images/other/flow.png)
+
 ## Setup
 
 ``` bash
@@ -109,5 +117,5 @@ such as `2022-10-05-breast-cancer.md`. </strong>
 There are several possible reasons that may cause this problem.
 Try the following ways.
 1) clear the brower cache and re-launch the website;
-2) make sure that there is no errors in the new website code you pushed;
-3) TBD
+2) check the `Action` page and make sure that there is no errors in the new website code you pushed;
+3) check the Netlify service is working correctly;
