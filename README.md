@@ -12,21 +12,56 @@ We maps the default address to our website domain name `sarkerlab.org` via `Word
 The overall workflow is as below:
 ![flow](_src/images/other/flow.png)
 
+## Directory structure
+In general, the root folder `./` stores the html files and resources that the website literally runs on.
+In other words, if the files in the root folder are updated, the website will be updated accordingly.
+However, you should not directly change the files in the root foler. Instead, you should update the files in the `_src` folder where the files will be compiled and be synced to the root folder.
+The `_src` folder is organized as below:
+```
+_src
+├── _data 		# no need to update
+├── _includes 		# html files for some special functions like the twitter api
+├── _layouts 		# html files for setting the layouts of different pages
+├── _pages              # the data for team members and reseach projects
+│   ├── research
+│   │   └── _posts
+│   └── team
+│       └── _posts
+├── _plugins            # no need to update
+├── _sass               # no need to update
+│   └── bootstrap
+│       └── mixins
+├── assets              # no need to update
+│   └── css
+├── css                 # no need to update
+├── fonts               # no need to update
+├── images              # all the images in the website
+│   ├── dashboard
+│   ├── logo
+│   ├── other
+│   ├── research
+│   ├── slider
+│   └── team
+└── js                  # no need to update
+```
+The folders marked as `no need to update` are more related to frontend programming and should not be changed for regular updates.
+The `_includes` and `_layouts` should not be changed frequently either. The only file that needs regular update is `_includes/footer.html` where the year in the footer changes every year.
+Most of the time, the update only involves `_pages` and `images`. More details will be described later.
+
+
 ## Setup
 
+To setup the local development environment, first you need to install Ruby and jekyll.
 ``` bash
-brew install ruby
+brew install ruby # brew only works for Mac OS
 gem install bundler jekyll
 ```
+We are using Ruby 2.7, but it may also work for Ruby 3+.
 
-* If you use Mac, you may meet the problem of failing to write the Ruby directory.
-That is because Mac does not allow the user to modify its original Ruby even with a root account.
-One solution is to use `conda` to create an independent dev environment for the website development.
-This way you may need to run `conda install ruby` instead of `brew install ruby`.
-* If you can not solve the problem, try to follow the steps in this [blog](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
-
-Clone this repository, then install the dependencies.
+Then, clone this repository from GitHub and install the dependencies.
+Because all the source files are stored in the folder `_src`, the following commands should be executed in the `_src` folder.
 ``` bash
+cd _src
 bundle install
 ```
 
@@ -39,7 +74,6 @@ Run the local web server with:
 bundle exec jekyll serve --baseurl=""
 ```
 
-
 If the website is successfully launched, you should see the following logs in your terminal.
 Enter the address `http://127.0.0.1:4000/` to the broswer to open the website.
 ```
@@ -49,10 +83,9 @@ Enter the address `http://127.0.0.1:4000/` to the broswer to open the website.
 ```
 
 ## Update the website
-Usually we need to regularly update the pages of `team`, `research`, and `publication`.
-All the related files are put in the folders starting with `_`.
-For example, the team member introductions are put in `_pages/team/_posts`.
-The folder `image` is the only exception, where stores the images used in the website.
+The regular update includes updating team members, publications, and research projects.
+The related files are stored in in `_src` folder and in the subfolders starting with `_`.
+For example, the team member data are stored in `_src/_pages/team/_posts`.
 The left of this section introduces the specific steps of updating the website.
 
 ### Add/edit a team member
@@ -113,9 +146,17 @@ such as `2022-10-05-breast-cancer.md`. </strong>
 
 
 ## Troubleshooting
-* What if the website is not updated after I pushed my changes?
+1.  What if the website is not updated after I pushed my changes?
 There are several possible reasons that may cause this problem.
 Try the following ways.
-1) clear the brower cache and re-launch the website;
-2) check the `Action` page and make sure that there is no errors in the new website code you pushed;
-3) check the Netlify service is working correctly;
+* clear the brower cache and re-launch the website;
+* check the `Action` page and make sure that there is no errors in the new website code you pushed;
+* check the Netlify and Wordpress service are working correctly.
+
+2. When installing Ruby on Mac, it failed to write the Ruby directory.
+* If you use Mac, you may meet the problem of failing to write the Ruby directory.
+That is because Mac does not allow the user to modify its original Ruby even with a root account.
+One solution is to use `conda` to create an independent dev environment for the website development.
+If you can not solve the problem, try to follow the steps in this [blog](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/) to re-install Ruby from scratch.
+
+
