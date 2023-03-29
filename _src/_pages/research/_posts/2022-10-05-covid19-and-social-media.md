@@ -1,6 +1,7 @@
 ---
 layout: default
 title: COVID-19 and Social Media
+redirect_from: /covid_sm_data_bundle
 cover: covid19-and-social-media.jpg
 description: This page contains resources associated with multiple studies (completed and ongoing) focusing on COVID-19. Our COVID-19 Twitter dashboards are available now (while under construction; updated 12/21/20)...
 permalink: 'research/covid19-and-social-media'
