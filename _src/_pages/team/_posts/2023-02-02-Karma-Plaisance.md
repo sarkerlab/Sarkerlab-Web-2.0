@@ -3,7 +3,7 @@ layout: member
 category: Team-Members
 title: Karma Plaisance
 image: karma.jpeg
-role: Undergrad Student
+role: Graduate Research Assistant
 permalink: 'team/karma'
 interest:  Injury and Violence Revention, Mental Health, Sexual Health
 expertise: 

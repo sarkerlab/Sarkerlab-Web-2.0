@@ -3,7 +3,7 @@ layout: member
 category: Team-Members
 title: Rida Naseeb
 image: student.png
-role: Undergrad Student
+role: Graduate Research Assistant
 permalink: 'team/rida'
 interest: Pursuing an MPH
 expertise: Data Annotator 
