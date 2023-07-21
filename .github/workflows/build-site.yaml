@@ -33,19 +33,15 @@ jobs:
           ruby-version: "3.0"
           bundler-cache: true
 
-      - name: Get Pages url
-        id: pages
-        uses: actions/configure-pages@v2
-        with:
-          enablement: false
-
       - name: Build live version of site
         run: |
-          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+          rm Gemfile.lock
+          bundle exec jekyll build
 
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
-          clean-exclude: ${{ env.PREVIEWS_FOLDER }}
+          branch: main
+          clean: false
           force: false
