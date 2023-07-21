@@ -20,5 +20,5 @@ jobs:
 #    uses: ./.github/workflows/update-citations.yaml
 
   build-site:
-    needs: update-citations
+#    needs: update-citations
     uses: ./.github/workflows/build-site.yaml
