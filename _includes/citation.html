@@ -1,0 +1,203 @@
+{% assign citation = site.data.citations
+  | where_exp: "citation",
+    "citation.id == include.lookup or citation.title contains include.lookup"
+  | first
+  | default: include
+%}
+
+<div class="citation">
+  {% if include.style == "rich" %}
+    <a
+      {% if citation.link %}
+        href="{{ citation.link | relative_url }}"
+      {% endif %}
+      class="citation-image"
+      aria-label="{{ citation.title | default: "citation link" }}"
+    >
+      <img
+        src="{{ citation.image | relative_url }}"
+        alt="{{ citation.title | default: "citation image" }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    </a>
+  {% endif %}
+
+  <div class="citation-text">
+    {% assign type = site.data.types[citation.type] %}
+    {% include icon.html icon=type.icon %}
+
+    <a
+      {% if citation.link %}
+        href="{{ citation.link | relative_url }}"
+      {% endif %}
+      class="citation-title"
+    >
+      {{ citation.title | default: "[no title info]" }}
+    </a>
+
+    <div
+      class="citation-authors"
+      {% if citation.authors.size > 10 %}
+        data-tooltip="{{ citation.authors | join: ", " }} "
+      {% endif %}
+      tabindex="0"
+    >
+      {{
+        citation.authors
+        | join: ","
+        | split: ","
+        | array_carve: 5
+        | join: ", "
+        | default: "[no author info]"
+      }}
+    </div>
+
+    <div class="citation-details">
+      {{ citation.date | default: "[no date info]" | date: "%b %Y" }}
+      &nbsp;  &nbsp;
+      &nbsp;  &nbsp;
+      <span class="pub-description-link">{{ citation.publisher | default: "Cite" }}</span>
+      &nbsp;  &nbsp;
+    </div>
+
+    {% if include.style == "rich" %}
+      {% if citation.description %}
+        <div class="citation-description">
+          {{
+            citation.description
+            | markdownify
+            | remove: "<p>"
+            | remove: "</p>"
+          }}
+        </div>
+      {% endif %}
+
+      {% if citation.buttons.size > 0 %}
+        <div class="citation-buttons">
+          {% for button in citation.buttons %}
+            {%
+              include button.html
+              type=button.type
+              icon=button.icon
+              text=button.text
+              link=button.link
+              style="bare"
+            %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if citation.tags.size > 0 or citation.repo %}
+        {% include tags.html tags=citation.tags repo=citation.repo %}
+      {% endif %}
+    {% endif %}
+  </div>
+</div>
+
+{% if include.style == "pub" %}
+  <div class="pub-description-box">
+    <div class="pub-description-content">
+      <div class="pub-description-close">&times;</div>
+      <div class="pub-description-text">
+        {{ include.description | default: "[no citation]" }}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+<style>
+  /*  styling for the citaion box */
+  .pub-description-link {
+    color: rgb(51, 131, 153) !important; /* initial color of the link */
+    cursor: pointer;
+  }
+  
+  .pub-description-link:hover {
+    color: rgb(55, 52, 52) !important; /* color of the link on hover */
+    font-size: 15px; 
+  }
+  
+
+  .pub-description-box {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .pub-description-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 45px;
+    border: 1px solid #888;
+    width: 35%;
+    position: relative; /* Add position relative for the close button */
+    border-radius: 12px;
+  }
+  
+  .pub-description-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 30px; 
+  }
+  
+  .pub-description-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .pub-description-text {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid black; 
+    padding: 5px; 
+    overflow: auto; /* Add scrollbar if content exceeds box height */
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  /* dark mode */
+  [data-dark="true"] .pub-description-text {
+  background: #1a1919;
+  border: 1px solid rgb(149, 148, 148);
+  color:rgb(149, 148, 148);
+  }
+
+  [data-dark="true"] .pub-description-content {
+  background: #1a1919;
+  }
+  </style>
+  
+  
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const pubDescriptionLinks = document.querySelectorAll('.pub-description-link');
+  const pubDescriptionBoxes = document.querySelectorAll('.pub-description-box');
+  const pubDescriptionCloses = document.querySelectorAll('.pub-description-close');
+
+  pubDescriptionLinks.forEach(function(link, index) {
+    link.addEventListener('click', function() {
+      pubDescriptionBoxes[index].style.display = 'block';
+    });
+  });
+
+  pubDescriptionCloses.forEach(function(close) {
+    close.addEventListener('click', function() {
+      const box = close.closest('.pub-description-box');
+      box.style.display = 'none';
+    });
+  });
+});
+</script>

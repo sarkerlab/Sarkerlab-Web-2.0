@@ -1,0 +1,142 @@
+<div class="dropdown-container">
+  <!-- Add a button to toggle the dropdown menu -->
+  <button class="dropdown-toggle">
+    <span class="toggle-text">More Dashboards</span>
+    <span class="arrow-icon">&#x25B2;</span>
+  </button>
+
+
+  <!-- Create the dropdown menu -->
+  <div class="dropdown-menu">
+    <ul>
+      <li class="parent-link"><a>Non-Medical Use of PM</a>
+        <ul>
+          <li><a href="/overview-global/">Overview: Global</a></li>
+          <li><a href="/overview-US/">Overview: United States</a></li>
+          <li><a href="/med-surveillance/">Medication Surveillance</a></li>
+          <li><a href="/comparison/">Cohort Analysis</a></li>
+        </ul>
+      </li>
+      <li class="parent-link"><a>More</a>
+        <ul>
+          <li><a href="/global-covid-tracker">Global social media Tracker - COVID-19</a></li>
+          <li><a href="/us-covid-tracker/">US social media Tracker - COVID-19</a></li>
+        </ul>
+    </ul>
+  </div>
+</div>
+
+<!-- CSS -->
+<style>
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+    text-align: center; /* Center the button and the text */
+  }
+
+  .dropdown-toggle {
+    display: flex; 
+    margin: 0 auto; 
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    /*box-shadow: 0 2px 5px rgba(5, 0, 0, 0.2) inset;*/
+  }
+
+  .arrow-icon.flipped {
+    transform: rotate(180deg);
+  }
+   
+
+  .toggle-text {
+    margin-right: 5px; /* Add spacing between text and arrow */
+    font-size: large;
+ 
+  }
+
+  .dropdown-menu {
+    display: none; 
+    background-color: #F2F2F2; 
+    background-color: rgba(242, 242, 242, 0.95);
+    width: 430px;
+    border-radius: 8px; 
+    padding: 10px;
+    top: 100%;
+    
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .dropdown-menu.show {
+    display: block; 
+  }
+
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dropdown-menu a {
+    color: rgb(32, 37, 50);
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    display: block;
+    padding: 5px;
+  }
+
+  .dropdown-menu ul ul {
+    padding-left: 25px;
+  }
+
+  .dropdown-menu ul li {
+      margin-bottom: 5px;
+    }
+  
+  .dropdown-menu .parent-link > a {
+    font-weight: bold; 
+  }
+ 
+</style>
+
+<!-- JavaScript -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var dropdownToggle = document.querySelector('.dropdown-toggle');
+    var dropdownMenu = document.querySelector('.dropdown-menu');
+    var arrowIcon = dropdownToggle.querySelector('.arrow-icon');
+
+    // Function to toggle the dropdown menu and arrow icon
+    function toggleDropdownMenu() {
+      var isMenuHidden = !dropdownMenu.classList.contains('show');
+
+      dropdownMenu.classList.toggle('show', isMenuHidden);
+      arrowIcon.classList.toggle('flipped', !isMenuHidden);
+    }
+
+    dropdownToggle.addEventListener('click', function() {
+      toggleDropdownMenu();
+    });
+
+    // Close the dropdown menu when clicking outside the container
+    document.addEventListener('click', function(event) {
+      var isClickedInsideContainer = dropdownToggle.contains(event.target) || dropdownMenu.contains(event.target);
+      if (!isClickedInsideContainer) {
+        dropdownMenu.classList.remove('show');
+        arrowIcon.classList.add('flipped');
+      }
+    });
+
+    // Initial state: arrow facing down
+    arrowIcon.classList.add('flipped');
+  });
+</script>
+
+

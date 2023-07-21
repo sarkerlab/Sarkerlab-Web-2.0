@@ -1,0 +1,85 @@
+{% assign emptyarray = "" | split: "," %}
+{% assign data = site.data[include.data]
+  | default: site[include.data]
+  | default: emptyarray
+  | data_filter: include.filters
+%}
+
+{% assign years = data
+  | group_by_exp: "d", "d.date | date: '%Y'"
+  | sort: "name"
+  | reverse
+%}
+
+{% for year in years %}
+  {% assign yearData = year.items %}
+
+  {% if years.size > 1 %}
+  <h3 id="{{ year.name }}" class="year-header">{{ year.name }}</h3>
+
+    {% assign yearData = yearData | sort: "date" %}
+  {% endif %}
+
+  {% assign months = yearData
+    | group_by_exp: "d", "d.date | date: '%m'"
+    | sort: "name"
+    | reverse
+  %}
+
+  {% for month in months %}
+    {% assign monthData = month.items %}
+    {% assign monthName = month.name | date: "%B" %}
+
+   
+
+    {% assign monthData = monthData | sort: "date" %}
+
+    {% for d in monthData %}
+      {% assign style = d.style | default: include.style %}
+
+      {%
+        include {{ include.component | append: ".html" }}
+        author=d.author
+        authors=d.authors
+        buttons=d.buttons
+        caption=d.caption
+        content=d.content
+        date=d.date
+        description=d.description
+        excerpt=d.excerpt
+        height=d.height
+        icon=d.icon
+        id=d.id
+        image=d.image
+        link=d.link
+        lookup=d.lookup
+        name=d.name
+        publisher=d.publisher
+        repo=d.repo
+        role=d.role
+        slug=d.slug
+        style=style
+        subtitle=d.subtitle
+        tags=d.tags
+        text=d.text
+        title=d.title
+        tooltip=d.tooltip
+        type=d.type
+        url=d.url
+        width=d.width
+      %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+
+<style>
+  .year-header {
+  margin: 40px 0 30px -9px;
+  font-size: 30px;
+  font-weight: var(--semi-bold);
+  text-align: left;
+  color: 3px solid #104c5d;
+  }
+  
+</style>

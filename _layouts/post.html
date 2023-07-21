@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1 class="center">{{ page.title }}</h1>
+
+
+
+{%
+  include post-info.html
+  author=page.author
+  member=page.member
+  updated=page.date
+  tags=page.tags
+%}
+
+
+
+{% include section.html %}
+
+
+{{ content }}
+
+{% include section.html %}
+
+{% include post-nav.html post=page %}
+

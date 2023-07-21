@@ -1,0 +1,176 @@
+- id: 'Text Classification Models for the Automatic Detection of Nonmedical Prescription Medication Use from Social Media'
+  title: 'Text Classification Models for the Automatic Detection of Nonmedical Prescription Medication Use from Social Media'
+  authors:
+  - Mohammed Ali Al-Garadi
+  - Yuan-Chi Yang, Haitao Cai
+  - Yucheng Ruan, Karen O'Connor
+  - Graciela Gonzalez-Hernandez
+  - Jeanmarie Perrone
+  - Abeed Sarker
+  date: 'January 2021'
+  link: https://www.researchgate.net/publication/340738066_Text_Classification_Models_for_the_Automatic_Detection_of_Nonmedical_Prescription_Medication_Use_from_Social_Media
+  description: "Al-Garadi MA, Yang YC, Cai H, Ruan Y, O'Connor K, Graciela GH, Perrone J, Sarker A. Text Classification Models for the Automatic Detection of Nonmedical Prescription Medication Use from Social Media. BMC Med Inform Decis Mak. 2021 Jan 26;21(1):27. doi: 10.1186/s12911-021-01394-0. PMID: 33499852; PMCID: PMC7835447."
+
+- id: 'Utilizing a Multi-Class Classification Approach to Detect Therapeutic and Recreational Misuse of Opioids on Twitter'
+  title: 'Utilizing a Multi-Class Classification Approach to Detect Therapeutic and Recreational Misuse of Opioids on Twitter'
+  authors:
+  - Samah Jamal Fodeh
+  - Mohammed Al-Garadi
+  - Osama Elsankary
+  - Jeanmarie Perrone
+  - William Becker
+  - Abeed Sarker
+  date: 'February 2021'
+  link: https://www.researchgate.net/publication/346514196_Utilizing_a_multi-class_classification_approach_to_detect_therapeutic_and_recreational_misuse_of_opioids_on_Twitter
+  description: "Fodeh, S. J., Al-Garadi, M., Elsankary, O., Perrone, J., Becker, W., Sarker, A. Utilizing a Multi-Class Classification Approach to Detect Therapeutic and Recreational Misuse of Opioids on Twitter. Computers in Biology and Medicine, 129 (2021), 104132."
+  
+- id: 'CoviDash-SM: A Public COVID19 Dashboard for Social Media Data-Based Research and Surveillance'
+  title: 'CoviDash-SM: A Public COVID19 Dashboard for Social Media Data-Based Research and Surveillance'
+  authors:
+  - Sahithi Lakamana
+  - Mohammad Ali Al-Garadi
+  - Yuan-Chi Yang
+  - Abeed Sarker
+  date: 'March 2021'
+  link: https://www.researchgate.net/publication/350672420_CoviDash-SM_A_Public_COVID19_Dashboard_for_Social_Media_Data-based_Research_and_Surveillance
+  description: "Lakamana S, Al-Garadi MA, Yang YC, Sarker A. CoviDash-SM: A Public COVID19 Dashboard for Social Media Data-Based Research and Surveillance. Proceedings of the AMIA Informatics Summit (posters). 2021 (virtual). doi: 10.13140/RG.2.2.23784.80644."
+
+- id: 'Syndromic Surveillance for COVID19 from Reddit using Multi-Platform Lexicons'
+  title: 'Syndromic Surveillance for COVID19 from Reddit using Multi-Platform Lexicons'
+  authors:
+  - Abimbola Leslie
+  - Sahithi Lakamana
+  - Abeed Sarker
+  date: 'March 2021'
+  link: https://www.researchgate.net/publication/350672521_Syndromic_surveillance_for_COVID19_from_Reddit_using_multi-platform_lexicons
+  description: "Leslie A, Lakamana S, Sarker A. Syndromic Surveillance for COVID19 from Reddit using Multi-Platform Lexicons. AMIA Informatics Summit (posters). March 22 – 25 (virtual)."
+
+- id: 'Gender Differences in Nonmedical Use of Prescription Opioids, Tranquilizers and Stimulant Medications Using Machine Learning and Social Media'
+  title: 'Gender Differences in Nonmedical Use of Prescription Opioids, Tranquilizers and Stimulant Medications Using Machine Learning and Social Media'
+  authors:
+  - Yuan-Chi Yang
+  - Mohammed Ali Al-Garadi
+  - Jennifer Love
+  - Jeanmarie Perrone
+  - Abeed Sarker
+  date: 'April 2021'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8011778/
+  description: "Yang YC, Al-Garadi MA, Love J, Perrone J, Sarker A. Gender Differences in Nonmedical Use of Prescription Opioids, Tranquilizers and Stimulant Medications Using Machine Learning and Social Media. Proceedings of the ACMT Annual Summit [meeting abstract]. 2021 (virtual)."
+
+- id: 'Methadone and Suboxone® Mentions on Twitter: Thematic and Sentiment Analysis'
+  title: 'Methadone and Suboxone® Mentions on Twitter: Thematic and Sentiment Analysis'
+  authors:
+  - Megan Chenworth
+  - Jeanmarie Perrone
+  - Jennifer Love, Rachel Graves
+  - Whitney Hogg-Bremer
+  - Abeed Sarker
+  date: 'April 2021'
+  description: "Chenworth M, Perrone J, Love JS, Graves R, Hogg-Bremer W, Sarker A. Methadone and Suboxone® Mentions on Twitter: Thematic and Sentiment Analysis. Clin Toxicol (Phila). 2021 Apr 6:1-14. doi: 10.1080/15563650.2021.1893742. Epub ahead of print. PMID: 33821724."
+  link: https://pubmed.ncbi.nlm.nih.gov/33821724/
+
+- id: 'Developing an Automatic System for Classifying Chatter About Health Services on Twitter: Case Study for Medicaid'
+  title: 'Developing an Automatic System for Classifying Chatter About Health Services on Twitter: Case Study for Medicaid'
+  authors:
+  - Yuan-Chi Yang
+  - Mohammed Ali Al-Garadi
+  - Whitney Bremer
+  - Jane M. Zhu
+  - David Grande
+  - Abeed Sarker
+  date: 'May 2021'
+  description: "Yang YC, Al-Garadi MA, Bremer W, Zhu JM, Grande D, Sarker A. Developing an Automatic System for Classifying Chatter About Health Services on Twitter: Case Study for Medicaid. J Med Internet Res. 2021 May 3;23(5):e26616. doi: 10.2196/26616. PMID: 33938807; PMCID: PMC8129876."
+  link: https://pubmed.ncbi.nlm.nih.gov/33938807/
+
+- id: 'Automatic Gender Detection in Twitter Profiles for Health-Related Cohort Studies'
+  title: 'Automatic Gender Detection in Twitter Profiles for Health-Related Cohort Studies'
+  authors:
+  - Yuan-Chi Yang
+  - Mohammed Ali Al-Garadi
+  - Jennifer S. Love
+  - Jeanmarie Perrone
+  - Abeed Sarker
+  date: 'June 2021'
+  description: "Yang YC, Al-Garadi MA, Love JS, Perrone J, Sarker A. Automatic gender detection in Twitter profiles for health-related cohort studies. JAMIA Open. 2021 Apr;4(2):ooab042."
+  link: https://academic.oup.com/jamiaopen/article/4/2/ooab042/6308161?login=false
+
+- id: 'Overview of the Sixth Social Media Mining for Health Applications (#SMM4H) Shared Tasks at NAACL 2021'
+  title: 'Overview of the Sixth Social Media Mining for Health Applications (#SMM4H) Shared Tasks at NAACL 2021'
+  authors:
+  - Arjun Magge
+  - Ari Z. Klein
+  - Antonio Miranda-Escalada
+  - Mohammad Ali Al-Garadi
+  - Ilseyar Alimova
+  - Zulfat Miftahutdinov
+  - Eulàlia Farré-Maduell
+  - Salvador Lima López
+  - Ivan Flores
+  - Karen O’Connor
+  - Davy Weissenbacher
+  - Elena Tutubalina
+  - Abeed Sarker
+  - Juan M. Banda
+  - Martin Krallinger
+  - Graciela Gonzalez-Hernandez
+  date: 'June 2021'
+  description: "Magge A, Klein A, Miranda-Escalada, Al-Garadi MA, Alimova I, Miftahutdinov Z, Farre E, Lopez SL, Flores I, O’Connor K, Weissenbacher D, Tutubalina E, Sarker A, Banda J, Krallinger M, Gonzalez-Hernandez G. Overview of the Sixth Social Media Mining for Health Applications (#SMM4H) Shared Tasks at NAACL 2021. Proceedings of the Sixth Social Media Mining for Health (#SMM4H) Workshop and Shared Task. Association for Computational Linguistics. 2021; 21 – 32. Mexico City, Mexico."
+  link: https://aclanthology.org/2021.smm4h-1.4/#:~:text=%23SMM4H%202021%20hosted%20a%20total,symptoms%20of%20COVID%2D19%2C%20identifying
+
+- id: 'Pre-Trained Transformer-Based Classification and Span Detection Models for Social Media Health Applications'
+  title: 'Pre-Trained Transformer-Based Classification and Span Detection Models for Social Media Health Applications'
+  authors:
+  - Yuting Guo
+  - Yao Ge
+  - Mohammad Ali Al-Garadi
+  - Abeed Sarker
+  date: 'June 2021'
+  description: "Guo Y, Ge Y, Al-Garadi MA, Sarker A. Pre-Trained Transformer-Based Classification and Span Detection Models for Social Media Health Applications. Proceedings of the Sixth Social Media Mining for Health (#SMM4H) Workshop and Shared Task. Association for Computational Linguistics. 2021; 52-57. Mexico City, Mexico."
+  link: https://aclanthology.org/2021.smm4h-1.8/
+
+- id: 'Defining Patient-Oriented Natural Language Processing: A New Paradigm for Research and Development to Facilitate Adoption and Use by Medical Experts'
+  title: 'Defining Patient-Oriented Natural Language Processing: A New Paradigm for Research and Development to Facilitate Adoption and Use by Medical Experts'
+  authors:
+  - Abeed Sarker
+  - Mohammed Ali Al-Garadi
+  - Yuan-Chi Yang
+  - Jinho Choi
+  - Arshed A Quyyumi
+  - Greg S Martin
+  date: 'September 2021'
+  description: "Sarker A, Al-Garadi MA, Yang Y, Choi J, Quyyumi AA, Martin GS. Defining Patient-Oriented Natural Language Processing: A New Paradigm for Research and Development to Facilitate Adoption and Use by Medical Experts. JMIR Med Inform 2021;9(9):e18471"
+  link: https://medinform.jmir.org/2021/9/e18471/
+
+- id: 'Mining Long-COVID Symptoms from Reddit: Characterizing Post-COVID Syndrome from Patient Reports'
+  title: 'Mining Long-COVID Symptoms from Reddit: Characterizing Post-COVID Syndrome from Patient Reports'
+  authors:
+  - Abeed Sarker
+  - Yao Ge
+  date: 'September 2021'
+  description: "Sarker A, Ge Y. Mining long-COVID symptoms from Reddit: characterizing post-COVID syndrome from patient reports. JAMIA open. 2021 Jul;4(3):ooab075."
+  link: https://academic.oup.com/jamiaopen/article/4/3/ooab075/6362522?login=false
+
+- id: 'A Data-Driven Iterative Approach for Semi-automatically Assessing the Correctness of Medication Value Sets: A Proof of Concept Based on Opioids'
+  title: 'A Data-Driven Iterative Approach for Semi-automatically Assessing the Correctness of Medication Value Sets: A Proof of Concept Based on Opioids'
+  authors:
+  - Linyi Li
+  - Adela Grando,
+  - Abeed Sarker
+  date: 'December 2021'
+  description: "Li, L., Grando, A., & Sarker, A. (2021). A Data-Driven Iterative Approach for Semi-automatically Assessing the Correctness of Medication Value Sets: A Proof of Concept Based on Opioids. Methods of information in medicine, 60(S 02), e111-e119."
+  link: https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0041-1740358
+
+- id: 'Thematic Analysis of Reddit Content About Buprenorphine-naloxone Using Manual Annotation and Natural Language Processing Techniques'
+  title: 'Thematic Analysis of Reddit Content About Buprenorphine-naloxone Using Manual Annotation and Natural Language Processing Techniques'
+  authors:
+  - Rachel Lynn Graves
+  - Jeanmarie Perrone
+  - Mohammed Ali Al-Garadi
+  - Yuan-Chi Yang
+  - Jennifer S Love
+  - Karen O’Connor
+  - Graciela Gonzalez-Hernandez
+  - Abeed Sarker
+  date: 'December 2021'
+  description: "Graves RL, Perrone J, Al-Garadi MA, Yang YC, Love JS, O’Connor K, Gonzalez-Hernandez G, Sarker A. Thematic Analysis of Reddit Content About Buprenorphine-naloxone Using Manual Annotation and Natural Language Processing Techniques. Journal of addiction medicine. 2021 Dec 3."
+  link: https://journals.lww.com/journaladdictionmedicine/Abstract/9000/Thematic_Analysis_of_Reddit_Content_About.98966.aspx

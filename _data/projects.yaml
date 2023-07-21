@@ -1,0 +1,42 @@
+- title: "Overview: United States"
+  group: Non-Medical Usage of PM
+  image: images/dashboard/overview-us.png
+  link: /overview-US/
+  
+
+- title: Comparison
+  subtitle: 
+  image: images/photo.jpg
+  group: Non-Medical Usage of PM
+  link: /comparison/
+  description: 
+ 
+ 
+
+- title: "Medical Surveillance"
+  group: Non-Medical Usage of PM
+  image: images/dashboard/med-survey.png
+  link:  /med-surveillance/
+
+- title: "Overview: Global"
+  group: Non-Medical Usage of PM
+  image: images/dashboard/overview-global.png
+  link:  /overview-global/
+
+
+- title: US Social Media Tracker - COVID-19
+  subtitle: 
+  image: images/dashboard/us-tracker.png
+  link: /us-covid-tracker/
+  description: 
+ 
+  
+
+- title: Global social media Tracker - COVID-19
+  subtitle: 
+  image: images/dashboard/global-tracker.png
+  link:  /global-covid-tracker/
+  description: 
+  
+
+    
