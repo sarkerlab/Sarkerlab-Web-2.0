@@ -3,7 +3,7 @@ title: Nonmedical Use of Prescription Medication
 tags:
     - Prescription Medication
     - Non-medical Use
-image: images/Fentanyl.jpg
+image: /images/research/pm-abuse.jpg
 ---
 
 The data for the Nonmedical Use of Prescription Medication project. To view the data, click on the download link to be redirected to Google Drive.
