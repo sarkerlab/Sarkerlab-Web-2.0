@@ -1,9 +1,9 @@
 ---
 title: Identification of Fontan Patients
 tags:
-  - Prescription Medication
-  - Non-medical Use
-image: /images/research/
+  - Clinic care
+  - EHR
+image: /images/research/pexels-karolina-grabowska-4046944.jpg
 ---
 
 ## Background
