@@ -8,9 +8,9 @@ links:
     linkedin: jeanne-powell
 ---
 #### Interests
-+ woodworking
-+ baking
-+ cats
++ Woodworking
++ Baking
++ Cats
 
 #### Expertise
 + NLP
