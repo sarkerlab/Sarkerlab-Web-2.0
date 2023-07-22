@@ -13,8 +13,11 @@ links:
   
 ---
 
-#### Interests:
-+ Literature, Gaming, Big Data, AI
+#### Interests
++ Literature
++ Gaming
++ Big Data
++ AI
 
 #### Expertise
 + Patient-centered Data Science
