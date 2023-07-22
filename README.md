@@ -1,8 +1,8 @@
 # Sarker lab website
 
 This website is built with [Jekyll](https://jekyllrb.com/).
-It is derived from the template at [ericdaat/research-lab-website](https://github.com/ericdaat/research-lab-website), originally provided by the
-[Allan Lab](https://www.allanlab.org/aboutwebsite.html), at Leiden University.
+It is derived from the template at [/greenelab/lab-website-template](https://github.com/greenelab/lab-website-template) originally provided by the [Greene Lab](https://greenelab.com/).
+
 
 ## How the website is hosted
 The website is not using Github Pages, and we use `Netlify` to host the website.
@@ -71,7 +71,7 @@ It is a good practice to test your modification locally before pushing the code 
 Run the local web server with:
 
 ``` bash
-bundle exec jekyll serve --baseurl=""
+ bundle exec jekyll serve 
 ```
 
 If the website is successfully launched, you should see the following logs in your terminal.
