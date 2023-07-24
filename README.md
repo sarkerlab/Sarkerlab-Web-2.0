@@ -119,32 +119,52 @@ Check types.yaml in _data to see which social media links are available
 
 ### Add/edit research projects
 
-Research projects are stored as markdown files under
-New members are stored as markdown files under
-[_pages/research/_posts](_pages/research/_posts).
+To add or remove a research post, create or delete a Markdown file in /_posts.
+The filename should be in the format YYYY-MM-DD-your-post-title.md, which Jekyll uses for the post's URL and date. Each file will automatically generate its own page based on its filename.
+
 Each `.md` file must look like this:
 
 ``` yaml
 ---
-layout: default
-title: research project title
-cover: image-for-the-project.png
-description: a short introduction.
-weight: 3
-category: blog
+title: PM Abuse
+image:  images/team/some-image.jpg
+tags:
+  - biology
+  - big data
+  - medicine
 ---
-
-
-Add more detials here.
+Add more details here.
 ```
-
-`weight` decides the order of the articles shown at the research page.
-The article with the smallest weight would be shown at the top.
-
-
+To edit the date of the last modification, change the date of .md file.
 <strong>Note for all the markdown files under `_posts` must be named following the format of `year-month-day-xxx` 
 such as `2022-10-05-breast-cancer.md`. </strong>
 
+### Add/edit Publications
+
+To create a paper go to _data. Use one of the source files to add a paper. For example, to add a publication in 2020, you would add it to the sources-2020.yaml file. If a file for the year you are looking for does not exist, create one with this naming convention: sources-year.yaml. Once you have added the publication to the sources file as shown below, make sure to add that exact same publication to citations.yaml as well
+
+Each publication must look like this:
+
+``` yaml
+- id: ‘Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets’
+title: 'Towards Real-Time Opioid Abuse Surveillance :Machine Learning for Automatic Characterization of Opioid-Related Tweets'
+authors:
+- Abeed Sarker
+- Graciela Gonzalez-Hernandez
+- Francis DeRoos
+- Jeanmarie Perrone
+description: 'A Sarker, G Gonzalez-Hernandez, F DeRoos, J Perrone. Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets. Proceedings of the 39th International Congress of the European Association of Poisons Centres and Clinical Toxicologists (EAPCCT). 2019. Naples, Italy.'
+date: 'May 2019'
+link: https://link.springer.com/article/10.1007/s13181-019-00699-x
+```
+
+Parameter details:
++ id - Name of the paper, basically a unique identifier for each paper
++ title - the name of the paper
++ authors - each author must have a bullet point, no comma
++ description - citation
++ date - published date, format: name of month, and year
++ links - link to paper
 
 ## Troubleshooting
 1.  What if the website is not updated after I pushed my changes?
