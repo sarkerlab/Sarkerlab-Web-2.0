@@ -90,31 +90,32 @@ The left of this section introduces the specific steps of updating the website.
 
 ### Add/edit a team member
 
-New members are stored as markdown files under
-[_pages/team/_posts](_pages/team/_posts).
+To add or remove a team member, create or delete a Markdown file in /_members.
+Each file will automatically generate its own page according to its filename. For example, a file with the name tim-smith.md will generate a page at /members/tim-smith.
+After adding members, you can display them on the site by editing .md file.
 
 Each new member `.md` file must look like this:
 
 ``` yaml
 ---
-layout: member
-category: Team-Memebers
-title: Researcher Name
-image: researcher.png
-role: Lab Director
-permalink: 'team/researcher-name'
-social:
-    twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
-    github: https://github.com/
-    website:
-    orcid: https://orcid.org/
-    research-gate: https://www.researchgate.net/
+name: Abeed Sarker
+image: images/team/some-image.jpg
+role: member
+description: Principal Investigator
+links:
+ email: tim-member@email.com
+ twitter: tims_twitter
 ---
 
-Add more detials here.
+Add more details here.
 ```
+Parameter details:
++ Name - Name of member
++ image - Link to image of member
++ role - member/collaborator/alumni
++ description - The member's job on the team (Ph.D. student, Software Engineer, etc.)
++ links - Social media links, don’t put the whole url, just their username
+Check types.yaml in _data to see which social media links are available
 
 ### Add/edit research projects
 
