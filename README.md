@@ -173,8 +173,8 @@ To add a new dashboard:
   ``` yaml
 ---
 layout: dashboardsubpage
-title: Comparison
-permalink: /comparison/
+title: Overview: United States
+permalink: /overview-US/
 ---
 
 
