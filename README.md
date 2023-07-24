@@ -167,8 +167,8 @@ Parameter details:
   
 
 ### Add/edit a Dashboard page
-subpages can be found under dbsubpages
-to add a new dashboard:
+individual dasboards can be found under dbsubpages.
+To add a new dashboard:
 1. Create a .md file under dbsubpages
   ``` yaml
 ---
