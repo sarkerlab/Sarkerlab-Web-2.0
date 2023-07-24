@@ -2,10 +2,13 @@
   group: Non-Medical Usage of PM
   image: images/dashboard/overview-us.png
   link: /overview-US/
-  
 
-- title: Comparison
-  subtitle: 
+  - title: "Overview: Global"
+  group: Non-Medical Usage of PM
+  image: images/dashboard/overview-global.png
+  link:  /overview-global/
+
+- title: "Comparison"
   image: images/photo.jpg
   group: Non-Medical Usage of PM
   link: /comparison/
@@ -18,10 +21,7 @@
   image: images/dashboard/med-survey.png
   link:  /med-surveillance/
 
-- title: "Overview: Global"
-  group: Non-Medical Usage of PM
-  image: images/dashboard/overview-global.png
-  link:  /overview-global/
+
 
 
 - title: US Social Media Tracker - COVID-19
