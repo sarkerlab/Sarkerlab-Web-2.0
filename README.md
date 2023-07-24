@@ -85,8 +85,7 @@ Enter the address `http://127.0.0.1:4000/` to the broswer to open the website.
 ## Update the website
 The regular update includes updating team members, publications, and research projects.
 The related files are stored in in `_src` folder and in the subfolders starting with `_`.
-For example, the team member data are stored in `_src/_pages/team/_posts`.
-The left of this section introduces the specific steps of updating the website.
+
 
 ### Add/edit a team member
 
