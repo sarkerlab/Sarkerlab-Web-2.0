@@ -19,28 +19,22 @@ However, you should not directly change the files in the root foler. Instead, yo
 The `_src` folder is organized as below:
 ```
 _src
-├── _data 		# no need to update
-├── _includes 		# html files for some special functions like the twitter api
+├── _data 		# contains projects,yaml, types.yaml and sources.yaml
+├── _includes 		# html files for some special functions 
 ├── _layouts 		# html files for setting the layouts of different pages
-├── _pages              # the data for team members and reseach projects
-│   ├── research
-│   │   └── _posts
-│   └── team
-│       └── _posts
+├── _members              # the data for team members 
+│── _posts #conatins research page posts
+│   
 ├── _plugins            # no need to update
-├── _sass               # no need to update
-│   └── bootstrap
-│       └── mixins
-├── assets              # no need to update
+├── _scripts             # no need to update
+│ 
+├── _styles            # no need to update
 │   └── css
-├── css                 # no need to update
-├── fonts               # no need to update
+├── dbsubpages    # contains dashboard pages
 ├── images              # all the images in the website
 │   ├── dashboard
-│   ├── logo
 │   ├── other
 │   ├── research
-│   ├── slider
 │   └── team
 └── js                  # no need to update
 ```
