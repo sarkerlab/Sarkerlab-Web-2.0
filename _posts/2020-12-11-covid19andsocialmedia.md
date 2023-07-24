@@ -2,6 +2,9 @@
 title: COVID-19 and Social Media
 image: /images/research/covid19-and-social-media.jpg
 tags: 
+  - NLP
+  - Machine Learning
+  - Social Media
 ---
 This page contains resources associated with multiple studies (completed and ongoing) focusing on COVID-19
 
