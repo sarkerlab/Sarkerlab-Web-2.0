@@ -1,6 +1,9 @@
 ---
 title: Social Media Mining
 image: /images/research/social-media-mining.jpg
+tags:
+  - NLP
+  - Social Media
 ---
 
 Social media is a source of massive amounts of information. Social media is accessible by large populations and it contains large amounts of health-related chatter posted by users themselves. Therefore, social media often contains health-related information that may not be available from any other sources.
