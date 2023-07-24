@@ -165,6 +165,32 @@ Parameter details:
 + description - citation
 + date - published date, format: name of month, and year
 + links - link to paper
+  
+
+### Add/edit a Dashboard page
+subpages can be found under dbsubpages
+to add a new dashboard:
+1. Create a .md file under dbsubpages
+  ``` yaml
+---
+layout: dashboardsubpage
+title: Comparison
+permalink: /comparison/
+---
+
+
+add dashboard here
+```
+2. Add that page to projects.yaml, located in _data folder.
+``` yaml
+- title: "Overview: United States"
+group: Non-Medical Usage of PM
+image: images/dashboard/overview-us.png
+link: /overview-US/
+```
+3. Add that page to drop-down menu by adding it to dashboarddropdown.html in _includes folder.
+
+
 
 ## Troubleshooting
 1.  What if the website is not updated after I pushed my changes?
