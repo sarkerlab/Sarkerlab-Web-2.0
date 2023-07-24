@@ -1,6 +1,10 @@
 ---
 title: Breast Cancer Research with Social Media Data
 image: /images/research/breast-cancer.png
+tags:
+ - NLP
+ - Social Media
+   
 ---
 This study proposes a natural language processing (NLP) architecture to detect breast cancer patients on Twitter based on their self-reports. By utilizing breast cancer related keywords and employing a machine learning classifier, the architecture achieves high accuracy in distinguishing firsthand self-reports of breast cancer, offering a promising approach for studying patient-centered outcomes associated with breast cancer treatments through social media.
 
