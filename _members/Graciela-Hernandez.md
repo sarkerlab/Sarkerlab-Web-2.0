@@ -6,5 +6,5 @@ description: Associate Professor <br> University of Pennsylvania
 ---
 
 #### Expertise:
-+ Social Media Mining
++ Social Media Mining <br>
 [More Information](https://www.dbei.med.upenn.edu/bio/graciela-gonzalez-hernandez-ms-phd)
