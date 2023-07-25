@@ -6,7 +6,9 @@ description: Professor of Cleaning
 ---
 
 #### Interests:
-+ Cleaning, Recharging, Getting Stuck
++ Cleaning
++ Recharging
++ Getting Stuck
 
 #### Expertise
 + Random Walk
