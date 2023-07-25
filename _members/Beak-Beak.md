@@ -6,7 +6,8 @@ description: Professor of Screaming
 ---
 
 #### Interests:
-+ Screaming, Chewing Paper
++ Screaming
++ Chewing Paper
 
 #### Expertise: 
 + Disrupting Meetings
