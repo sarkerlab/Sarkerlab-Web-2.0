@@ -6,7 +6,9 @@ description: Postdoctoral Scholar
 ---
 
 #### Interests:
-+ Books, Music, Cats
++ Books
++ Music
++ Cats
 
 #### Expertise
 + NLP for Social Good
