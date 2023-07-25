@@ -9,7 +9,8 @@ links:
 ---
 
 #### Interests:
-+ Gaming, Music
++ Gaming
++  Music
 
 #### Expertise
 + Program Implementation and Evaluation
