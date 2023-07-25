@@ -6,7 +6,11 @@ description: Atmosphere Maker
 ---
 
 #### Interests:
-+ Sleep, Run, Play
++ Sleep
++ Run
++ Play
 
 #### Expertise
-+ Chase, Geting up early, Growing up fast
++ Chase
++ Getting up early
++  Growing up fast
