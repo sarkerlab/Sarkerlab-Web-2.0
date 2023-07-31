@@ -4,10 +4,10 @@ Social Media
 tags:
   - NLP
   - Social Media
-image: /images/research/
+image: /images/research/toxic.jpg
 ---
 
-## Abstarct
+## Abstract
 Migraine is a highly prevalent and disabling neurological disorder. However, information
 about migraine management in real-world settings is limited to traditional health
 information sources. In this paper, we (i) verify that there is substantial migraine-related
