@@ -4,7 +4,7 @@ image: images/team/jamor.jpg
 role: member
 description: PhD Student  
 links:
-  Linkedin: jamorhairston
+  linkedin: jamorhairston
 ---
 
 #### Interests
