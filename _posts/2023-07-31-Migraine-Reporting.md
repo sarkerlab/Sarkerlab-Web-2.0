@@ -3,7 +3,7 @@ title: Generalizable NLP Framework for Migraine Reporting from Social Media
 tags:
   - NLP
   - Social Media
-image: /images/research/
+image: /images/research/migraine.png
 ---
 
 ## Abstract
