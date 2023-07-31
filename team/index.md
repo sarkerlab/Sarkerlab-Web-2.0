@@ -24,8 +24,6 @@ Our lab is a dynamic and collaborative team of researchers dedicated to pushing 
 {% include list.html data="members" component="portrait" filters="role: collaborator" %}
 
 {% include section.html background="images/" dark=true %}
-## We Are Hiring!
-We are currently setting up the lab and are keen to speak to potential postdoctoral researchers, software engineers and doctoral students. Please contact Dr. Abeed Sarker via email (abeed@dbmi.emory.edu) if you are interested.
 
 {% include section.html %}
 
