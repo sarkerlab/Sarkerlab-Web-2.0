@@ -959,13 +959,6 @@
   date: 'June 2023'
   description: " Powell, J.M., Guo, Y., Sarker, A., McKay, J.L. (2023). Classification of Fall Types in Parkinson's Disease from Self-report Data Using Natural Language Processing. In: Juarez, J.M., Marcos, M., Stiglic, G., Tucker, A. (eds) Artificial Intelligence in Medicine. AIME 2023. Lecture Notes in Computer Science(), vol 13897. Springer, Cham. https://doi.org/10.1007/978-3-031-34344-5_20 "
   link: https://link.springer.com/chapter/10.1007/978-3-031-34344-5_20
+  
 
-- id: " SocBERT: A Pretrained Model for Social Media Text "
-  title: "SocBERT: A Pretrained Model for Social Media Text "
-  authors:
-  - Yuting Guo
-  - Abeed Sarker
-  date: 'May 2023'
-  description: "Yuting Guo and Abeed Sarker. 2023. SocBERT: A Pretrained Model for Social Media Text. In The Fourth Workshop on Insights from Negative Results in NLP, pages 45–52, Dubrovnik, Croatia. Association for Computational Linguistics."
-  link: https://aclanthology.org/2023.insights-1.5/
-
+  
