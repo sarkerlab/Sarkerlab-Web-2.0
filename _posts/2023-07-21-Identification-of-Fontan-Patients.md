@@ -18,10 +18,10 @@ We included free text notes of 10,935 manually validated patients, of whom 778 (
 
 Our proposed NLP models can automatically detect Fontan patients based on clinical notes with higher accuracy than ICD codes. Since the sensitivity of ICD codes is high but the positive predictive value is low, it may be beneficial to apply ICD codes as a filter prior to applying NLP/ML to achieve optimal performance.
 
-## Funding and Disclosures
+### Funding and Disclosures
  + Centers for Disease Control and Prevention Cooperative Agreement, Congenital Heart Defects Surveillance across Time And Regions (CHD STAR) Grant/Award Number: CDC‐RFA‐DD19‐1902B
  + Disclosure: The published contents are solely the responsibilities of the authors of the publications.
 
-## Publication
+### Publication
 
 Guo Y, Al-Garadi MA, Book WM, et al. Supervised Text Classification System Detects Fontan Patients in Electronic Records With Higher Accuracy Than ICD Codes. J Am Heart Assoc. 2023;12(13):e030046. doi:10.1161/JAHA.123.030046
