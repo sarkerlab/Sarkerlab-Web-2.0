@@ -52,7 +52,7 @@ supervised classification methods that integrate structured and unstructured dat
 annotated data, an ensemble classification approach produced excellent results, outperforming a state-of-the-art
 transformer model.
 
-### References
+## References
 +  B. E. Maki, P. J. Holliday, and A. K. Topper, “A Prospective Study of Postural Balance and Risk of Falling
 in An Ambulatory and Independent Elderly Population,” J. Gerontol., vol. 49, no. 2, pp. M72–M84, Mar. 1994, doi:
 10.1093/geronj/49.2.M72.
@@ -63,7 +63,7 @@ assessment of falls in Parkinson’s disease,” J. Neurol., vol. 248, no. 11, p
 clinical interviewing and the research agenda,” Physiother. Res. Int., vol. 4, no. 3, pp. 190–200, 1999, doi:
 10.1002/pri.165.
 
-### Publications
+## Publications
 Classification of fall types in Parkinson's disease from self-report data using natural language processing. <br>
 Jeanne M. Powell, Yuting Guo, Abeed Sarker, J. Lucas McKay <br>
 June 2023 <br>
