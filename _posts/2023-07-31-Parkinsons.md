@@ -32,7 +32,7 @@ and 10 epochs. Performance was measured by taking the median of the F 1 -macro s
 
 
 #### Results
-We found that the best performing classifier was the ensemble model, achieving an F 1 -macro of 0.89
+We found that the best-performing classifier was the ensemble model, achieving an F 1 -macro of 0.89
 (95% CI: [0.67-1]; Table 1). The RoBERTa model had equal performance across epochs (F1-macro =
 0.42; Table 1).
 
@@ -45,13 +45,16 @@ supervised classification methods that integrate structured and unstructured dat
 annotated data, an ensemble classification approach produced excellent results, outperforming a state-of-the-art
 transformer model.
 
-#### Refereences
+#### References
 +  B. E. Maki, P. J. Holliday, and A. K. Topper, “A Prospective Study of Postural Balance and Risk of Falling
 in An Ambulatory and Independent Elderly Population,” J. Gerontol., vol. 49, no. 2, pp. M72–M84, Mar. 1994, doi:
 10.1093/geronj/49.2.M72.
 +  B. R. Bloem, Y. A. M. Grimbergen, M. Cramer, M. Willemsen, and A. H. Zwinderman, “Prospective
 assessment of falls in Parkinson’s disease,” J. Neurol., vol. 248, no. 11, pp. 950–958, Nov. 2001, doi:
 10.1007/s004150170047.
++ E. Stack and A. Ashburn, “Fall events described by people with Parkinson’s disease: implications for
+clinical interviewing and the research agenda,” Physiother. Res. Int., vol. 4, no. 3, pp. 190–200, 1999, doi:
+10.1002/pri.165.
 
 #### Publications
 Powell, J. M., Guo, Y., Sarker, A., McKay, J.L. (2023). Classification of Fall Types in Parkinson's Disease from Self-report Data Using Natural Language Processing. In: Juarez, J.M., Marcos, M., Stiglic, G., Tucker, A. (eds) Artificial Intelligence in Medicine. AIME 2023. Lecture Notes in Computer Science(), vol 13897. Springer, Cham. https://doi.org/10.1007/978-3-031-34344-5_20
