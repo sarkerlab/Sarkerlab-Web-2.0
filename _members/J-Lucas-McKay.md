@@ -2,7 +2,7 @@
 name: J. Lucas McKay
 image: images/team/
 role: collaborator
-description: Assistant Professor <br> Department of Biomedical Informatics, Emory University School of Medicine
+description: Assistant Professor <br>  Emory University School of Medicine
 links:
 ---
 
