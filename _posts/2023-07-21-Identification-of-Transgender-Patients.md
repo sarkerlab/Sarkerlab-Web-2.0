@@ -24,6 +24,6 @@ Among traditional machine learning algorithms, random forest and SVM produced th
 Our developed NLP models can provide an efficient way for automated EHR-based identification of transgender people. Our experimental results shows that the transformer-based pre-training model, RoBERTa, greatly improved the performance and can achieve a good balance of sensitivity, specificity, and accuracy.
 
 
-## Funding and Disclosures
+### Funding and Disclosures
  + Funding: TBD
  + Disclosure: The published contents are solely the responsibilities of the authors of the publications.
