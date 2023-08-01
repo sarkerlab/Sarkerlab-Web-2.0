@@ -41,13 +41,13 @@ first-person reports of IPV. Despite the relatively small, annotated data, our c
 promising results, indicating that it may be possible to detect and, hence, provide support to IPV victims over
 Reddit.
 
-## Funding and Disclosures
+### Funding and Disclosures
 + The study was funded by the Injury Prevention Research Center at
 Emory (IPRCE), Emory University
 + Disclosure: The published contents are solely the responsibilities of
 the authors of the publications.
 
-## Publications
+### Publications
 + Al-Garadi M, Sarker A, Guo Y, Warren E, Yang YC, Kim S. Automatic Identification
 of Intimate Partner Violence Victims From Social Media. Inj Prev [Internet].
 2022;28(1353–8047):A48--A48. Available from:
