@@ -12,7 +12,7 @@ Our social media mining research covers a range of topics including population h
 ## Objectives
 + Build end-to-end NLP pipelines for converting noisy social media text into valuable and actionable knowledge that can be used by domain experts.
 + Deriving population-level knowledge regarding topics of interest such as prescription drug use and misuse, drug effectiveness and adverse reactions, drug reliance and addiction, medication assisted treatment for addiction, assessing people’s perception regarding certain drugs, and many other drug/medication-related studies.
-+ Studying effectiveness of health service providers and programs such as Medicaid and Medicare.
++ Studying the effectiveness of health service providers and programs such as Medicaid and Medicare.
 + Performing longitudinal analysis of user-posted information to study long-term behavioral patterns and associations.
 + Unobstrusively studying mental health-related information, including depression, stress, anxiety and loneliness.
 
@@ -25,5 +25,5 @@ Our work on prescription medication use and misuse is funded by the NIH/NIDA. We
 Our publications related to the project are available from the NIH: [HERE](https://reporter.nih.gov/project-details/9577760).
 
 ### Social Media Mining for Studying Medicaid Related Information
-We are working, in collaboration with the Oregon Health & Science University and the University of Pennsylvania, to study Medicaid-related information from Twitter. We have two primary objectives: (i) to understand how medicaid agencies and managed care organizations (MCOs) are using Twitter to provide services, and (ii) to study user perceptions about Medicaid-related services.
+We are working, in collaboration with the Oregon Health & Science University and the University of Pennsylvania, to study Medicaid-related information from Twitter. We have two primary objectives: (i) to understand how Medicaid agencies and managed care organizations (MCOs) are using Twitter to provide services, and (ii) to study user perceptions about Medicaid-related services.
 
