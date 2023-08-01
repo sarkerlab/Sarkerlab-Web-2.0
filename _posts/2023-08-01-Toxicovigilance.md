@@ -1,8 +1,9 @@
 ---
 title: "Mining Social Media Big Data for Toxicovigilance: Studying Substance Use via Natural Language Processing and Machine Learning Methods"
 tags:
-  - Prescription Medication
-  - Non-medical Use
+  - Non-medical Use of PM
+  - NLP
+  - Machine Learning
 image: /images/research/toxic.jpg
 ---
 According to the World Health Organization, toxicovigilance is the active process of identifying and evaluating the toxic risks existing in a community, and evaluating the measures taken to reduce or eliminate them. Our toxicovigilance research focuses on prescription and illicit drug use/misuse and drug use disorder.
