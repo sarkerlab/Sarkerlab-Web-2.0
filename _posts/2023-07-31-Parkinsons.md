@@ -65,4 +65,4 @@ clinical interviewing and the research agenda,” Physiother. Res. Int., vol. 4,
 
 #### Publications
 Powell, J. M., Guo, Y., Sarker, A., McKay, J.L. (2023). Classification of Fall Types in Parkinson's Disease from Self-report Data Using Natural Language Processing. In: Juarez, J.M., Marcos, M., Stiglic, G., Tucker, A. (eds) Artificial Intelligence in Medicine. AIME 2023. Lecture Notes in Computer Science(), vol 13897. Springer, Cham. https://doi.org/10.1007/978-3-031-34344-5_20
-[Read Paper] (https://link.springer.com/chapter/10.1007/978-3-031-34344-5_20)
+[Read Paper](https://link.springer.com/chapter/10.1007/978-3-031-34344-5_20)
