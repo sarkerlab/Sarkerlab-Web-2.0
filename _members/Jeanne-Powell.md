@@ -2,7 +2,7 @@
 name: Jeanne Powell
 image: images/team/jeanne.png
 role: member
-description: Doctoral Student in Psychology 
+description: PhD Candidate 
 links: 
     twitter: jeannempowell
     linkedin: jeanne-powell
