@@ -18,7 +18,7 @@ Research topics/studies:
 + COVID and mental health: we are studying the impact of COVID on mental health using social media mining methods.
 + Impact of COVID on national services such as Medicaid.
 
-[View Dashboards]()
+[View Dashboards](/dashboard)
 
 ### Publications
 
