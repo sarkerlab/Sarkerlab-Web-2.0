@@ -21,7 +21,7 @@ presence of a plethora of relevant information about migraine therapies and sent
 associated with them. Our study forms the foundation for conducting an in-depth analysis
 of migraine-related information using social media data.
 
-## Publication
+### Publication
 + Guo Y, Rajwal S, Lakamana S, Chiang CC, Menell PC, Shahid AH, et al.
 Generalizable Natural Language Processing Framework for Migraine Reporting from
 Social Media. In: AMIA 2023 Informatics Summit [Internet]. 2023. Available from:
