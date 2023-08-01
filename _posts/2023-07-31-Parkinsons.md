@@ -36,7 +36,14 @@ We found that the best-performing classifier was the ensemble model, achieving a
 (95% CI: [0.67-1]; Table 1). The RoBERTa model had equal performance across epochs (F1-macro =
 0.42; Table 1).
 
-Table 1. Classifier performance at predicting fall type of our best model, an ensemble model, and RoBERTA.
+###### Table 1. Classifier performance at predicting fall type of our best model, an ensemble model, and RoBERTA.
+
+|  Classifier |  Hyperparameters                                    |     F1-macro    |     95% CI      |
+| ------------| --------------------------------------------------- | --------------- | --------------- |
+| Ensemble    |  {NB, KNNa, SVM, RF, Adaboost, DTb} voting = ‘hard’ |       0.89      |  0.67 - 1       |
+| RoBERTa     |  Epochs = 2                                         |       0.42      |  0.37 - 0.463   |
+
+
 
 
 #### Conclusion
