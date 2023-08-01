@@ -1,5 +1,5 @@
 ---
-title: "Mining Social Media Big Data for Toxicovigilance: Studying Substance Use via Natural Language Processing and Machine Learning Methods"
+title: "Mining Social Media Big Data for Toxicovigilance: Studying Substance Use via NLP and Machine Learning Methods"
 tags:
   - Non-medical Use of PM
   - NLP
