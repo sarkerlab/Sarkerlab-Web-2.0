@@ -5,7 +5,7 @@ tags:
 image: /images/research/
 ---
 
-#### Introduction
+### Introduction
 
 Falls can result from multiple types of biomechanical perturbations, including perturbations to an
 individual’s base of support (BoS; e.g., trips) or center of mass (CoM; e.g., overextension during bending)
