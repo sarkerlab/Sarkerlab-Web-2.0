@@ -64,7 +64,7 @@ clinical interviewing and the research agenda,” Physiother. Res. Int., vol. 4,
 10.1002/pri.165.
 
 #### Publications
-Classification of fall types in Parkinson's disease from self-report data using natural language processing.
-Jeanne M. Powell, Yuting Guo, Abeed Sarker, J. Lucas McKay
-June 2023
+Classification of fall types in Parkinson's disease from self-report data using natural language processing. <br>
+Jeanne M. Powell, Yuting Guo, Abeed Sarker, J. Lucas McKay <br>
+June 2023 <br>
 [Read Paper](https://link.springer.com/chapter/10.1007/978-3-031-34344-5_20)
