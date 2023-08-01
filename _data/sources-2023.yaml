@@ -128,3 +128,35 @@
   description: "Yuting Guo and Abeed Sarker. 2023. SocBERT: A Pretrained Model for Social Media Text. In The Fourth Workshop on Insights from Negative Results in NLP, pages 45–52, Dubrovnik, Croatia. Association for Computational Linguistics."
   link: https://aclanthology.org/2023.insights-1.5/
 
+
+
+- id: " Self-reported Xylazine Experiences: A Mixed Methods Study of Reddit Subscribers "
+  title: " Self-reported Xylazine Experiences: A Mixed Methods Study of Reddit Subscribers "
+  authors:
+  - Anthony Spadaro
+  - Karen O’ Connor
+  - Sahithi Lakamana
+  - Abeed Sarker
+  - Rachel Wightman
+  - Jennifer S Love
+  - Jeanmarie Perrone
+  date: 'March 2023'
+  description: "Spadaro, A., O’Connor, K., Lakamana, S., Sarker, A., Wightman, R., Love, J. S., & Perrone, J. (2023). Self-reported Xylazine Experiences: A mixed methods study of Reddit subscribers. medRxiv (Cold Spring Harbor Laboratory). https://doi.org/10.1101/2023.03.13.23287215"
+  link: https://www.medrxiv.org/content/10.1101/2023.03.13.23287215v1
+
+
+- id: " Supervised Text Classification System Detects Fontan Patients in Electronic Records With Higher Accuracy Than ICD Codes "
+  title: " Supervised Text Classification System Detects Fontan Patients in Electronic Records With Higher Accuracy Than ICD Codes "
+  authors:
+  - Yuting Guo
+  - Mohammed A Al‐Garadi
+  - Wendy M Book
+  - Lindsey C Ivey
+  - Fred H Rodriguez III
+  - Cheryl L Raskind‐Hood
+  - Chad Robichaux
+  - Abeed Sarker
+  date: 'March 2023'
+  description: "Guo, Y., Al-Garadi, M. A., Book, W., Ivey, L. C., Rodriguez, F. H., Raskind-Hood, C., Robichaux, C., & Sarker, A. (2023). Supervised Text Classification System Detects Fontan Patients in Electronic Records With Higher Accuracy Than ICD Codes. Journal of the American Heart Association. https://doi.org/10.1161/jaha.123.030046"
+  link: https://www.ahajournals.org/doi/full/10.1161/JAHA.123.030046
+
