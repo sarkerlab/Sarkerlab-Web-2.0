@@ -20,12 +20,12 @@ Research topics/studies:
 
 [View Dashboards]()
 
-## Publications
+### Publications
 
 [1] Sarker A, Lakamana S, Hogg-Bremer W, Xie A, Al-Garadi MA, Yang YC. Self-reported COVID-19 symptoms on Twitter: an analysis and a research resource. J Am Med Inform Assoc. 2020 Aug 1;27(8):1310-1315. doi: 10.1093/jamia/ocaa116. PMID: 32620975; PMCID: PMC7337747.
 [Read Paper](https://pubmed.ncbi.nlm.nih.gov/32620975/)
 
-## Funding, Collaborations and Acknowledgments
+### Funding, Collaborations and Acknowledgments
 
 The studies are currently funded partially or fully by Emory University, the Centers for Disease Control and Prevention (CDC), and the National Institute on Drug Abuse (NIDA).
 
