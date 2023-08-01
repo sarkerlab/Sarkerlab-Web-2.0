@@ -160,3 +160,25 @@
   description: "Guo, Y., Al-Garadi, M. A., Book, W., Ivey, L. C., Rodriguez, F. H., Raskind-Hood, C., Robichaux, C., & Sarker, A. (2023). Supervised Text Classification System Detects Fontan Patients in Electronic Records With Higher Accuracy Than ICD Codes. Journal of the American Heart Association. https://doi.org/10.1161/jaha.123.030046"
   link: https://www.ahajournals.org/doi/full/10.1161/JAHA.123.030046
 
+
+- id: " Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media "
+  title: " Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media "
+  authors:
+  - Yuting Guo
+  - Swati Rajwal
+  - Sahithi Lakamana
+  - Chia-Chun Chiang
+  - Paul C Menell
+  - Adnan H Shahid
+  - Yi-Chieh Chen
+  - Nikita Chhabra
+  - Wan-Ju Chao
+  - Chieh-Ju Chao
+  - Todd J Schwedt
+  - Imon Banerjee
+  - Abeed Sarker
+  date: 'March 2023'
+  description: "Guo Y, Rajwal S, Lakamana S, Chiang CC, Menell PC, Shahid AH, Pharm D YC, Chhabra N, Chao WJ, Chao CJ, Schwedt TJ, Banerjee I, Sarker A. Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media. AMIA Jt Summits Transl Sci Proc. 2023 Jun 16;2023:261-270. PMID: 37350878; PMCID: PMC10283091."
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283091/
+
+
