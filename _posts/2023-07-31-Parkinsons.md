@@ -2,7 +2,7 @@
 title: Classification of Fall Types in Parkinson's Disease From Self-report Data Using NLP
 tags:
   - NLP
-image: /images/research/
+image: /images/research/fall.png
 ---
 
 ## Introduction
