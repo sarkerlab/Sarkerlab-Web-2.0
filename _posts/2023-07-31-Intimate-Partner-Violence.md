@@ -4,7 +4,7 @@ tags:
   - NLP
   - Machine Learning
   - Social Media
-image: /images/research/
+image: /images/research/partner-abuse.png
 ---
 
 ## Self-Report IPV on Twitter
