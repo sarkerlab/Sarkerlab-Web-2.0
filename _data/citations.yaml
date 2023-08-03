@@ -65,6 +65,10 @@
   - Jeanmarie Perrone
   description: "Sarker A, Gonzalez G, DeRoos F, Perrone J. Characterizing Opioid-Related Tweets: A Comparison Between Prescription and Illicit Opioid Chatter. Proceedings of the 39th International Congress of the European Association of Poisons Centres and Clinical Toxicologists (EAPCCT). 2019. Naples, Italy."
   date: 'May 2019'
+  tags:
+  - Social Media
+  - Non-Medical Use of PM
+  - Opioids
   link: https://www-tandfonline-com.proxy.library.emory.edu/doi/abs/10.1080/15563650.2019.1598646
   
  
@@ -77,6 +81,11 @@
   - Jeanmarie Perrone
   description: "A Sarker, G Gonzalez-Hernandez, F DeRoos, J Perrone. Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets. Proceedings of the 39th International Congress of the European Association of Poisons Centres and Clinical Toxicologists (EAPCCT). 2019. Naples, Italy."
   date: 'May 2019'
+  tags:
+  - Social Media
+  - Non-Medical Use of PM
+  - Machine Learning
+  - Opioids
   link: https://www-tandfonline-com.proxy.library.emory.edu/doi/abs/10.1080/15563650.2019.1598646
 
 - id: "Comment on: Deep Learning for Pharmacovigilance: Recurrent Neural Network Architectures for Labeling Adverse Drug Reactions in Twitter Posts"
@@ -88,6 +97,11 @@
   - Graciela Gonzalez-Hernandez
   description: "Magge, Arjun, Abeed Sarker, Azadeh Nikfarjam, and Graciela Gonzalez-Hernandez. Comment on: Deep Learning for Pharmacovigilance: Recurrent Neural Network Architectures for Labeling Adverse Drug Reactions in Twitter Posts. J Am Med Inform Assoc. 2019 Jun 1; 26(6):577-579. doi:10.1093/jamia/ocz013. PMID:31087070; PMCID:PMC6515520."
   date: 'June 2019'
+  tags:
+  - Deep Learning
+  - Social Media
+  - Machine Learning
+  - Medication
   link: https://www.researchgate.net/publication/333255569_Comment_on_Deep_learning_for_pharmacovigilance_recurrent_neural_network_architectures_for_labeling_adverse_drug_reactions_in_Twitter_posts
  
 - id: "An Interpretable Natural Language Processing System for Written Medical Examination Assessment"
@@ -100,6 +114,8 @@
   - Graciela Gonzalez-Hernandez
   description: "Sarker A, Klein AZ, Mee J, Harik P, Gonzalez-Hernandez G. An Interpretable Natural Language Processing System for Written Medical Examination Assessment. J Biomed Inform. 2019 Oct;98:103268. doi: 10.1016/j.jbi.2019.103268. Epub 2019 Aug 14. PMID: 31421211."
   date: 'August 2019'
+  tags:
+  - NLP
   link: https://www.researchgate.net/publication/335168615_An_interpretable_natural_language_processing_system_for_written_medical_examination_assessment
 
 - id: "Data-Driven Lexical Normalization for Medical Social Media"
