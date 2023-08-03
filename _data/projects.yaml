@@ -14,7 +14,7 @@
   image: images/dashboard/med-survey.png
   link:  /med-surveillance/
 
-- title: "Comparison"
+- title: "Cohort Analysis"
   image: images/photo.jpg
   group: Non-Medical Usage of PM
   link: /comparison/
