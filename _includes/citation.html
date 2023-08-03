@@ -106,11 +106,7 @@
         {{ include.description | default: "[no citation]" }}
       </div>
 
-      {% if citation.tags.size > 0 or citation.repo %}
-        <div class="pub-tags">
-          {% include tags.html tags=citation.tags repo=citation.repo %}
-        </div>
-      {% endif %}
+
 
     </div>
   </div>
