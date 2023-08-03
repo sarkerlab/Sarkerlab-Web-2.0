@@ -50,6 +50,10 @@
   - Graciela Gonzalez-Hernandez
   description: "Klein AZ, Sarker A, Weissenbacher D, Gonzalez G. An Analysis of a Twitter Corpus for Training a Medication Intake Classifier. Proceedings of the AMIA Joint Summits on Translational Science. 2019; 102-106. San Francisco, USA."
   date: 'May 2019'
+  tags:
+  - Machine Learning
+  - Social Media
+  - Medication
   link: https://www.researchgate.net/publication/334171824_An_Analysis_of_a_Twitter_Corpus_for_Training_a_Medication_Intake_Classifier
 
 - id: "Characterizing Opioid-Related Tweets: A Comparison Between Prescription and Illicit Opioid Chatter"
