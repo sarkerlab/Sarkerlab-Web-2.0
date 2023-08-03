@@ -21,6 +21,33 @@
         {% include fallback.html %}
       >
     </a>
+
+    <div class="citation-description">
+      {% if citation.description %}
+        {{ citation.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      {% endif %}
+    </div>
+
+    {% if citation.buttons.size > 0 %}
+      <div class="citation-buttons">
+        {% for button in citation.buttons %}
+          {%
+            include button.html
+            type=button.type
+            icon=button.icon
+            text=button.text
+            link=button.link
+            style="bare"
+          %}
+        {% endfor %}
+      </div>
+    {% endif %}
+    
+    {% if citation.tags.size > 0 or citation.repo %}
+      <div class="pub-tags-inline">
+        {% include tags.html tags=citation.tags repo=citation.repo %}
+      </div>
+    {% endif %}
   {% endif %}
 
   <div class="citation-text">
@@ -55,43 +82,19 @@
 
     <div class="citation-details">
       {{ citation.date | default: "[no date info]" | date: "%b %Y" }}
-      &nbsp;  &nbsp;
-      &nbsp;  &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp;
       <span class="pub-description-link">{{ citation.publisher | default: "Cite" }}</span>
-      &nbsp;  &nbsp;
+      
+      {% if include.style == "pub" %}
+        {% if citation.tags.size > 0 or citation.repo %}
+          <div class="pub-tags-inline">
+            {% include tags.html tags=citation.tags repo=citation.repo %}
+          </div>
+        {% endif %}
+      {% endif %}
+      
     </div>
 
-    {% if include.style == "rich" %}
-      {% if citation.description %}
-        <div class="citation-description">
-          {{
-            citation.description
-            | markdownify
-            | remove: "<p>"
-            | remove: "</p>"
-          }}
-        </div>
-      {% endif %}
-
-      {% if citation.buttons.size > 0 %}
-        <div class="citation-buttons">
-          {% for button in citation.buttons %}
-            {%
-              include button.html
-              type=button.type
-              icon=button.icon
-              text=button.text
-              link=button.link
-              style="bare"
-            %}
-          {% endfor %}
-        </div>
-      {% endif %}
-
-      {% if citation.tags.size > 0 or citation.repo %}
-        {% include tags.html tags=citation.tags repo=citation.repo %}
-      {% endif %}
-    {% endif %}
   </div>
 </div>
 
@@ -102,6 +105,13 @@
       <div class="pub-description-text">
         {{ include.description | default: "[no citation]" }}
       </div>
+
+      {% if citation.tags.size > 0 or citation.repo %}
+        <div class="pub-tags">
+          {% include tags.html tags=citation.tags repo=citation.repo %}
+        </div>
+      {% endif %}
+
     </div>
   </div>
 {% endif %}
@@ -176,6 +186,12 @@
 
   [data-dark="true"] .pub-description-content {
   background: #1a1919;
+  }
+
+  .pub-tags-inline {
+
+    margin-left: 5px;
+    font-size: 12px;
   }
   </style>
   
