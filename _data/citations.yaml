@@ -39,6 +39,7 @@
   date: 'March 2019'
   tags:
   - Social Media
+  - Sentiment Analysis
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ShFx9OAAAAAJ&cstart=80&sortby=pubdate&citation_for_view=ShFx9OAAAAAJ%3ANaGl4SEjCO4C&inst=15365353816232672843
 
 - id: "An Analysis of a Twitter Corpus for Training a Medication Intake Classifier"
@@ -158,6 +159,7 @@
   tags:
   - Social Media
   - Machine Learning
+  - Opioids
   description: "Sarker A, Gonzalez-Hernandez G, Perrone J. Towards Automating Location-Specific Opioid Toxicosurveillance from Twitter via Data Science Methods. Stud Health Technol Inform. 2019 Aug 21;264:333-337. doi: 10.3233/SHTI190238. PMID: 31437940; PMCID: PMC6774610."
   link: https://www.researchgate.net/publication/335383347_Towards_Automating_Location-Specific_Opioid_Toxicosurveillance_from_Twitter_via_Data_Science_Methods
 
