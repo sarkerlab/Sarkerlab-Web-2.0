@@ -9,7 +9,7 @@
   <!-- Create the dropdown menu -->
   <div class="dropdown-menu">
     <ul>
-      <li class="parent-link"><a>Non-Medical Use of PM</a>
+      <!-- <li class="parent-link"><a>Non-Medical Use of PM</a> -->
         <ul>
           <li><a href="/overview-global/">Overview: Global</a></li>
           <li><a href="/overview-US/">Overview: United States</a></li>
@@ -17,10 +17,10 @@
           <li><a href="/comparison/">Cohort Analysis</a></li>
         </ul>
       </li>
-      <li class="parent-link"><a>More</a>
+       <!--  <li class="parent-link"><a>More</a> -->
         <ul>
-          <li><a href="/global-covid-tracker">Global Social Media Tracker - COVID-19</a></li>
-          <li><a href="/us-covid-tracker/">US Social Media Tracker - COVID-19</a></li>
+          <li><a href="/global-covid-tracker">Global social media Tracker - COVID-19</a></li>
+          <li><a href="/us-covid-tracker/">US social media Tracker - COVID-19</a></li>
         </ul>
     </ul>
   </div>
@@ -35,8 +35,8 @@
   }
 
   .dropdown-toggle {
-    display: flex; 
-    margin: 0 auto; 
+    display: flex;
+    margin: 0 auto;
     width: auto;
     justify-content: center;
     align-items: center;
@@ -46,36 +46,33 @@
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     border: none;
-    /*box-shadow: 0 2px 5px rgba(5, 0, 0, 0.2) inset;*/
   }
 
   .arrow-icon.flipped {
     transform: rotate(180deg);
   }
-   
 
   .toggle-text {
     margin-right: 5px; /* Add spacing between text and arrow */
     font-size: large;
- 
+    font-weight: bold;
   }
 
   .dropdown-menu {
-    display: none; 
-    background-color: #F2F2F2; 
-    background-color: rgba(242, 242, 242, 0.95);
-    width: 430px;
-    border-radius: 8px; 
+    display: none;
+    background-color: #ffffff;
+    width: 410px;
+    border-radius: 8px;
     padding: 10px;
     top: 100%;
-    
     left: 0;
     right: 0;
     margin: auto;
+  
   }
 
   .dropdown-menu.show {
-    display: block; 
+    display: block;
   }
 
   .dropdown-menu ul {
@@ -88,29 +85,52 @@
     color: rgb(32, 37, 50);
     font-family: "Roboto", sans-serif;
     font-size: medium;
+    font-weight: 549;
     display: block;
-    padding: 5px;
+    padding: 5px 15px; /* Adjust padding to have equal left and right padding */
     text-decoration: none;
+    border-bottom: 1px solid #ccc; /* Move the border to the bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
   }
 
-  .dropdown-menu ul ul a:hover {
-    color: #437980; 
+  .dropdown-menu a:hover {
+    color: #437980;
   }
-
 
   .dropdown-menu ul ul {
-    padding-left: 25px;
+    padding-left: 0px;
   }
 
   .dropdown-menu ul li {
-      margin-bottom: 5px;
-    }
-  
-  .dropdown-menu .parent-link > a {
-    font-weight: bold; 
+    margin-bottom: 5px;
   }
- 
+
+  .dropdown-menu .parent-link > a {
+    font-weight: bold;
+  }
+
+  [data-dark="true"] .dropdown-menu  {
+    background-color: #1a1919;
+  }
+
+  [data-dark="true"] .dropdown-menu a {
+    background: #1a1919;
+    color: rgb(233, 234, 234);
+  }
+
+  [data-dark="true"] .dropdown-toggle {
+    background-color: #1a1919;
+  }
+
+  [data-dark="true"] .toggle-text {
+   color: #e5e2e2;
+  }
+
+
 </style>
+
+
 
 <!-- JavaScript -->
 <script>
@@ -144,5 +164,3 @@
     arrowIcon.classList.add('flipped');
   });
 </script>
-
-
