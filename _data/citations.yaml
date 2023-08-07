@@ -379,6 +379,10 @@
   - William Becker
   - Abeed Sarker
   date: 'November 2020'
+  tags:
+  - Opioids
+  - Non-Medical Use of PM
+  - NLP
   description: "Fodeh SJ, Al-Garadi M, Elsankary O, Perrone J, Becker W, Sarker A. Utilizing a Multi-Class Classification Approach to Detect Therapeutic and Recreational Misuse of Opioids on Twitter. Comput Biol Med. 2021 Feb;129:104132. doi: 10.1016/j.compbiomed.2020.104132. Epub 2020 Nov 20. PMID: 33290931; PMCID: PMC7855783."
   link: https://www.researchgate.net/publication/346514196_Utilizing_a_multi-class_classification_approach_to_detect_therapeutic_and_recreational_misuse_of_opioids_on_Twitter
 
@@ -405,8 +409,16 @@
   - Cécile Paris
   - Diego Mollá-Aliod
   date: 'December 2020'
+  tags:
+  - Social Media
+  - BERT
   description: "Guo Y, Dong X, Al-Garadi MA, Sarker A, Paris C, Molla-Aliod D. Benchmarking of Transformer-Based Pre-Trained Models on Social Media Text Classification Datasets. Proceedings of the The 18th Annual Workshop of the Australasian Language Technology Association (virtual). 2020; 86 – 91."
   link: https://aclanthology.org/2020.alta-1.10/
+
+
+
+
+
 
 - id: 'Text Classification Models for the Automatic Detection of Nonmedical Prescription Medication Use from Social Media'
   title: 'Text Classification Models for the Automatic Detection of Nonmedical Prescription Medication Use from Social Media'
