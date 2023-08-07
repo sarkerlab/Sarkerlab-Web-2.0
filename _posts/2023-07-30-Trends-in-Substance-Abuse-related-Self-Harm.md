@@ -1,8 +1,8 @@
 ---
 title:  Trends in Substance Abuse-related Self-Harm
 tags:
-  - Prescription Medication
-  - Non-medical Use
+  - Non-medical Use of PM
+  - Social Media
 image: /images/research/
 ---
 
