@@ -64,8 +64,10 @@
     font-weight: bold;
   }
 
+ 
   .dropdown-menu {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
     background-color: #ffffff;
     width: 410px;
     border-radius: 8px;
@@ -74,12 +76,18 @@
     left: 0;
     right: 0;
     margin: auto;
-  
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease, visibility 0s linear 0.3s;
   }
 
   .dropdown-menu.show {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+    max-height: 1000px; 
+    transition-delay: 0s;
   }
+
 
   .dropdown-menu ul {
     list-style: none;
