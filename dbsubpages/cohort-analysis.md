@@ -1,7 +1,7 @@
 ---
 layout: dashboardsubpage
 title: Cohort Analysis
-permalink: /comparison/
+permalink: /cohort-analysis/
 ---
 
 <style>
