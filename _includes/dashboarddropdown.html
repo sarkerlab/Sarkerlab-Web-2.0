@@ -15,14 +15,14 @@
           <li><a href="/overview-global/">Overview: Global<span class="subtitle">Non-Medical Use of PM</span></a></li>
           <li><a href="/overview-US/">Overview: United States<span class="subtitle">Non-Medical Use of PM</span></a></li>
           <li><a href="/med-surveillance/">Medication Surveillance<span class="subtitle">Non-Medical Use of PM</span></a></li>
-          <li><a href="/comparison/">Cohort Analysis<span class="subtitle">Non-Medical Use of PM</span></a></li>
+          <li><a href="/cohort-analysis/">Cohort Analysis<span class="subtitle">Non-Medical Use of PM</span></a></li>
         </ul>
       </li>
       <li class="parent-link">
       <!--  <a href="#">More</a>  -->
         <ul>
-          <li><a href="/global-covid-tracker"> Global Social Media Tracker - COVID-19 </a></li>
-          <li><a href="/us-covid-tracker/"> COVID-19 US Social Media Tracker - COVID-19 </a></li>
+          <li><a href="/global-covid-tracker">COVID-19 Global Social Media Tracker </a></li>
+          <li><a href="/us-covid-tracker/"> COVID-19 US Social Media Tracker </a></li>
         </ul>
       </li>
     </ul>
@@ -46,12 +46,12 @@
     width: auto;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease;
     width: 230px;
     height: 40px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     border: none;
+    transition: transform 0.3s ease;
   }
 
   .arrow-icon.flipped {
@@ -71,23 +71,26 @@
     background-color: #ffffff;
     width: 410px;
     border-radius: 8px;
-    padding: 10px;
+    padding: 0;
     top: 100%;
     left: 0;
     right: 0;
     margin: auto;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 0.3s ease, max-height 0.3s ease, visibility 0s linear 0.3s;
+    transition: opacity 0.5s ease, max-height 0.5s ease, visibility 0s linear 0.5s, padding 0.3s ease;
+    /* Adjust the transition-duration to control the dropdown opening speed */
   }
 
   .dropdown-menu.show {
     opacity: 1;
     visibility: visible;
-    max-height: 1000px; 
+    max-height: 1000px; /* Adjust this value based on your content's height */
+    padding: 10px;
     transition-delay: 0s;
+    transition: opacity 1.3s ease, max-height 1.3s ease, visibility 0s 
+   
   }
-
 
   .dropdown-menu ul {
     list-style: none;
@@ -97,9 +100,9 @@
 
   .dropdown-menu a {
     color: rgb(32, 37, 50);
-    font-family: Roboto, Sans-Serif;
+   
     font-size: medium;
-    font-weight: 530;
+    font-weight: 430;
     display: block;
     padding: 5px 15px; /* Adjust padding to have equal left and right padding */
     text-decoration: none;
