@@ -5,26 +5,32 @@
     <span class="arrow-icon">&#x25B2;</span>
   </button>
 
-
   <!-- Create the dropdown menu -->
   <div class="dropdown-menu">
     <ul>
-      <!-- <li class="parent-link"><a>Non-Medical Use of PM</a> -->
+      <li class="parent-link">
+       <!--  <a href="#"> Non-Medical Use of PM <span class="subtitle">Subtitle Text Here</span>  -->
+        </a>
         <ul>
-          <li><a href="/overview-global/">Overview: Global</a></li>
-          <li><a href="/overview-US/">Overview: United States</a></li>
-          <li><a href="/med-surveillance/">Medication Surveillance</a></li>
-          <li><a href="/comparison/">Cohort Analysis</a></li>
+          <li><a href="/overview-global/">Overview: Global<span class="subtitle">Non-Medical Use of PM</span></a></li>
+          <li><a href="/overview-US/">Overview: United States<span class="subtitle">Non-Medical Use of PM</span></a></li>
+          <li><a href="/med-surveillance/">Medication Surveillance<span class="subtitle">Non-Medical Use of PM</span></a></li>
+          <li><a href="/comparison/">Cohort Analysis<span class="subtitle">Non-Medical Use of PM</span></a></li>
         </ul>
       </li>
-       <!--  <li class="parent-link"><a>More</a> -->
+      <li class="parent-link">
+      <!--  <a href="#">More</a>  -->
         <ul>
-          <li><a href="/global-covid-tracker">Global social media Tracker - COVID-19</a></li>
-          <li><a href="/us-covid-tracker/">US social media Tracker - COVID-19</a></li>
+          <li><a href="/global-covid-tracker">COVID-19 Global Social Media Tracker </a></li>
+          <li><a href="/us-covid-tracker/"> COVID-19 US Social Media Tracker </a></li>
         </ul>
+      </li>
     </ul>
   </div>
 </div>
+
+
+
 
 <!-- CSS -->
 <style>
@@ -83,15 +89,17 @@
 
   .dropdown-menu a {
     color: rgb(32, 37, 50);
-    font-family: "Roboto", sans-serif;
+   
     font-size: medium;
-    font-weight: 549;
+    font-weight: 430;
     display: block;
     padding: 5px 15px; /* Adjust padding to have equal left and right padding */
     text-decoration: none;
     border-bottom: 1px solid #ccc; /* Move the border to the bottom */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 8px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
+
+    position: relative;
   }
 
    .dropdown-menu a:hover {
@@ -106,9 +114,13 @@
     margin-bottom: 5px;
   }
 
-  .dropdown-menu .parent-link > a {
-    font-weight: bold;
-  }
+.subtitle {
+  font-size: 12px; 
+  color: #999; 
+  margin-left: 15px; /* Add space between the link and the subtitle */
+}
+
+
 
   /* Dark Mode */
 
