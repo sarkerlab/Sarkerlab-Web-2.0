@@ -15,7 +15,7 @@
   link:  /med-surveillance/
 
 - title: "Cohort Analysis"
-  image: images/dashboard/analysis2.png
+  image: images/dashboard/Screenshot 2023-08-07 at 2.36.37 PM.png
   group: Non-Medical Usage of PM
   link: /cohort-analysis/
   description: 
@@ -23,7 +23,7 @@
 
 
 
-- title: US Social Media Tracker - COVID-19
+- title: "US Social Media Tracker - COVID-19"
   subtitle: 
   image: images/dashboard/us-tracker.png
   link: /us-covid-tracker/
@@ -31,7 +31,7 @@
  
   
 
-- title: Global social media Tracker - COVID-19
+- title: "Global social media Tracker - COVID-19"
   subtitle: 
   image: images/dashboard/global-tracker.png
   link:  /global-covid-tracker/
