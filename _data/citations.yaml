@@ -433,6 +433,11 @@
   - Jeanmarie Perrone
   - Abeed Sarker
   date: 'January 2021'
+  tags:
+  - Social Media
+  - Deep Learning
+  - Text Classification
+  - NLP
   link: https://www.researchgate.net/publication/340738066_Text_Classification_Models_for_the_Automatic_Detection_of_Nonmedical_Prescription_Medication_Use_from_Social_Media
   description: "Al-Garadi MA, Yang YC, Cai H, Ruan Y, O'Connor K, Graciela GH, Perrone J, Sarker A. Text Classification Models for the Automatic Detection of Nonmedical Prescription Medication Use from Social Media. BMC Med Inform Decis Mak. 2021 Jan 26;21(1):27. doi: 10.1186/s12911-021-01394-0. PMID: 33499852; PMCID: PMC7835447."
 
@@ -446,29 +451,42 @@
   - William Becker
   - Abeed Sarker
   date: 'February 2021'
+  tags:
+  - Social Media
+  - Opioids
+  - Machine Learning
+  - NLP
   link: https://www.researchgate.net/publication/346514196_Utilizing_a_multi-class_classification_approach_to_detect_therapeutic_and_recreational_misuse_of_opioids_on_Twitter
   description: "Fodeh, S. J., Al-Garadi, M., Elsankary, O., Perrone, J., Becker, W., Sarker, A. Utilizing a Multi-Class Classification Approach to Detect Therapeutic and Recreational Misuse of Opioids on Twitter. Computers in Biology and Medicine, 129 (2021), 104132."
 
-- id: 'CoviDash-SM: A Public COVID19 Dashboard for Social Media Data-Based Research and Surveillance'
-  title: 'CoviDash-SM: A Public COVID19 Dashboard for Social Media Data-Based Research and Surveillance'
+- id: 'CoviDash-SM: A Public COVID-19 Dashboard for Social Media Data-Based Research and Surveillance'
+  title: 'CoviDash-SM: A Public COVID-19 Dashboard for Social Media Data-Based Research and Surveillance'
   authors:
   - Sahithi Lakamana
   - Mohammad Ali Al-Garadi
   - Yuan-Chi Yang
   - Abeed Sarker
   date: 'March 2021'
+  tags:
+  - COVID-19
+  - Social Media
+  - Machine Learning
+  - NLP
   link: https://www.researchgate.net/publication/350672420_CoviDash-SM_A_Public_COVID19_Dashboard_for_Social_Media_Data-based_Research_and_Surveillance
-  description: "Lakamana S, Al-Garadi MA, Yang YC, Sarker A. CoviDash-SM: A Public COVID19 Dashboard for Social Media Data-Based Research and Surveillance. Proceedings of the AMIA Informatics Summit (posters). 2021 (virtual). doi: 10.13140/RG.2.2.23784.80644."
+  description: "Lakamana S, Al-Garadi MA, Yang YC, Sarker A. CoviDash-SM: A Public COVID-19 Dashboard for Social Media Data-Based Research and Surveillance. Proceedings of the AMIA Informatics Summit (posters). 2021 (virtual). doi: 10.13140/RG.2.2.23784.80644."
 
-- id: 'Syndromic Surveillance for COVID19 from Reddit using Multi-Platform Lexicons'
-  title: 'Syndromic Surveillance for COVID19 from Reddit using Multi-Platform Lexicons'
+- id: 'Syndromic Surveillance for COVID-19 from Reddit using Multi-Platform Lexicons'
+  title: 'Syndromic Surveillance for COVID-19 from Reddit using Multi-Platform Lexicons'
   authors:
   - Abimbola Leslie
   - Sahithi Lakamana
   - Abeed Sarker
   date: 'March 2021'
+  tags:
+  - COVID-19
+  - Social Media
   link: https://www.researchgate.net/publication/350672521_Syndromic_surveillance_for_COVID19_from_Reddit_using_multi-platform_lexicons
-  description: "Leslie A, Lakamana S, Sarker A. Syndromic Surveillance for COVID19 from Reddit using Multi-Platform Lexicons. AMIA Informatics Summit (posters). March 22 – 25 (virtual)."
+  description: "Leslie A, Lakamana S, Sarker A. Syndromic Surveillance for COVID-19 from Reddit using Multi-Platform Lexicons. AMIA Informatics Summit (posters). March 22 – 25 (virtual)."
 
 - id: 'Gender Differences in Nonmedical Use of Prescription Opioids, Tranquilizers and Stimulant Medications Using Machine Learning and Social Media'
   title: 'Gender Differences in Nonmedical Use of Prescription Opioids, Tranquilizers and Stimulant Medications Using Machine Learning and Social Media'
@@ -479,6 +497,10 @@
   - Jeanmarie Perrone
   - Abeed Sarker
   date: 'April 2021'
+  tags:
+  - Toxicology
+  - Non-Medical Use of PM
+  - Opioids
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8011778/
   description: "Yang YC, Al-Garadi MA, Love J, Perrone J, Sarker A. Gender Differences in Nonmedical Use of Prescription Opioids, Tranquilizers and Stimulant Medications Using Machine Learning and Social Media. Proceedings of the ACMT Annual Summit [meeting abstract]. 2021 (virtual)."
 
