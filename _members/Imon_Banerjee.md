@@ -1,5 +1,5 @@
 ---
-name: Imon Banarjee
+name: Imon Banerjee
 image: images/team/imon.png
 role: collaborator
 description: Lead AI Scientist <br> Mayo Clinic
