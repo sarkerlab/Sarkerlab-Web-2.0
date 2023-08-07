@@ -3,7 +3,7 @@
 
 # About The Lab
 
-We are a research group at the Department of Biomedical Informaticas (BMI) at [Emory School of Medicine](https://med.emory.edu/). We strive to design and build natural language processing and machine learning frameworks that are portable across medical and public health problems. We put particular attention to ensuring that technological innovations in data science, NLP, machine learning and artificial intelligence comply to the specific needs of the medical domain. These needs include, but are not limited to, interpretability, simplicity, reliability and timeliness. 
+We are a research group at the Department of Biomedical Informatics (BMI) at [Emory School of Medicine](https://med.emory.edu/). We strive to design and build natural language processing and machine learning frameworks that are portable across medical and public health problems. We put particular attention to ensuring that technological innovations in data science, NLP, machine learning and artificial intelligence comply to the specific needs of the medical domain. These needs include, but are not limited to, interpretability, simplicity, reliability and timeliness. 
 
 {% include section.html %}
 
