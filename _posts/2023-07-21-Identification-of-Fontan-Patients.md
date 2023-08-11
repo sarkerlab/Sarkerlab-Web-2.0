@@ -1,7 +1,7 @@
 ---
 title: Identification of Fontan Patients
 tags:
-  - Clinic care
+  - Clinic Care
   - EHR
 image: /images/research/pexels-karolina-grabowska-4046944.jpg
 ---
