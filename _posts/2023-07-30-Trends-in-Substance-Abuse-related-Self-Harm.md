@@ -1,5 +1,5 @@
 ---
-title:  Trends in Substance Abuse related Self-Harm
+title: Trends in Substance-Induced Self-Harm
 tags:
   - Non-medical Use of PM
   - Social Media
