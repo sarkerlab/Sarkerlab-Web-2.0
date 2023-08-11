@@ -4,7 +4,7 @@ tags:
   - Machine Learning
   - NLP
   - BERT
-image: /images/research/
+image: /images/research/few-shot.png
 ---
 
 Few-shot learning (FSL) is a class of machine learning methods that require small numbers of labeled instances for training. With many medical topics having limited annotated text-based data in practical settings, FSL-based natural language processing (NLP) holds substantial promise. However, there is no current study that compares the performances of FSL models with traditional models (e.g., conditional random fields) for medical text at different training set sizes, or provides a comprehensive review of existing few-shot learning methods for biomedical texts, with special reference to named entity recognition (NER).
