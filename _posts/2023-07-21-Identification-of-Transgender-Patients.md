@@ -1,7 +1,7 @@
 ---
 title: Identification of Transgender Patients
 tags:
-  - Clinic care
+  - Clinic Care
   - EHR
 image: /images/research/pexels-alexander-grey-3868990.jpg
 ---
