@@ -873,6 +873,9 @@
   - Mohammed Ali Al-Garadi
   - Abeed Sarker
   date: 'June 2022'
+  tags:
+  - Machine Learning
+  - BERT
   description: "Y. Ge, Y. Guo, Y. Yang, M. A. Al–Garadi and A. Sarker, A comparison of few-shot and traditional named entity recognition models for medical text, 2022 IEEE 10th International Conference on Healthcare Informatics (ICHI), 2022, pp. 84-89, doi: 10.1109/ICHI54592.2022.00024."
   link: https://ieeexplore.ieee.org/abstract/document/9874611
 
@@ -887,6 +890,9 @@
   - Yuan-Chi Yang
   - Abeed Sarker
   date: 'June 2022'
+  tags:
+  - Social Media
+  - COVID-19
   description: "Kim, S., Al-Garadi, M., Guo, Y. T., Warren, E., Stephenson, K., Yang, Y. C., & Sarker, A. (2022). Building a social media platform for surveillance and support of intimate partner violence and its victims during COVID-19 and beyond: Preliminary findings. Journal of Advanced Nursing, 26-27."
   link: https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1913060
 
