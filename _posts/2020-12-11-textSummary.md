@@ -1,6 +1,9 @@
 ---
 title: Text Summarization For Medical Evidence
 image: /images/research/text-summarization.jpeg
+tags:
+- NLP
+- Machine Learning
 ---
 
 A light-weight Text Summarization System for fast access to medical evidence.
