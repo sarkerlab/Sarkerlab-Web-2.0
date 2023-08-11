@@ -740,6 +740,10 @@
   - Jeanmarie Perrone
   - Abeed Sarker
   date: 'April 2022'
+  tags:
+  - Non-Medical Use of PM
+  - Social Media
+  - Machine Learning
   description: "Yang, Y. C., Al-Garadi, M. A., Love, J. S., Cooper, H. L., Perrone, J., & Sarker, A. (2022). Can accurate demographic information about people who use prescription medications non-medically be derived from Twitter big data?. medRxiv."
   link: https://www.medrxiv.org/content/10.1101/2022.04.27.22274390v1
 
@@ -1017,6 +1021,10 @@
   - Jeanmarie Perrone
   - Abeed Sarker
   date: 'March 2023'
+  tags:
+  - Social Media
+  - NLP
+  - Non-Medical Use of PM
   description: "Yang Y-C, Al-Garadi MA, Love JS, Cooper HLF, Perrone J, Sarker A. Can accurate demographic information about people who use prescription medications nonmedically be derived from Twitter? Proc Natl Acad Sci [Internet]. 2023;120(8):e2207391120. Available from: https://www.pnas.org/doi/abs/10.1073/pnas.2207391120"
   link: https://www.pnas.org/doi/full/10.1073/pnas.2207391120?doi=10.1073%2Fpnas.2207391120
 
@@ -1030,6 +1038,9 @@
   - Sahithi Lakamana
   - Abeed Sarker
   date: 'March 2023'
+  tags:
+  - Machine Learning
+  - Social Media
   description: "Guo Y, Kim S, Warren E, Yang Y-C, Sahithi L, Sarker A. Automatic Detection of Intimate Partner Violence Victims from Social Media for Proactive Delivery of Support. In: AMIA 2023 Informatics Summit. 2023."
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ShFx9OAAAAAJ&sortby=pubdate&citation_for_view=ShFx9OAAAAAJ%3Auc_IGeMz5qoC&inst=15365353816232672843
 
@@ -1043,6 +1054,9 @@
   - Yuan-Chi Yang
   - Mohammed Al-Garadi
   date: 'March 2023'
+  tags:
+  - Social Media
+  - Machine Learning
   description: "Sarker A, Lakamana S, Liao R, Abbas A, Yang Y, Al-Garadi M The Early Detection of Fraudulent COVID-19 Products From Twitter Chatter: Data Set and Baseline Approach Using Anomaly Detection JMIR Infodemiology 2023;3:e43694 URL: https://infodemiology.jmir.org/2023/1/e43694 DOI: 10.2196/43694"
   link: https://infodemiology.jmir.org/2023/1/e43694
 
@@ -1171,6 +1185,9 @@
   - Jennifer S Love
   - Jeanmarie Perrone
   date: 'March 2023'
+  tags:
+  - NLP
+  - Social Media
   description: "Spadaro, A., O’Connor, K., Lakamana, S., Sarker, A., Wightman, R., Love, J. S., & Perrone, J. (2023). Self-reported Xylazine Experiences: A mixed methods study of Reddit subscribers. medRxiv (Cold Spring Harbor Laboratory). https://doi.org/10.1101/2023.03.13.23287215"
   link: https://www.medrxiv.org/content/10.1101/2023.03.13.23287215v1
 
@@ -1187,6 +1204,9 @@
   - Chad Robichaux
   - Abeed Sarker
   date: 'March 2023'
+  tags:
+  - NLP
+  - Machine Learning
   description: "Guo, Y., Al-Garadi, M. A., Book, W., Ivey, L. C., Rodriguez, F. H., Raskind-Hood, C., Robichaux, C., & Sarker, A. (2023). Supervised Text Classification System Detects Fontan Patients in Electronic Records With Higher Accuracy Than ICD Codes. Journal of the American Heart Association. https://doi.org/10.1161/jaha.123.030046"
   link: https://www.ahajournals.org/doi/full/10.1161/JAHA.123.030046
 
@@ -1207,6 +1227,10 @@
   - Imon Banerjee
   - Abeed Sarker
   date: 'March 2023'
+  tags:
+  - NLP
+  - Social Media
+  - Machine Learning
   description: "Guo Y, Rajwal S, Lakamana S, Chiang CC, Menell PC, Shahid AH, Pharm D YC, Chhabra N, Chao WJ, Chao CJ, Schwedt TJ, Banerjee I, Sarker A. Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media. AMIA Jt Summits Transl Sci Proc. 2023 Jun 16;2023:261-270. PMID: 37350878; PMCID: PMC10283091."
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283091/
 
