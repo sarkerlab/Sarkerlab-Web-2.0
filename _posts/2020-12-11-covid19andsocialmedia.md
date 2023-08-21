@@ -5,6 +5,7 @@ tags:
   - NLP
   - Machine Learning
   - Social Media
+redirect_from: /covid_sm_data_bundle
 ---
 This page contains resources associated with multiple studies (completed and ongoing) focusing on COVID-19
 

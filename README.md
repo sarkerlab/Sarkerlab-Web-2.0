@@ -1,4 +1,5 @@
 # Sarker lab website
+**The README file is out of date. It will be updated soon.**
 
 This website is built with [Jekyll](https://jekyllrb.com/).
 It is derived from the template at [/greenelab/lab-website-template](https://github.com/greenelab/lab-website-template) originally provided by the [Greene Lab](https://greenelab.com/).

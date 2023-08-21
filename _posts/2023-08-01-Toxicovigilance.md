@@ -5,6 +5,7 @@ tags:
   - NLP
   - Machine Learning
 image: /images/research/toxic.jpg
+redirect_from: /pm_abuse_data
 ---
 According to the World Health Organization, toxicovigilance is the active process of identifying and evaluating the toxic risks existing in a community, and evaluating the measures taken to reduce or eliminate them. Our toxicovigilance research focuses on prescription and illicit drug use/misuse and drug use disorder.
 
