@@ -1,6 +1,7 @@
 ---
 name: Drew Walker
 image: images/team/drew_cropped.jpg
+position: PhD Student
 description: PhD Rotation Student
 role: member
 links:

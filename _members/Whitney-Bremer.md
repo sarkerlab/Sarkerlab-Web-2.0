@@ -1,7 +1,8 @@
 ---
 name: Whitney Bremer
 image: images/team/whitney.jpg
-role: member
+role: alumni
+position: Software Engineer
 description: Project Manager/ Software Engineer
 ---
 

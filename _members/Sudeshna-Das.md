@@ -2,6 +2,7 @@
 name: Sudeshna Das
 image: images/team/sudeshna.png
 role: member
+position: Postdoctoral Scholar
 description: Postdoctoral Scholar
 links:
     google-scholar: swg54REAAAAJ

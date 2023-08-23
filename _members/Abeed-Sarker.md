@@ -2,6 +2,7 @@
 name: Abeed Sarker
 image: images/team/abeed2.jpg
 role: member
+position: Principal Investigator
 description: Principal Investigator
 links:
     email: abeed@dbmi.emory.edu

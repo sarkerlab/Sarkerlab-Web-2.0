@@ -2,7 +2,8 @@
 name: JaMor Hairston
 image: images/team/jamor.jpg
 role: member
-description: PhD Student  
+position: PhD Student  
+description: PhD Rotation Student  
 links:
   linkedin: jamorhairston
 ---

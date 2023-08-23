@@ -2,6 +2,7 @@
 name: JeanMarie Perrone
 image: images/team/jean.jpg
 role: collaborator
+position: Principal Investigator
 description: Professor <br> University of Pennsylvania
 links:
     twitter: JMPerroneMD

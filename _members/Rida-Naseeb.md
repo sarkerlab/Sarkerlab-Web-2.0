@@ -1,7 +1,8 @@
 ---
 name: Rida Naseeb
 image: 
-role: member
+role: alumni
+position: Research Assistant
 description: Graduate Research Assistant
 ---
 

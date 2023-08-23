@@ -2,6 +2,7 @@
 name: Sahithi Lakamana
 image: images/team/sahithi_la.jpg
 role: member
+position: Software Engineer
 description: Systems Software Engineer
 links:
     linkedin: Sahithi-Lakamana

@@ -1,7 +1,8 @@
 ---
 name: Yuting Guo
-image: images/team/yuting.jpg
+image: images/team/yuting.png
 role: member
+position: PhD Student
 description: PhD Student
 links:
     twitter: YutingGuo12
