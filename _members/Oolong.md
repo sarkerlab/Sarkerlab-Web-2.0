@@ -3,7 +3,7 @@ name: Oolong
 image: images/team/Oolong_2.jpg
 role: member
 position: mascot
-description: Atmosphere Maker
+description: Atmosphere Maker (Mascot)
 ---
 
 #### Interests:
@@ -14,4 +14,4 @@ description: Atmosphere Maker
 #### Expertise
 + Chase
 + Getting up early
-+  Growing up fast
++ Growing up fast

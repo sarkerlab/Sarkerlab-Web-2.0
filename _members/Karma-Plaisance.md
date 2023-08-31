@@ -2,7 +2,7 @@
 name: Karma Plaisance
 image: images/team/karma.jpeg
 role: member
-position: Research Assistant
+position: Graduate Research Assistant
 description: Graduate Research Assistant
 ---
 

@@ -21,7 +21,8 @@ Our lab is a dynamic and collaborative team of researchers dedicated to pushing 
 {% include list.html data="members" component="portrait" filters="role: member, position: Software Engineer" %}
 {% include list.html data="members" component="portrait" filters="role: member, position: PhD Candidate" %}
 {% include list.html data="members" component="portrait" filters="role: member, position: PhD Student" %}
-{% include list.html data="members" component="portrait" filters="role: member, position: Research Assistant" %}
+{% include list.html data="members" component="portrait" filters="role: member, position: Graduate Research Assistant" %}
+{% include list.html data="members" component="portrait" filters="role: member, position: Undergraduate Research Assistant" %}
 {% include list.html data="members" component="portrait" filters="role: member, position: mascot" %}
 
 
