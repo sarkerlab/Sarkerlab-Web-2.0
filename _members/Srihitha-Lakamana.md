@@ -7,5 +7,7 @@ order: 1
 links:
     linkedin: srihitha-lakamana-25513825b
 
+    + Developer of the lab's current website
+
 ---
 
