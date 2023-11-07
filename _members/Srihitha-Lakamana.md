@@ -1,6 +1,6 @@
 ---
 name: Srihitha Lakamana
-image: images/team/srihitha_lakamana.JPG
+image: images/team/srihitha2.jpg
 role: alumni
 description: Undergraduate Intern
 order: 1
