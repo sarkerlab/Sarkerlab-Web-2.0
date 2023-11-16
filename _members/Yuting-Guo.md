@@ -2,8 +2,8 @@
 name: Yuting Guo
 image: images/team/yuting.png
 role: member
-position: PhD Student
-description: PhD Rotation Student
+position: PhD Candidate
+description: PhD Candidate
 links:
     twitter: YutingGuo12
     linkedin: yuting-guo-53955b13b
