@@ -7,6 +7,9 @@
   - Christopher M Jones
   - Steven A Sumner
   date: 'January 2022'
+  tags:
+  - NLP
+  - Social Media
   description: "Sarker, A., Al-Garadi, M. A., Ge, Y., Nataraj, N., Jones, C. M., & Sumner, S. A. (2022). Trends in Co-mention of Stimulants and Opioids: A Natural Language Processing Driven Analysis of Reddit Forums."
   link: https://assets.researchsquare.com/files/rs-1255278/v1/d06e2e2b-8f22-4a24-8992-257de28c28e3.pdf?c=1642433769
 
@@ -18,9 +21,12 @@
   - Whitney Hogg-Bremer
   - Jennifer S Love
   - Nicole O’Donnell
-  - Lewis S Nelson,
+  - Lewis S Nelson
   - Jeanmarie Perrone
   date: 'February 2022'
+  tags:
+  - Social Media
+  - NLP
   description: "Spadaro, A., Sarker, A., Hogg-Bremer, W., Love, J. S., O’Donnell, N., Nelson, L. S., & Perrone, J. (2022). Reddit discussions about buprenorphine associated precipitated withdrawal in the era of fentanyl. Clinical Toxicology, 1-8."
   link: https://www.tandfonline.com/doi/full/10.1080/15563650.2022.2032730
 
@@ -34,6 +40,9 @@
   - Yuan-Chi Yang
   - Sangmi Kim
   date: 'March 2022'
+  tags:
+  - Social Media
+  - NLP
   description: "Al-Garadi M, Sarker A, Guo Y, et al. Automatic identification of intimate partner violence victims from social media. Injury Prevention. 2022;28:A48."
   link: https://injuryprevention.bmj.com/content/28/Suppl_1/A48.1.abstract
 
@@ -47,6 +56,12 @@
   - Christopher M Jones
   - Steven A Sumner
   date: 'March 2022'
+  tags:
+  - COVID-19
+  - Social Media
+  - NLP
+  - Non-Medical Use of PM
+  - Opiods
   description: "Sarker, A., Nataraj, N., Siu, W. et al. Concerns among people who use opioids during the COVID-19 pandemic: a natural language processing analysis of social media posts. Subst Abuse Treat Prev Policy 17, 16 (2022). https://doi.org/10.1186/s13011-022-00442-w"
   link: https://link.springer.com/article/10.1186/s13011-022-00442-w
 
@@ -58,6 +73,10 @@
   - Mohammed Al Al-Garadi
   - Abeed Sarker
   date: 'March 2022'
+  tags:
+  - Social Media
+  - Machine Learning
+  - Deep Learning
   description: "Alkouz, B., Al Aghbari, Z., Al-Garadi, M. A., & Sarker, A. (2022). Deepluenza: Deep learning for influenza detection from Twitter. Expert Systems with Applications, 198, 116845."
   link: https://www.sciencedirect.com/science/article/abs/pii/S0957417422002986
 
@@ -69,9 +88,12 @@
   - Mohammed Ali Al-Garadi
   - Abeed Sarker
   date: 'March 2022'
+  tags:
+  - Social Media
+  - COVID-19
+  - Machine Learning
   description: "Lakamana S, Yang YC, Al-Garadi MA, Sarker A. (2022) Tracking the COVID-19 outbreak in India through Twitter: Opportunities for social media based global pandemic surveillance AMIA Annual Informatics Summit."
   link: https://s4.goeshow.com/amia/summit/2022/schedule_at_a_glance.cfm?session_key=092BA126-CA73-E6DA-985D-7DAE9C22C750&session_date=Thursday,%20Mar%2024,%202022
-
 
 - id: 'Can Accurate Demographic Information About People Who Use Prescription Medications Non-medically Be Derived From Twitter Big Data?'
   title: 'Can Accurate Demographic Information About People Who Use Prescription Medications Non-medically Be Derived From Twitter Big Data?'
@@ -83,6 +105,10 @@
   - Jeanmarie Perrone
   - Abeed Sarker
   date: 'April 2022'
+  tags:
+  - Non-Medical Use of PM
+  - Social Media
+  - Machine Learning
   description: "Yang, Y. C., Al-Garadi, M. A., Love, J. S., Cooper, H. L., Perrone, J., & Sarker, A. (2022). Can accurate demographic information about people who use prescription medications non-medically be derived from Twitter big data?. medRxiv."
   link: https://www.medrxiv.org/content/10.1101/2022.04.27.22274390v1
 
@@ -93,6 +119,10 @@
   - Abeed Sarker
   - Jeanmarie Perrone
   date: 'April 2022'
+  tags:
+  - Non-Medical Use of PM
+  - Social Media
+  - Machine Learning
   description: "Bremer, W., Sarker, A., & Perrone, J. (2022). Can Reddit Posts Reveal Insurance Related Barriers to Accessing Medication for Opioid Use Disorder? Journal of Medical Toxicology (ACMT Abstracts) (2022). https://doi.org/10.1007/s13181-022-008"
   link: https://link.springer.com/article/10.1007/s13181-022-00888-1
 
@@ -105,6 +135,9 @@
   - Mohammed Ali Al-Garadi
   - Abeed Sarker
   date: 'April 2022'
+  tags:
+  - NLP
+  - Machine Learning
   description: "Ge, Y., Guo, Y., Yang, Y. C., Al-Garadi, M. A., & Sarker, A. (2022). Few-shot learning for medical text: A systematic review. arXiv preprint arXiv:2204.14081."
   link: https://arxiv.org/abs/2204.14081
 
@@ -119,6 +152,10 @@
   - Jeanmarie Perrone
   - Abeed Sarker
   date: 'April 2022'
+  tags:
+  - Non- Medical Use of PM
+  - NLP
+  - Social Media
   description: "Al-Garadi, M. A., Yang, Y. C., Guo, Y., Kim, S., Love, J. S., Perrone, J., & Sarker, A. (2022). Large-Scale Social Media Analysis Reveals Emotions Associated with Nonmedical Prescription Drug Use. Health Data Science, 2022."
   link: https://downloads.spj.sciencemag.org/hds/2022/9851989.pdf
 
@@ -132,6 +169,10 @@
   - Yuan-Chi Yang
   - Mohammed Al-Garadi
   date: 'May 2022'
+  tags:
+  - Social Media
+  - NLP
+  - Machine Learning
   description: "Sarker, A., Lakamana, S., Liao, R., Abbas, A., Yang, Y. C., & Al-Garadi, M. (2022). Early detection of fraudulent COVID-19 products from Twitter chatter. medRxiv."
   link: https://www.medrxiv.org/content/10.1101/2022.05.09.22274776v1.article-info
 
@@ -144,6 +185,10 @@
   - Christopher M Jones
   - Steven A Sumner
   date: 'May 2022'
+  tags:
+  - Non-Medical Use of PM
+  - Social Media
+  - Machine Learning
   description: "Sarker, A., Al-Garadi, M.A., Ge, Y. et al. Signals of increasing co-use of stimulants and opioids from online drug forum data. Harm Reduct J 19, 51 (2022). https://doi.org/10.1186/s12954-022-00628-2"
   link: https://link.springer.com/article/10.1186/s12954-022-00628-2
 
@@ -154,6 +199,10 @@
   - Mylin Torres
   - Imon Banerjee
   date: 'May 2022'
+  tags:
+  - EHR
+  - Clinic Care
+  - Social Media
   description: "Sarker, A., Torres, M., & Banerjee, I. (2022). AMIA CIC 2022"
   link: https://www.researchgate.net/publication/360951293_AMIA_CIC_2022
 
@@ -166,6 +215,9 @@
   - Mohammed Ali Al-Garadi
   - Abeed Sarker
   date: 'June 2022'
+  tags:
+  - Machine Learning
+  - BERT
   description: "Y. Ge, Y. Guo, Y. Yang, M. A. Al–Garadi and A. Sarker, A comparison of few-shot and traditional named entity recognition models for medical text, 2022 IEEE 10th International Conference on Healthcare Informatics (ICHI), 2022, pp. 84-89, doi: 10.1109/ICHI54592.2022.00024."
   link: https://ieeexplore.ieee.org/abstract/document/9874611
 
@@ -180,6 +232,9 @@
   - Yuan-Chi Yang
   - Abeed Sarker
   date: 'June 2022'
+  tags:
+  - Social Media
+  - COVID-19
   description: "Kim, S., Al-Garadi, M., Guo, Y. T., Warren, E., Stephenson, K., Yang, Y. C., & Sarker, A. (2022). Building a social media platform for surveillance and support of intimate partner violence and its victims during COVID-19 and beyond: Preliminary findings. Journal of Advanced Nursing, 26-27."
   link: https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1913060
 
@@ -189,6 +244,8 @@
   - Whitney Bremmer
   - Abeed Sarker
   date: 'June 2022'
+  tags:
+  - Social Media
   description: "Whitney Bremer & Abeed Sarker (2022) Recruitment and retention in mobile application-based intervention studies: a critical synopsis of challenges and opportunities, Informatics for Health and Social Care, DOI: 10.1080/17538157.2022.2082297"
   link: https://www.tandfonline.com/doi/abs/10.1080/17538157.2022.2082297?journalCode=imif20
 
@@ -204,6 +261,10 @@
   - Graciela Gonzalez-Hernandez
   - Abeed Sarker
   date: 'July 2022'
+  tags:
+  - Social Media
+  - NLP
+  - Non-Medical Use of PM
   description: "Graves RL, Perrone J, Al-Garadi MA, Yang YC, Love J, O'Connor K, Gonzalez-Hernandez G, Sarker A. Thematic Analysis of Reddit Content About Buprenorphine-naloxone Using Manual Annotation and Natural Language Processing Techniques. J Addict Med. 2022 Jul-Aug 01;16(4):454-460. doi: 10.1097/ADM.0000000000000940. Epub 2021 Dec 23. PMID: 34864788; PMCID: PMC9365256."
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9365256/
 
@@ -216,6 +277,10 @@
   - Mohammed Ali Al-Garadi
   - Abeed Sarker
   date: 'August 2022'
+  tags:
+  - BERT
+  - Social Media
+  - NLP
   description: "Guo Y, Ge Y, Yang Y-C, Al-Garadi MA, Sarker A. Comparison of Pretraining Models and Strategies for Health-Related Social Media Text Classification. Healthcare. 2022; 10(8):1478. https://doi.org/10.3390/healthcare10081478"
   link: https://www.mdpi.com/2227-9032/10/8/1478
 
@@ -228,8 +293,12 @@
   - Mohammed Ali Al-Garadi
   - Abeed Sarker
   date: 'September 2022'
+  tags:
+  - NLP
+  - Social Media
   description: "Mohammed Ali Al-Garadi, Sangmi Kim, Yuting Guo, Elise Warren, Yuan-Chi Yang, Sahithi Lakamana, Abeed Sarker"
   link: https://www.sciencedirect.com/science/article/pii/S2590005622000625
+
 
 - id: 'Overview of the Seventh Social Media Mining for Health Applications (#SMM4H) Shared Tasks at COLING 2022'
   title: 'Overview of the Seventh Social Media Mining for Health Applications (#SMM4H) Shared Tasks at COLING 2022'
@@ -251,9 +320,11 @@
   - Elena Tutubalina
   - Graciela Gonzalez-Hernandez
   date: 'October 2022'
+  tags: 
+  - NLP
+  - Social Media
   description: "Davy Weissenbacher, Juan Banda, Vera Davydova, Darryl Estrada Zavala, Luis Gasco Sánchez, Yao Ge, Yuting Guo, Ari Klein, Martin Krallinger, Mathias Leddin, Arjun Magge, Raul Rodriguez-Esteban, Abeed Sarker, Lucia Schmidt, Elena Tutubalina, and Graciela Gonzalez-Hernandez. 2022. Overview of the Seventh Social Media Mining for Health Applications (#SMM4H) Shared Tasks at COLING 2022. In Proceedings of The Seventh Workshop on Social Media Mining for Health Applications, Workshop & Shared Task, pages 221–241, Gyeongju, Republic of Korea. Association for Computational Linguistics."
   link: https://aclanthology.org/2022.smm4h-1.54/
-
 
 - id: 'A Supervised Classification Model Detects Fontan Patients Based on Clinical Notes With Higher Accuracy Than ICD Codes'
   title: 'A Supervised Classification Model Detects Fontan Patients Based on Clinical Notes With Higher Accuracy Than ICD Codes'
@@ -266,6 +337,9 @@
   - Cheryl L Raskind-Hood
   - Abeed Sarker
   date: 'November 2022'
+  tags:
+  - Machine Learning
+  - EHR
   description: "Yuting Guo, Mohammed A Al-Garadi, Wendy M Book, Lindsey Ivey, Fred H Rodriguez, Cheryl L Raskind-Hood AS. A Supervised Classification Model Detects Fontan Patients Based on Clinical Notes With Higher Accuracy Than ICD Codes. Circulation. 2022;"
   link: https://www.ahajournals.org/doi/abs/10.1161/circ.146.suppl_1.10776
 
@@ -279,6 +353,10 @@
   - Mohammed Al-Garadi
   - Abeed Sarker
   date: 'November 2022'
+  tags:
+  - Social Media
+  - NLP
+  - Machine Learning
   description: "Yang, Yuan-Chi PhD; Xie, Angel BS; Kim, Sangmi PhD, MPH, RN; Hair, Jessica BSN, RN; Al-Garadi, Mohammed PhD; Sarker, Abeed PhD. Automatic Detection of Twitter Users Who Express Chronic Stress Experiences via Supervised Machine Learning and Natural Language Processing. CIN: Computers, Informatics, Nursing ():10.1097/CIN.0000000000000985, November 28, 2022. | DOI: 10.1097/CIN.0000000000000985"
   link: https://journals.lww.com/cinjournal/Fulltext/9900/Automatic_Detection_of_Twitter_Users_Who_Express.69.aspx
 
@@ -289,17 +367,22 @@
   - Abeed Sarker
   - Jeanmarie Perrone
   date: 'November 2022'
+  tags: 
+  - Social Media
   description: "Anthony Spadaro, Abeed Sarker, and Jeanmarie Perrone. Self Reported Xylazine Exposure and Experiences: A Mixed Methods Study of Reddit Users. In AMERSA;"
   link: https://amersa.org/wp-content/uploads/2022/oral/spadaro.pptx
+
 
 - id: 'Social Media Mining for Toxicovigilance of Prescription Medications: Progress, Challenges and Future Work'
   title: 'Social Media Mining for Toxicovigilance of Prescription Medications: Progress, Challenges and Future Work'
   authors:
   - Abeed Sarker
   date: 'November 2022'
+  tags:
+  - Social Media
+  - Non-Medical Use of PM
   description: "Sarker, Abeed. (2022). Social media mining for toxicovigilance of prescription medications: Progress, challenges and future work. 10.13140/RG.2.2.35518.36168."
   link: https://www.researchgate.net/publication/365414842_Social_media_mining_for_toxicovigilance_of_prescription_medications_Progress_challenges_and_future_work
-
 
 - id: 'The Role of Natural Language Processing during the COVID-19 Pandemic: Health Applications, Opportunities, and Challenges'
   title: 'The Role of Natural Language Processing during the COVID-19 Pandemic: Health Applications, Opportunities, and Challenges'
@@ -308,6 +391,9 @@
   - Yuan-Chi Yang
   - Abeed Sarker
   date: 'November 2022'
+  tags:
+  - COVID-19
+  - NLP
   description: "Al-Garadi MA, Yang Y-C, Sarker A. The Role of Natural Language Processing during the COVID-19 Pandemic: Health Applications, Opportunities, and Challenges. Healthcare. 2022; 10(11):2270. https://doi.org/10.3390/healthcare10112270"
   link: https://www.mdpi.com/2227-9032/10/11/2270
 
@@ -322,6 +408,9 @@
   - Christopher M Jones
   - Steven A Sumner
   date: 'December 2022'
+  tags:
+  - Social Media
+  - NLP
   description: "Abeed Sarker, Mohammed Ali Al-Garadi, Yao Ge, Nisha Nataraj, Londell McGlone, Christopher M Jones, Steven A Sumner, Evidence of the emergence of illicit benzodiazepines from online drug forums, European Journal of Public Health, Volume 32, Issue 6, December 2022, Pages 939–941, https://doi.org/10.1093/eurpub/ckac161"
   link: https://academic.oup.com/eurpub/article/32/6/939/6808910?login=false
 
@@ -342,5 +431,13 @@
   - Imon Banerjee
   - Abeed Sarker
   date: 'December 2022'
+  tags:
+  - Social Media
+  - NLP
   description: "Guo Y, Rajwal S, Lakamana S, Chiang C-C, Menell PC, Shahid AH, et al. Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media [Internet]. arXiv; 2022. Available from: https://arxiv.org/abs/2212.12454"
   link: https://arxiv.org/pdf/2212.12454.pdf
+
+
+
+
+

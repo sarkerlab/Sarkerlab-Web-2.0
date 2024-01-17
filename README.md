@@ -45,7 +45,6 @@ Most of the time, the update only involves `_pages` and `images`. More details w
 
 
 ## Setup
-
 To setup the local development environment, first you need to install Ruby and jekyll.
 ``` bash
 brew install ruby # brew only works for Mac OS
@@ -53,18 +52,14 @@ gem install bundler jekyll
 ```
 We are using Ruby 2.7, but it may also work for Ruby 3+.
 
-Then, clone this repository from GitHub and install the dependencies.
-Because all the source files are stored in the folder `_src`, the following commands should be executed in the `_src` folder.
+Then, clone this repository from GitHub and install the dependencies and run
 ``` bash
-cd _src
 bundle install
 ```
 
 ## Test the website locally
-
 It is a good practice to test your modification locally before pushing the code to the remote branch.
 Run the local web server with:
-
 ``` bash
  bundle exec jekyll serve 
 ```
@@ -72,24 +67,24 @@ Run the local web server with:
 If the website is successfully launched, you should see the following logs in your terminal.
 Enter the address `http://127.0.0.1:4000/` to the broswer to open the website.
 ```
- Auto-regeneration: enabled for '/Users/gyt/Sarkerlab-Web-2.0'
-    Server address: http://127.0.0.1:4000/
+  Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 ```
+The server address can be different from the example.
 
 ## Update the website
-The regular update includes updating team members, publications, and research projects.
-The related files are stored in in `_src` folder and in the subfolders starting with `_`.
+The regular update includes updating team members, publications, and research projects. The resources related to each part is listed below:
+* team members: `_memebers`, `images/team`
+* publications: `_data`
+* research projects: `_posts`, `images/research`
 
 
 ### Add/edit a team member
-
-To add or remove a team member, create or delete a Markdown file in /_members.
+To add or remove a team member, create or delete a Markdown file in `_members`.
 Each file will automatically generate its own page according to its filename. For example, a file with the name tim-smith.md will generate a page at /members/tim-smith.
 After adding members, you can display them on the site by editing .md file.
 
 Each new member `.md` file must look like this:
-
 ``` yaml
 ---
 name: Abeed Sarker
@@ -104,16 +99,15 @@ links:
 Add more details here.
 ```
 Parameter details:
-+ Name - Name of member
++ name - Name of member
 + image - Link to image of member
 + role - member/collaborator/alumni
 + description - The member's job on the team (Ph.D. student, Software Engineer, etc.)
 + links - Social media links, don’t put the whole url, just their username
-Check types.yaml in _data to see which social media links are available
+Check types.yaml in `_data` to see which social media links are available
 
 ### Add/edit research projects
-
-To add or remove a research post, create or delete a Markdown file in /_posts.
+To add or remove a research post, create or delete a Markdown file in `_posts`.
 The filename should be in the format YYYY-MM-DD-your-post-title.md, which Jekyll uses for the post's URL and date. Each file will automatically generate its own page based on its filename.
 
 Each `.md` file must look like this:
@@ -134,11 +128,9 @@ To edit the date of the last modification, change the date of .md file.
 such as `2022-10-05-breast-cancer.md`. </strong>
 
 ### Add/edit Publications
-
-To create a paper go to _data. Use one of the source files to add a paper. For example, to add a publication in 2020, you would add it to the sources-2020.yaml file. If a file for the year you are looking for does not exist, create one with this naming convention: sources-year.yaml. Once you have added the publication to the sources file as shown below, make sure to add that exact same publication to citations.yaml as well
+To create a paper go to `_data`. Use one of the source files to add a paper. For example, to add a publication in 2020, you would add it to the sources-2020.yaml file. If a file for the year you are looking for does not exist, create one with this naming convention: sources-year.yaml. Once you have added the publication to the sources file as shown below, make sure to add that exact same publication to citations.yaml as well
 
 Each publication must look like this:
-
 ``` yaml
 - id: ‘Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets’
 title: 'Towards Real-Time Opioid Abuse Surveillance :Machine Learning for Automatic Characterization of Opioid-Related Tweets'
@@ -191,8 +183,8 @@ link: /overview-US/
 There are several possible reasons that may cause this problem.
 Try the following ways.
 * clear the brower cache and re-launch the website;
-* check the `Action` page and make sure that there is no errors in the new website code you pushed;
-* check the Netlify and Wordpress service are working correctly.
+* check the `Action` page on this Github repository and make sure that there is no errors in the new website code you pushed;
+* check if the Netlify and Wordpress service are working correctly.
 
 2. When installing Ruby on Mac, it failed to write the Ruby directory.
 * If you use Mac, you may meet the problem of failing to write the Ruby directory.
