@@ -31,10 +31,36 @@ Discover the meaningful contributions and ongoing exploration of knowledge in ou
   text=text
 %}
 
+
 {% capture text %}
 
 Engage with our interactive Tableau dashboards, where data comes to life, presenting real-time analytics and visualizations for deeper understanding.
 
+{%
+  include button.html
+  link="media"
+  text="Find our news"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/media_cover.jpg"
+  link="media"
+  title="Media"
+  flip=true
+  style="bare"
+  text=text
+%}
+
+
+{% capture text %}
+
+Read the latest news about the our research progress and exploration results discussed in social media.
 {%
   include button.html
   link="dashboard"
@@ -51,14 +77,13 @@ Engage with our interactive Tableau dashboards, where data comes to life, presen
   image="images/dashboard-home.png"
   link="dashboard"
   title="Dashboards"
-  flip=true
-  style="bare"
   text=text
 %}
 
+
 {% capture text %}
 
-Explore our lab's published works, reflecting our commitment to advancing research and contributions to the scientific community.
+Engage with our interactive Tableau dashboards, where data comes to life, presenting real-time analytics and visualizations for deeper understanding.
 
 {%
   include button.html
@@ -76,5 +101,10 @@ Explore our lab's published works, reflecting our commitment to advancing resear
   image="images/pub-cover.jpg"
   link="publications"
   title="Publications"
+  flip=true
+  style="bare"
   text=text
 %}
+
+
+
