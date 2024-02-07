@@ -11,37 +11,31 @@ The `Netlify` service keeps monitoring the main branch. If there is any change, 
 Similarly to Github Pages, the `Netlify` service gives a default domain name to the website like `xxxnetlify.com`.
 We maps the default address to our website domain name `sarkerlab.org` via `Wordpress`, which is the domain provider.
 The overall workflow is as below:
-![flow](_src/images/other/flow.png)
+![flow](images/other/flowchart.png)
 
 ## Directory structure
-In general, the root folder `./` stores the html files and resources that the website literally runs on.
-In other words, if the files in the root folder are updated, the website will be updated accordingly.
-However, you should not directly change the files in the root foler. Instead, you should update the files in the `_src` folder where the files will be compiled and be synced to the root folder.
-The `_src` folder is organized as below:
+The repository is organized as below:
 ```
-_src
-├── _data 		# contains projects,yaml, types.yaml and sources.yaml
-├── _includes 		# html files for some special functions 
-├── _layouts 		# html files for setting the layouts of different pages
-├── _members              # the data for team members 
-│── _posts #conatins research page posts
+./
+├── _data 		# contains projects.yaml, types.yaml and sources.yaml
+├── _includes 		# html files for specific pages 
+├── _layouts 		# layout template
+├── _members            # the data for team members 
+│── _posts 		# conatins research page posts
 │   
-├── _plugins            # no need to update
+├── _plugins             # no need to update
 ├── _scripts             # no need to update
 │ 
-├── _styles            # no need to update
-│   └── css
-├── dbsubpages    # contains dashboard pages
-├── images              # all the images in the website
+├── _styles              # the css styles
+├── dbsubpages           # contains dashboard pages
+├── images               # all the images in the website
 │   ├── dashboard
 │   ├── other
 │   ├── research
 │   └── team
-└── js                  # no need to update
 ```
 The folders marked as `no need to update` are more related to frontend programming and should not be changed for regular updates.
-The `_includes` and `_layouts` should not be changed frequently either. The only file that needs regular update is `_includes/footer.html` where the year in the footer changes every year.
-Most of the time, the update only involves `_pages` and `images`. More details will be described later.
+The `_includes` and `_layouts` should not be changed either. The only file that needs regular update is `_includes/footer.html` where the year in the footer changes every year.
 
 
 ## Setup
@@ -77,6 +71,7 @@ The regular update includes updating team members, publications, and research pr
 * team members: `_memebers`, `images/team`
 * publications: `_data`
 * research projects: `_posts`, `images/research`
+* media: `_data/media.yaml`
 
 
 ### Add/edit a team member
@@ -176,6 +171,19 @@ link: /overview-US/
 ```
 3. Add that page to drop-down menu by adding it to dashboarddropdown.html in _includes folder.
 
+
+
+### Add/edit a Media page 
+Similar to the publication page, the data is stored in the `media.yaml` file.
+To add a new article, the following information is needed:
+```yaml
+- title:    # title of the article
+  subtitle: # we use this to show the publisher name
+  group: featured  # if featured, the article will be showed in the featured section
+  image:   # the image link
+  link:    # the article link
+  description: # a short description about this article
+```
 
 
 ## Troubleshooting
