@@ -14,16 +14,19 @@ links:
 
 # front matter defaults
 defaults:
+
   # all markdown files
   - scope:
       path: ""
     values:
       layout: default
+
   # markdown files in /_members
   - scope:
       type: "members"
     values:
       layout: member
+
   # markdown files in /_posts
   - scope:
       type: "posts"
