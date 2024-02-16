@@ -32,6 +32,7 @@ Our research endeavors are dedicated to the strategic integration of cutting-edg
 %}
 
 
+{% include section.html %}
 {% capture text %}
 We strive to confront real-world challenges across diverse sectors. As a result of our dedication to tackling these critical issues, our efforts have garnered significant attention from various media outlets. Through collaborative partnerships and interdisciplinary approaches, we continue to amplify our reach and influence, ensuring that our solutions contribute to meaningful societal progress and inspire others to join us in shaping a better future for all.
 
@@ -57,6 +58,7 @@ We strive to confront real-world challenges across diverse sectors. As a result 
 %}
 
 
+{% include section.html %}
 {% capture text %}
 
 We analyze the discourse surrounding medication-related subjects on social media through the application of natural language processing (NLP) techniques. Our research involves developing interactive dashboards that illustrate the global and US-specific trends in non-medical prescription medication usage across various demographic groups. These dashboards offer real-time analytics and visual representations, facilitating a comprehensive exploration and comprehension of the data.
@@ -81,6 +83,7 @@ We analyze the discourse surrounding medication-related subjects on social media
 %}
 
 
+{% include section.html %}
 {% capture text %}
 
 We are consistently dedicated to conducting top-tier research in the realm of NLP applications for biomedical informatics. Our endeavors span a broad spectrum of topics, encompassing the identification of informative information to the detection of cohorts from social media data and electronic health records.
@@ -107,6 +110,7 @@ We are consistently dedicated to conducting top-tier research in the realm of NL
 %}
 
 
+{% include section.html %}
 {% capture text %}
 
 Our team comprises passionate scientists hailing from diverse backgrounds and harboring varied interests, all united in a shared pursuit of knowledge and innovation. This interdisciplinary approach not only enriches our research endeavors but also ensures that our findings are robust, relevant, and poised to make a meaningful impact in both academic and clinical settings.

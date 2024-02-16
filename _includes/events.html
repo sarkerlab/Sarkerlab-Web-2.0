@@ -1,0 +1,22 @@
+{% assign post = site.events 
+  | where_exp: "post", "post.slug == include.lookup"
+  | first
+  | default: include
+%}
+
+<div class="event">
+
+  <div class="event-text">
+  {% if post.link %}
+  	<li class="event-ul-li"><b>{{ post.date }}</b> - <a href="{{ post.link }}">{{ post.title }} </a></li>
+  {% else %}
+  	<li class="event-ul-li"><b>{{ post.date }}</b> - {{ post.title }} </li>
+  {% endif %}
+  </div>
+
+  {% if post.image %}
+      <div class="event-image">
+        <img src="{{ post.image }}" alt="Event Image"> 
+      </div>
+  {% endif %}
+</div>
