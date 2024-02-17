@@ -5,7 +5,7 @@ role: alumni
 description: Undergraduate Intern
 order: 1
 links:
-    linkedin: srihitha-lakamana-25513825b
+    linkedin: srihitha-l-25513825b
 
 ---
 
