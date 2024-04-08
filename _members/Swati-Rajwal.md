@@ -4,6 +4,8 @@ image: images/team/swati.jpeg
 role: member
 position: PhD Student
 description: PhD Rotation Student
+links:
+    github: swati-rajwal
 ---
 
 #### Interests:
@@ -11,3 +13,4 @@ description: PhD Rotation Student
 + AI-assisted Biomedical informatics
 + Music
  
+[More Information](https://swati-rajwal.github.io/)

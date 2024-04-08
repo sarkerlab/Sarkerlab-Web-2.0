@@ -1,3 +1,101 @@
+- id: 'Evaluating Large Language Models for Health-Related Text Classification Tasks with Public Social Media Data'
+  title: 'Evaluating Large Language Models for Health-Related Text Classification Tasks with Public Social Media Data'
+  authors:
+  - Yuting Guo
+  - Anthony Ovadje
+  - Mohammed Ali Al-Garadi
+  - Abeed Sarker
+  date: 'Marco 2024'
+  tags:
+  - NLP
+  - Social Media
+  description: 'Guo, Yuting, et al. "Evaluating Large Language Models for Health-Related Text Classification Tasks with Public Social Media Data." arXiv preprint arXiv:2403.19031 (2024).'
+  link: https://arxiv.org/abs/2403.19031
+
+- id: 'Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward'
+  title: 'Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward'
+  authors:
+  - Marco Helbich
+  - Yi Zeng
+  - Abeed Sarker
+  date: 'March 2024'
+  tags:
+  - NLP
+  - Machine Learning
+  description: 'Helbich, Marco, Yi Zeng, and Abeed Sarker. "Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward." 2024. 1-20.'
+  link: https://link.springer.com/chapter/10.1007/7854_2024_464
+
+- id: 'Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing'
+  title: 'Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing'
+  authors:
+  - Seibi Kobara
+  - Alireza Rafiei
+  - Masoud Nateghi
+  - Selen Bozkurt
+  - Rishikesan Kamaleswaran
+  - Abeed Sarker
+  date: 'February 2024'
+  tags:
+  - NLP
+  - Social Media
+  description: 'Kobara, Seibi, et al. "Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing." arXiv preprint arXiv:2403.00821 (2024).'
+  link: https://arxiv.org/abs/2403.00821
+
+- id: 'Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters'
+  title: 'Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters'
+  authors:
+  - Seyedeh Somayyeh Mousavi
+  - Yuting Guo
+  - Reza Sameni
+  - Abeed Sarker
+  date: 'February 2024'
+  tags:
+  - Machine Learning
+  - EHR
+  description: 'Mousavi, Seyedeh Somayyeh, et al. "Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters." arXiv preprint arXiv:2402.01598 (2024).'
+  link: https://arxiv.org/abs/2402.01598
+
+- id: 'Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature'
+  title: 'Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature'
+  authors:
+  - Yuting Guo
+  - Seyedeh Somayyeh Mousavi
+  - Reza Sameni
+  - Abeed Sarker
+  date: 'February 2024'
+  tags:
+  - NLP
+  - LLM
+  description: 'Guo, Yuting, et al. "Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature." arXiv preprint arXiv:2402.01826 (2024).'
+  link: https://arxiv.org/pdf/2402.01826.pdf
+
+- id: 'Detection of Medication Mentions and Medication Change Events in Clinical Notes Using Transformer-Based Models'
+  title: 'Detection of Medication Mentions and Medication Change Events in Clinical Notes Using Transformer-Based Models'
+  authors:
+  - Yuting Guo
+  - Yao Ge
+  - Abeed Sarker
+  date: 'January 2024'
+  tags:
+  - NLP
+  - Machine Learning
+  description: 'Guo, Yuting, Yao Ge, and Abeed Sarker. "Detection of Medication Mentions and Medication Change Events in Clinical Notes Using Transformer-Based Models." Studies in Health Technology and Informatics 310 (2024): 685-689.'
+  link: https://ebooks.iospress.nl/pdf/doi/10.3233/SHTI231052
+
+- id: 'Data Augmentation with Nearest Neighbor Classifier for Few-Shot Named Entity Recognition'
+  title: 'Data Augmentation with Nearest Neighbor Classifier for Few-Shot Named Entity Recognition'
+  authors:
+  - Yao Ge
+  - Mohammed Ali Al-Garadi
+  - Abeed Sarker
+  date: 'January 2024'
+  tags:
+  - NLP
+  - NER
+  description: 'Ge, Yao, Mohammed Ali Al-Garadi, and Abeed Sarker. "Data Augmentation with Nearest Neighbor Classifier for Few-Shot Named Entity Recognition." MEDINFO 2023—The Future Is Accessible. IOS Press, 2024. 690-694.'
+  link: https://ebooks.iospress.nl/doi/10.3233/SHTI231053
+
+
 - id: 'Can Adverse Childhood Experiences Predict Chronic Health Conditions? Development of Trauma-Informed, Explainable Machine Learning Models'
   title: 'Can Adverse Childhood Experiences Predict Chronic Health Conditions? Development of Trauma-Informed, Explainable Machine Learning Models'
   authors:

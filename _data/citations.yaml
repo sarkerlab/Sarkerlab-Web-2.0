@@ -1,3 +1,201 @@
+- id: 'doi.org/10.1142/9789813279827_0010'
+  title: 'Bi-Directional Recurrent Neural Network Models for Geographic Location Extraction in Biomedical Literature'
+  authors:
+  - Arjun Magge
+  - Davy Weissenbacher
+  - Abeed Sarker
+  - Matthew Scotch
+  - Graciela Gonzalez-Hernandez
+  date: 'January 2019'
+  tags:
+  - NLP
+  - Deep Learning
+  description: "Magge A, Weissenbacher D, Sarker A, Scotch M, Gonzalez G. Bi-Directional Recurrent Neural Network Models for Geographic Location Extraction in Biomedical Literature. Proceedings of the Pacific Symposium on Biocomputing (PSB 2019). 2019; 100-111. Hawaii, USA."
+  link: https://www.researchgate.net/publication/329240570_Bi-directional_Recurrent_Neural_Network_Models_for_Geographic_Location_Extraction_in_Biomedical_Literature
+
+- id:  'doi-org.proxy.library.emory.edu/10.1007/s13181-019-00699-x'
+  title: 'Can Reddit Reveal Unique Facets of Suboxone Use and Misuse?'
+  authors:
+  - Rachel Graves
+  - Jeanmarie Perrone
+  - Jennifer Love
+  - Abeed Sarker
+  description: "R Graves, J Perrone, J Love, Abeed Sarker. Can Reddit Reveal Unique Facets of Suboxone Use and Misuse? Proceedings of the ACMT Annual Summit [meeting abstract]. 2019. San Francisco, USA. doi:10.1007/s13181-019-00699-x."
+  date: 'March 2019'
+  tags:
+  - Non-Medical Use of PM
+  - Toxicology
+  link: https://link.springer.com/article/10.1007/s13181-019-00699-x
+
+- id: "An Analysis of a Twitter Corpus for Training a Medication Intake Classifier"
+  title: "An Analysis of a Twitter Corpus for Training a Medication Intake Classifier"
+  authors:
+  - Ari Z. Klein
+  - Abeed Sarker
+  - Davy Weissenbacher
+  - Graciela Gonzalez-Hernandez
+  description: "Klein AZ, Sarker A, Weissenbacher D, Gonzalez G. An Analysis of a Twitter Corpus for Training a Medication Intake Classifier. Proceedings of the AMIA Joint Summits on Translational Science. 2019; 102-106. San Francisco, USA."
+  date: 'May 2019'
+  tags:
+  - Machine Learning
+  - Social Media
+  - Medication
+  link: https://www.researchgate.net/publication/334171824_An_Analysis_of_a_Twitter_Corpus_for_Training_a_Medication_Intake_Classifier
+
+- id: "Characterizing Opioid-Related Tweets: A Comparison Between Prescription and Illicit Opioid Chatter"
+  title: "Characterizing Opioid-Related Tweets: A Comparison Between Prescription and Illicit Opioid Chatter"
+  authors:
+  - Abeed Sarker
+  - Graciela Gonzalez-Hernandez
+  - Francis DeRoos
+  - Jeanmarie Perrone
+  description: "Sarker A, Gonzalez G, DeRoos F, Perrone J. Characterizing Opioid-Related Tweets: A Comparison Between Prescription and Illicit Opioid Chatter. Proceedings of the 39th International Congress of the European Association of Poisons Centres and Clinical Toxicologists (EAPCCT). 2019. Naples, Italy."
+  date: 'May 2019'
+  tags:
+  - Social Media
+  - Non-Medical Use of PM
+  - Opioids
+  link: https://www-tandfonline-com.proxy.library.emory.edu/doi/abs/10.1080/15563650.2019.1598646
+  
+ 
+- id: "Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets"
+  title: "Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets"
+  authors:
+  - Abeed Sarker
+  - Graciela Gonzalez-Hernandez
+  - Francis DeRoos
+  - Jeanmarie Perrone
+  description: "A Sarker, G Gonzalez-Hernandez, F DeRoos, J Perrone. Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets. Proceedings of the 39th International Congress of the European Association of Poisons Centres and Clinical Toxicologists (EAPCCT). 2019. Naples, Italy."
+  date: 'May 2019'
+  tags:
+  - Social Media
+  - Non-Medical Use of PM
+  - Machine Learning
+  - Opioids
+  link: https://www-tandfonline-com.proxy.library.emory.edu/doi/abs/10.1080/15563650.2019.1598646
+
+- id: "Comment on: Deep Learning for Pharmacovigilance: Recurrent Neural Network Architectures for Labeling Adverse Drug Reactions in Twitter Posts"
+  title: "Comment on: Deep Learning for Pharmacovigilance: Recurrent Neural Network Architectures for Labeling Adverse Drug Reactions in Twitter Posts"
+  authors:
+  - Arjun Magge
+  - Abeed Sarker
+  - Azadeh Nikfarjam
+  - Graciela Gonzalez-Hernandez
+  description: "Magge, Arjun, Abeed Sarker, Azadeh Nikfarjam, and Graciela Gonzalez-Hernandez. Comment on: Deep Learning for Pharmacovigilance: Recurrent Neural Network Architectures for Labeling Adverse Drug Reactions in Twitter Posts. J Am Med Inform Assoc. 2019 Jun 1; 26(6):577-579. doi:10.1093/jamia/ocz013. PMID:31087070; PMCID:PMC6515520."
+  date: 'June 2019'
+  tags:
+  - Deep Learning
+  - Social Media
+  - Machine Learning
+  - Medication
+  link: https://www.researchgate.net/publication/333255569_Comment_on_Deep_learning_for_pharmacovigilance_recurrent_neural_network_architectures_for_labeling_adverse_drug_reactions_in_Twitter_posts
+ 
+- id: "An Interpretable Natural Language Processing System for Written Medical Examination Assessment"
+  title: "An Interpretable Natural Language Processing System for Written Medical Examination Assessment"
+  authors:
+  - Abeed Sarker
+  - Ari Z. Klein
+  - Janet Mee
+  - Polina Harik
+  - Graciela Gonzalez-Hernandez
+  description: "Sarker A, Klein AZ, Mee J, Harik P, Gonzalez-Hernandez G. An Interpretable Natural Language Processing System for Written Medical Examination Assessment. J Biomed Inform. 2019 Oct;98:103268. doi: 10.1016/j.jbi.2019.103268. Epub 2019 Aug 14. PMID: 31421211."
+  date: 'August 2019'
+  tags:
+  - NLP
+  link: https://www.researchgate.net/publication/335168615_An_interpretable_natural_language_processing_system_for_written_medical_examination_assessment
+
+- id: "Data-Driven Lexical Normalization for Medical Social Media"
+  title: "Data-Driven Lexical Normalization for Medical Social Media"
+  authors:
+  - Anne Dirkson
+  - Abeed Sarker
+  - Wessel Kraaij
+  - Suzan Verberne
+  description: "Dirkson, Anne, Suzan Verberne, Abeed Sarker, and Wessel Kraaij. Data-Driven Lexical Normalization for Medical Social Media. Multimodal Technologies and Interaction. 2019 Aug 20; 3(3):60. DOI: 10.3390/mti3030060."
+  date: 'August 2019'
+  tags:
+  - Social Media
+  link: https://www.researchgate.net/publication/335315601_Data-Driven_Lexical_Normalization_for_Medical_Social_Media
+
+- id: "Overview of the Fourth Social Media Mining for Health (SMM4H) Shared Tasks at ACL 2019"
+  title: "Overview of the Fourth Social Media Mining for Health (SMM4H) Shared Tasks at ACL 2019"
+  authors:
+  - Davy Weissenbacher
+  - Abeed Sarker
+  - Arjun Magge
+  - Ashlynn Daughton 
+  - Karen O'Connor
+  - Michael Paul
+  - Graciela Gonzalez-Hernandez
+  description: "Weissenbacher, Davy, Abeed Sarker, Arjun Magge, Ashlynn Daughton, Karen O’Connor, Michael Paul, and Graciela Gonzalez. Overview of the Fourth Social Media Mining for Health (SMM4H) Shared Tasks at ACL 2019. Proceedings of the 4th Social Media Mining for Health Applications (#SMM4H) Workshop & Shared Task. 2019; 21-30. Florence, Italy. doi: 10.18653/v1/W19-3203."
+  date: 'August 2019'
+  tags:
+  - Social Media
+  - NLP
+  link: https://www.researchgate.net/publication/335783864_Overview_of_the_Fourth_Social_Media_Mining_for_Health_SMM4H_Shared_Tasks_at_ACL_2019
+
+- id: "Towards Automating Location-Specific Opioid Toxicosurveillance from Twitter via Data Science Methods"
+  title: "Towards Automating Location-Specific Opioid Toxicosurveillance from Twitter via Data Science Methods"
+  authors:
+  - Abeed Sarker
+  - Graciela Gonzalez-Hernandez
+  - Jeanmarie Perrone
+  date: 'August 2019'
+  tags:
+  - Social Media
+  - Machine Learning
+  - Opioids
+  description: "Sarker A, Gonzalez-Hernandez G, Perrone J. Towards Automating Location-Specific Opioid Toxicosurveillance from Twitter via Data Science Methods. Stud Health Technol Inform. 2019 Aug 21;264:333-337. doi: 10.3233/SHTI190238. PMID: 31437940; PMCID: PMC6774610."
+  link: https://www.researchgate.net/publication/335383347_Towards_Automating_Location-Specific_Opioid_Toxicosurveillance_from_Twitter_via_Data_Science_Methods
+
+- id: "Towards Scaling Twitter for Digital Epidemiology of Birth Defects"
+  title: "Towards Scaling Twitter for Digital Epidemiology of Birth Defects"
+  authors:
+  - Ari Z. Klein
+  - Abeed Sarker
+  - Davy Weissenbacher
+  - Graciela Gonzalez-Hernandez
+  date: 'October 2019'
+  tags:
+  - Social Media
+  - NLP
+  - Machine Learning
+  description: "Klein, Ari Z., Abeed Sarker, Davy Weissenbacher, and Graciela Gonzalez-Hernandez. Towards Scaling Twitter for Digital Epidemiology of Birth Defects. NPJ Digit Med. 2019 Oct 1; 2:96. doi: 10.1038/s41746-019-0170-5. PMID: 31583284; PMCID: PMC6773753."
+  link: https://www.researchgate.net/publication/336195655_Towards_scaling_Twitter_for_digital_epidemiology_of_birth_defects
+
+- id: "Machine Learning and Natural Language Processing for Geolocation-Centric Monitoring and Characterization of Opioid-Related Social Media Chatter"
+  title: "Machine Learning and Natural Language Processing for Geolocation-Centric Monitoring and Characterization of Opioid-Related Social Media Chatter"
+  authors:
+  - Abeed Sarker
+  - Graciela Gonzalez-Hernandez
+  - Yucheng Ruan
+  - Jeanmarie Perrone
+  tags:
+  - Opioids
+  - NLP
+  - Machine Learning
+  - Social Media
+  date: 'November 2019'
+  description: "A Sarker, G Gonzalez-Hernandez, Y Ruan, J Perrone. Machine Learning and Natural Language Processing for Geolocation-Centric Monitoring and Characterization of Opioid-Related Social Media Chatter. JAMA Netw Open. 2019 Nov 1;2(11):e1914672. doi: 10.1001/jamanetworkopen.2019.14672. PMID: 31693125; PMCID: PMC6865282."
+  link: https://www.researchgate.net/publication/337074614_Machine_Learning_and_Natural_Language_Processing_for_Geolocation-Centric_Monitoring_and_Characterization_of_Opioid-Related_Social_Media_Chatter
+
+- id: "Deep Neural Networks Ensemble for Detecting Medication Mentions in Tweets"
+  title: "Deep Neural Networks Ensemble for Detecting Medication Mentions in Tweets"
+  authors:
+  - Davy Weissenbacher
+  - Abeed Sarker
+  - Ari Z. Klein
+  - Karen O'Connor
+  - Arjun Magge
+  - Graciela Gonzalez-Hernandez
+  date: 'December 2019'
+  tags:
+  - Social Media
+  - Medication
+  description: "Weissenbacher, Davy, Abeed Sarker, Ari Klein, Karen O'Connor, Arjun Magge Ranganatha, and Graciela Gonzalez-Hernandez. Deep Neural Networks Ensemble for Detecting Medication Mentions in Tweets. J Am Med Inform Assoc. 2019 Dec 1; 26(12):1618-1626. doi: 10.1093/jamia/ocz156. PMID: 31562510; PMCID: PMC6857507."
+  link: https://www.researchgate.net/publication/336129176_Deep_neural_networks_ensemble_for_detecting_medication_mentions_in_tweets
+
+
 - id: "Buprenorphine Initiation in the Emergency Department: A Thematic Content Analysis of a #firesidetox Tweetchat"
   title: "Buprenorphine Initiation in the Emergency Department: A Thematic Content Analysis of a #firesidetox Tweetchat"
   authors:
@@ -1687,6 +1885,104 @@
   link: https://apha.confex.com/apha/2023/meetingapi.cgi/Paper/530630?filename=2023_Abstract530630.html&template=Word
 
 
+
+
+- id: 'Evaluating Large Language Models for Health-Related Text Classification Tasks with Public Social Media Data'
+  title: 'Evaluating Large Language Models for Health-Related Text Classification Tasks with Public Social Media Data'
+  authors:
+  - Yuting Guo
+  - Anthony Ovadje
+  - Mohammed Ali Al-Garadi
+  - Abeed Sarker
+  date: 'Marco 2024'
+  tags:
+  - NLP
+  - Social Media
+  description: 'Guo, Yuting, et al. "Evaluating Large Language Models for Health-Related Text Classification Tasks with Public Social Media Data." arXiv preprint arXiv:2403.19031 (2024).'
+  link: https://arxiv.org/abs/2403.19031
+
+- id: 'Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward'
+  title: 'Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward'
+  authors:
+  - Marco Helbich
+  - Yi Zeng
+  - Abeed Sarker
+  date: 'March 2024'
+  tags:
+  - NLP
+  - Machine Learning
+  description: 'Helbich, Marco, Yi Zeng, and Abeed Sarker. "Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward." 2024. 1-20.'
+  link: https://link.springer.com/chapter/10.1007/7854_2024_464
+
+- id: 'Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing'
+  title: 'Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing'
+  authors:
+  - Seibi Kobara
+  - Alireza Rafiei
+  - Masoud Nateghi
+  - Selen Bozkurt
+  - Rishikesan Kamaleswaran
+  - Abeed Sarker
+  date: 'February 2024'
+  tags:
+  - NLP
+  - Social Media
+  description: 'Kobara, Seibi, et al. "Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing." arXiv preprint arXiv:2403.00821 (2024).'
+  link: https://arxiv.org/abs/2403.00821
+
+- id: 'Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters'
+  title: 'Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters'
+  authors:
+  - Seyedeh Somayyeh Mousavi
+  - Yuting Guo
+  - Reza Sameni
+  - Abeed Sarker
+  date: 'February 2024'
+  tags:
+  - Machine Learning
+  - EHR
+  description: 'Mousavi, Seyedeh Somayyeh, et al. "Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters." arXiv preprint arXiv:2402.01598 (2024).'
+  link: https://arxiv.org/abs/2402.01598
+
+- id: 'Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature'
+  title: 'Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature'
+  authors:
+  - Yuting Guo
+  - Seyedeh Somayyeh Mousavi
+  - Reza Sameni
+  - Abeed Sarker
+  date: 'February 2024'
+  tags:
+  - NLP
+  - LLM
+  description: 'Guo, Yuting, et al. "Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature." arXiv preprint arXiv:2402.01826 (2024).'
+  link: https://arxiv.org/pdf/2402.01826.pdf
+
+- id: 'Detection of Medication Mentions and Medication Change Events in Clinical Notes Using Transformer-Based Models'
+  title: 'Detection of Medication Mentions and Medication Change Events in Clinical Notes Using Transformer-Based Models'
+  authors:
+  - Yuting Guo
+  - Yao Ge
+  - Abeed Sarker
+  date: 'January 2024'
+  tags:
+  - NLP
+  - Machine Learning
+  description: 'Guo, Yuting, Yao Ge, and Abeed Sarker. "Detection of Medication Mentions and Medication Change Events in Clinical Notes Using Transformer-Based Models." Studies in Health Technology and Informatics 310 (2024): 685-689.'
+  link: https://ebooks.iospress.nl/pdf/doi/10.3233/SHTI231052
+
+- id: 'Data Augmentation with Nearest Neighbor Classifier for Few-Shot Named Entity Recognition'
+  title: 'Data Augmentation with Nearest Neighbor Classifier for Few-Shot Named Entity Recognition'
+  authors:
+  - Yao Ge
+  - Mohammed Ali Al-Garadi
+  - Abeed Sarker
+  date: 'January 2024'
+  tags:
+  - NLP
+  - NER
+  description: 'Ge, Yao, Mohammed Ali Al-Garadi, and Abeed Sarker. "Data Augmentation with Nearest Neighbor Classifier for Few-Shot Named Entity Recognition." MEDINFO 2023—The Future Is Accessible. IOS Press, 2024. 690-694.'
+  link: https://ebooks.iospress.nl/doi/10.3233/SHTI231053
 
 
 - id: 'Can Adverse Childhood Experiences Predict Chronic Health Conditions? Development of Trauma-Informed, Explainable Machine Learning Models'

@@ -1,4 +1,4 @@
-- id: 'Bi-Directional Recurrent Neural Network Models for Geographic Location Extraction in Biomedical Literature'
+- id: 'doi.org/10.1142/9789813279827_0010'
   title: 'Bi-Directional Recurrent Neural Network Models for Geographic Location Extraction in Biomedical Literature'
   authors:
   - Arjun Magge
@@ -13,7 +13,7 @@
   description: "Magge A, Weissenbacher D, Sarker A, Scotch M, Gonzalez G. Bi-Directional Recurrent Neural Network Models for Geographic Location Extraction in Biomedical Literature. Proceedings of the Pacific Symposium on Biocomputing (PSB 2019). 2019; 100-111. Hawaii, USA."
   link: https://www.researchgate.net/publication/329240570_Bi-directional_Recurrent_Neural_Network_Models_for_Geographic_Location_Extraction_in_Biomedical_Literature
 
-- id:  'Can Reddit Reveal Unique Facets of Suboxone Use and Misuse?'
+- id:  'doi-org.proxy.library.emory.edu/10.1007/s13181-019-00699-x'
   title: 'Can Reddit Reveal Unique Facets of Suboxone Use and Misuse?'
   authors:
   - Rachel Graves
@@ -26,19 +26,6 @@
   - Non-Medical Use of PM
   - Toxicology
   link: https://link.springer.com/article/10.1007/s13181-019-00699-x
-
-- id: "Sentiment, Themes, and Analyses in Tweets about Suboxone"
-  title: "Sentiment, Themes, and Analyses in Tweets about Suboxone"
-  authors:
-  - Rachel Graves
-  - Jeanmarie Perrone
-  - Jennifer Love
-  - Abeed Sarker
-  date: 'March 2019'
-  tags:
-  - Social Media
-  - Sentiment Analysis
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ShFx9OAAAAAJ&cstart=80&sortby=pubdate&citation_for_view=ShFx9OAAAAAJ%3ANaGl4SEjCO4C&inst=15365353816232672843
 
 - id: "An Analysis of a Twitter Corpus for Training a Medication Intake Classifier"
   title: "An Analysis of a Twitter Corpus for Training a Medication Intake Classifier"
