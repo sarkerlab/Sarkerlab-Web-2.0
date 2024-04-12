@@ -1052,31 +1052,6 @@
   description: "Abeed Sarker, Mohammed Ali Al-Garadi, Yao Ge, Nisha Nataraj, Londell McGlone, Christopher M Jones, Steven A Sumner, Evidence of the emergence of illicit benzodiazepines from online drug forums, European Journal of Public Health, Volume 32, Issue 6, December 2022, Pages 939–941, https://doi.org/10.1093/eurpub/ckac161"
   link: https://academic.oup.com/eurpub/article/32/6/939/6808910?login=false
 
-- id: 'Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media'
-  title: 'Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media'
-  authors:
-  - Yuting Guo
-  - Swati Rajwal
-  - Sahithi Lakamana
-  - Chia-Chun Chiang
-  - Paul C Menell
-  - Adnan H Shahid
-  - Yi-Chieh Chen
-  - Nikita Chhabra
-  - Wan-Ju Chao
-  - Chieh-Ju Chao
-  - Todd J Schwedt
-  - Imon Banerjee
-  - Abeed Sarker
-  date: 'December 2022'
-  tags:
-  - Social Media
-  - NLP
-  description: "Guo Y, Rajwal S, Lakamana S, Chiang C-C, Menell PC, Shahid AH, et al. Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media [Internet]. arXiv; 2022. Available from: https://arxiv.org/abs/2212.12454"
-  link: https://arxiv.org/pdf/2212.12454.pdf
-
-
-
 
 
 - id: 'Trends in Co-mention of Stimulants and Opioids: A Natural Language Processing Driven Analysis of Reddit Forums'
@@ -1495,33 +1470,6 @@
   description: "Abeed Sarker, Mohammed Ali Al-Garadi, Yao Ge, Nisha Nataraj, Londell McGlone, Christopher M Jones, Steven A Sumner, Evidence of the emergence of illicit benzodiazepines from online drug forums, European Journal of Public Health, Volume 32, Issue 6, December 2022, Pages 939–941, https://doi.org/10.1093/eurpub/ckac161"
   link: https://academic.oup.com/eurpub/article/32/6/939/6808910?login=false
 
-- id: 'Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media'
-  title: 'Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media'
-  authors:
-  - Yuting Guo
-  - Swati Rajwal
-  - Sahithi Lakamana
-  - Chia-Chun Chiang
-  - Paul C Menell
-  - Adnan H Shahid
-  - Yi-Chieh Chen
-  - Nikita Chhabra
-  - Wan-Ju Chao
-  - Chieh-Ju Chao
-  - Todd J Schwedt
-  - Imon Banerjee
-  - Abeed Sarker
-  date: 'December 2022'
-  tags:
-  - Social Media
-  - NLP
-  description: "Guo Y, Rajwal S, Lakamana S, Chiang C-C, Menell PC, Shahid AH, et al. Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media [Internet]. arXiv; 2022. Available from: https://arxiv.org/abs/2212.12454"
-  link: https://arxiv.org/pdf/2212.12454.pdf
-
-
-
-
-  
 
 - id: 'Can Accurate Demographic Information About People Who Use Prescription Medications Nonmedically Be Derived From Twitter?'
   title: 'Can Accurate Demographic Information About People Who Use Prescription Medications Nonmedically Be Derived From Twitter?'
