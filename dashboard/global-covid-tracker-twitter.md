@@ -4,27 +4,6 @@ title: Global social media Tracker - COVID-19 (Twitter)
 permalink: /global-covid-tracker-twitter/
 ---
 
-<style>
- .content.research {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 125%;
-   height: 100vh;
-   overflow: hidden;
-   margin-left: -120px;
-   margin-top: 1%;
- }
-
- .content.research > div {
-   width: 125%;
-   height: 100%;
-   display: grid;
-   place-items: center;
- }
-
-</style>
-
 <div class="content research">
   <div>
     <script type='text/javascript' src='https://tableau.emory.edu/javascripts/api/viz_v1.js'></script>

@@ -4,56 +4,6 @@ title: US Social Media Tracker - COVID-19 (Twitter)
 permalink: /us-covid-tracker-twitter/
 ---
 
-<style>
- .content.research {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 125%;
-   height: 100vh;
-   overflow: hidden;
-   margin-left: -120px;
-   margin-top: 1%;
- }
-
- .content.research > div {
-   width: 125%;
-   height: 100%;
-   display: grid;
-   place-items: center;
- }
-
-<style>
- .content.research {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   height: 100vh;
-   overflow: hidden;
-   margin: 0;
-   padding: 0;
- }
-
- .content.research > div {
-   width: 100%;
-   height: 100%;
-   display: grid;
-   place-items: center;
- }
-
- .tableauPlaceholder {
-   width: 100%;
-   height: 100%;
- }
-
- .tableauViz {
-   width: 100%;
-   height: 100%;
-   object-fit: contain;
- }
-</style>
-
 <div class="content research">
   <div>
     <script type='text/javascript' src='https://tableau.emory.edu/javascripts/api/viz_v1.js'></script>
