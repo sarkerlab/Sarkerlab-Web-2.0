@@ -1,3 +1,8 @@
+- title: "Network Graph"
+  group: Reddit
+  image: images/dashboard/reddit_network_graph.png
+  link: /reddit-network-graph/
+
 - title: "Emerging Psychoactives"
   group: Reddit
   image: images/dashboard/emerging-psychoactives-reddit.png
