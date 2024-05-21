@@ -1,7 +1,7 @@
 ---
 layout: dashboardsubpage
-title: US Social Media Tracker - COVID-19
-permalink: /us-covid-tracker/
+title: US Social Media Tracker - COVID-19 (Twitter)
+permalink: /us-covid-tracker-twitter/
 ---
 
 <style>

@@ -1,3 +1,4 @@
+
 <div class="dropdown-container">
   <!-- Add a button to toggle the dropdown menu -->
   <button class="dropdown-toggle">
@@ -12,19 +13,12 @@
        <!--  <a href="#"> Non-Medical Use of PM <span class="subtitle">Subtitle Text Here</span>  -->
         </a>
         <ul>
-          <li><a href="/overview-global/">Overview: Global<span class="subtitle">Non-Medical Use of PM</span></a></li>
-          <li><a href="/overview-US/">Overview: United States<span class="subtitle">Non-Medical Use of PM</span></a></li>
-          <li><a href="/med-surveillance/">Medication Surveillance<span class="subtitle">Non-Medical Use of PM</span></a></li>
-          <li><a href="/cohort-analysis/">Cohort Analysis<span class="subtitle">Non-Medical Use of PM</span></a></li>
+	  {% assign subdashboards = site.data["dashboards"]" %}
+	  {% for post in subdashboards %}
+          <li><a href="{{ post.link }}">{{ post.title }}<span class="subtitle">{{ post.group }}</span></a></li>
+	  {% endfor %}
         </ul>
       </li> 
-      <li class="parent-link">
-      <!--  <a href="#">More</a>  -->
-        <ul>
-          <li><a href="/global-covid-tracker">COVID-19 Global Social Media Tracker </a></li>
-          <li><a href="/us-covid-tracker/"> COVID-19 US Social Media Tracker </a></li>
-        </ul>
-      </li>
     </ul>
   </div>
 </div>
@@ -69,7 +63,7 @@
     opacity: 0;
     visibility: hidden;
     background-color: #ffffff;
-    width: 410px;
+    width: 500px;
     border-radius: 8px;
     padding: 0;
     top: 100%;
