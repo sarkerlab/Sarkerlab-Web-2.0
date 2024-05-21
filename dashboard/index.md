@@ -14,9 +14,9 @@ nav:
 {% include section.html %}
 
 
-## Psychoactives
+## Reddit Dashboards
 
-{% include list.html component="card" data="dashboards" filters="group: Psychoactives" %}
+{% include list.html component="card" data="dashboards" filters="group: Reddit" %}
 
 {% include section.html %}
 
