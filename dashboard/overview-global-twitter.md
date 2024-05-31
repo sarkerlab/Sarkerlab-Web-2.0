@@ -1,6 +1,6 @@
 ---
 layout: dashboardsubpage
-title: Overview Global (Twitter)
+title: Overview Global
 permalink: /overview-global-twitter/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: dashboardsubpage
-title: Overview US (Twitter)
+title: Overview US
 permalink: /overview-US-twitter/
 ---
 

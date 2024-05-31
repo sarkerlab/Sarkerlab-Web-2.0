@@ -1,6 +1,6 @@
 ---
 layout: dashboardsubpage
-title: Medication Surveillance (Twitter)
+title: Medication Surveillance
 permalink: /med-surveillance-twitter/
 ---
 

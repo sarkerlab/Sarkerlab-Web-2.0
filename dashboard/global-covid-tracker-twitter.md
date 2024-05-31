@@ -1,6 +1,6 @@
 ---
 layout: dashboardsubpage
-title: Global social media Tracker - COVID-19 (Twitter)
+title: Global social media Tracker - COVID-19
 permalink: /global-covid-tracker-twitter/
 ---
 

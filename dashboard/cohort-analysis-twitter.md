@@ -1,6 +1,6 @@
 ---
 layout: dashboardsubpage
-title: Cohort Analysis (Twitter)
+title: Cohort Analysis
 permalink: /cohort-analysis-twitter/
 ---
 

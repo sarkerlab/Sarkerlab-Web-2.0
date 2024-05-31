@@ -8,35 +8,35 @@
   image: images/dashboard/emerging-psychoactives-reddit.png
   link: /emerging-psychoactives-reddit/
 
-- title: "Overview: United States (Twitter)"
+- title: "Overview: United States"
   group: Non-Medical Usage of PM
   image: images/dashboard/overview-us.png
   link: /overview-US-twitter/
 
-- title: "Overview: Global (Twitter)"
+- title: "Overview: Global"
   group: Non-Medical Usage of PM
   image: images/dashboard/overview-global.png
   link:  /overview-global-twitter/
  
 
-- title: "Medical Surveillance (Twitter)"
+- title: "Medical Surveillance"
   group: Non-Medical Usage of PM
   image: images/dashboard/med-survey.png
   link:  /med-surveillance-twitter/
 
-- title: "Cohort Analysis (Twitter)"
+- title: "Cohort Analysis"
   image: images/dashboard/analysis2.png
   group: Non-Medical Usage of PM
   link: /cohort-analysis-twitter/
   description: 
 
-- title: "US Social Media Tracker - COVID-19 (Twitter)"
+- title: "US Social Media Tracker - COVID-19"
   group: COVID-19
   image: images/dashboard/us-tracker.png
   link: /us-covid-tracker-twitter/
  
 
-- title: "Global social media Tracker - COVID-19 (Twitter)"
+- title: "Global social media Tracker - COVID-19"
   group: COVID-19
   image: images/dashboard/global-tracker.png
   link:  /global-covid-tracker-twitter/

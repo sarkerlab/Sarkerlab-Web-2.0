@@ -5,6 +5,7 @@ nav:
   tooltip:
 ---
 
+
 # Dashboards
 
 {% include tags.html tags="publication, resource, website" %}
@@ -14,20 +15,7 @@ nav:
 {% include section.html %}
 
 
-## Reddit Dashboards
-
-{% include list.html component="card" data="dashboards" filters="group: Reddit" %}
-
-{% include section.html %}
+{% include button.html text="Twitter Dashboards" link="twitter-dashboards" %}
+{% include button.html text="Reddit Dashboards" link="reddit-dashboards" %}
 
 
-## Non-Medical Usage of Prescription Medication
-
-{% include list.html component="card" data="dashboards" filters="group: Non-Medical Usage of PM" %}
-
-{% include section.html %}
-
-
-## More
-
-{% include list.html component="card" data="dashboards" filters="group: COVID-19"  style="small" %}
