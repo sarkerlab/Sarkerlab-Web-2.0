@@ -1,8 +1,8 @@
 ---
 name: Drew Walker
 image: images/team/drew_cropped.jpg
-position: PhD Student
-description: PhD Rotation Student
+position: Postdoctoral Scholar
+description: Postdoctoral Scholar
 role: member
 links:
     linkedin: andrewlouiswalker
@@ -11,7 +11,7 @@ links:
 
 #### Interests:
 + Gaming
-+  Music
++ Music
 
 #### Expertise
 + Program Implementation and Evaluation

@@ -2,8 +2,8 @@
 name: Jeanne Powell
 image: images/team/jeanne.png
 role: member
-position: PhD Candidate 
-description: PhD Candidate 
+position: Postdoctoral Scholar
+description: Postdoctoral Scholar
 links: 
     twitter: jeannempowell
     linkedin: jeanne-powell
