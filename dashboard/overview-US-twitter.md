@@ -3,6 +3,11 @@ layout: dashboardsubpage
 title: Overview US
 permalink: /overview-US-twitter/
 ---
+## **X - U.S.overall dashboard** 
+This dashboard shows the conversation on X from 2018-2023 about the non-medical use of, consumption of,
+and other information about prescription medication usage across the United States. In the graphic of the map,
+click or hover over a state to learn more about the number of X posts and the drug categories most frequently
+discussed.
 
 <div class="content research">
   <div>
