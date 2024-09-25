@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
         var searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
 
-        fetch('/assets/test1.json')
+        fetch('/data/test1.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
