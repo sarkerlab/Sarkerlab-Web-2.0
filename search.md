@@ -22,7 +22,7 @@ document.getElementById('search-form').addEventListener('submit', function(event
     var searchTerm = document.getElementById('search-input').value.toLowerCase();
     
     // Fetch JSON data and perform search
-    fetch('{{ site.baseurl }}/subreddits_list_2024.json') // Adjust the path as per your actual file location
+    fetch('/subreddits_list_2024.json') // Adjust the path as per your actual file location
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
