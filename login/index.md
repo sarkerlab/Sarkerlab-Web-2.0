@@ -22,7 +22,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 
   // List of allowed Emory accounts
   var allowedEmails = ['abeed@dbmi.emory.edu', 'abeed.sarker@emory.edu', 'slakama@emory.edu',
-                        'sudeshnadas.ds@gmail.com', 'yuting.guo@emory.edu', 'swati.rajwal@emory.edu',
+                        'sudeshna.das@emory.edu', 'sdas60@emory.edu', 'yuting.guo@emory.edu', 'swati.rajwal@emory.edu',
                        'jeanne.marie.powell@emory.edu', 'yao.ge@emory.edu', 'jamor.hairston@emory.edu',
                       'andrew.walker@emory.edu'];
 
