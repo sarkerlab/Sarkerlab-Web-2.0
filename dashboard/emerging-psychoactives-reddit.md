@@ -7,8 +7,8 @@ permalink: /emerging-psychoactives-reddit/
 
 <script type='module' src='https://tableau.emory.edu/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://tableau.emory.edu/t/Public/views/PM-Individualmedications/chatter' width='1169' height='567' hide-tabs toolbar='bottom' ></tableau-viz>
 
- 
-<script type='module' src='https://tableau.emory.edu/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://tableau.emory.edu/t/Public/views/PM-Individualmedications/co-occurence' width='1169' height='567' hide-tabs toolbar='bottom' ></tableau-viz>
-
 
 <script type='module' src='https://tableau.emory.edu/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://tableau.emory.edu/t/Public/views/PM-Individualmedications/polysubstancesubreddits' width='1169' height='567' hide-tabs toolbar='bottom' ></tableau-viz>
+
+ 
+<script type='module' src='https://tableau.emory.edu/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://tableau.emory.edu/t/Public/views/PM-Individualmedications/co-occurence' width='1169' height='567' hide-tabs toolbar='bottom' ></tableau-viz>
