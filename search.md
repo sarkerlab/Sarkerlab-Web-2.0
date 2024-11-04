@@ -34,12 +34,12 @@ document.getElementById('search-form').addEventListener('submit', function(event
             var resultsHtml = '';
             data.forEach(doc => {
                 // Check if 'types' is a string and contains the search term
-                if (typeof doc.subreddit === 'string' && doc.subreddit.toLowerCase().includes(searchTerm)) {
-                    resultsHtml += `<p> ${doc.subreddit}</p>`;
+                if (typeof doc.subreddit_modified === 'string' && doc.subreddit_modified.toLowerCase().includes(searchTerm)) {
+                    resultsHtml += `<p> ${doc.subreddit_modified}</p>`;
                 }
                 // Check if 'types' is an array of strings and any element contains the search term
-                else if (Array.isArray(doc.subreddit) && doc.subreddit.some(type => type.toLowerCase().includes(searchTerm))) {
-                    resultsHtml += `<p> ${doc.subreddit.join(', ')}</p>`;
+                else if (Array.isArray(doc.subreddit_modified) && doc.subreddit_modified.some(type => type.toLowerCase().includes(searchTerm))) {
+                    resultsHtml += `<p> ${doc.subreddit_modified.join(', ')}</p>`;
                 }
             });
             document.getElementById('search-results').innerHTML = resultsHtml;
