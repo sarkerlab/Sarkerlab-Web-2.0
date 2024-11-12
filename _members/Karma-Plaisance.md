@@ -1,9 +1,9 @@
 ---
 name: Karma Plaisance
 image: images/team/karma.jpeg
-role: member
-position: Graduate Research Assistant
-description: Graduate Research Assistant
+role: alumni
+position: Research Assistant
+description: Research Assistant
 ---
 
 #### Interests:

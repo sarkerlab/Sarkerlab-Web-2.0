@@ -1425,12 +1425,108 @@
   - Anthony Ovadje
   - Mohammed Ali Al-Garadi
   - Abeed Sarker
-  date: 'Marco 2024'
+  date: 'October 2024'
   tags:
   - NLP
   - Social Media
-  description: 'Guo, Yuting, et al. "Evaluating Large Language Models for Health-Related Text Classification Tasks with Public Social Media Data." arXiv preprint arXiv:2403.19031 (2024).'
-  link: https://arxiv.org/abs/2403.19031
+  description: 'Guo Y, Ovadje A, Al-Garadi MA, Sarker A. Evaluating large language models for health-related text classification tasks with public social media data. Journal of the American Medical Informatics Association. 2024 Oct;31(10):2181-9.'
+  link: https://academic.oup.com/jamia/article/31/10/2181/7731085
+
+- id: 'Proceedings of The 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks'
+  title: 'Proceedings of The 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks'
+  authors:
+  - Dongfang Xu
+  - Graciela Gonzalez
+  date: 'August 2024'
+  tags:
+  - NLP
+  - Social Media
+  description: 'Xu, D. and Gonzalez, G., 2024, August. Proceedings of The 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks. In Proceedings of The 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks.'
+  link: https://aclanthology.org/2024.smm4h-1.0.pdf
+
+- id: 'Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing'
+  title: 'Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing'
+  authors:
+  - Seibi Kobara
+  - Alireza Rafiei
+  - Masoud Nateghi
+  - Selen Bozkurt
+  - Rishikesan Kamaleswaran
+  - Abeed Sarker
+  date: 'July 2024'
+  tags:
+  - NLP
+  - Social Media
+  description: 'Kobara S, Rafiei A, Nateghi M, Bozkurt S, Kamaleswaran R, Sarker A. Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing. InInternational Conference on Artificial Intelligence in Medicine 2024 Jul 9 (pp. 345-354). Cham: Springer Nature Switzerland.'
+  link: https://arxiv.org/abs/2403.00821
+
+- id: 'Characterizing Social Environments in the Physical and Virtual Worlds Using Digital Data'
+  title: 'Characterizing Social Environments in the Physical and Virtual Worlds Using Digital Data'
+  authors:
+  - Michele C. Weigle
+  - José Balsa-Barreiro
+  - Nitesh V. Chawla
+  - Tamas Dávid-Barrett
+  - Maria Melchior
+  - Virginia Pallante
+  - Abeed Sarker
+  - Jason Gilliland
+  date: 'July 2024'
+  tags:
+  - NLP
+  description: 'Weigle MC, Balsa-Barreiro J, Chawla NV, Dávid-Barrett T, Melchior M, Pallante V, Sarker A, Gilliland J. Characterizing social environments in the physical and virtual worlds using digital data.'
+  link: https://direct.mit.edu/oa-edited-volume/chapter-pdf/2458077/c003000_9780262378840.pdf
+
+- id: 'Emerging Trends of Self-Harm Using Sodium Nitrite in an Online Suicide Community: Observational Study Using Natural Language Processing Analysis'
+  title: 'Emerging Trends of Self-Harm Using Sodium Nitrite in an Online Suicide Community: Observational Study Using Natural Language Processing Analysis'
+  authors:
+  - Sudeshna Das
+  - Drew Walker
+  - Swati Rajwal
+  - Sahithi Lakamana
+  - Steven A Sumner
+  - Karin A Mack
+  - Wojciech Kaczkowski
+  - Abeed Sarker
+  - Marco Helbich
+  - Yi Zeng
+  - Abeed Sarker
+  date: 'May 2024'
+  tags:
+  - NLP
+  description: 'Das S, Walker D, Rajwal S, Lakamana S, Sumner SA, Mack KA, Kaczkowski W, Sarker A. Emerging trends of self-harm using sodium nitrite in an online suicide community: observational study using natural language processing analysis. JMIR mental health. 2024 May 2;11(1):e53730.'
+  link: https://mental.jmir.org/2024/1/e53730/
+
+- id: 'Unveiling Voices: Identification of Concerns in a Social Media Breast Cancer Cohort via Natural Language Processing'
+  title: 'Unveiling Voices: Identification of Concerns in a Social Media Breast Cancer Cohort via Natural Language Processing'
+  authors:
+  - Swati Rajwal
+  - Avinash Kumar Pandey
+  - Zhishuo Han
+  - Abeed Sarker
+  date: 'May 2024'
+  tags:
+  - NLP
+  description: 'Rajwal S, Pandey AK, Han Z, Sarker A. Unveiling Voices: Identification of Concerns in a Social Media Breast Cancer Cohort via Natural Language Processing. InProceedings of the First Workshop on Patient-Oriented Language Processing (CL4Health)@ LREC-COLING 2024 2024 May (pp. 264-270).'
+  link: https://aclanthology.org/2024.cl4health-1.32/
+
+- id: 'A large language model–based generative natural language processing framework fine‐tuned on clinical notes accurately extracts headache frequency from electronic health records'
+  title: 'A large language model–based generative natural language processing framework fine‐tuned on clinical notes accurately extracts headache frequency from electronic health records'
+  authors:
+  - Chia‐Chun Chiang
+  - Man Luo
+  - Gina Dumkrieger
+  - Shubham Trivedi
+  - Yi‐Chieh Chen
+  - Chieh‐Ju Chao
+  - Todd J Schwedt
+  - Abeed Sarker
+  - Imon Banerjee
+  date: 'April 2024'
+  tags:
+  - NLP
+  description: 'Chiang CC, Luo M, Dumkrieger G, Trivedi S, Chen YC, Chao CJ, Schwedt TJ, Sarker A, Banerjee I. A large language model–based generative natural language processing framework fine‐tuned on clinical notes accurately extracts headache frequency from electronic health records. Headache: The Journal of Head and Face Pain. 2024 Apr;64(4):400-9.'
+  link: https://link.springer.com/chapter/10.1007/7854_2024_464
 
 - id: 'Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward'
   title: 'Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward'
@@ -1445,35 +1541,21 @@
   description: 'Helbich, Marco, Yi Zeng, and Abeed Sarker. "Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward." 2024. 1-20.'
   link: https://link.springer.com/chapter/10.1007/7854_2024_464
 
-- id: 'Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing'
-  title: 'Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing'
+- id: 'Analysis of Expressions of Hope and Regret Associated with Nonmedical Prescription Drug Use in X Chatter'
+  title: 'Analysis of Expressions of Hope and Regret Associated with Nonmedical Prescription Drug Use in X Chatter'
   authors:
-  - Seibi Kobara
-  - Alireza Rafiei
-  - Masoud Nateghi
-  - Selen Bozkurt
-  - Rishikesan Kamaleswaran
+  - Fazlourrahman Balouchzahi
+  - Sabur Butt
   - Abeed Sarker
+  - Al-Garadi MA
+  - Grigori Sidorov
+  - Alexander Gelbukh
   date: 'February 2024'
   tags:
   - NLP
   - Social Media
-  description: 'Kobara, Seibi, et al. "Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing." arXiv preprint arXiv:2403.00821 (2024).'
-  link: https://arxiv.org/abs/2403.00821
-
-- id: 'Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters'
-  title: 'Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters'
-  authors:
-  - Seyedeh Somayyeh Mousavi
-  - Yuting Guo
-  - Reza Sameni
-  - Abeed Sarker
-  date: 'February 2024'
-  tags:
-  - Machine Learning
-  - EHR
-  description: 'Mousavi, Seyedeh Somayyeh, et al. "Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters." arXiv preprint arXiv:2402.01598 (2024).'
-  link: https://arxiv.org/abs/2402.01598
+  description: 'Balouchzahi F, Butt S, Sarker A, MA AG, Sidorov G, Gelbukh A. Analysis of Expressions of Hope and Regret Associated with Nonmedical Prescription Drug Use in X Chatter. Available at SSRN 4930517.'
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4930517
 
 - id: 'Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature'
   title: 'Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature'
