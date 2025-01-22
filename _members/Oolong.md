@@ -1,7 +1,7 @@
 ---
 name: Oolong
 image: images/team/Oolong_2.jpg
-role: member
+role: alumni
 position: mascot
 description: Atmosphere Maker (Mascot)
 ---

@@ -1,9 +1,9 @@
 ---
 name: Yao Ge
 image: images/team/yao_nov_2023.JPG
-role: member
-position: PhD Candidate
-description: PhD Candidate
+role: alumni
+position: PhD
+description: PhD
 links:
     linkedin: yao-ge-a78773205
 ---
