@@ -1613,3 +1613,83 @@
   - Machine Learning
   description: 'Afzal HB, Jahangir T, Mei Y, Madden A, Sarker A and Kim S (2024) Can adverse childhood experiences predict chronic health conditions? Development of trauma-informed, explainable machine learning models. Front. Public Health. 11:1309490. doi: 10.3389/fpubh.2023.1309490'
   link: https://www.frontiersin.org/articles/10.3389/fpubh.2023.1309490/full
+
+- id: 'Heart failure is time-dependent and associated with heart transplant, hepatocellular carcinoma, and death in the Fontan population'
+  title: 'Heart failure is time-dependent and associated with heart transplant, hepatocellular carcinoma, and death in the Fontan population'
+  authors:
+  - Lindsey Ivey
+  - Cheryl Raskind-Hood
+  - Alexandra Haffner
+  - Yuting Guo
+  - ABEED SARKER
+  - Fred Rodriguez
+  - Wendy Book
+  date: 'November 2024'
+  tags:
+  - NLP
+  description: 'Ivey L, Raskind-Hood C, Haffner A, Guo Y, SARKER A, Rodriguez F, Book W. Heart failure is time-dependent and associated with heart transplant, hepatocellular carcinoma, and death in the Fontan population. Circulation. 2024 Nov 12;150(Suppl_1):A4146814-.'
+  link: https://www.ahajournals.org/doi/abs/10.1161/circ.150.suppl_1.4146814
+
+- id: 'Risk Factors for Adverse Outcomes in a Fontan Population'
+  title: 'Risk Factors for Adverse Outcomes in a Fontan Population'
+  authors:
+  - Giancarlo Licitra
+  - Lindsey Ivey
+  - Cheryl Raskind-Hood
+  - Fred Rodriguez
+  - Yuting Guo
+  - ABEED SARKER
+  - Wendy Book
+  date: 'November 2024'
+  tags:
+  - NLP
+  description: 'Licitra G, Ivey L, Raskind-Hood C, Rodriguez F, Guo Y, SARKER A, Book W. Risk Factors for Adverse Outcomes in a Fontan Population. Circulation. 2024 Nov 12;150(Suppl_1):A4143305-.'
+  link: https://www.ahajournals.org/doi/abs/10.1161/circ.150.suppl_1.4143305
+
+- id: 'CARE-SD: classifier-based analysis for recognizing provider stigmatizing and doubt marker labels in electronic health records: model development and validation'
+  title: 'CARE-SD: classifier-based analysis for recognizing provider stigmatizing and doubt marker labels in electronic health records: model development and validation'
+  authors:
+  - Andrew Walker
+  - Annie Thorne
+  - Sudeshna Das
+  - Jennifer Love
+  - Hannah LF Cooper
+  - Melvin Livingston III
+  - Abeed Sarker
+  date: 'December 2024'
+  tags:
+  - NLP
+  description: 'Walker A, Thorne A, Das S, Love J, Cooper HL, Livingston III M, Sarker A. CARE-SD: classifier-based analysis for recognizing provider stigmatizing and doubt marker labels in electronic health records: model development and validation. Journal of the American Medical Informatics Association. 2024 Dec 26:ocae310.'
+  link: https://academic.oup.com/jamia/article/32/2/365/7933303
+
+- id: 'Two-Layer Retrieval-Augmented Generation Framework for Low-Resource Medical Question Answering Using Reddit Data: Proof-of-Concept Study'
+  title: 'Two-Layer Retrieval-Augmented Generation Framework for Low-Resource Medical Question Answering Using Reddit Data: Proof-of-Concept Study'
+  authors:
+  - Sudeshna Das
+  - Yao Ge
+  - Yuting Guo
+  - Swati Rajwal
+  - JaMor Hairston
+  - Jeanne Powell
+  - Drew Walker
+  - Snigdha Peddireddy
+  - Sahithi Lakamana
+  - Selen Bozkurt
+  - Matthew Reyna
+  - Reza Sameni
+  - Yunyu Xiao
+  - Sangmi Kim
+  - Rasheeta Chandler
+  - Natalie Hernandez
+  - Danielle Mowery
+  - Rachel Wightman
+  - Jennifer Love
+  - Anthony Spadaro
+  - Jeanmarie Perrone
+  - Abeed Sarker
+  date: 'January 2025'
+  tags:
+  - NLP
+  - LLM
+  description: 'Das S, Ge Y, Guo Y, Rajwal S, Hairston J, Powell J, Walker D, Peddireddy S, Lakamana S, Bozkurt S, Reyna M. Two-Layer Retrieval-Augmented Generation Framework for Low-Resource Medical Question Answering Using Reddit Data: Proof-of-Concept Study. Journal of Medical Internet Research. 2025 Jan 6;27:e66220.'
+  link: https://www.jmir.org/2025/1/e66220/ 

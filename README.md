@@ -123,11 +123,9 @@ To edit the date of the last modification, change the date of .md file.
 such as `2022-10-05-breast-cancer.md`. </strong>
 
 ### Add/edit Publications
-To create a paper go to `_data`. Use one of the source files to add a paper. For example, to add a publication in 2020, you would add it to the sources-2020.yaml file. If a file for the year you are looking for does not exist, create one with this naming convention: sources-year.yaml. Once you have added the publication to the sources file as shown below, make sure to add that exact same publication to citations.yaml as well
-
-Each publication must look like this:
+To create a paper go to `_data`. add the publication to `citations.yaml`. Each publication must look like this:
 ``` yaml
-- id: ‘Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets’
+- id: 'Towards Real-Time Opioid Abuse Surveillance: Machine Learning for Automatic Characterization of Opioid-Related Tweets'
 title: 'Towards Real-Time Opioid Abuse Surveillance :Machine Learning for Automatic Characterization of Opioid-Related Tweets'
 authors:
 - Abeed Sarker
@@ -140,10 +138,10 @@ link: https://link.springer.com/article/10.1007/s13181-019-00699-x
 ```
 
 Parameter details:
-+ id - Name of the paper, basically a unique identifier for each paper
++ id - Name of the paper or DOI, basically a unique identifier for each paper. 
 + title - the name of the paper
 + authors - each author must have a bullet point, no comma
-+ description - citation
++ description - citation (in Vancouver format)
 + date - published date, format: name of month, and year
 + links - link to paper
   
