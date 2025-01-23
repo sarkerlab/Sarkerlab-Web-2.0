@@ -2,7 +2,7 @@
 name: Demi Majekodunmi
 image: images/team/demi.png
 role: alumni
-description: Undergraduate Research Assistant
+position: alumni
 links:
     linkedin: demi-majekodunmi-299104162
 ---

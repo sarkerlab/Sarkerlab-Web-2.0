@@ -2,7 +2,7 @@
 name: Abimbola Leslie
 image: images/team/leslie.png
 role: alumni
-description: Graduate Research Assistant
+position: alumni
 ---
 #### Interests
 + Movies

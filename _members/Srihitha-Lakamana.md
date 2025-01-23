@@ -2,8 +2,7 @@
 name: Srihitha Lakamana
 image: images/team/srihitha2.jpg
 role: alumni
-description: Undergraduate Intern
-order: 1
+position: alumni
 links:
     linkedin: srihitha-l-25513825b
 

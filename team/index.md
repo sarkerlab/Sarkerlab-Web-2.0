@@ -34,7 +34,10 @@ Our lab is a dynamic and collaborative team of researchers dedicated to pushing 
 
 
 ## Alumni
-{% include list.html data="members" component="portrait" filters="role: alumni" %}
+{% include list.html data="members" component="portrait" filters="role: alumni, position: alumni" %}
+{% include list.html data="members" component="portrait" filters="role: alumni, position: mascot" %}
+
+
 
 
 
