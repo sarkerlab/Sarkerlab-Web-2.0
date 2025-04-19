@@ -1,0 +1,197 @@
+
+<!-- Dataset buttons grouped by category -->
+<div id="category-groups" style="margin-bottom: 20px;"></div>
+
+<canvas id="performanceChart" width="1000" height="500"></canvas>
+
+<style>
+  .category-heading {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .dataset-button {
+    padding: 6px 12px;
+    margin: 4px 6px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .dataset-button.active {
+    background-color: #555;
+    color: white;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0"></script>
+
+<script>
+  const rawData = [
+    {% for item in site.data.performance %}
+      {
+        model: "{{ item.model }}",
+        dataset: "{{ item.dataset }}",
+        category: "{{ item.category }}",
+        precision: {{ item.precision | default: 'null' }},
+        precision_ci: {{ item.precision_ci | jsonify }},
+        recall: {{ item.recall | default: 'null' }},
+        recall_ci: {{ item.recall_ci | jsonify }},
+        f1: {{ item.f1 | default: 'null' }},
+        f1_ci: {{ item.f1_ci | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  let chart;
+
+  function groupDatasetsByCategory() {
+    const grouped = {};
+    rawData.forEach(d => {
+      if (!grouped[d.category]) grouped[d.category] = new Set();
+      grouped[d.category].add(d.dataset);
+    });
+    Object.keys(grouped).forEach(k => grouped[k] = [...grouped[k]].sort());
+    return grouped;
+  }
+
+  function renderCategoryButtons() {
+    const container = document.getElementById("category-groups");
+    const grouped = groupDatasetsByCategory();
+    let first = true;
+
+    Object.entries(grouped).forEach(([category, datasets]) => {
+      const heading = document.createElement("div");
+      heading.className = "category-heading";
+      heading.textContent = category;
+      container.appendChild(heading);
+
+      datasets.forEach(ds => {
+        const btn = document.createElement("button");
+        btn.className = "dataset-button";
+        btn.textContent = ds;
+        btn.onclick = () => {
+          document.querySelectorAll(".dataset-button").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          renderDatasetChart(ds);
+        };
+        container.appendChild(btn);
+
+        if (first) {
+          btn.classList.add("active");
+          renderDatasetChart(ds);
+          first = false;
+        }
+      });
+    });
+  }
+
+  function renderDatasetChart(selectedDataset) {
+    const data = rawData.filter(d => d.dataset === selectedDataset);
+    const labels = data.map(d => d.model);
+
+    const buildMetricDataset = (metric, color) => {
+      return {
+        label: metric.toUpperCase(),
+        data: data.map(d => d[metric]),
+        backgroundColor: color,
+        ci: data.map(d => d[metric + "_ci"] ?? null)
+      };
+    };
+
+    const datasets = [
+      buildMetricDataset("precision", "rgba(255, 99, 132, 0.7)"),
+      buildMetricDataset("recall", "rgba(54, 162, 235, 0.7)"),
+      buildMetricDataset("f1", "rgba(75, 192, 192, 0.7)")
+    ];
+
+    if (chart) chart.destroy();
+
+    chart = new Chart(document.getElementById("performanceChart").getContext("2d"), {
+      type: "bar",
+      data: {
+        labels: labels,
+        datasets: datasets
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function (ctx) {
+                const val = ctx.raw;
+                const ci = ctx.dataset.ci?.[ctx.dataIndex];
+                if (!ci) return `${ctx.dataset.label}: ${val.toFixed(2)}`;
+                return `${ctx.dataset.label}: ${val.toFixed(2)} (CI: ${ci[0].toFixed(2)} - ${ci[1].toFixed(2)})`;
+              }
+            }
+          },
+          legend: { position: "top" },
+          title: {
+            display: true,
+            text: `Model Performance: ${selectedDataset}`
+          }
+        },
+        scales: {
+          x: {
+            title: { display: true, text: "Model" },
+            stacked: false
+          },
+          y: {
+            beginAtZero: true,
+            max: 1,
+            title: { display: true, text: "Score" }
+          }
+        }
+      },
+      
+      plugins: [{
+        id: 'ci-lines',
+        afterDatasetsDraw(chart, args, pluginOptions) {
+          const ctx = chart.ctx;
+          const capWidth = 10; // width of the cap at top and bottom
+      
+          chart.data.datasets.forEach((dataset, datasetIndex) => {
+            const meta = chart.getDatasetMeta(datasetIndex);
+            dataset.ci?.forEach((ci, index) => {
+              if (!ci) return;
+              const bar = meta.data[index];
+              if (!bar) return;
+              const x = bar.x;
+              const yTop = chart.scales.y.getPixelForValue(ci[1]);
+              const yBottom = chart.scales.y.getPixelForValue(ci[0]);
+      
+              ctx.save();
+              ctx.beginPath();
+              ctx.moveTo(x, yTop);
+              ctx.lineTo(x, yBottom);
+              ctx.lineWidth = 2;
+              ctx.strokeStyle = "#000";
+              ctx.stroke();
+      
+              // Top cap
+              ctx.beginPath();
+              ctx.moveTo(x - capWidth / 2, yTop);
+              ctx.lineTo(x + capWidth / 2, yTop);
+              ctx.stroke();
+      
+              // Bottom cap
+              ctx.beginPath();
+              ctx.moveTo(x - capWidth / 2, yBottom);
+              ctx.lineTo(x + capWidth / 2, yBottom);
+              ctx.stroke();
+      
+              ctx.restore();
+            });
+          });
+        }
+      }]
+
+    });
+  }
+
+  renderCategoryButtons();
+</script>
+
+
+

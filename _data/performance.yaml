@@ -1,0 +1,525 @@
+- category: SOCIAL MEDIA
+  dataset: Breast cancer
+  model: gemma-3-27b-it
+  precision: 0.71
+  precision_ci:
+  - 0.66
+  - 0.75
+  recall: 0.94
+  recall_ci:
+  - 0.91
+  - 0.97
+  f1: 0.81
+  f1_ci:
+  - 0.77
+  - 0.84
+- category: SOCIAL MEDIA
+  dataset: Breast cancer
+  model: llama4-109B
+  precision: 0.76
+  precision_ci:
+  - 0.67
+  - 0.84
+  recall: 0.24
+  recall_ci:
+  - 0.19
+  - 0.29
+  f1: 0.36
+  f1_ci:
+  - 0.3
+  - 0.42
+- category: SOCIAL MEDIA
+  dataset: Breast cancer
+  model: ds_v3_0324_Q2
+  precision: 0.87
+  precision_ci:
+  - 0.84
+  - 0.91
+  recall: 0.92
+  recall_ci:
+  - 0.89
+  - 0.95
+  f1: 0.9
+  f1_ci:
+  - 0.87
+  - 0.92
+- category: SOCIAL MEDIA
+  dataset: Breast cancer
+  model: llama3-70B
+  precision: 0.84
+  precision_ci:
+  - 0.8
+  - 0.88
+  recall: 0.92
+  recall_ci:
+  - 0.88
+  - 0.94
+  f1: 0.88
+  f1_ci:
+  - 0.85
+  - 0.9
+- category: SOCIAL MEDIA
+  dataset: Breast cancer
+  model: ds_llama3-70B
+  precision: 0.87
+  precision_ci:
+  - 0.83
+  - 0.91
+  recall: 0.92
+  recall_ci:
+  - 0.88
+  - 0.95
+  f1: 0.89
+  f1_ci:
+  - 0.86
+  - 0.92
+- category: SOCIAL MEDIA
+  dataset: Changes in medication regimen
+  model: gemma-3-27b-it
+  precision: 0.13
+  precision_ci:
+  - 0.11
+  - 0.15
+  recall: 0.93
+  recall_ci:
+  - 0.88
+  - 0.97
+  f1: 0.23
+  f1_ci:
+  - 0.19
+  - 0.26
+- category: SOCIAL MEDIA
+  dataset: Changes in medication regimen
+  model: llama4-109B
+  precision: 0.19
+  precision_ci:
+  - 0.14
+  - 0.23
+  recall: 0.38
+  recall_ci:
+  - 0.3
+  - 0.46
+  f1: 0.25
+  f1_ci:
+  - 0.19
+  - 0.3
+- category: SOCIAL MEDIA
+  dataset: Changes in medication regimen
+  model: ds_v3_0324_Q2
+  precision: 0.38
+  precision_ci:
+  - 0.32
+  - 0.44
+  recall: 0.59
+  recall_ci:
+  - 0.51
+  - 0.67
+  f1: 0.46
+  f1_ci:
+  - 0.4
+  - 0.53
+- category: SOCIAL MEDIA
+  dataset: Changes in medication regimen
+  model: llama3-70B
+  precision: 0.27
+  precision_ci:
+  - 0.22
+  - 0.33
+  recall: 0.49
+  recall_ci:
+  - 0.41
+  - 0.57
+  f1: 0.35
+  f1_ci:
+  - 0.28
+  - 0.41
+- category: SOCIAL MEDIA
+  dataset: Changes in medication regimen
+  model: ds_llama3-70B
+  precision: 0.3
+  precision_ci:
+  - 0.24
+  - 0.35
+  recall: 0.6
+  recall_ci:
+  - 0.51
+  - 0.68
+  f1: 0.4
+  f1_ci:
+  - 0.34
+  - 0.46
+- category: SOCIAL MEDIA
+  dataset: Adverse pregnancy outcomes
+  model: gemma-3-27b-it
+  precision: 0.55
+  precision_ci:
+  - 0.52
+  - 0.58
+  recall: 0.92
+  recall_ci:
+  - 0.9
+  - 0.94
+  f1: 0.69
+  f1_ci:
+  - 0.66
+  - 0.72
+- category: SOCIAL MEDIA
+  dataset: Adverse pregnancy outcomes
+  model: llama4-109B
+  precision: 0.67
+  precision_ci:
+  - 0.62
+  - 0.73
+  recall: 0.34
+  recall_ci:
+  - 0.31
+  - 0.39
+  f1: 0.46
+  f1_ci:
+  - 0.42
+  - 0.5
+- category: SOCIAL MEDIA
+  dataset: Adverse pregnancy outcomes
+  model: ds_v3_0324_Q2
+  precision: 0.71
+  precision_ci:
+  - 0.68
+  - 0.75
+  recall: 0.86
+  recall_ci:
+  - 0.84
+  - 0.89
+  f1: 0.78
+  f1_ci:
+  - 0.76
+  - 0.8
+- category: SOCIAL MEDIA
+  dataset: Adverse pregnancy outcomes
+  model: llama3-70B
+  precision: 0.72
+  precision_ci:
+  - 0.68
+  - 0.75
+  recall: 0.82
+  recall_ci:
+  - 0.79
+  - 0.85
+  f1: 0.77
+  f1_ci:
+  - 0.74
+  - 0.79
+- category: SOCIAL MEDIA
+  dataset: Adverse pregnancy outcomes
+  model: ds_llama3-70B
+  precision: 0.73
+  precision_ci:
+  - 0.69
+  - 0.76
+  recall: 0.83
+  recall_ci:
+  - 0.8
+  - 0.86
+  f1: 0.77
+  f1_ci:
+  - 0.75
+  - 0.8
+- category: SOCIAL MEDIA
+  dataset: Potential cases of COVID-19
+  model: gemma-3-27b-it
+  precision: 0.47
+  precision_ci:
+  - 0.41
+  - 0.53
+  recall: 0.6
+  recall_ci:
+  - 0.54
+  - 0.66
+  f1: 0.53
+  f1_ci:
+  - 0.47
+  - 0.58
+- category: SOCIAL MEDIA
+  dataset: Potential cases of COVID-19
+  model: llama4-109B
+  precision: 0.3
+  precision_ci:
+  - 0.24
+  - 0.37
+  recall: 0.23
+  recall_ci:
+  - 0.17
+  - 0.28
+  f1: 0.26
+  f1_ci:
+  - 0.2
+  - 0.32
+- category: SOCIAL MEDIA
+  dataset: Potential cases of COVID-19
+  model: ds_v3_0324_Q2
+  precision: 0.73
+  precision_ci:
+  - 0.65
+  - 0.8
+  recall: 0.39
+  recall_ci:
+  - 0.33
+  - 0.45
+  f1: 0.51
+  f1_ci:
+  - 0.45
+  - 0.57
+- category: SOCIAL MEDIA
+  dataset: Potential cases of COVID-19
+  model: llama3-70B
+  precision: 0.66
+  precision_ci:
+  - 0.59
+  - 0.74
+  recall: 0.4
+  recall_ci:
+  - 0.33
+  - 0.46
+  f1: 0.5
+  f1_ci:
+  - 0.43
+  - 0.55
+- category: SOCIAL MEDIA
+  dataset: Potential cases of COVID-19
+  model: ds_llama3-70B
+  precision: 0.64
+  precision_ci:
+  - 0.55
+  - 0.72
+  recall: 0.33
+  recall_ci:
+  - 0.27
+  - 0.39
+  f1: 0.44
+  f1_ci:
+  - 0.37
+  - 0.5
+- category: CLINICAL NOTES
+  dataset: 'Stigma labeling '
+  model: gemma-3-27b-it
+  precision: 0.64
+  precision_ci:
+  - 0.52
+  - 0.75
+  recall: 0.48
+  recall_ci:
+  - 0.38
+  - 0.58
+  f1: 0.55
+  f1_ci:
+  - 0.45
+  - 0.64
+- category: CLINICAL NOTES
+  dataset: 'Stigma labeling '
+  model: llama4-109B
+  precision: 0.51
+  precision_ci:
+  - 0.42
+  - 0.6
+  recall: 0.69
+  recall_ci:
+  - 0.6
+  - 0.79
+  f1: 0.59
+  f1_ci:
+  - 0.51
+  - 0.67
+- category: CLINICAL NOTES
+  dataset: 'Stigma labeling '
+  model: ds_v3_0324_Q2
+  precision: 0.6
+  precision_ci:
+  - 0.49
+  - 0.71
+  recall: 0.61
+  recall_ci:
+  - 0.51
+  - 0.71
+  f1: 0.61
+  f1_ci:
+  - 0.52
+  - 0.69
+- category: CLINICAL NOTES
+  dataset: 'Stigma labeling '
+  model: llama3
+  precision: 0.52
+  precision_ci:
+  - 0.44
+  - 0.6
+  recall: 0.91
+  recall_ci:
+  - 0.84
+  - 0.96
+  f1: 0.66
+  f1_ci:
+  - 0.59
+  - 0.73
+- category: CLINICAL NOTES
+  dataset: 'Stigma labeling '
+  model: ds_llama3
+  precision: 0.67
+  precision_ci:
+  - 0.57
+  - 0.75
+  recall: 0.7
+  recall_ci:
+  - 0.61
+  - 0.8
+  f1: 0.69
+  f1_ci:
+  - 0.6
+  - 0.76
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: gemma-3-27b-it
+  precision: 0.33
+  precision_ci:
+  - 0.29
+  - 0.36
+  recall: 0.97
+  recall_ci:
+  - 0.95
+  - 0.99
+  f1: 0.49
+  f1_ci:
+  - 0.45
+  - 0.52
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: llama4-109B
+  precision: 0.37
+  precision_ci:
+  - 0.32
+  - 0.41
+  recall: 0.61
+  recall_ci:
+  - 0.55
+  - 0.67
+  f1: 0.46
+  f1_ci:
+  - 0.41
+  - 0.5
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: ds_v3_0324_Q2
+  precision: 0.46
+  precision_ci:
+  - 0.42
+  - 0.51
+  recall: 0.77
+  recall_ci:
+  - 0.73
+  - 0.82
+  f1: 0.58
+  f1_ci:
+  - 0.53
+  - 0.62
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: llama3
+  precision: 0.4
+  precision_ci:
+  - 0.36
+  - 0.44
+  recall: 0.84
+  recall_ci:
+  - 0.79
+  - 0.88
+  f1: 0.54
+  f1_ci:
+  - 0.5
+  - 0.58
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: ds_llama3
+  precision: 0.26
+  precision_ci:
+  - 0.23
+  - 0.29
+  recall: 0.82
+  recall_ci:
+  - 0.77
+  - 0.87
+  f1: 0.39
+  f1_ci:
+  - 0.36
+  - 0.43
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: gemma-3-27b-it
+  precision: 0.87
+  precision_ci:
+  - 0.84
+  - 0.9
+  recall: 0.89
+  recall_ci:
+  - 0.86
+  - 0.92
+  f1: 0.88
+  f1_ci:
+  - 0.86
+  - 0.9
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: llama4-109B
+  precision: 0.87
+  precision_ci:
+  - 0.84
+  - 0.9
+  recall: 0.82
+  recall_ci:
+  - 0.78
+  - 0.85
+  f1: 0.84
+  f1_ci:
+  - 0.82
+  - 0.87
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: ds_v3_0324_Q2
+  precision: 0.95
+  precision_ci:
+  - 0.93
+  - 0.97
+  recall: 0.91
+  recall_ci:
+  - 0.89
+  - 0.93
+  f1: 0.93
+  f1_ci:
+  - 0.91
+  - 0.95
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: llama3
+  precision: 0.95
+  precision_ci:
+  - 0.92
+  - 0.98
+  recall: 0.39
+  recall_ci:
+  - 0.35
+  - 0.43
+  f1: 0.55
+  f1_ci:
+  - 0.51
+  - 0.6
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: ds_llama3
+  precision: 0.96
+  precision_ci:
+  - 0.94
+  - 0.97
+  recall: 0.89
+  recall_ci:
+  - 0.86
+  - 0.91
+  f1: 0.92
+  f1_ci:
+  - 0.9
+  - 0.94
