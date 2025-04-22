@@ -1,0 +1,26 @@
+- title: Breast cancer
+  citation: "Al-Garadi MA, Yang YC, Lakamana S, et al. *Automatic Breast Cancer Cohort Detection from Social Media for Studying Factors Affecting Patient-Centered Outcomes.* Vol 12299 LNAI.; 2020."
+  doi: "10.1007/978-3-030-59137-3_10"
+
+- title: Changes in medication regimen
+  citation: "Magge A, Klein A, Miranda-Escalada A, et al. *Overview of the Sixth Social Media Mining for Health Applications (#SMM4H) Shared Tasks at NAACL 2021.* Proceedings of the Sixth SMM4H Workshop. Association for Computational Linguistics; 2021:21-32."
+  doi: "10.18653/v1/2021.smm4h-1.4"
+
+- title: Adverse pregnancy outcomes
+  citation: "Klein AZ, Gonzalez-Hernandez G. *An annotated data set for identifying women reporting adverse pregnancy outcomes on Twitter.* Data Brief. 2020;32:106249."
+  doi: "10.1016/j.dib.2020.106249"
+
+- title: Potential cases of COVID-19
+  citation: "Klein Ari Z, Magge A, OK, FAJI, WD, GHG. *Toward Using Twitter for Tracking COVID-19: A Natural Language Process.*"
+  doi: "10.2196/25314"
+
+- title: Stigma labeling
+  citation: "Walker A, Thorne A, Das S, et al. *CARE-SD: classifier-based analysis for recognizing provider stigmatizing and doubt marker labels in electronic health records: model development and validation.* JAMIA. 2024;32(2):365–374."
+  doi: "10.1093/jamia/ocae310"
+
+- title: Medication change discussion
+  citation: "Mahajan D, Liang JJ, Tsou CH. *Toward Understanding Clinical Context of Medication Change Events in Clinical Narratives.* AMIA Annu Symp Proc. 2022;2021:833–842."
+  doi: "arXiv:2011.08835"
+
+- title: Natal sex
+  citation: Not Published Yet

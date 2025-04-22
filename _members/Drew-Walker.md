@@ -3,7 +3,7 @@ name: Drew Walker
 image: images/team/drew_cropped.jpg
 position: Postdoctoral Scholar
 description: Postdoctoral Scholar
-role: member
+role: alumini
 links:
     linkedin: andrewlouiswalker
   

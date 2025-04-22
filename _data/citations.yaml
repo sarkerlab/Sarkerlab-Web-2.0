@@ -1693,3 +1693,102 @@
   - LLM
   description: 'Das S, Ge Y, Guo Y, Rajwal S, Hairston J, Powell J, Walker D, Peddireddy S, Lakamana S, Bozkurt S, Reyna M. Two-Layer Retrieval-Augmented Generation Framework for Low-Resource Medical Question Answering Using Reddit Data: Proof-of-Concept Study. Journal of Medical Internet Research. 2025 Jan 6;27:e66220.'
   link: https://www.jmir.org/2025/1/e66220/ 
+
+- id: '“Strong Black Women”: Prescription Stimulant Use as a Site of Resistance in the Context of Black Women’s Labor and Negative Images of Black Womanhood'
+  title: '“Strong Black Women”: Prescription Stimulant Use as a Site of Resistance in the Context of Black Women’s Labor and Negative Images of Black Womanhood'
+  authors:
+  - Joni-Leigh Webster
+  - Abeed Sarker
+  - Hannah LF Cooper
+  date: 'January 2025'
+  tags:
+  description: 'Webster, J. L., Sarker, A., & Cooper, H. L. (2025). “Strong Black Women”: Prescription Stimulant Use as a Site of Resistance in the Context of Black Women’s Labor and Negative Images of Black Womanhood.'
+  link: https://osf.io/rzve2/download
+
+- id: 'Applications of Natural Language Processing and Large Language Models for Social Determinants of Health: Protocol for a Systematic Review'
+  title: 'Applications of Natural Language Processing and Large Language Models for Social Determinants of Health: Protocol for a Systematic Review'
+  authors:
+  - Swati Rajwal
+  - Ziyuan Zhang
+  - Yankai Chen
+  - Hannah Rogers
+  - Abeed Sarker
+  - Yunyu Xiao
+  date: 'January 2025'
+  tags:
+  description: 'Rajwal, S., Zhang, Z., Chen, Y., Rogers, H., Sarker, A., & Xiao, Y. (2025). Applications of Natural Language Processing and Large Language Models for Social Determinants of Health: Protocol for a Systematic Review. JMIR Research Protocols, 14(1), e66094.'
+  link: https://www.researchprotocols.org/2025/1/e66094/
+
+- id: 'Building community through data: the value of a researcher driven open science ecosystem'
+  title: 'Building community through data: the value of a researcher driven open science ecosystem'
+  authors:
+  - Meredith CB Adams
+  - Carla M Bann
+  - Emine Ozgur Bayman
+  - Maria Chao
+  - Georgene W Hergenroeder
+  - Charles Knott
+  - Martin A Lindquist
+  - Z David Luo
+  - Rosemarie Martin
+  - Maryann E Martone
+  - John McCarthy
+  - Micah McCumber
+  - Sharon B Meropol
+  - Ty A Ridenour
+  - Lissette M Saavedra
+  - Abeed Sarker
+  - Kevin J Anstrom
+  - Wesley K Thompson
+  date: 'January 2025'
+  tags:
+  description: 'Adams, M. C., Bann, C. M., Bayman, E. O., Chao, M., Hergenroeder, G. W., Knott, C., ... & Thompson, W. K. (2025). Building community through data: the value of a researcher driven open science ecosystem. Pain Medicine, pnaf003.'
+  link: https://academic.oup.com/painmedicine/advance-article-abstract/doi/10.1093/pm/pnaf003/7965903
+
+- id: 'Characterization of Reddit Posts on Nitazenes'
+  title: 'Characterization of Reddit Posts on Nitazenes'
+  authors:
+  - Jeanmarie Perrone
+  - Jennifer Love
+  - JaMor Hairston
+  - Sahithi Lakamana
+  - Abeed Sarker
+  date: 'February 2025'
+  tags:
+  description: 'Perrone, J., Love, J., Hairston, J., Lakamana, S., & Sarker, A. (2025). Characterization of Reddit Posts on Nitazenes. Drug and Alcohol Dependence, 267, 111433.'
+  link: https://scholar.google.com/scholar?cluster=4722873403502153721&hl=en&inst=15365353816232672843&oi=scholarr
+
+- id: 'Machine Learning and Natural Language Processing to Improve Classification of Atrial Septal Defects in Electronic Health Records'
+  title: 'Machine Learning and Natural Language Processing to Improve Classification of Atrial Septal Defects in Electronic Health Records'
+  authors:
+  - Yuting Guo
+  - Haoming Shi
+  - Wendy M Book
+  - Lindsey Carrie Ivey
+  - Fred H Rodriguez III
+  - Reza Sameni
+  - Cheryl Raskind‐Hood
+  - Chad Robichaux
+  - Karrie F Downing
+  - Abeed Sarker
+  date: 'March 2025'
+  tags:
+  - text classification
+  description: 'Guo, Y., Shi, H., Book, W. M., Ivey, L. C., Rodriguez III, F. H., Sameni, R., ... & Sarker, A. (2025). Machine Learning and Natural Language Processing to Improve Classification of Atrial Septal Defects in Electronic Health Records. Birth defects research, 117(3), e2451.'
+  link: https://onlinelibrary.wiley.com/doi/abs/10.1002/bdr2.2451
+
+- id: 'The Digital Narrative: Chronic Pain Self-Management Insights from Reddit in Systemic Lupus Erythematosus'
+  title: 'The Digital Narrative: Chronic Pain Self-Management Insights from Reddit in Systemic Lupus Erythematosus'
+  authors:
+  - Selen Bozkurt
+  - Andrew Walker
+  - Tricia Park
+  - Nathan Le
+  - Abeed Sarker
+  - Anushka Irani
+  - Titilola Falasinnu
+  date: 'April 2025'
+  tags:
+  - social media
+  description: 'Bozkurt, S., Walker, A., Park, T., Le, N., Sarker, A., Irani, A., & Falasinnu, T. (2025). The Digital Narrative: Chronic Pain Self-Management Insights from Reddit in Systemic Lupus Erythematosus. Studies in health technology and informatics, 323, 483-485.'
+  link: https://pubmed.ncbi.nlm.nih.gov/40200534/
