@@ -48,6 +48,17 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
+  - jekyll_picture_tag
+
+picture:
+  source: images/events
+  output: generated
+  presets:
+    default:
+      formats: [webp, original]
+      widths: [320, 640, 960, 1280]
+      sizes: "(max-width: 640px) 100vw, 640px"
+      fallback_width: 640
 
 # code block syntax highlighting
 highlighter: rouge
