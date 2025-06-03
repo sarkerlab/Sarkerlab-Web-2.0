@@ -17,7 +17,6 @@ permalink: /lab-news/
 
         <p class="meta">{{ event.categories | join: ', ' }} • {{ event.date }}</p>
         <h2>{{ event.title }}</h2>
-        <p>{{ event.description }}</p>
       </div>
     {% endfor %}
   </div>
@@ -25,6 +24,7 @@ permalink: /lab-news/
 
 
 <style>
+
 .lab-news {
   padding: 2em;
   max-width: 1200px;
@@ -38,7 +38,7 @@ permalink: /lab-news/
 
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
   gap: 1.5em;
 }
 
@@ -48,10 +48,13 @@ permalink: /lab-news/
   border-radius: 10px;
   background: #fff;
   font-size: 0.9em;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
 }
 
-.news-item picture, .news-item img {
+.news-item picture,
+.news-item img {
   width: 100%;
   height: auto;
   border-radius: 6px;
@@ -66,10 +69,13 @@ permalink: /lab-news/
 .news-item h2 {
   font-size: 1em;
   margin: 0.5em 0;
+  border-bottom: none;
 }
 
 .news-item p {
   font-size: 0.85em;
+  margin-top: auto;
 }
 </style>
+
 
