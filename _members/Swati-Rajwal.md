@@ -3,7 +3,7 @@ name: Swati Rajwal
 image: images/team/swati.jpeg
 role: member
 position: PhD Student
-description: PhD Rotation Student
+description: PhD Student
 links:
     github: swati-rajwal
 ---

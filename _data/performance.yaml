@@ -1,5 +1,117 @@
 - category: SOCIAL MEDIA DATA
   dataset: Breast cancer
+  model: GPT-OSS-120B
+  model_alias: GPT-OSS
+  precision: 0.89
+  precision_ci:
+  - 0.85
+  - 0.92
+  recall: 0.93
+  recall_ci:
+  - 0.90
+  - 0.96
+  f1: 0.91
+  f1_ci:
+  - 0.88
+  - 0.93
+- category: SOCIAL MEDIA DATA
+  dataset: Changes in medication regimen
+  model: GPT-OSS-120B
+  model_alias: GPT-OSS
+  precision: 0.26
+  precision_ci:
+  - 0.21
+  - 0.31
+  recall: 0.63
+  recall_ci:
+  - 0.54
+  - 0.71
+  f1: 0.37
+  f1_ci:
+  - 0.31
+  - 0.43
+- category: SOCIAL MEDIA DATA
+  dataset: Adverse pregnancy outcomes
+  model: GPT-OSS-120B
+  model_alias: GPT-OSS
+  precision: 0.74
+  precision_ci:
+  - 0.70
+  - 0.77
+  recall: 0.81
+  recall_ci:
+  - 0.78
+  - 0.84
+  f1: 0.77
+  f1_ci:
+  - 0.74
+  - 0.79
+- category: SOCIAL MEDIA DATA
+  dataset: Potential cases of COVID-19
+  model: GPT-OSS-120B
+  model_alias: GPT-OSS
+  precision: 0.64
+  precision_ci:
+  - 0.55
+  - 0.71
+  recall: 0.43
+  recall_ci:
+  - 0.36
+  - 0.49
+  f1: 0.51
+  f1_ci:
+  - 0.45
+  - 0.57
+- category: CLINICAL NOTES
+  dataset: Stigma labeling
+  model: GPT-OSS-120B
+  model_alias: GPT-OSS
+  precision: 0.74
+  precision_ci:
+  - 0.61
+  - 0.88
+  recall: 0.33
+  recall_ci:
+  - 0.23
+  - 0.42
+  f1: 0.46
+  f1_ci:
+  - 0.34
+  - 0.55
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: GPT-OSS-120B
+  model_alias: GPT-OSS
+  precision: 0.51
+  precision_ci:
+  - 0.46
+  - 0.56
+  recall: 0.81
+  recall_ci:
+  - 0.76
+  - 0.85
+  f1: 0.63
+  f1_ci:
+  - 0.58
+  - 0.66
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: GPT-OSS-120B
+  model_alias: GPT-OSS
+  precision: 0.96
+  precision_ci:
+  - 0.95
+  - 0.98
+  recall: 0.96
+  recall_ci:
+  - 0.94
+  - 0.97
+  f1: 0.96
+  f1_ci:
+  - 0.95
+  - 0.97
+- category: SOCIAL MEDIA DATA
+  dataset: Breast cancer
   model: GEMMA-3-27B-IT
   model_alias: Gemma3
   precision: 0.71
@@ -336,7 +448,7 @@
   - 0.37
   - 0.5
 - category: CLINICAL NOTES
-  dataset: 'Stigma labeling '
+  dataset: Stigma labeling
   model: GEMMA-3-27B-IT
   model_alias: Gemma3
   precision: 0.64
@@ -352,7 +464,7 @@
   - 0.45
   - 0.64
 - category: CLINICAL NOTES
-  dataset: 'Stigma labeling '
+  dataset: Stigma labeling
   model: LLAMA4-109B
   model_alias: Llama4
   precision: 0.51
@@ -368,7 +480,7 @@
   - 0.51
   - 0.67
 - category: CLINICAL NOTES
-  dataset: 'Stigma labeling '
+  dataset: Stigma labeling
   model: DEEPSEEK-V3-0324-UD-Q2_K_XL
   model_alias: DeepSeekV3
   precision: 0.6
@@ -384,7 +496,7 @@
   - 0.52
   - 0.69
 - category: CLINICAL NOTES
-  dataset: 'Stigma labeling '
+  dataset: Stigma labeling
   model: LLAMA3-70B
   model_alias: Llama3
   precision: 0.52
@@ -400,7 +512,7 @@
   - 0.59
   - 0.73
 - category: CLINICAL NOTES
-  dataset: 'Stigma labeling '
+  dataset: Stigma labeling
   model: DEEPSEEK-R1-DISTILL-LLAMA-70B
   model_alias: DeepSeekR1
   precision: 0.67
