@@ -128,7 +128,7 @@ Our team comprises passionate scientists hailing from diverse backgrounds and ha
 
 {%
   include feature.html
-  image="images/team_cover.jpeg"
+  image="images/events/team_cover.jpeg"
   link="team"
   title="Team"
   text=text

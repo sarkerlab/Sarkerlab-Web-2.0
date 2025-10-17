@@ -128,23 +128,6 @@
   - 0.84
 - category: SOCIAL MEDIA DATA
   dataset: Breast cancer
-  model: LLAMA33_NEMOTRON_SUPER_49B_V1
-  model_alias: Nemotron
-  precision: 0.49
-  precision_ci:
-  - 0.44
-  - 0.52
-  recall: 0.95
-  recall_ci:
-  - 0.92
-  - 0.97
-  f1: 0.64
-  f1_ci:
-  - 0.60
-  - 0.68
-
-- category: SOCIAL MEDIA DATA
-  dataset: Breast cancer
   model: LLAMA4-109B
   model_alias: Llama4
   precision: 0.76
