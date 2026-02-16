@@ -1,5 +1,5 @@
 ---
-layout: dashboardsubpage
+layout: default
 title: Cohort Analysis
 permalink: /cohort-analysis-twitter/
 ---

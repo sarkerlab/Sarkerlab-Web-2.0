@@ -16,6 +16,15 @@
   width: 175px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  &:hover .portrait-name {
+    color: var(--primary);
+  }
 }
 
 .portrait[data-style="small"] {
@@ -35,6 +44,11 @@
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  transition: box-shadow 0.2s;
+}
+
+.portrait:hover .portrait-image {
+  box-shadow: var(--shadow-md);
 }
 
 .portrait[data-style="tiny"] .portrait-image {
@@ -54,6 +68,7 @@
 .portrait-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  transition: color 0.2s;
 }
 
 .portrait-role .icon {

@@ -21,7 +21,7 @@ nav:
 
 
 
-{% include pub-list.html data="citations" component="citation" style="pub" %}
+{% include list.html data="citations" component="citation" style="pub" group_by_month=true %}
 
 
 

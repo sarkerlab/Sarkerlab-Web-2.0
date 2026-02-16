@@ -1,5 +1,5 @@
 ---
-layout: dashboardsubpage
+layout: default
 title: Medication Surveillance
 permalink: /med-surveillance-twitter/
 ---

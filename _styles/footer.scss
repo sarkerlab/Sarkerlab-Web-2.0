@@ -10,10 +10,12 @@ footer {
   padding: 40px;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
+  border-top: 3px solid var(--primary);
 }
 
 footer a {
   color: var(--text) !important;
+  transition: color 0.2s;
 }
 
 footer a:hover {
@@ -22,4 +24,5 @@ footer a:hover {
 
 footer .icon {
   font-size: var(--xl);
+  transition: color 0.2s;
 }

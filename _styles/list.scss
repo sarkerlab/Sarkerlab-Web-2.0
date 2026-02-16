@@ -17,3 +17,13 @@ li {
   text-align: justify;
   line-height: var(--spacing);
 }
+
+.year-header {
+  margin: 40px 0 30px -9px;
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: var(--semi-bold);
+  text-align: left;
+  color: var(--primary);
+  border-left: 3px solid var(--primary);
+}

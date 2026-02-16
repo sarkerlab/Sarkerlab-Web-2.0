@@ -15,6 +15,7 @@ header {
   gap: 20px;
   padding: 20px;
   box-shadow: var(--shadow);
+  border-bottom: 2px solid var(--light-gray);
 
   @if $sticky {
     position: sticky !important;
@@ -77,7 +78,13 @@ header a {
   color: var(--text);
   -webkit-appearance: none;
   appearance: none;
-  transition-property: background;
+  transition: background 0.2s, color 0.2s;
+  border-radius: var(--rounded);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--primary);
+  }
 }
 
 .nav-toggle:after {
@@ -108,10 +115,18 @@ nav {
 
 nav > a {
   padding: 5px;
+  transition: color 0.2s, border-color 0.2s;
+  border-bottom: 2px solid transparent;
 }
 
 nav > a:hover {
   color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
+nav > a[data-active] {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
 }
 
 header:not([data-big]) {

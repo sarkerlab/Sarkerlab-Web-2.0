@@ -16,19 +16,21 @@
   margin: 0;
   padding: 5px 10px;
   border-radius: 999px;
-  background: var(--secondary);
+  background: var(--secondary-light);
   color: var(--text);
   text-decoration: none;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  transition-property: background, color;
+  transition: background 0.2s, color 0.2s;
 }
 
 .tag:hover {
-  background: var(--light-gray);
+  background: var(--primary);
+  color: var(--background);
 }
 
 .tag[data-active] {
-  background: var(--light-gray);
+  background: var(--primary);
+  color: var(--background);
 }

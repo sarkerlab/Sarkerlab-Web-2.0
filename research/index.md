@@ -16,4 +16,4 @@ nav:
 
 {% include search-info.html %}
 
-{% include research-list.html data="posts" component="post-excerpt" %}
+{% include list.html data="posts" component="post-excerpt" show_year_heading=false %}

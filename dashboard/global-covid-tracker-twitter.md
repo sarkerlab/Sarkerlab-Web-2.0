@@ -1,5 +1,5 @@
 ---
-layout: dashboardsubpage
+layout: default
 title: Global social media Tracker - COVID-19
 permalink: /global-covid-tracker-twitter/
 ---

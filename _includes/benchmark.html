@@ -22,6 +22,21 @@
     background-color: #555;
     color: white;
   }
+
+  [data-dark="true"] .category-heading {
+    color: var(--text);
+  }
+  [data-dark="true"] .dataset-button {
+    background-color: var(--light-gray);
+    color: var(--text);
+  }
+  [data-dark="true"] .dataset-button.active {
+    background-color: #aaa;
+    color: #111;
+  }
+  [data-dark="true"] #model-caption {
+    color: var(--text) !important;
+  }
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0"></script>
@@ -90,7 +105,15 @@ function renderCategoryButtons() {
   });
 }
 
+function isDark() {
+  return document.documentElement.getAttribute('data-dark') === 'true';
+}
+
 function renderDatasetChart(selectedDataset) {
+  const dark = isDark();
+  const textColor = dark ? '#d9d7d7' : '#666';
+  const gridColor = dark ? '#404040' : 'rgba(0,0,0,0.1)';
+  const ciColor = dark ? '#d9d7d7' : '#000';
   const data = rawData.filter(d => d.dataset === selectedDataset);
   const aliases = data.map(d => d.model_alias || d.model);
   const fullNames = data.map(d => `${d.model_alias || d.model}: ${d.model}`);
@@ -140,21 +163,26 @@ function renderDatasetChart(selectedDataset) {
             }
           }
         },
-        legend: { position: "top" },
+        legend: { position: "top", labels: { color: textColor } },
         title: {
           display: true,
-          text: `Model Performance: ${selectedDataset}`
+          text: `Model Performance: ${selectedDataset}`,
+          color: textColor
         }
       },
       scales: {
         x: {
           type: 'category',
-          title: { display: true, text: "Model (Alias)" }
+          title: { display: true, text: "Model (Alias)", color: textColor },
+          ticks: { color: textColor },
+          grid: { color: gridColor }
         },
         y: {
           beginAtZero: true,
           max: 1,
-          title: { display: true, text: "Score" }
+          title: { display: true, text: "Score", color: textColor },
+          ticks: { color: textColor },
+          grid: { color: gridColor }
         }
       }
     },
@@ -179,7 +207,7 @@ function renderDatasetChart(selectedDataset) {
             ctx.moveTo(x, yTop);
             ctx.lineTo(x, yBottom);
             ctx.lineWidth = 2;
-            ctx.strokeStyle = "#000";
+            ctx.strokeStyle = document.documentElement.getAttribute('data-dark') === 'true' ? '#d9d7d7' : '#000';
             ctx.stroke();
 
             ctx.beginPath();
@@ -217,6 +245,12 @@ function renderDatasetChart(selectedDataset) {
 }
 
 renderCategoryButtons();
+
+// Re-render chart when dark mode is toggled
+new MutationObserver(() => {
+  const active = document.querySelector('.dataset-button.active');
+  if (active) active.click();
+}).observe(document.documentElement, { attributes: true, attributeFilter: ['data-dark'] });
 </script>
 
 

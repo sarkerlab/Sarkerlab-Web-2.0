@@ -5,9 +5,18 @@
   flex-wrap: wrap;
   gap: 0px;
   margin: 20px 0;
-  padding: 0px 30px;
+  padding: 20px 30px;
   text-align: left;
   font-size: 20px;
+  background: var(--background);
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
 }
 
 .event-ul{

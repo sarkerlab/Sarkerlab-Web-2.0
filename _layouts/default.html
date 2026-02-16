@@ -4,6 +4,9 @@
   <body>
     {% include header.html %}
     <main>
+      {% if page.dashboard %}
+        {% include dashboarddropdown.html %}
+      {% endif %}
       {% include content.html content=content %}
     </main>
     {% include footer.html %}

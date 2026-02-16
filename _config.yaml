@@ -27,6 +27,12 @@ defaults:
     values:
       layout: member
 
+  # markdown files in /dashboard
+  - scope:
+      path: "dashboard"
+    values:
+      dashboard: true
+
   # markdown files in /_posts
   - scope:
       type: "posts"

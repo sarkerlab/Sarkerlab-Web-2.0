@@ -11,12 +11,13 @@ permalink: /lab-news/
   <div class="news-grid">
     {% for event in site.data.events %}
       <div class="news-item">
-	{% assign image_file = event.image | default: "default.png" %}
 	{% assign alt_text = event.title | default: "Lab event image" %}
-	{% picture {{ image_file }} alt="{{ alt_text }}" %}
+	{% if event.image and event.image != "" %}
+	  {% picture {{ event.image }} alt="{{ alt_text }}" %}
+	{% endif %}
 
         <p class="meta">{{ event.categories | join: ', ' }} • {{ event.date }}</p>
-        <h2>{{ event.title }}</h2>
+        <h2>{% unless event.image and event.image != "" %}📢 {% endunless %}{{ event.title }}</h2>
       </div>
     {% endfor %}
   </div>
@@ -37,12 +38,21 @@ permalink: /lab-news/
 }
 
 .news-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
-  gap: 1.5em;
+  columns: 3;
+  column-gap: 1.5em;
+}
+
+@media (max-width: 800px) {
+  .news-grid { columns: 2; }
+}
+
+@media (max-width: 500px) {
+  .news-grid { columns: 1; }
 }
 
 .news-item {
+  break-inside: avoid;
+  margin-bottom: 1.5em;
   border: 1px solid #ccc;
   padding: 1em;
   border-radius: 10px;
@@ -75,6 +85,17 @@ permalink: /lab-news/
 .news-item p {
   font-size: 0.85em;
   margin-top: auto;
+}
+
+[data-dark="true"] .news-item {
+  background: var(--background-alt);
+  border-color: var(--light-gray);
+}
+
+[data-dark="true"] .news-item h2,
+[data-dark="true"] .news-item p,
+[data-dark="true"] .news-item .meta {
+  color: var(--text);
 }
 </style>
 

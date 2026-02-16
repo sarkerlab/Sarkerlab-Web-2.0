@@ -7,39 +7,27 @@ $wrap: 800px;
 .citation {
   display: flex;
   margin: 15px 0;
-  background: #f9f9f9;
+  background: var(--background-alt);
   overflow: hidden;
-  border-left: 3px solid rgb(207, 212, 214);
+  border-left: 3px solid var(--light-gray);
+  transition: box-shadow 0.2s;
 }
 
+.citation:hover {
+  box-shadow: var(--shadow-md);
+}
 
 .citation::before {
   content: ' ';
-  background:#f9f9f9;
+  background: var(--background-alt);
   display: flex;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #1a92b0;
+  border: 3px solid var(--primary);
   margin: -20px -14px;
   width: 20px;
   height: 20px;
   z-index: 400;
-}
-
-[data-dark="false"] .citation {
-  background: #f9f9f9;
-}
-
-[data-dark="true"] .citation {
-  background: #1d1c1c;
-}
-
-[data-dark="false"] .citation::before {
-  background: #f9f9f9;
-}
-
-[data-dark="true"] .citation::before {
-  background:#1d1c1c;
 }
 
 
@@ -82,7 +70,7 @@ $wrap: 800px;
 
 .citation-title {
   font-weight: var(--semi-bold);
-  color: #228198;
+  color: var(--primary);
 }
 
 .citation-text > .icon {

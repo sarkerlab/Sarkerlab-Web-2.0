@@ -1,5 +1,5 @@
 ---
-layout: dashboardsubpage
+layout: default
 title: Emerging Psychoactives (Reddit)
 permalink: /emerging-psychoactives-reddit/
 ---

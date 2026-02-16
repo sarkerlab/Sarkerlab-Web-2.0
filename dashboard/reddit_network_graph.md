@@ -1,5 +1,5 @@
 ---
-layout: dashboardsubpage
+layout: default
 title: Network Graph
 permalink: /reddit-network-graph/
 ---

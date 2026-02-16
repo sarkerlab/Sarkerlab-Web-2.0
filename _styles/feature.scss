@@ -18,6 +18,12 @@ $wrap: 800px;
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow-lg);
+  }
 }
 
 .feature-image img {
@@ -35,6 +41,7 @@ $wrap: 800px;
   text-align: center;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  color: var(--primary);
 }
 
 .feature[data-flip] {

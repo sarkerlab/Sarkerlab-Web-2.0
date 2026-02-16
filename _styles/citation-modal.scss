@@ -1,0 +1,78 @@
+---
+---
+
+/*  styling for the citation box */
+.pub-description-link {
+  color: var(--primary) !important;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.pub-description-link:hover {
+  color: var(--text) !important;
+  font-size: 15px;
+}
+
+.pub-description-box {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: var(--overlay);
+  backdrop-filter: blur(2px);
+}
+
+.pub-description-content {
+  background-color: var(--background);
+  margin: 10% auto;
+  padding: 45px;
+  border: 1px solid var(--light-gray);
+  width: min(90%, 600px);
+  position: relative;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+}
+
+.pub-description-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  color: var(--gray);
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+
+.pub-description-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.pub-description-text {
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.5;
+  border: 1px solid var(--light-gray);
+  padding: 10px;
+  overflow: auto;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--background-alt);
+  color: var(--text);
+  border-radius: var(--rounded);
+}
+
+.pub-tags-inline {
+  margin-left: 5px;
+  font-size: 12px;
+}

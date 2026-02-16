@@ -8,7 +8,8 @@ a {
 }
 
 a:hover {
-  color:  #66acc8;;
+  color: var(--primary);
+  opacity: 0.8;
 }
 
 a:not([href]) {

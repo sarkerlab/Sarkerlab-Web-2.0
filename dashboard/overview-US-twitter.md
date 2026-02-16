@@ -1,5 +1,5 @@
 ---
-layout: dashboardsubpage
+layout: default
 title: Overview US
 permalink: /overview-US-twitter/
 ---

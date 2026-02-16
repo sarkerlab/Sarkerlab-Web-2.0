@@ -3,30 +3,36 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #430303;
-  --secondary: #80c3de;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
+  --primary: #0D7C8F;
+  --primary-light: #E8F4F6;
+  --secondary: #F59E0B;
+  --secondary-light: #FEF3C7;
+  --text: #1E293B;
+  --text-light: #64748B;
+  --background: #FFFFFF;
+  --background-alt: #F8FAFC;
+  --light-gray: #E2E8F0;
+  --gray: #94A3B8;
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #a6afb1;
-  --secondary: #3d80a4;
-  --text: #d9d7d7;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
+  --primary: #38BDF8;
+  --primary-light: #0F2A3D;
+  --secondary: #FBBF24;
+  --secondary-light: #3D2E0A;
+  --text: #E2E8F0;
+  --text-light: #94A3B8;
+  --background: #0F172A;
+  --background-alt: #1E293B;
+  --light-gray: #334155;
+  --gray: #64748B;
   --overlay: #ffffff10;
 }
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
+  --title: "Inter", sans-serif;
+  --heading: "Inter", sans-serif;
   --body: "Barlow", sans-serif;
   --code: "Roboto Mono", monospace;
 
@@ -43,9 +49,11 @@
   --bold: 600;
 
   // text line spacing
-  --spacing: 2;
+  --spacing: 1.6;
 
   // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --rounded: 10px;
+  --shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
 }
