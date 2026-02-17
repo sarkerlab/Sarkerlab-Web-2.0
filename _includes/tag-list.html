@@ -1,0 +1,33 @@
+{% comment %}
+  Tag filter menu for publications page.
+  Generates clickable tag buttons with counts from citations data.
+{% endcomment %}
+
+{% assign all_tags = "" | split: "" %}
+{% for citation in site.data.citations %}
+  {% for tag in citation.tags %}
+    {% assign all_tags = all_tags | push: tag %}
+  {% endfor %}
+{% endfor %}
+
+{% assign unique_tags = all_tags | uniq | sort_natural %}
+
+<div class="tag-list">
+  {% for tag in unique_tags %}
+    {% assign count = 0 %}
+    {% for t in all_tags %}
+      {% if t == tag %}
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    <a
+      class="tag-list-item"
+      href="?search=&quot;tag: {{ tag }}&quot;"
+      data-tag="{{ tag }}"
+      onclick="onTagClick(event, '{{ tag | escape }}')"
+    >
+      {{ tag }}
+      <span class="tag-list-count">{{ count }}</span>
+    </a>
+  {% endfor %}
+</div>

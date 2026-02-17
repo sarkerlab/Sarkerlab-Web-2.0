@@ -15,7 +15,7 @@ nav:
 
 {% include search-box.html %}
 
-
+{% include tag-list.html %}
 
 {% include search-info.html %}
 

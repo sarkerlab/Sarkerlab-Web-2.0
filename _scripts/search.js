@@ -149,7 +149,7 @@
     }
   };
 
-  // update tags based on query
+  // update inline tags based on query
   const updateTags = (query) => {
     const { tags } = splitQuery(query);
     document.querySelectorAll(tagSelector).forEach((tag) => {
@@ -160,6 +160,39 @@
     });
   };
 
+  // update tag-list filter buttons based on query
+  const updateTagList = (query = "") => {
+    const { tags } = splitQuery(query);
+    document.querySelectorAll(".tag-list-item").forEach((item) => {
+      const itemTag = normalizeTag(item.dataset.tag || "");
+      if (tags.includes(itemTag))
+        item.setAttribute("data-active", "");
+      else
+        item.removeAttribute("data-active");
+    });
+  };
+
+  // hide year headers that have no visible results beneath them
+  const updateYearHeaders = (query) => {
+    document.querySelectorAll(".year-header").forEach((header) => {
+      if (!query.trim()) {
+        header.style.display = "";
+        return;
+      }
+      // collect all sibling elements until the next year header
+      let hasVisible = false;
+      let sibling = header.nextElementSibling;
+      while (sibling && !sibling.classList.contains("year-header")) {
+        if (sibling.matches(elementSelector) && sibling.style.display !== "none") {
+          hasVisible = true;
+          break;
+        }
+        sibling = sibling.nextElementSibling;
+      }
+      header.style.display = hasVisible ? "" : "none";
+    });
+  };
+
   // run search with query
   const runSearch = (query = "") => {
     const parts = splitQuery(query);
@@ -167,6 +200,8 @@
     updateSearchBox(query);
     updateInfoBox(query, x, n);
     updateTags(query);
+    updateTagList(query);
+    updateYearHeaders(query);
     highlightMatches(parts);
   };
 
@@ -206,6 +241,33 @@
   window.onSearchClear = () => {
     runSearch();
     updateUrl();
+  };
+
+  // when user clicks a tag in the tag-list filter menu
+  window.onTagClick = (event, tag) => {
+    event.preventDefault();
+    const tagQuery = `"tag: ${tag}"`;
+
+    // get current search query
+    const boxes = document.querySelectorAll(searchBoxSelector);
+    const currentQuery = boxes.length
+      ? boxes[0].querySelector("input").value
+      : "";
+
+    let newQuery;
+    if (currentQuery.includes(tagQuery)) {
+      // toggle off: remove this tag from query
+      newQuery = currentQuery
+        .replace(tagQuery, "")
+        .replace(/\s+/g, " ")
+        .trim();
+    } else {
+      // toggle on: add this tag to query
+      newQuery = (currentQuery + " " + tagQuery).trim();
+    }
+
+    runSearch(newQuery);
+    updateUrl(newQuery);
   };
 
   // after page loads

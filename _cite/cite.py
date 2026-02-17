@@ -10,6 +10,7 @@ converts them to the site's citation YAML schema, and merges with
 existing entries (preserving manual edits like tags).
 """
 
+import json
 import re
 import signal
 import string
@@ -30,6 +31,9 @@ SCHOLAR_ID = "ShFx9OAAAAAJ"
 # Paths relative to repo root
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CITATIONS_PATH = REPO_ROOT / "_data" / "citations.yaml"
+
+# Default path for caching fetched publications
+CACHE_PATH = REPO_ROOT / "_cite" / "scholar_cache.json"
 
 # Title similarity threshold for deduplication (0.0 to 1.0)
 SIMILARITY_THRESHOLD = 0.90
@@ -85,6 +89,20 @@ def format_authors_vancouver(authors: list[str]) -> str:
 def format_date(pub: dict) -> str:
     """Extract a 'Month YYYY' date string from a publication dict."""
     bib = pub.get("bib", {})
+
+    # Try publication_date first (from Semantic Scholar cache: "YYYY-MM-DD")
+    pub_date = bib.get("publication_date", "")
+    if pub_date and "-" in pub_date:
+        parts = pub_date.split("-")
+        if len(parts) >= 2:
+            try:
+                year = int(parts[0])
+                month_idx = int(parts[1]) - 1
+                if 0 <= month_idx < 12:
+                    return f"{MONTHS[month_idx]} {year}"
+            except (ValueError, IndexError):
+                pass
+
     year = bib.get("pub_year", "")
     if not year:
         return ""
@@ -231,7 +249,33 @@ def _yaml_quote(value: str) -> str:
     return f'"{escaped}"'
 
 
-def fetch_scholar_publications(use_proxy: bool = False) -> list[dict]:
+def save_cache(publications: list[dict], path: Path = CACHE_PATH) -> None:
+    """Save fetched publications to a JSON cache file."""
+    # scholarly objects aren't directly JSON-serializable; extract relevant fields
+    cache_data = []
+    for pub in publications:
+        entry = {
+            "bib": dict(pub.get("bib", {})),
+            "pub_url": pub.get("pub_url", ""),
+            "eprint_url": pub.get("eprint_url", ""),
+            "author_pub_id": pub.get("author_pub_id", ""),
+            "num_citations": pub.get("num_citations", 0),
+        }
+        cache_data.append(entry)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(cache_data, f, indent=2, ensure_ascii=False)
+    print(f"Saved {len(cache_data)} publications to cache: {path}")
+
+
+def load_cache(path: Path = CACHE_PATH) -> list[dict]:
+    """Load publications from a JSON cache file."""
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    print(f"Loaded {len(data)} publications from cache: {path}")
+    return data
+
+
+def fetch_scholar_publications(use_proxy: bool = False, save_to_cache: bool = False) -> list[dict]:
     """Fetch all publications from Google Scholar for the configured author."""
     print(f"Fetching publications for Google Scholar ID: {SCHOLAR_ID}")
 
@@ -265,6 +309,9 @@ def fetch_scholar_publications(use_proxy: bool = False) -> list[dict]:
 
     publications = author.get("publications", [])
     print(f"Found {len(publications)} publications on Google Scholar")
+
+    if save_to_cache:
+        save_cache(publications)
 
     return publications
 
@@ -380,6 +427,14 @@ def main():
         "--no-fill", action="store_true",
         help="Skip filling individual publications (faster, uses basic metadata only)",
     )
+    parser.add_argument(
+        "--save-cache", action="store_true",
+        help="Save fetched publications to a local JSON cache",
+    )
+    parser.add_argument(
+        "--load-cache", action="store_true",
+        help="Load publications from local JSON cache instead of fetching from Google Scholar",
+    )
     args = parser.parse_args()
 
     print("=" * 60)
@@ -389,16 +444,22 @@ def main():
     existing = load_existing_citations()
     print(f"Loaded {len(existing)} existing citations from {CITATIONS_PATH}")
 
-    all_pubs = fetch_scholar_publications(use_proxy=args.proxy)
+    if args.load_cache:
+        all_pubs = load_cache()
+    else:
+        all_pubs = fetch_scholar_publications(
+            use_proxy=args.proxy, save_to_cache=args.save_cache
+        )
 
-    if args.no_fill:
-        # Use basic data for all new pubs without filling
+    if args.no_fill or args.load_cache:
+        # Skip individual fill requests; cache entries already have author data
         new_pubs = []
         for pub in all_pubs:
             bib = pub.get("bib", {})
             title = bib.get("title", "")
+            has_authors = bool(bib.get("author"))
             if title and find_matching_entry(title, existing) is None:
-                new_pubs.append((pub, False))
+                new_pubs.append((pub, has_authors))
         print(f"No-fill mode: {len(new_pubs)} new publications found")
     else:
         new_pubs = fill_new_publications(all_pubs, existing)

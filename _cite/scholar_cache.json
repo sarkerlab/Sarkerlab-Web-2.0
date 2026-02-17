@@ -1,0 +1,2746 @@
+[
+  {
+    "bib": {
+      "title": "MultiADE: A Multi-domain Benchmark for Adverse Drug Event Extraction",
+      "author": "Xiang Dai and Sarvnaz Karimi and A. Sarker and Ben Hachey and Cécile Paris",
+      "pub_year": "2024",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2024.104744",
+      "publication_date": "2024-05-28"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/f1470c265bec9650f02e13486896f354ea927fd0",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automatic Detection of Intimate Partner Violence Victims from Social Media for Proactive Delivery of Support.",
+      "author": "Yuting Guo and Sangmi Kim and E. Warren and Yuan-Chi Yang and S. Lakamana and A. Sarker",
+      "pub_year": "2023",
+      "journal": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/0943805fcad83c417f1bddaba45416491f0a46de",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "#ChronicPain: Automated Building of a Chronic Pain Cohort from Twitter Using Machine Learning",
+      "author": "A. Sarker and S. Lakamana and Yuting Guo and Yao Ge and Abimbola Leslie and O. Okunromade and E. Gonzalez-Polledo and J. Perrone and A. McKenzie-Brown",
+      "pub_year": "2023",
+      "journal": "Health Data Science",
+      "doi": "10.34133/hds.0078",
+      "publication_date": "2023-01-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/268fe1ee7dbe781533d618efa5f48291b50e34ee",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Few-shot learning for medical text: A review of advances, trends, and opportunities",
+      "author": "Yao Ge and Yuting Guo and Sudeshna Das and M. Al-garadi and A. Sarker",
+      "pub_year": "2023",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2023.104458",
+      "publication_date": "2023-07-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2d0c5e79405d8827f197d4d302ae8e7c710f9755",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the 8th Social Media Mining for Health Applications (#SMM4H) Shared Tasks at the AMIA 2023 Annual Symposium",
+      "author": "A. Klein and Juan M. Banda and Yuting Guo and A. Schmidt and Dongfang Xu and J. I. F. Amaro and Raul Rodriguez-Esteban and A. Sarker and G. Gonzalez-Hernandez",
+      "pub_year": "2023",
+      "journal": "medRxiv",
+      "doi": "10.1101/2023.11.06.23298168",
+      "publication_date": "2023-11-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2e8dae244121de00a770fa660dd05be1f9aa1927",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "An aspect-level sentiment analysis dataset for therapies on Twitter",
+      "author": "Yuting Guo and Sudeshna Das and S. Lakamana and A. Sarker",
+      "pub_year": "2023",
+      "journal": "Data in Brief",
+      "doi": "10.1016/j.dib.2023.109618",
+      "publication_date": "2023-09-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/50410d31fa523cf32834ca324ded869c9cc43197",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Supervised Text Classification System Detects Fontan Patients in Electronic Records With Higher Accuracy Than ICD Codes",
+      "author": "Yuting Guo and M. Al-garadi and W. Book and Lindsey C Ivey and Fred H Rodriguez and C. Raskind-Hood and Chad Robichaux and A. Sarker",
+      "pub_year": "2023",
+      "journal": "Journal of the American Heart Association : Cardiovascular and Cerebrovascular Disease",
+      "doi": "10.1161/JAHA.123.030046",
+      "publication_date": "2023-06-22"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/554b6817197821d006fd60aa8515712f30c71e75",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Classification of Fall Types in Parkinson's Disease from Self-report Data Using Natural Language Processing",
+      "author": "Jeanne M. Powell and Yuting Guo and A. Sarker and J. McKay",
+      "pub_year": "2023",
+      "journal": "Conference on Artificial Intelligence in Medicine in Europe",
+      "doi": "10.1007/978-3-031-34344-5_20",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/62fb3bdd60019bae3f3771c8a3a4b5f48fab42d5",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Self-reported Xylazine Experiences: A Mixed-methods Study of Reddit Subscribers",
+      "author": "A. Spadaro and K. O’Connor and S. Lakamana and A. Sarker and R. Wightman and J. Love and J. Perrone",
+      "pub_year": "2023",
+      "journal": "Journal of addiction medicine",
+      "doi": "10.1097/ADM.0000000000001216",
+      "publication_date": "2023-08-10"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/6f45fc980a0e4d55398040ebdf19524d81cdd81d",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Characteristics of Intimate Partner Violence and Survivor’s Needs During the COVID-19 Pandemic: Insights From Subreddits Related to Intimate Partner Violence",
+      "author": "Sangmi Kim and E. Warren and T. Jahangir and M. Al-garadi and Yuting Guo and Yuan-Chi Yang and S. Lakamana and A. Sarker",
+      "pub_year": "2023",
+      "journal": "Journal of Interpersonal Violence",
+      "doi": "10.1177/08862605231168816",
+      "publication_date": "2023-04-27"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/85d0fd1e905f6177c7dc1a279242eac83bb70872",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Public Perceptions About Monkeypox on Twitter: Thematic Analysis",
+      "author": "Abimbola Leslie and O. Okunromade and A. Sarker",
+      "pub_year": "2023",
+      "journal": "JMIR Formative Research",
+      "doi": "10.2196/48710",
+      "publication_date": "2023-05-03"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/98589c5b8262d9e564733980e72626729c1fb9d3",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Barriers to opioid use disorder treatment: A comparison of self-reported information from social media with barriers found in literature",
+      "author": "W. Bremer and Karma Plaisance and Drew Walker and M. Bonn and J. Love and J. Perrone and A. Sarker",
+      "pub_year": "2023",
+      "journal": "Frontiers in Public Health",
+      "doi": "10.3389/fpubh.2023.1141093",
+      "publication_date": "2023-04-20"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ba55213b9cac49f305f31fc3fb3a3b1815086d0b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Self-reported Xylazine Experiences: A Mixed Methods Study of Reddit Subscribers",
+      "author": "A. Spadaro and K. O'Connor and S. Lakamana and A. Sarker and R. Wightman and J. Love and J. Perrone",
+      "pub_year": "2023",
+      "journal": "medRxiv",
+      "doi": "10.1101/2023.03.13.23287215",
+      "publication_date": "2023-03-14"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/c44c923bf63f0062368c553b6281763e58641370",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A framework for multi-faceted content analysis of social media chatter regarding non-medical use of prescription medications",
+      "author": "Shaina Raza and Brian Schwartz and S. Lakamana and Yao Ge and A. Sarker",
+      "pub_year": "2023",
+      "journal": "BMC Digital Health",
+      "doi": "10.1186/s44247-023-00029-w",
+      "publication_date": "2023-08-07"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/cd9a1e785f3f2ec85256decec0986a2e24fd4db1",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "SocBERT: A Pretrained Model for Social Media Text",
+      "author": "Yuting Guo and A. Sarker",
+      "pub_year": "2023",
+      "journal": "First Workshop on Insights from Negative Results in NLP",
+      "doi": "10.18653/v1/2023.insights-1.5",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/cf300040724e742cee1894cc5b6e8036776a6b2c",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Can accurate demographic information about people who use prescription medications nonmedically be derived from Twitter?",
+      "author": "Yuan-Chi Yang and M. Al-garadi and J. Love and H. Cooper and J. Perrone and A. Sarker",
+      "pub_year": "2023",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "doi": "10.1073/pnas.2207391120",
+      "publication_date": "2023-02-14"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ea8b903db5ec3b10856b20c61d0b0f0129f49933",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "An analysis of cannabinoid hyperemesis syndrome Reddit posts and themes",
+      "author": "R. Wightman and J. Perrone and A. Collins and S. Lakamana and A. Sarker",
+      "pub_year": "2023",
+      "journal": "Clinical toxicology",
+      "doi": "10.1080/15563650.2023.2183790",
+      "publication_date": "2023-04-03"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/f2e8ef5dc7575ed7c1ebe1916e75eafa5d66db12",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Concerns among people who use opioids during the COVID-19 pandemic: a natural language processing analysis of social media posts",
+      "author": "A. Sarker and N. Nataraj and Wesley Siu and Sabrina Li and Christopher M. Jones and S. Sumner",
+      "pub_year": "2022",
+      "journal": "Substance Abuse Treatment, Prevention, and Policy",
+      "doi": "10.1186/s13011-022-00442-w",
+      "publication_date": "2022-03-05"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/1441b3c86875709717b0a93784e02ec91b9caaed",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Recruitment and retention in mobile application-based intervention studies: a critical synopsis of challenges and opportunities",
+      "author": "W. Bremer and A. Sarker",
+      "pub_year": "2022",
+      "journal": "Informatics for Health and Social Care",
+      "doi": "10.1080/17538157.2022.2082297",
+      "publication_date": "2022-06-03"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/373e6343341434ebf2447f9ca77f9d2d7551d3af",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Few-shot learning for medical text: A systematic review",
+      "author": "Yao Ge and Yuting Guo and Yuan-Chi Yang and M. Al-garadi and A. Sarker",
+      "pub_year": "2022",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2204.14081",
+      "publication_date": "2022-04-21"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/462a00d7e5ab8f28235963bb0833c8f3629cee5b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A comparison of few-shot and traditional named entity recognition models for medical text",
+      "author": "Yao Ge and Yuting Guo and Yuan-Chi Yang and M. Al-garadi and A. Sarker",
+      "pub_year": "2022",
+      "journal": "IEEE International Conference on Healthcare Informatics",
+      "doi": "10.1109/ICHI54592.2022.00024",
+      "publication_date": "2022-06-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/4a11c38b9f80e4ded7889aa3b8d34f22c2cdd08e",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "134 Automatic identification of intimate partner violence victims from social media",
+      "author": "M. Al-garadi and A. Sarker and Yuting Guo and E. Warren and Yuan-Chi Yang and Sangmi Kim",
+      "pub_year": "2022",
+      "journal": "Abstracts",
+      "doi": "10.1136/injuryprev-2022-savir.123",
+      "publication_date": "2022-03-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/5383a5197daaee9ac7f64e6f36f05b530aaca084",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Large-Scale Social Media Analysis Reveals Emotions Associated with Nonmedical Prescription Drug Use",
+      "author": "M. Al-garadi and Yuan-Chi Yang and Yuting Guo and Sangmi Kim and J. Love and J. Perrone and A. Sarker",
+      "pub_year": "2022",
+      "journal": "Health Data Science",
+      "doi": "10.34133/2022/9851989",
+      "publication_date": "2022-04-27"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/5f2aba7902db2a22968f7d491e7dac8cc15ef49a",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Generalizable Natural Language Processing Framework for Migraine Reporting from Social Media",
+      "author": "Yuting Guo and Swati Rajwal and S. Lakamana and Chia-Chun Chiang and P. Menell and A. Shahid and Yi-Chieh Chen and Nikita Chhabra and Wan-ju Chao and C. Chao and T. Schwedt and I. Banerjee and A. Sarker",
+      "pub_year": "2022",
+      "journal": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
+      "doi": "10.48550/arXiv.2212.12454",
+      "publication_date": "2022-12-23"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7c6398d0b602a6b11691ddaf579e8a083ea2912b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Tracking the COVID-19 outbreak in India through Twitter: Opportunities for social media based global pandemic surveillance.",
+      "author": "S. Lakamana and Yuan-Chi Yang and M. Al-garadi and A. Sarker",
+      "pub_year": "2022",
+      "journal": "AMIA ... Annual Symposium proceedings. AMIA Symposium",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7d21e45301791192e7c7bde50a3474011ea80ec8",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "The Early Detection of Fraudulent COVID-19 Products From Twitter Chatter: Data Set and Baseline Approach Using Anomaly Detection",
+      "author": "A. Sarker and S. Lakamana and Ruqi Liao and Aamir Abbas and Yuan-Chi Yang and M. Al-garadi",
+      "pub_year": "2022",
+      "journal": "JMIR infodemiology",
+      "doi": "10.2196/43694",
+      "publication_date": "2022-10-20"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7f89ad772bb12483322855811754b37189658eee",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Abstract 10776: A Supervised Classification Model Detects Fontan Patients Based on Clinical Notes With Higher Accuracy Than ICD Codes",
+      "author": "Yuting Gao and M. Al-garadi and W. Book and Lindsey C Ivey and Fred H Rodriguez and C. Raskind-Hood and A. Sarker",
+      "pub_year": "2022",
+      "journal": "Circulation",
+      "doi": "10.1161/circ.146.suppl_1.10776",
+      "publication_date": "2022-11-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/806f1147724895d3b8b5e632435c52b4bad70407",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Signals of increasing co-use of stimulants and opioids from online drug forum data",
+      "author": "A. Sarker and M. Al-garadi and Yao Ge and N. Nataraj and Christopher M. Jones and S. Sumner",
+      "pub_year": "2022",
+      "journal": "Harm Reduction Journal",
+      "doi": "10.1186/s12954-022-00628-2",
+      "publication_date": "2022-05-25"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/92dac5283007b5c84da5644a41b297fb0912ceb9",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Trends in Co-mention of Stimulants and Opioids: A Natural Language Processing Driven Analysis of Reddit Forums",
+      "author": "A. Sarker and M. Al-garadi and Yao Ge and N. Nataraj and Christopher M. Jones and S. Sumner",
+      "pub_year": "2022",
+      "journal": "",
+      "doi": "10.21203/rs.3.rs-1255278/v1",
+      "publication_date": "2022-01-17"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/933bce017a8fb303f5d7c935e8d69a2498cdbc43",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automatic Detection of Twitter Users Who Express Chronic Stress Experiences via Supervised Machine Learning and Natural Language Processing",
+      "author": "Yuan-Chi Yang and A. Xie and Sangmi Kim and Jessica Hair and M. Al-garadi and A. Sarker",
+      "pub_year": "2022",
+      "journal": "Computers, Informatics, Nursing",
+      "doi": "10.1097/CIN.0000000000000985",
+      "publication_date": "2022-11-28"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/94cf46729f88f5259494152c99a59942d487b1b1",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Deepluenza: Deep learning for influenza detection from Twitter",
+      "author": "Balsam Alkouz and Z. Aghbari and M. Al-garadi and A. Sarker",
+      "pub_year": "2022",
+      "journal": "Expert systems with applications",
+      "doi": "10.1016/j.eswa.2022.116845",
+      "publication_date": "2022-03-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/963b5ba9caf4a4a6e10b3e1f556151722051506b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Social media mining for toxicovigilance of prescription medications: End-to-end pipeline, challenges and future work",
+      "author": "A. Sarker",
+      "pub_year": "2022",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2211.10443",
+      "publication_date": "2022-11-18"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/967b4c8251c739652bbbd4a1b32f387e8faa7108",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Can accurate demographic information about people who use prescription medications non-medically be derived from Twitter big data?",
+      "author": "Y.-C. Yang and M. Al-garadi and J. Love and H. Cooper and J. Perrone and A. Sarker",
+      "pub_year": "2022",
+      "journal": "medRxiv",
+      "doi": "10.1101/2022.04.27.22274390",
+      "publication_date": "2022-04-28"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/97b521bb8bc46cd7b509681b0a4da15c3e624250",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Evidence of the emergence of illicit benzodiazepines from online drug forums",
+      "author": "A. Sarker and M. Al-garadi and Yao Ge and N. Nataraj and Londell McGlone and Christopher M. Jones and S. Sumner",
+      "pub_year": "2022",
+      "journal": "European Journal of Public Health",
+      "doi": "10.1093/eurpub/ckac161",
+      "publication_date": "2022-11-07"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/9def28d374bacc40cd245aa66b3cbd7f73b7062b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the Seventh Social Media Mining for Health Applications (#SMM4H) Shared Tasks at COLING 2022",
+      "author": "D. Weissenbacher and J. Banda and Vera Davydova and Darryl Estrada Zavala and Luis Gasco and Yao Ge and Yuting Guo and A. Klein and Martin Krallinger and M. Leddin and A. Magge and Raul Rodriguez-Esteban and A. Sarker and Lucia Schmidt and E. Tutubalina and G. Gonzalez-Hernandez",
+      "pub_year": "2022",
+      "journal": "SMM4H",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/a81033cc42ad479a73536bc6071fb45504419c00",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Early detection of fraudulent COVID-19 products from Twitter chatter",
+      "author": "A. Sarker and S. Lakamana and R. Liao and A. Abbas and Y.-C. Yang and M. Al-garadi",
+      "pub_year": "2022",
+      "journal": "medRxiv",
+      "doi": "10.1101/2022.05.09.22274776",
+      "publication_date": "2022-05-11"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/a811b27187cb44385622154bbb68ca8bcf72043a",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "#ChronicPain: Automatic establishment of a chronic pain cohort from social media using machine learning for studying opioid-alternative therapies",
+      "author": "A. Sarker and S. Lakamana and Y. Guo and A. Leslie and O. Okunromade and Y.-C. Yang and E. Gonzalez-Polledo and J. Perrone and A. McKenzie-Brown",
+      "pub_year": "2022",
+      "journal": "medRxiv",
+      "doi": "10.1101/2022.08.20.22279021",
+      "publication_date": "2022-08-22"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ba14f67834ae93f0ab67d4c7acdf89afc84ab248",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "The Role of Natural Language Processing during the COVID-19 Pandemic: Health Applications, Opportunities, and Challenges",
+      "author": "M. Al-garadi and Yuan-Chi Yang and A. Sarker",
+      "pub_year": "2022",
+      "journal": "Healthcare",
+      "doi": "10.3390/healthcare10112270",
+      "publication_date": "2022-11-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/f4a8f86ce62995eccf4db80d37cd4e7952960452",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Obtaining insights about nonmedical use of prescription medications from social media via natural language processing",
+      "author": "A. Sarker",
+      "pub_year": "2021",
+      "journal": "ICWSM Workshops",
+      "doi": "10.36190/2021.73",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2181bd8f10fb408e6eb01347d4c7b11f6c488233",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automatic gender detection in Twitter profiles for health-related cohort studies",
+      "author": "Y.-C. Yang and M. Al-garadi and J. Love and J. Perrone and A. Sarker",
+      "pub_year": "2021",
+      "journal": "medRxiv",
+      "doi": "10.1093/jamiaopen/ooab042",
+      "publication_date": "2021-01-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/24b3756c06ad43727698a94572896c317de815ed",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Comparison of Pretraining Models and Strategies for Health-Related Social Media Text Classification",
+      "author": "Y. Guo and Y. Ge and Y.-C. Yang and M. Al-garadi and A. Sarker",
+      "pub_year": "2021",
+      "journal": "medRxiv",
+      "doi": "10.3390/healthcare10081478",
+      "publication_date": "2021-09-30"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/25f102a11fbfa6663d56664ac87ad789ce7bd3c4",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the Sixth Social Media Mining for Health Applications (#SMM4H) Shared Tasks at NAACL 2021",
+      "author": "A. Magge and A. Klein and Antonio Miranda-Escalada and M. Ali Al-Garadi and I. Alimova and Z. Miftahutdinov and Eulàlia Farré and Salvador Lima López and Ivan Flores and K. O’Connor and D. Weissenbacher and E. Tutubalina and A. Sarker and J. Banda and Martin Krallinger and G. Gonzalez-Hernandez",
+      "pub_year": "2021",
+      "journal": "SMM4H",
+      "doi": "10.18653/V1/2021.SMM4H-1.4",
+      "publication_date": "2021-06-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/26eabac11d907c45c461d6c8e82b2f90aa843b3b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A Data-Driven Iterative Approach for Semi-automatically Assessing the Correctness of Medication Value Sets: A Proof of Concept Based on Opioids",
+      "author": "Linyi Li and A. Grando and A. Sarker",
+      "pub_year": "2021",
+      "journal": "Methods of Information in Medicine",
+      "doi": "10.1055/s-0041-1740358",
+      "publication_date": "2021-12-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/54d062a7ce584581a329f497b0b89f60c428ed2a",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Pre-trained Transformer-based Classification and Span Detection Models for Social Media Health Applications",
+      "author": "Yuting Guo and Y. Ge and M. Ali Al-Garadi and A. Sarker",
+      "pub_year": "2021",
+      "journal": "SMM4H",
+      "doi": "10.18653/V1/2021.SMM4H-1.8",
+      "publication_date": "2021-06-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7302cb136dba812c8074a5dd0abdd574993480dd",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "The Use of Social Media to Prevent and Reduce Intimate Partner Violence During COVID-19 and Beyond",
+      "author": "Sangmi Kim and A. Sarker and J. Sales",
+      "pub_year": "2021",
+      "journal": "Partner Abuse",
+      "doi": "10.1891/PA-2021-0019",
+      "publication_date": "2021-10-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7aaa3a27d43ddb6bec4d4ac9e478d008521bcf8b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Tracking the COVID-19 outbreak in India via Twitter",
+      "author": "S. Lakamana and A. Sarker",
+      "pub_year": "2021",
+      "journal": "American Medical Informatics Association Annual Symposium",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/811fa4309a78f9fe4c4af05d7e2be375fbbac3cb",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Large-scale social media language analysis reveals emotions and behaviours associated with nonmedical prescription drug use",
+      "author": "M. Al-garadi and Y.-C. Yang and Y. Guo and S. Kim and J. Love and J. Perrone and A. Sarker",
+      "pub_year": "2021",
+      "journal": "medRxiv",
+      "doi": "10.1101/2021.09.20.21263856",
+      "publication_date": "2021-09-23"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/a116982f627117851489adce7844637ed4b43dbe",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Long COVID symptoms from Reddit: Characterizing post-COVID syndrome from patient reports",
+      "author": "A. Sarker and Yao Ge",
+      "pub_year": "2021",
+      "journal": "medRxiv",
+      "doi": "10.1101/2021.06.15.21259004",
+      "publication_date": "2021-06-18"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ac8c9c0b90f27a32aa60b2469eb3d81b9189df9a",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Thematic Analysis of Reddit Content About Buprenorphine-naloxone Using Manual Annotation and Natural Language Processing Techniques",
+      "author": "R. Graves and J. Perrone and M. Al-garadi and Yuan-Chi Yang and J. Love and K. O’Connor and G. Gonzalez-Hernandez and A. Sarker",
+      "pub_year": "2021",
+      "journal": "Journal of addiction medicine",
+      "doi": "10.1097/ADM.0000000000000940",
+      "publication_date": "2021-12-03"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/beb7af2aa57f1b48b59b03d09f617d5509ba7d7f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Natural language model for automatic identification of Intimate Partner Violence reports from Twitter",
+      "author": "M. Al-garadi and S. Kim and Y. Guo and E. Warren and Y.-C. Yang and S. Lakamana and A. Sarker",
+      "pub_year": "2021",
+      "journal": "medRxiv",
+      "doi": "10.1016/j.array.2022.100217",
+      "publication_date": "2021-11-26"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/c7259e0c097182329cb575a8d08c34e563f27532",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Methadone and suboxone® mentions on twitter: thematic and sentiment analysis",
+      "author": "M. Chenworth and J. Perrone and J. Love and R. Graves and W. Hogg-Bremer and A. Sarker",
+      "pub_year": "2021",
+      "journal": "Clinical toxicology",
+      "doi": "10.1080/15563650.2021.1893742",
+      "publication_date": "2021-04-06"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/df084d51e68ad827c5ce246063399bd37cf59150",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "An Ensemble Model for Automatic Grading of Evidence",
+      "author": "Yuting Guo and Yao Ge and Ruqi Liao and A. Sarker",
+      "pub_year": "2021",
+      "journal": "Australasian Language Technology Association Workshop",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e03e742dc63e9d5a38162d11551452c4190c0189",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Mining and characterizing long-COVID symptoms from self-reports on Reddit",
+      "author": "Yao Ge and Yuting Guo and A. Sarker",
+      "pub_year": "2021",
+      "journal": "American Medical Informatics Association Annual Symposium",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e98b00b07c6ab278fac1d5d3b04d39cab2a3a59f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Title: Developing an automatic system for classifying chatter about health services from Twitter: A case study for Medicaid",
+      "author": "Yuan-Chi Yang and M. Al-garadi and W. Hogg-Bremer and Jane M. Zhu and D. Grande and A. Sarker",
+      "pub_year": "2020",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/0c59264775565545beed98177ea0efa982546cea",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Characteristics of Twitter Use by State Medicaid Programs in the United States: Machine Learning Approach (Preprint)",
+      "author": "Jane M. Zhu and A. Sarker and Sarah E. Gollust and R. Merchant and D. Grande",
+      "pub_year": "2020",
+      "journal": "",
+      "doi": "10.2196/preprints.18401",
+      "publication_date": "2020-02-24"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/1efcd89f0200418f3b1016559a6d9c9f2d29ad9f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Methadone and Suboxone® mentions on Twitter: Thematic and Sentiment Analysis (Preprint)",
+      "author": "M. Chenworth and J. Perrone and Whitney Hogg and A. Sarker",
+      "pub_year": "2020",
+      "journal": "",
+      "doi": "10.2196/preprints.19700",
+      "publication_date": "2020-04-28"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/337e6a8e10a1e93dfb320c3d23c2be2f9d59df57",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Understanding Characteristics Of Users With Signs Of Opioid Misuse On Twitter (Preprint)",
+      "author": "Haya Jarad and Junhua Yang and A. Sarker",
+      "pub_year": "2020",
+      "journal": "",
+      "doi": "10.2196/preprints.25620",
+      "publication_date": "2020-11-09"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/39163dc710f9de83aecdf8415aafa4f39f5eea3d",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A Light-weight Text Summarizer for Fast Access to Medical Evidence",
+      "author": "A. Sarker and Y.-C. Yang and M. Al-garadi",
+      "pub_year": "2020",
+      "journal": "medRxiv",
+      "doi": "10.1101/2020.05.22.20110742",
+      "publication_date": "2020-05-26"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/47b5a43483613a5c53fa2c69bab1839c5b6b43f5",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Benchmarking of Transformer-Based Pre-Trained Models on Social Media Text Classification Datasets",
+      "author": "Yuting Guo and Xiangjue Dong and M. Al-garadi and A. Sarker and Cécile Paris and Diego Mollá Aliod",
+      "pub_year": "2020",
+      "journal": "Australasian Language Technology Association Workshop",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/4ab55fd59a5dc012e512925afdd78233280c54ff",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Methadone and Suboxone(R) mentions on Twitter: Thematic and Sentiment Analysis",
+      "author": "M. Chenworth and J. Perrone and J. Love and R. Graves and W. Hogg-Bremer and A. Sarker",
+      "pub_year": "2020",
+      "journal": "medRxiv",
+      "doi": "10.1101/2020.06.19.20135962",
+      "publication_date": "2020-06-20"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/4d044b926099f4933c8ed5931bb633e77175a5e7",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Advances in Text Mining and Visualization for Precision Medicine",
+      "author": "G. Gonzalez-Hernandez and A. Sarker and K. O’Connor and C. Greene and Hongfang Liu",
+      "pub_year": "2020",
+      "journal": "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing",
+      "doi": "10.1142/9789813235533_0051",
+      "publication_date": "2020-08-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/5850646086e40ee2d004b94b092b03c3cc5695e7",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Emory at WNUT-2020 Task 2: Combining Pretrained Deep Learning Models and Feature Enrichment for Informative Tweet Identification",
+      "author": "Yuting Guo and M. Al-garadi and A. Sarker",
+      "pub_year": "2020",
+      "journal": "WNUT",
+      "doi": "10.18653/v1/2020.wnut-1.54",
+      "publication_date": "2020-11-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7dbb2586e8aae9d8c1c4131d5828e63b178469c1",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the Fifth Social Media Mining for Health Applications (#SMM4H) Shared Tasks at COLING 2020",
+      "author": "A. Klein and I. Alimova and Ivan Flores and A. Magge and Z. Miftahutdinov and Anne-Lyse Minard and K. O’Connor and A. Sarker and E. Tutubalina and D. Weissenbacher and G. Gonzalez-Hernandez",
+      "pub_year": "2020",
+      "journal": "SMM4H",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/916f1b26e1dd542c6df00116a30ae95e251d9117",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Assessing perceptions about medications for opioid use disorder and Naloxone on Twitter",
+      "author": "B. Tofighi and Omar El Shahawy and Andrew Segoshi and Katerine P Moreno and Beita Badiei and A. Sarker and N. Krawczyk",
+      "pub_year": "2020",
+      "journal": "Journal of Addictive  Diseases",
+      "doi": "10.1080/10550887.2020.1811456",
+      "publication_date": "2020-08-24"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/a561e160e0f49f4f48e783be981ddca85788e00c",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Characteristics of Twitter Use by State Medicaid Programs in the United States: Machine Learning Approach",
+      "author": "Jane M. Zhu and A. Sarker and Sarah E. Gollust and R. Merchant and D. Grande",
+      "pub_year": "2020",
+      "journal": "Journal of Medical Internet Research",
+      "doi": "10.2196/18401",
+      "publication_date": "2020-08-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/a72ecf69858caf9296e2724f3708cef40cfe013e",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Self-reported COVID-19 symptoms on Twitter: an analysis and a research resource",
+      "author": "A. Sarker and S. Lakamana and W. Hogg-Bremer and A. Xie and M. Al-garadi and Yuan-Chi Yang",
+      "pub_year": "2020",
+      "journal": "medRxiv",
+      "doi": "10.1093/jamia/ocaa116",
+      "publication_date": "2020-04-22"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/b66e677361bbaaf41fdfd14851d9aa684d97df47",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A Light-Weight Text Summarization System for Fast Access to Medical Evidence",
+      "author": "A. Sarker and Yuan-Chi Yang and M. Al-garadi and Aamir Abbas",
+      "pub_year": "2020",
+      "journal": "Frontiers in Digital Health",
+      "doi": "10.3389/fdgth.2020.585559",
+      "publication_date": "2020-12-04"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/c2dd9c9232feaf200fdcad3a18bf95613de443b1",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A Text Classiﬁcation Approach for the Automatic Detection of Twitter Posts Containing Self-reported COVID-19 Symptoms",
+      "author": "M. Al-garadi and Yuan-Chi Yang and S. Lakamana and A. Sarker",
+      "pub_year": "2020",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/cb65de718650b99c0631ce0ba8bb248906aeeb94",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automatic Breast Cancer Survivor Detection from Social Media for Studying Latent Factors Affecting Treatment Success",
+      "author": "M. Al-garadi and Yuan-Chi Yang and S. Lakamana and Jie Lin and Sabrina Li and A. Xie and W. Hogg-Bremer and M. Torres and I. Banerjee and A. Sarker",
+      "pub_year": "2020",
+      "journal": "medRxiv",
+      "doi": "10.1101/2020.05.17.20104778",
+      "publication_date": "2020-05-21"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ce7977bbb40c65809fdace68df1ba40772ff444f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Promoting Reproducible Research for Characterizing Nonmedical Use of Medications Through Data Annotation: Description of a Twitter Corpus and Guidelines",
+      "author": "K. O’Connor and A. Sarker and J. Perrone and Graciela Gonzalez Hernandez",
+      "pub_year": "2020",
+      "journal": "Journal of Medical Internet Research",
+      "doi": "10.2196/15861",
+      "publication_date": "2020-02-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d3c5f9d12b0cd2cbc8d252611d8a3baae48eee8d",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "LexExp: a system for automatically expanding concept lexicons for noisy biomedical texts",
+      "author": "A. Sarker",
+      "pub_year": "2020",
+      "journal": "Bioinform.",
+      "doi": "10.1093/bioinformatics/btaa995",
+      "publication_date": "2020-11-27"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d519eb20e6dd742ad8851ce4a492180c33111d97",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Developing an automatic pipeline for analyzing chatter about health services from social media: A case study for Medicaid",
+      "author": "Y.-C. Yang and M. Al-garadi and W. Hogg-Bremer and J. Zhu and D. Grande and A. Sarker",
+      "pub_year": "2020",
+      "journal": "medRxiv",
+      "doi": "10.1101/2020.06.12.20129593",
+      "publication_date": "2020-06-13"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/da9d45c29c925f3234e5622b12e8372b71053184",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Defining Patient-Oriented Natural Language Processing: A New Paradigm for Research and Development to Facilitate Adoption and Use by Medical Experts",
+      "author": "A. Sarker and M. Al-garadi and Yuan-Chi Yang and Jinho D. Choi and A. Quyyumi and Greg S Martin",
+      "pub_year": "2020",
+      "journal": "JMIR Medical Informatics",
+      "doi": "10.2196/18471",
+      "publication_date": "2020-02-28"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e280e3945969951974ec6cdd27bf215859f3b843",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Utilizing a multi-class classification approach to detect therapeutic and recreational misuse of opioids on Twitter",
+      "author": "S. Fodeh and M. Al-garadi and O. Elsankary and J. Perrone and W. Becker and A. Sarker",
+      "pub_year": "2020",
+      "journal": "Comput. Biol. Medicine",
+      "doi": "10.1016/j.compbiomed.2020.104132",
+      "publication_date": "2020-11-20"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e286a3b5a8d71b6f82a0c3e2c03b640d775c463e",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Patient-oriented natural language processing: Defining a new paradigm for research and development to facilitate adoption and utilization by medical experts (Preprint)",
+      "author": "A. Sarker and M. Al-garadi and Yuan-Chi Yang and Jinho D. Choi and A. Quyyumi and Greg S. Martin",
+      "pub_year": "2020",
+      "journal": "",
+      "doi": "10.2196/preprints.18471",
+      "publication_date": "2020-02-28"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e7af9e3539d073f3b225ce0df926ed23ca71147d",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "COVID-19 Twitter Word2Vec Model",
+      "author": "A. Sarker",
+      "pub_year": "2020",
+      "journal": "",
+      "doi": "10.17632/T8BXG423YK.1",
+      "publication_date": "2020-05-30"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ecbed7fd799c8bd900ed7674e557dc3c8823faca",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Buprenorphine Initiation in the Emergency Department: a Thematic Content Analysis of a #firesidetox Tweetchat",
+      "author": "M. Chenworth and J. Perrone and J. Love and H. Greller and A. Sarker and P. Chai",
+      "pub_year": "2020",
+      "journal": "Journal of Medical Toxicology",
+      "doi": "10.1007/s13181-019-00754-7",
+      "publication_date": "2020-01-02"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/f396ccee04d031bd502c2cd505cf07e86732a855",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Text classification models for the automatic detection of nonmedical prescription medication use from social media",
+      "author": "M. Ali Al-Garadi and Y.-C. Yang and H. Cai and Y. Ruan and K. O’Connor and G. Gonzalez-Hernandez and J. Perrone and A. Sarker",
+      "pub_year": "2020",
+      "journal": "BMC Medical Informatics and Decision Making",
+      "doi": "10.1186/s12911-021-01394-0",
+      "publication_date": "2020-04-17"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/f4e7e312e1e2b462936534fd566fb4a16e0d29d2",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Developing an Automatic System for Classifying Chatter About Health Services on Twitter: Case Study for Medicaid",
+      "author": "Yuan-Chi Yang and M. Al-garadi and W. Bremer and Jane M. Zhu and D. Grande and A. Sarker",
+      "pub_year": "2020",
+      "journal": "Journal of Medical Internet Research",
+      "doi": "10.2196/26616",
+      "publication_date": "2020-12-18"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/f58e158ce2316cdcdc32e057ccf83cc05113999d",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Deep Neural Networks Ensemble for Detecting Tweets Mentioning Medications",
+      "author": "D. Weissenbacher and A. Sarker and A. Klein and K. O’Connor and A. Magge and G. Gonzalez-Hernandez",
+      "pub_year": "2019",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2a0cc67272212b9c35cd8705ed2f9c71a949151c",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Comment on: “Deep learning for pharmacovigilance: recurrent neural network architectures for labeling adverse drug reactions in Twitter posts”",
+      "author": "A. Magge and A. Sarker and Azadeh Nikfarjam and G. Gonzalez-Hernandez",
+      "pub_year": "2019",
+      "journal": "J. Am. Medical Informatics Assoc.",
+      "doi": "10.1093/jamia/ocz013",
+      "publication_date": "2019-04-11"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/3cc61bac373c23e12857794684344a0cc0e32edb",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Mining social media for prescription medication abuse monitoring: a review and proposal for a data-centric framework",
+      "author": "A. Sarker and A. Deroos and J. Perrone",
+      "pub_year": "2019",
+      "journal": "J. Am. Medical Informatics Assoc.",
+      "doi": "10.1093/jamia/ocz162",
+      "publication_date": "2019-10-04"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/4ebe0f090d2c2b0cea4e2005dba96da663254da2",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Deep neural networks ensemble for detecting medication mentions in tweets",
+      "author": "D. Weissenbacher and A. Sarker and A. Klein and K. O’Connor and Arjun Magge Ranganatha and G. Gonzalez-Hernandez",
+      "pub_year": "2019",
+      "journal": "J. Am. Medical Informatics Assoc.",
+      "doi": "10.1093/jamia/ocz156",
+      "publication_date": "2019-04-10"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7d4fc824c8e2c1e67a6f1312e5d59c614d160a24",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the Fourth Social Media Mining for Health (SMM4H) Shared Tasks at ACL 2019",
+      "author": "D. Weissenbacher and A. Sarker and A. Magge and Ashlynn R. Daughton and K. O’Connor and Michael J. Paul and G. Gonzalez-Hernandez",
+      "pub_year": "2019",
+      "journal": "SMM4H@ACL",
+      "doi": "10.18653/v1/W19-3203",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/8dd234dde9c319174fcbe380164d0886d67bf92e",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Effective buprenorphine use and tapering strategies: Endorsements and insights by people in recovery from opioid use disorder on a Reddit forum",
+      "author": "R. Graves and A. Sarker and M. Al-garadi and Yuan-Chi Yang and J. Love and K. O’Connor and G. Gonzalez-Hernandez and J. Perrone",
+      "pub_year": "2019",
+      "journal": "bioRxiv",
+      "doi": "10.1101/871608",
+      "publication_date": "2019-12-11"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/97ef416dc08c58cd7ac3fcb49fb9dac6eebe44ad",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Towards Automating Location-Specific Opioid Toxicosurveillance from Twitter via Data Science Methods",
+      "author": "A. Sarker and G. Gonzalez-Hernandez and J. Perrone",
+      "pub_year": "2019",
+      "journal": "Medinfo",
+      "doi": "10.3233/SHTI190238",
+      "publication_date": "2019-08-21"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/bc1d0fdce0b9847799875c7ef434d7293f4bc9c1",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Promoting Reproducible Research for Characterizing Nonmedical Use of Medications Through Data Annotation: Description of a Twitter Corpus and Guidelines (Preprint)",
+      "author": "K. O’Connor and A. Sarker and J. Perrone and Graciela Gonzalez Hernandez",
+      "pub_year": "2019",
+      "journal": "",
+      "doi": "10.2196/preprints.15861",
+      "publication_date": "2019-08-13"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/bf218a0435d7204b3e5309ac2b8debe789ddb4a7",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "An Analysis of a Twitter Corpus for Training a Medication Intake Classifier.",
+      "author": "Ari Z Klein and A. Sarker and K. O’Connor and G. Gonzalez-Hernandez",
+      "pub_year": "2019",
+      "journal": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d058ac2d50b78c5a2a3253d8edd895dcb33c14a7",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Machine Learning and Natural Language Processing for Geolocation-Centric Monitoring and Characterization of Opioid-Related Social Media Chatter",
+      "author": "A. Sarker and G. Gonzalez-Hernandez and Y. Ruan and J. Perrone",
+      "pub_year": "2019",
+      "journal": "JAMA Network Open",
+      "doi": "10.1001/jamanetworkopen.2019.14672",
+      "publication_date": "2019-11-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d1a188ed7ef09b59711a30a51d8fa9e9770083f0",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "An interpretable natural language processing system for written medical examination assessment",
+      "author": "A. Sarker and A. Klein and Janet Mee and Polina Harik and G. Gonzalez-Hernandez",
+      "pub_year": "2019",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2019.103268",
+      "publication_date": "2019-10-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d7f4448f3a6540c58eabbea05fafd4282c9f4fd0",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Towards Automatic Bot Detection in Twitter for Health-related Tasks",
+      "author": "A. Davoudi and A. Klein and A. Sarker and G. Gonzalez-Hernandez",
+      "pub_year": "2019",
+      "journal": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
+      "doi": "",
+      "publication_date": "2019-09-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e6cd2591841b20711ab9aa8227d08ae9c7a85197",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Data-Driven Lexical Normalization for Medical Social Media",
+      "author": "A. Dirkson and Suzan Verberne and A. Sarker and Wessel Kraaij",
+      "pub_year": "2019",
+      "journal": "Multimodal Technologies and Interaction",
+      "doi": "10.3390/MTI3030060",
+      "publication_date": "2019-08-20"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/eb56e63c4ee31878ebeee43bf0f6c73b7257bc5d",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Bi-directional Recurrent Neural Network Models for Geographic Location Extraction in Biomedical Literature",
+      "author": "A. Magge and D. Weissenbacher and A. Sarker and M. Scotch and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "Pacific Symposium on Biocomputing",
+      "doi": "10.1142/9789813279827_0010",
+      "publication_date": "2018-11-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/4c6a3b1930c92f0a97586438f22052e2930db4cd",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A Rule-based Approach to Determining Pregnancy Timeframe from Contextual Social Media Postings",
+      "author": "Masoud Rouhizadeh and A. Magge and A. Klein and A. Sarker and Graciela Gonzalez",
+      "pub_year": "2018",
+      "journal": "Digital Humanities Conference",
+      "doi": "10.1145/3194658.3194679",
+      "publication_date": "2018-04-23"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/536946e9b74641e3ab3dfc6714f8458cf45db15f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Data and systems for medication-related text classification and concept normalization from Twitter: insights from the Social Media Mining for Health (SMM4H)-2017 shared task",
+      "author": "A. Sarker and M. Belousov and Jasper Friedrichs and K. Hakala and Svetlana Kiritchenko and Farrokh Mehryary and Sifei Han and Tung Tran and Anthony Rios and Ramakanth Kavuluru and Berry de Bruijn and Filip Ginter and Debanjan Mahata and Saif M. Mohammad and G. Nenadic and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "J. Am. Medical Informatics Assoc.",
+      "doi": "10.1093/jamia/ocy114",
+      "publication_date": "2018-10-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/58c1d387ebff91e8921cb51b2b775533825dc084",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the Third Social Media Mining for Health (SMM4H) Shared Tasks at EMNLP 2018",
+      "author": "D. Weissenbacher and A. Sarker and Michael J. Paul and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "SMM4H@EMNLP",
+      "doi": "10.18653/v1/W18-5904",
+      "publication_date": "2018-10-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/86059cd81d1236d245ee3c8eb6615ed47259654b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Methods to Compare Adverse Events in Twitter to FAERS, Drug Information Databases, and Systematic Reviews: Proof of Concept with Adalimumab",
+      "author": "Karen Smith and S. Golder and A. Sarker and Y. Loke and K. O’Connor and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "Drug Safety",
+      "doi": "10.1007/s40264-018-0707-6",
+      "publication_date": "2018-08-30"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/928cff411d5562cc340efbf746fef49f5b28bbda",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Deep neural networks and distant supervision for geographic location mention extraction",
+      "author": "A. Magge and D. Weissenbacher and A. Sarker and M. Scotch and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "Bioinform.",
+      "doi": "10.1093/bioinformatics/bty273",
+      "publication_date": "2018-06-27"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/950fea57cf9b9b280e5d59b4a1aadc65b74c0f81",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Social media mining for birth defects research: A rule-based, bootstrapping approach to collecting data for rare health-related events on Twitter",
+      "author": "A. Klein and A. Sarker and H. Cai and D. Weissenbacher and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2018.10.001",
+      "publication_date": "2018-11-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/955b1e4d87928ed2544d61dd8d7ddd71323375bb",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Towards scaling Twitter for digital epidemiology of birth defects",
+      "author": "A. Klein and A. Sarker and D. Weissenbacher and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "npj Digital Medicine",
+      "doi": "10.1038/s41746-019-0170-5",
+      "publication_date": "2018-10-22"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/bc66a8d251ff722a3cd6c7cb64effc259aec737c",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Detecting Birth Defects on Twitter: Annotation Guidelines",
+      "author": "A. Klein and A. Sarker and H. Cai and D. Weissenbacher and K. O’Connor and Alexis Upshur",
+      "pub_year": "2018",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e348e38a8f57b2ed20b394dedb08d57cf0a825eb",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Session Introduction",
+      "author": "Michael J. Paul and A. Sarker and J. Brownstein and Azadeh Nikfarjam and M. Scotch and Karen L. Smith and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "Pacific Symposium on Biocomputing",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/fabc339f4de310a8459b4b407599b998c55bd309",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "An unsupervised and customizable misspelling generator for mining noisy health-related text sources",
+      "author": "A. Sarker and G. Gonzalez-Hernandez",
+      "pub_year": "2018",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2018.11.007",
+      "publication_date": "2018-06-04"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ff19d05f0973f17c9d3adc46d00a7adcab7ae16f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Detecting Personal Medication Intake in Twitter: An Annotated Corpus and Baseline Classification System",
+      "author": "A. Klein and A. Sarker and Masoud Rouhizadeh and K. O’Connor and Graciela Gonzalez",
+      "pub_year": "2017",
+      "journal": "Workshop on Biomedical Natural Language Processing",
+      "doi": "10.18653/v1/W17-2316",
+      "publication_date": "2017-08-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/10aee0f0258d66994e6e780219ad3e04c3994572",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Capturing the Patient’s Perspective: a Review of Advances in Natural Language Processing of Health-Related Text",
+      "author": "G. González-Hernández and A. Sarker and K. O'Connor and G. Savova",
+      "pub_year": "2017",
+      "journal": "Yearbook of Medical Informatics",
+      "doi": "10.15265/IY-2017-029",
+      "publication_date": "2017-08-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/20de699c041ffc9e242cfdb03d4938ec5f849785",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Extracting geographic locations from the literature for virus phylogeography using supervised and distant supervision methods",
+      "author": "D. Weissenbacher and A. Sarker and Tasnia Tahsin and M. Scotch and Graciela Gonzalez",
+      "pub_year": "2017",
+      "journal": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
+      "doi": "",
+      "publication_date": "2017-07-26"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/6df79b9b8a9e408b6cc9a2d4efafc6209f42dc64",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Dermatologic concerns communicated through Twitter",
+      "author": "A. Sarker and A. Magge and A. Sharma",
+      "pub_year": "2017",
+      "journal": "International Journal of Dermatology",
+      "doi": "10.1111/ijd.13506",
+      "publication_date": "2017-08-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/9361570e081ee84d5377f8b91fb23d676a81dcb8",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "HLP@UPenn at SemEval-2017 Task 4A: A simple, self-optimizing text classification system combining dense and sparse vectors",
+      "author": "A. Sarker and Graciela Gonzalez",
+      "pub_year": "2017",
+      "journal": "International Workshop on Semantic Evaluation",
+      "doi": "10.18653/v1/S17-2105",
+      "publication_date": "2017-08-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/9dc0103870a0ecf0bb29ad7fb5017098164f501e",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A customizable pipeline for social media text normalization",
+      "author": "A. Sarker",
+      "pub_year": "2017",
+      "journal": "Social Network Analysis and Mining",
+      "doi": "10.1007/s13278-017-0464-z",
+      "publication_date": "2017-09-09"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/9f75de328947af808d4a133a791041c77190864e",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Authors’ Reply to Jouanjus and Colleagues’ Comment on “Social Media Mining for Toxicovigilance: Automatic Monitoring of Prescription Medication Abuse from Twitter”",
+      "author": "A. Sarker and Dan Malone and Graciela Gonzalez",
+      "pub_year": "2017",
+      "journal": "Drug Safety",
+      "doi": "10.1007/s40264-016-0498-6",
+      "publication_date": "2017-02-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/b781d83f83a69e29a6e5c0ecd2f6a26227ebb61c",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Social media mining for identification and exploration of health-related information from pregnant women",
+      "author": "P. Chandrashekar and A. Magge and A. Sarker and Graciela Gonzalez",
+      "pub_year": "2017",
+      "journal": "arXiv.org",
+      "doi": "",
+      "publication_date": "2017-02-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/c0c8d00d6ae2f6eb0ce87cd437d61a6a23e22419",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the Second Social Media Mining for Health (SMM4H) Shared Tasks at AMIA 2017",
+      "author": "A. Sarker and Graciela Gonzalez",
+      "pub_year": "2017",
+      "journal": "SMM4H@AMIA",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/c2dd2978239571164ac939d5a81af55ed657c2a2",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Hybrid Semantic Analysis for Mapping Adverse Drug Reaction Mentions in Tweets to Medical Terminology",
+      "author": "Ehsan Emadzadeh and A. Sarker and Azadeh Nikfarjam and G. Gonzalez-Hernandez",
+      "pub_year": "2017",
+      "journal": "American Medical Informatics Association Annual Symposium",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/c41d8bc5fb6cfd5c55fc1046441753618f319253",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automated text summarisation and evidence-based medicine: A survey of two domains",
+      "author": "A. Sarker and Diego Mollá Aliod and Cécile Paris",
+      "pub_year": "2017",
+      "journal": "arXiv.org",
+      "doi": "",
+      "publication_date": "2017-06-25"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d1e8250f3306613d39f2fed435a44b0abb4a0936",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Discovering Cohorts of Pregnant Women From Social Media for Safety Surveillance and Analysis",
+      "author": "A. Sarker and P. Chandrashekar and A. Magge and H. Cai and A. Klein and Graciela Gonzalez",
+      "pub_year": "2017",
+      "journal": "Journal of Medical Internet Research",
+      "doi": "10.2196/jmir.8164",
+      "publication_date": "2017-10-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/df74530e43f0a676c235ff2e50aedfaf733d2037",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Detecting Personal Medication Intake in Twitter: Annotation Guidelines",
+      "author": "A. Klein and A. Sarker and Masoud Rouhizadeh and K. O’Connor and Graciela Gonzalez and Annotators and Alexis Upshur",
+      "pub_year": "2017",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/fdb51a9adfd1084fc7210c1ccfd1ded7dc2fa393",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Query-oriented evidence extraction to support evidence-based medicine practice",
+      "author": "A. Sarker and Diego Mollá Aliod and Cécile Paris",
+      "pub_year": "2016",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2015.11.010",
+      "publication_date": "2016-02-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/00b5d20e5ffea4fe153d3234de5029efb79692ca",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Analysis of the effect of sentiment analysis on extracting adverse drug reactions from tweets and forum posts",
+      "author": "Ioannis Korkontzelos and Azadeh Nikfarjam and M. Shardlow and A. Sarker and S. Ananiadou and G. Gonzalez-Hernandez",
+      "pub_year": "2016",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2016.06.007",
+      "publication_date": "2016-08-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/0478269179d2f52fda80119959a27936adccc5f6",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "DiegoLab16 at SemEval-2016 Task 4: Sentiment Analysis in Twitter using Centroids, Clusters, and Sentiment Lexicons",
+      "author": "A. Sarker and Graciela Gonzalez",
+      "pub_year": "2016",
+      "journal": "International Workshop on Semantic Evaluation",
+      "doi": "10.18653/v1/S16-1031",
+      "publication_date": "2016-06-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/166ff99a902290e9ccdb4c9e3448a38f49266385",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Acknowledgement to Referees",
+      "author": "Tal and Lorberbaum and K. Sampson and R. Woosley and R. Kass and N. Tatonetti and C. Freifeld and S. John and Brownstein and Christopher Menone and Wenjie Bao and Ross W. Filice and N. Dasgupta and A. Sarker and Karen L O’Connor and Rachel E. Ginn and M. Scotch and Dan Malone and Graciela Gonzalez and H. Blume and F. Donath and André and Warnke and B. Schug and E. Megan and B. Clowse and S. Feldman and J. Isaacs and A. Kimball and R. Warren and Daniel and Xibillé and D. Frazier and J. Geier and J. Proulx and A. Marren",
+      "pub_year": "2016",
+      "journal": "Drug Safety",
+      "doi": "10.1007/s40264-016-0468-z",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/232ae690a20dee8385acd512aecc1575510acb49",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Data, tools and resources for mining social media drug chatter",
+      "author": "A. Sarker and Graciela Gonzalez",
+      "pub_year": "2016",
+      "journal": "BioTxtM@COLING 2016",
+      "doi": "",
+      "publication_date": "2016-12-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/55565ec5cdcd83da8de446f546a0721a3603e002",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automated Extraction of Number of Subjects in Randomised Controlled Trials",
+      "author": "A. Sarker",
+      "pub_year": "2016",
+      "journal": "arXiv.org",
+      "doi": "",
+      "publication_date": "2016-06-22"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/56e2a62a5d6d2dab28f827c30bac0eb6dec853ee",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Social Media Mining for Toxicovigilance: Automatic Monitoring of Prescription Medication Abuse from Twitter",
+      "author": "A. Sarker and K. O’Connor and Rachel E. Ginn and M. Scotch and Karen Smith and Dan Malone and Graciela Gonzalez",
+      "pub_year": "2016",
+      "journal": "Drug Safety",
+      "doi": "10.1007/s40264-015-0379-4",
+      "publication_date": "2016-01-09"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/bb24c9661655035a1e61cce7f2084075b6fa1194",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A corpus for mining drug-related knowledge from Twitter chatter: Language models and their utilities",
+      "author": "A. Sarker and Graciela Gonzalez",
+      "pub_year": "2016",
+      "journal": "Data in Brief",
+      "doi": "10.1016/j.dib.2016.11.056",
+      "publication_date": "2016-11-23"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/bcfba7e4733780102f7340b4dd788d4be03519e5",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Mining the Web for Pharmacovigilance: the Case Study of Duloxetine and Venlafaxine",
+      "author": "A. Chokor and A. Sarker and Graciela Gonzalez",
+      "pub_year": "2016",
+      "journal": "arXiv.org",
+      "doi": "",
+      "publication_date": "2016-10-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d0b815e08d2a979e6b50421854356f63886648b5",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Social Media Mining Shared Task Workshop",
+      "author": "A. Sarker and Azadeh Nikfarjam and G. Gonzalez-Hernandez",
+      "pub_year": "2016",
+      "journal": "Pacific Symposium on Biocomputing",
+      "doi": "10.1142/9789814749411_0054",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d72dee2897e88a9f9a8287f1bacbc6dbd70bb110",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Finding Potentially Unsafe Nutritional Supplements from User Reviews with Topic Modeling",
+      "author": "R. Sullivan and A. Sarker and K. O’Connor and Amanda Goodin and Mark Karlsrud and Graciela Gonzalez",
+      "pub_year": "2015",
+      "journal": "Pacific Symposium on Biocomputing",
+      "doi": "10.1142/9789814749411_0048",
+      "publication_date": "2015-11-18"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/1ac6a66f86e1bfb0da72be20a9612176b8e60f7c",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "DIEGOLab: An Approach for Message-level Sentiment Classification in Twitter",
+      "author": "A. Sarker and Azadeh Nikfarjam and D. Weissenbacher and G. Gonzalez-Hernandez",
+      "pub_year": "2015",
+      "journal": "International Workshop on Semantic Evaluation",
+      "doi": "10.18653/v1/S15-2085",
+      "publication_date": "2015-06-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/20d0dee87f2467783a711b57b62a945350a96ed8",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Portable automatic text classification for adverse drug reaction detection via multi-corpus training",
+      "author": "A. Sarker and Graciela Gonzalez",
+      "pub_year": "2015",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2014.11.002",
+      "publication_date": "2015-02-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/23de58fdc005c42f155d8949ad56305ad656084f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Utilizing social media data for pharmacovigilance: A review",
+      "author": "A. Sarker and Rachel E. Ginn and Azadeh Nikfarjam and K. O’Connor and Karen L. Smith and Swetha Jayaraman and Tejaswi Upadhaya and G. Gonzalez-Hernandez",
+      "pub_year": "2015",
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2015.02.004",
+      "publication_date": "2015-04-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/3738e35f7b288f8689c41bbe9d5a6a6b0c430831",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A corpus for research in text processing for evidence based medicine",
+      "author": "Diego Mollá Aliod and M. E. Santiago-Martínez and A. Sarker and Cécile Paris",
+      "pub_year": "2015",
+      "journal": "Language Resources and Evaluation",
+      "doi": "10.1007/s10579-015-9327-2",
+      "publication_date": "2015-12-21"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/bbb35972116d8d7b990319aad31b7861a35c95dc",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Pharmacovigilance from social media: mining adverse drug reaction mentions using sequence labeling with word embedding cluster features",
+      "author": "Azadeh Nikfarjam and A. Sarker and K. O’Connor and Rachel E. Ginn and G. Gonzalez-Hernandez",
+      "pub_year": "2015",
+      "journal": "J. Am. Medical Informatics Assoc.",
+      "doi": "10.1093/jamia/ocu041",
+      "publication_date": "2015-03-09"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ee8085bd00f437318cce5b919b47233de8c5f6ff",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automatic evidence quality prediction to support evidence-based decision making",
+      "author": "A. Sarker and Diego Mollá Aliod and Cécile Paris",
+      "pub_year": "2015",
+      "journal": "Artif. Intell. Medicine",
+      "doi": "10.1016/j.artmed.2015.04.001",
+      "publication_date": "2015-06-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/fc052b17520729f4b9d604971a224261ffdb8c69",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Impact of Citing Papers for Summarisation of Clinical Documents",
+      "author": "Diego Mollá Aliod and Christopher Jones and A. Sarker",
+      "pub_year": "2014",
+      "journal": "Australasian Language Technology Association Workshop",
+      "doi": "",
+      "publication_date": "2014-11-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ac2cf43b84c06ac845d5869661e2eac00db307b4",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Pharmacovigilance on Twitter? Mining Tweets for Adverse Drug Reactions",
+      "author": "K. O’Connor and Azadeh Nikfarjam and Rachel E. Ginn and Pranoti Pimpalkhute and A. Sarker and Karen L. Smith and G. Gonzalez-Hernandez",
+      "pub_year": "2014",
+      "journal": "American Medical Informatics Association Annual Symposium",
+      "doi": "",
+      "publication_date": "2014-11-14"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/c20d5299d4c430ea39120a912feee5a7c6bb1c06",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "An Approach for Query-Focused Text Summarisation for Evidence Based Medicine",
+      "author": "A. Sarker and Diego Mollá Aliod and Cécile Paris",
+      "pub_year": "2013",
+      "journal": "Conference on Artificial Intelligence in Medicine in Europe",
+      "doi": "10.1007/978-3-642-38326-7_41",
+      "publication_date": "2013-05-29"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/1c6e600e366dd1ec8fb0cc93b4328f592d33f780",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "An Approach for automatic multi-label classification of medical sentences",
+      "author": "A. Sarker and D. Mollá-Aliod and Cécile Paris",
+      "pub_year": "2013",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/4f587a7a1144ade870fca10714d35cda11d307a2",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automatic Prediction of Evidence-based Recommendations via Sentence-level Polarity Classification",
+      "author": "A. Sarker and Diego Mollá Aliod and Cécile Paris",
+      "pub_year": "2013",
+      "journal": "International Joint Conference on Natural Language Processing",
+      "doi": "",
+      "publication_date": "2013-10-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e07af1d5792c8d15c6bc59181b1d72ceb9cf13a4",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Towards Two-step Multi-document Summarisation for Evidence Based Medicine: A Quantitative Analysis",
+      "author": "A. Sarker and Diego Mollá Aliod and Cécile Paris",
+      "pub_year": "2012",
+      "journal": "Australasian Language Technology Association Workshop",
+      "doi": "",
+      "publication_date": "2012-12-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/1fef04061e36c62dab0e20cb5defe7bc25928846",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Extractive summarisation of medical documents using domain knowledge and corpus statistics.",
+      "author": "A. Sarker and Diego Molla and Cécile Paris",
+      "pub_year": "2012",
+      "journal": "Australasian Medical Journal",
+      "doi": "10.4066/AMJ.2012.1361",
+      "publication_date": "2012-10-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7e0e6b8fa2efd24eeb92529292a1f69d1ea54d27",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "EXTRACTIVE SUMMARISATION OF MEDICAL DOCUMENTS",
+      "author": "A. Sarker and Diego Molla and Cécile Paris",
+      "pub_year": "2012",
+      "journal": "",
+      "doi": "10.21767/AMJ.2012.1361",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/820afbe9ca3efff49b48cdfac448c9fdf5d9ceb0",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Extractive evidence based medicine summarisation based on sentence-specific statistics",
+      "author": "A. Sarker and Diego Mollá Aliod and Cécile Paris",
+      "pub_year": "2012",
+      "journal": "2012 25th IEEE International Symposium on Computer-Based Medical Systems (CBMS)",
+      "doi": "10.1109/CBMS.2012.6266373",
+      "publication_date": "2012-06-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/b2b7cc772c8d98ea43735683f871f0d855e6bd1a",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Outcome Polarity Identification of Medical Papers",
+      "author": "A. Sarker and Diego Mollá Aliod and Cécile Paris",
+      "pub_year": "2011",
+      "journal": "Australasian Language Technology Association Workshop",
+      "doi": "",
+      "publication_date": "2011-12-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/19ca33c647e9892e82d59a837fe9888a3d51aa13",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automatic Grading of Evidence: the 2011 ALTA Shared Task",
+      "author": "Diego Mollá Aliod and A. Sarker",
+      "pub_year": "2011",
+      "journal": "Australasian Language Technology Association Workshop",
+      "doi": "",
+      "publication_date": "2011-12-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/8063b577dae9da9fa806c3b6ff8d65d7cae57703",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A rule-based approach for automatic identification of publication types of medical papers",
+      "author": "A. Sarker and D. Mollá-Aliod",
+      "pub_year": "2010",
+      "journal": "Australasian Document Computing Symposium",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/022bcc416ba476e1b86b9bc6ed7890beea8b2deb",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Towards automatic grading of evidence",
+      "author": "A. Sarker and D. Mollá-Aliod and Cécile Paris",
+      "pub_year": "2010",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2b0a4a4a02fc1aca8174e51ab428b100e0a37a80",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Improved Reconstruction of Flutter Shutter Images for Motion Blur Reduction",
+      "author": "A. Sarker and Len Hamey",
+      "pub_year": "2010",
+      "journal": "2010 International Conference on Digital Image Computing: Techniques and Applications",
+      "doi": "10.1109/DICTA.2010.77",
+      "publication_date": "2010-12-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/72cfa38d51d970feddd99dfece9a4c54932eb876",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Survival by Heart Failure Phenotype in a Fontan Surveillance Population, 2010-2023.",
+      "author": "Lindsey C Ivey and C. Raskind-Hood and Fred H Rodriguez and Giancarlo Licitra and Ryan O Sheets and Mollie Westrick and Yuting Guo and Abeed Sarker and Wendy M Book",
+      "pub_year": "2026",
+      "journal": "Pediatric Cardiology",
+      "doi": "10.1007/s00246-025-04145-4",
+      "publication_date": "2026-01-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/bcca3ec067421a10efb9df0718a42ff2638e9212",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Elucidating Delays in Illness Recognition, Healthcare Seeking, and Healthcare Provision for Stillbirths and Neonatal Deaths in Seven Low- and Middle-Income Countries",
+      "author": "Kitiezo Aggrey and Igunza and Namrata Ramakrishna and Z. J. Madewell and V. Akelo and H. Muttai and C. Mugah and P. Mitei and I. Ogbuanu and I. Bassey and Erick Kaluma and Oluseyi Balogun and R. Luke and S. Arifeen and Emily S. Gurley and Mohammad Zahid Hossain and Rajib Biswas and Afsana Afrin and N. Assefa and J. Anthony and G. Scott and Haleluya Leulseged and Meron Kebede and Konjit Eshetu and K. Kotloff and S. Sow and Rosauro Varo and I. Mandomando and Marcelino Garrine and Milton Kincardett and Q. Bassat and S. Madhi and Z. Dangor and Megan Dempster and Marguerite Hall and S. Velaphi and John Blevins and Maria Maixenchs and Yuting Guo and Abeed Sarker and P. Mutevedzi and Cynthia G. Whitney and C. A. Rees and Child Health",
+      "pub_year": "2025",
+      "journal": "medRxiv",
+      "doi": "10.1101/2025.10.07.25337535",
+      "publication_date": "2025-10-09"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2150f0fb6abd9595349bf322665d4f7e7812ae43",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Benchmarking Open-Source Large Language Models on Healthcare Text Classification Tasks",
+      "author": "Yuting Guo and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "",
+      "doi": "",
+      "publication_date": "2025-03-19"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/29db094f3bd4757300167efd94286fca04921d73",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Leveraging few-shot learning and large language models for analyzing blood pressure variations across biological sex from scientific literature",
+      "author": "Yuting Guo and Seyedeh Somayyeh Mousavi and Yao Ge and Madhumita Baskaran and Reza Sameni and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "Comput. Biol. Medicine",
+      "doi": "10.1016/j.compbiomed.2025.111128",
+      "publication_date": "2025-09-26"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/322a7804a287d3528b0788fed6e83094a176fd7d",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Risk Factors for Adverse Outcomes in a Fontan Population",
+      "author": "Giancarlo Licitra and Lindsey C Ivey and C. Raskind-Hood and Fred H Rodriguez and Yuting Guo and Abeed Sarker and Wendy M Book",
+      "pub_year": "2025",
+      "journal": "Pediatric Cardiology",
+      "doi": "10.1007/s00246-025-03902-9",
+      "publication_date": "2025-06-06"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/36f0e783c16916071afc0df8b268b4dd5c3c1fe2",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "The Digital Narrative: Chronic Pain Self-Management Insights from Reddit in Systemic Lupus Erythematosus.",
+      "author": "Selen Bozkurt and Andrew Walker and Tricia Park and Nathan Le and Abeed Sarker and Anushka Irani and T. Falasinnu",
+      "pub_year": "2025",
+      "journal": "Studies in Health Technology and Informatics",
+      "doi": "10.3233/SHTI250137",
+      "publication_date": "2025-04-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/69eed041f835c8515851eed5ebc4a356e1b7d2b4",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Machine Learning and Natural Language Processing to Improve Classification of Atrial Septal Defects in Electronic Health Records",
+      "author": "Yuting Guo and Haomin Shi and Wendy M Book and Lindsey C Ivey and Fred H Rodriguez and Reza Sameni and C. Raskind-Hood and Chad Robichaux and K. Downing and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "Birth Defects Research",
+      "doi": "10.1002/bdr2.2451",
+      "publication_date": "2025-03-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/6f6ef9255a7e22946e10980c2a9a96f00eb5ac49",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Bridging AI, NLP, and Digital Health: A Bi-Directional Learning Experience at Emory University.",
+      "author": "Ifechelobi Chukwuemeka and Das Sudeshna and Yuting Guo and Rajwal Swati and Ge Yao and O. Ogunsola and O. Ajayi and Lisa Flowers and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "Studies in Health Technology and Informatics",
+      "doi": "10.3233/SHTI251232",
+      "publication_date": "2025-08-07"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7ba5706c037825f3ca1946ebc4d7b32925690380",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Retrieval augmented generation based dynamic prompting for few-shot biomedical named entity recognition using large language models",
+      "author": "Yao Ge and Sudeshna Das and Yuting Guo and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "Research Square",
+      "doi": "10.21203/rs.3.rs-7216581/v1",
+      "publication_date": "2025-07-25"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/822a5e984729dcd5ed89c0e2ba622b9d6bfbd068",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "63. Narratives After Naturalistic Movie Viewing in ADHD: A Large Language Model Analysis",
+      "author": "Yuxin Zhu and Noah Marchuck and Yuting Guo and Abeed Sarker and Yun Wang",
+      "pub_year": "2025",
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2025.02.300",
+      "publication_date": "2025-05-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/da814deca3a48d1c990f97b11c8afa85848f968a",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Leveraging large language models and traditional machine learning ensembles for ADHD detection from narrative transcripts",
+      "author": "Yuxin Zhu and Yuting Guo and Noah Marchuck and Abeed Sarker and Yun Wang",
+      "pub_year": "2025",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2505.21324",
+      "publication_date": "2025-05-27"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/eab6e97d63f2164f5b3450de8de209ee357d7df7",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Correction to: Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward.",
+      "author": "Marco Helbich and Yi Zeng and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "Current topics in behavioral neurosciences",
+      "doi": "10.1007/7854_2024_481",
+      "publication_date": "2024-06-13"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/1fec271ef5b21f115684df6c361578d2bcec995f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Abstract 4143305: Risk Factors for Adverse Outcomes in a Fontan Population",
+      "author": "Giancarlo Licitra and Lindsey C Ivey and C. Raskind-Hood and Fred H Rodriguez and Yuting Guo and Abeed Sarker and Wendy Book",
+      "pub_year": "2024",
+      "journal": "Circulation",
+      "doi": "10.1161/circ.150.suppl_1.4143305",
+      "publication_date": "2024-11-12"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2af1dc351a0ae2e5cd3d93dcfec8a6c767d8cd81",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Data Augmentation with Nearest Neighbor Classifier for Few-Shot Named Entity Recognition",
+      "author": "Yao Ge and M. Al-garadi and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "Medinfo",
+      "doi": "10.3233/SHTI231053",
+      "publication_date": "2024-01-25"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/377c0d2cba29b2faed92827dd77685f477074ae3",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Can adverse childhood experiences predict chronic health conditions? Development of trauma-informed, explainable machine learning models",
+      "author": "Hanin B. Afzal and Tasfia Jahangir and Yiyang Mei and Annabelle Madden and Abeed Sarker and Sangmi Kim",
+      "pub_year": "2024",
+      "journal": "Frontiers in Public Health",
+      "doi": "10.3389/fpubh.2023.1309490",
+      "publication_date": "2024-01-15"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/378ec73d051644a69e7f971cdc641de7786bd7be",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Abstract 4146814: Heart failure is time-dependent and associated with heart transplant, hepatocellular carcinoma, and death in the Fontan population",
+      "author": "Lindsey C Ivey and C. Raskind-Hood and Alexandra Haffner and Yuting Guo and Abeed Sarker and Fred H Rodriguez and Wendy Book",
+      "pub_year": "2024",
+      "journal": "Circulation",
+      "doi": "10.1161/circ.150.suppl_1.4146814",
+      "publication_date": "2024-11-12"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/491bd8476b6643dc36a02d62aa0db66d724cffe7",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Area-level Measures of the Social Environment: Operationalization, Pitfalls, and Ways Forward.",
+      "author": "Marco Helbich and Yi Zeng and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "Current topics in behavioral neurosciences",
+      "doi": "10.1007/7854_2024_464",
+      "publication_date": "2024-03-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/8e8e4b40319ecb6c668164871d9e6f5ee911283f",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Social Media as a Sensor: Analyzing Twitter Data for Breast Cancer Medication Effects Using Natural Language Processing",
+      "author": "Seibi Kobara and Alireza Rafiei and Masoud Nateghi and Selen Bozkurt and Rishikesan Kamaleswaran and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "Conference on Artificial Intelligence in Medicine in Europe",
+      "doi": "10.1007/978-3-031-66538-7_34",
+      "publication_date": "2024-02-26"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/9484cfc754c4fdc6f1688eb5b246fe4bbd4f6451",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Detection of Medication Mentions and Medication Change Events in Clinical Notes Using Transformer-Based Models",
+      "author": "Yuting Guo and Yao Ge and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "Medinfo",
+      "doi": "10.3233/SHTI231052",
+      "publication_date": "2024-01-25"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/9daa4fe16670a5f6cd65cea78d58c86b478d648c",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Evaluating large language models for health-related text classification tasks with public social media data",
+      "author": "Yuting Guo and Anthony Ovadje and M. Al-garadi and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "J. Am. Medical Informatics Assoc.",
+      "doi": "10.1093/jamia/ocae210",
+      "publication_date": "2024-03-27"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/a35c12c67d61c7b4c124a893e0435085c1ca9713",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Leveraging Large Language Models for Analyzing Blood Pressure Variations Across Biological Sex from Scientific Literature",
+      "author": "Yuting Guo and Seyedeh Somayyeh Mousavi and Reza Sameni and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2402.01826",
+      "publication_date": "2024-02-02"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/b51c32ef1a639c486c1d70b16eac089fe9b390f0",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Learning from Two Decades of Blood Pressure Data: Demography-Specific Patterns Across 75 Million Patient Encounters",
+      "author": "Seyedeh Somayyeh Mousavi and Yuting Guo and Abeed Sarker and Reza Sameni",
+      "pub_year": "2024",
+      "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+      "doi": "10.1109/EMBC53108.2024.10781724",
+      "publication_date": "2024-02-02"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/f9ff01074bf532950fa2a62f177c1740d726cb5e",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "A Large Language Model-Based Generative Natural Language Processing Framework Finetuned on Clinical Notes Accurately Extracts Headache Frequency from Electronic Health Records",
+      "author": "Chia-Chun Chiang and Man Luo and Gina M. Dumkrieger and Shubham Trivedi and Yi-Chieh Chen and Chieh-Ju Chao and T. Schwedt and Abeed Sarker and Imon Banerjee",
+      "pub_year": "2023",
+      "journal": "medRxiv",
+      "doi": "10.1111/head.14702",
+      "publication_date": "2023-10-03"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2c92c985cfbbd22776190e3a1feefb5550c691da",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Centering Patient Voices in Lupus Pain: A Biopsychosocial Analysis of Reddit Narratives Using Large Language Models",
+      "author": "Andrew Walker and Jerik Leung and Aishwarya Alagappan and Swati Rajwal and S. Lakamana and Tricia Park and Nathan Le and Anushka Irani and Abeed Sarker and T. Falasinnu and Selen Bozkurt",
+      "pub_year": "2025",
+      "journal": "Arthritis care & research",
+      "doi": "10.1002/acr.25687",
+      "publication_date": "2025-10-28"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/2a4a4c5a5047c99cc814f0892130b47fa06e8e69",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Inference Gap in Domain Expertise and Machine Intelligence in Named Entity Recognition: Creation of and Insights from a Substance Use-related Dataset",
+      "author": "Sumon Kanti Dey and Jeanne M Powell and Azra Ismail and Jeanmarie Perrone and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "Biocomputing",
+      "doi": "10.48550/arXiv.2508.19467",
+      "publication_date": "2025-08-26"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/5b7a9546ed07f1eb28f79417cf2a20b99612f440",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automated Thematic Analyses Using LLMs: Xylazine Wound Management Social Media Chatter Use Case",
+      "author": "JaMor M. Hairston and Ritvik Ranjan and S. Lakamana and Anthony Spadaro and Selen Bozkurt and Jeanmarie Perrone and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2507.10803",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/74802826ac11f231c274c7cce0be526286fc46d1",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "HILGEN: Hierarchically-Informed Data Generation for Biomedical NER Using Knowledgebases and Large Language Models",
+      "author": "Yao Ge and Yuting Guo and Sudeshna Das and Swati Rajwal and Selen Bozkurt and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2503.04930",
+      "publication_date": "2025-03-06"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7497aba2c7f3c527b07c4304e6c390fe44e8c3fa",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Characterization of Reddit Posts on Nitazenes",
+      "author": "Jeanmarie Perrone and Jennifer Love and JaMor M. Hairston and S. Lakamana and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "Drug and Alcohol Dependence",
+      "doi": "10.1016/j.drugalcdep.2024.111433",
+      "publication_date": "2025-02-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/7b776c64a2ec86073c12befb67c0b73eb21eeed1",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Evaluation of Facebook as a Longitudinal Data Source for Parkinson’s Disease Insights",
+      "author": "Jeanne M Powell and Charles Cao and Kayla Means and S. Lakamana and Abeed Sarker and J. L. McKay",
+      "pub_year": "2025",
+      "journal": "Journal of Clinical Medicine",
+      "doi": "10.3390/jcm14124093",
+      "publication_date": "2025-06-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/89f4cf8423dec54f1b678714aa18cd0cc1b948f9",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Identifying social isolation themes in NVDRS text narratives using topic modeling and text-classification methods",
+      "author": "Drew Walker and Swati Rajwal and Sudeshna Das and Snigdha Peddireddy and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2506.15030",
+      "publication_date": "2025-06-18"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/9e0597bfda8ba34ee887cfed14b4b8b386ac4a60",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Large Language Models in Healthcare",
+      "author": "M. Al-Garadi and Tushar Mungle and Abdulaziz Ahmed and Abeed Sarker and Zhuqi Miao and M. E. Matheny",
+      "pub_year": "2025",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2503.04748",
+      "publication_date": "2025-02-06"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/c4c97c1d99a41cfc9455038c455a6c96c8f05433",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Automating inductive thematic analyses of health content using large language models: a proof-of-concept study using social media data",
+      "author": "JaMor M. Hairston and Ritvik Ranjan and S. Lakamana and A. Spadaro and Selen Bozkurt and Jeanmarie Perrone and Abeed Sarker",
+      "pub_year": "2025",
+      "journal": "JAMIA Open",
+      "doi": "10.1093/jamiaopen/ooaf102",
+      "publication_date": "2025-07-14"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e2a7ad58710d1892d3c52b93dd1960d8c6912a1e",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Building community through data: the value of a researcher driven open science ecosystem",
+      "author": "MS � Meredith C.B. Adams MD and Carla M. Bann and Emine O. Bayman and Mpa Maria Chao DrPH and G. Hergenroeder and Charles Knott Mpa and Martin A. Lindquist and PhD Z. David Luo MD and Rosemarie Martin and Maryann E. Martone and MS JohnMcCarthy and Micah McCumber and PhD Sharon B. Meropol MD and Ty A. Ridenour and L. Saavedra and Abeed Sarker and Kevin J. Anstrom and Wesley K Thompson",
+      "pub_year": "2025",
+      "journal": "Pain medicine (Malden, Mass.)",
+      "doi": "10.1093/pm/pnaf003",
+      "publication_date": "2025-01-21"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/eb977c97c2fc85ed1dd0776b209dda050e39dede",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Application of CARE-SD text classifier tools to assess distribution of stigmatizing and doubt-marking language features in EHR",
+      "author": "Drew Walker and Jennifer Love and Swati Rajwal and Isabel C Walker and Hannah Cooper and Abeed Sarker and Melvin Livingston",
+      "pub_year": "2025",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2507.08969",
+      "publication_date": "2025-07-11"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/fcdcacee65a4aacc1d95c8d64ba154b09d33ab79",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Natural Language Processing for Digital Health in the Era of Large Language Models",
+      "author": "Abeed Sarker and Rui Zhang and Yanshan Wang and Yunyu Xiao and Sudeshna Das and Dalton Schutte and David Oniani and Qianqian Xie and Hua Xu",
+      "pub_year": "2024",
+      "journal": "Yearbook of Medical Informatics",
+      "doi": "10.1055/s-0044-1800750",
+      "publication_date": "2024-08-01"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/065a50a6ff65fac66e0ffa6010ab82c45d54ecc2",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Reddit-Impacts: A Named Entity Recognition Dataset for Analyzing Clinical and Social Effects of Substance Use Derived from Social Media",
+      "author": "Yao Ge and Sudeshna Das and K. O’Connor and M. Al-garadi and G. Gonzalez-Hernandez and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2405.06145",
+      "publication_date": "2024-05-09"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/09cf030fd2d33342f579c5afff2a8957ad1ae53a",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Applications of Natural Language Processing and Large Language Models for Social Determinants of Health: Protocol for a Systematic Review",
+      "author": "Swati Rajwal and Ziyuan Zhang and Yankai Chen and H. Rogers and Abeed Sarker and Yunyu Xiao",
+      "pub_year": "2024",
+      "journal": "JMIR Research Protocols",
+      "doi": "10.2196/66094",
+      "publication_date": "2024-09-03"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/151c1ca4e0e60d9686161f5087b0f78f4b9707f1",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Unveiling Voices: Identification of Concerns in a Social Media Breast Cancer Cohort via Natural Language Processing",
+      "author": "Swati Rajwal and Avinash Kumar Pandey and Zhishuo Han and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "CL4HEALTH",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/939dd00929368746a9712f6b335f118a12729ec2",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "EM_Mixers at MEDIQA-CORR 2024: Knowledge-Enhanced Few-Shot In-Context Learning for Medical Error Detection and Correction",
+      "author": "Swati Rajwal and Eugene Agichtein and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "Clinical Natural Language Processing Workshop",
+      "doi": "10.18653/v1/2024.clinicalnlp-1.56",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/caafd1d11857e6d8b69d43cbeeb982a71c72f536",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "CARE-SD: Classifier-based analysis for recognizing and eliminating stigmatizing and doubt marker labels in electronic health records: model development and validation",
+      "author": "Drew Walker and Annie Thorne and Sudeshna Das and Jennifer Love and Hannah Cooper and Melvin Livingston and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2405.05204",
+      "publication_date": "2024-05-08"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/cc6d6f5fae316203c1593ecee3c255c4c6292ad9",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "CARE-SD: classifier-based analysis for recognizing provider stigmatizing and doubt marker labels in electronic health records: model development and validation",
+      "author": "A. Walker and Annie Thorne and Sudeshna Das and Jennifer Love and Hannah Cooper and Melvin Livingston and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "J. Am. Medical Informatics Assoc.",
+      "doi": "10.1093/jamia/ocae310",
+      "publication_date": "2024-12-26"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/cdc7fd6c1cd9c3f8e24609c7779e46b4b74fd910",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "“I Been Taking Adderall Mixing it With Lean, Hope I Don’t Wake Up Out My Sleep”: Harnessing Twitter to Understand Nonmedical Prescription Stimulant Use among Black Women and Men Subscribers",
+      "author": "Joni-Leigh Webster and S. Lakamana and Yao Ge and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "medRxiv",
+      "doi": "10.1101/2024.12.03.24318408",
+      "publication_date": "2024-12-05"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/d2d4dc6358dc07e3caea0d5a57395454e6117664",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Two-layer retrieval augmented generation framework for low-resource medical question-answering: proof of concept using Reddit data",
+      "author": "Sudeshna Das and Yao Ge and Yuting Guo and Swati Rajwal and JaMor M. Hairston and Jeanne M Powell and Drew Walker and Snigdha R Peddireddy and S. Lakamana and Selen Bozkurt and Matthew A. Reyna and Reza Sameni and Yunyu Xiao and Sangmi Kim and Rasheeta D. Chandler and Natalie Hernandez and Danielle Mowery and R. Wightman and Jennifer Love and A. Spadaro and Jeanmarie Perrone and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "arXiv.org",
+      "doi": "10.48550/arXiv.2405.19519",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e75461f8c8a3868f97050f2884ba3c832edb8f09",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the 9th Social Media Mining for Health Applications (#SMM4H) Shared Tasks at ACL 2024 – Large Language Models and Generalizability for Social Media NLP",
+      "author": "Dongfang Xu and G. García and Lisa Raithel and Philippe Thomas and Roland Roller and E. Aramaki and Shoko Wakamiya and Shuntaro Yada and Pierre Zweigenbaum and K. O’Connor and Sai Samineni and Sophia Hernandez and Yao Ge and Swati Rajwal and Sudeshna Das and Abeed Sarker and A. Klein and A. Schmidt and Vishakha Sharma and Raul Rodriguez-Esteban and Juan M. Banda and I. Amaro and D. Weissenbacher and Graciela Gonzalez-Hernandez",
+      "pub_year": "2024",
+      "journal": "SMM4H",
+      "doi": "10.18653/v1/2024.smm4h-1.40",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/e934de7043399669fa619192628dd1d964971624",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Two-Layer Retrieval-Augmented Generation Framework for Low-Resource Medical Question Answering Using Reddit Data: Proof-of-Concept Study",
+      "author": "Sudeshna Das and Yao Ge and Yuting Guo and Swati Rajwal and JaMor M. Hairston and Jeanne M Powell and Drew Walker and Snigdha R Peddireddy and S. Lakamana and Selen Bozkurt and Matthew A. Reyna and Reza Sameni and Yunyu Xiao and Sangmi Kim and Rasheeta D. Chandler and Natalie Hernandez and Danielle Mowery and R. Wightman and Jennifer Love and A. Spadaro and Jeanmarie Perrone and Abeed Sarker",
+      "pub_year": "2024",
+      "journal": "Journal of Medical Internet Research",
+      "doi": "10.2196/66220",
+      "publication_date": "2024-05-29"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/eb490e037a9efaecad63e1abba5795bb6d547d7b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Emerging Trends of Self-Harm Using Sodium Nitrite in an Online Suicide Community: Observational Study Using Natural Language Processing Analysis",
+      "author": "Sudeshna Das and Drew Walker and Swati Rajwal and S. Lakamana and Steven A Sumner and Karin A Mack and Wojciech Kaczkowski and Abeed Sarker",
+      "pub_year": "2023",
+      "journal": "JMIR Mental Health",
+      "doi": "10.2196/53730",
+      "publication_date": "2023-10-17"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/ab9a385da864560317ae858dc5f860e5ba9fdcb4",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "discussions about associated precipitated withdrawal in the era of",
+      "author": "A. Spadaro and Abeed Sarker and W. Hogg-Bremer and Jennifer S Love and Nicole O’Donnell and Lewis S. Nelson and Jeanmarie Perrone",
+      "pub_year": "2021",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/0adae101c9def30b0689a0a7f3232f1b5009298b",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Reddit discussions about buprenorphine associated precipitated withdrawal in the era of fentanyl",
+      "author": "A. Spadaro and Abeed Sarker and W. Hogg-Bremer and Jennifer S Love and Nicole O’Donnell and Lewis S. Nelson and Jeanmarie Perrone",
+      "pub_year": "2021",
+      "journal": "medRxiv",
+      "doi": "10.1080/15563650.2022.2032730",
+      "publication_date": "2021-09-27"
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/eb80486cf2671202ea7d92a1d228add884f5e176",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  },
+  {
+    "bib": {
+      "title": "Overview of the 10 th Social Media Mining for Health (#SMM4H) and Health Real-World Data (HeaRD) Shared Tasks at ICWSM 2025",
+      "author": "A. Klein and Lauren Gryboski and Sudeshna Jana and Sedigheh Khademi and G. Lopez-Garcia and Diego R Mazzotti and Takeshi Onishi and Jeanne M Powell and Lisa Raithel and Swati Rajwal and Roland Roller and Abeed Sarker and Manjira Sinha and Philippe Thomas and E. Tutubalina and Dongfang Xu and Pierre Zweigenbaum and Graciela Gonzalez-Hernandez",
+      "pub_year": "",
+      "journal": "",
+      "doi": "",
+      "publication_date": ""
+    },
+    "pub_url": "https://www.semanticscholar.org/paper/6ea2b3ecb4078e81bced526a7a100503cdee4431",
+    "eprint_url": "",
+    "author_pub_id": "",
+    "num_citations": 0
+  }
+]
