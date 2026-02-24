@@ -1,5 +1,6 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
+  {% if include.image %}
   <a
     {% if include.link %}
       href="{{ include.link | relative_url }}"
@@ -14,6 +15,7 @@
       {% include fallback.html %}
     >
   </a>
+  {% endif %}
 
   <div class="card-text">
     {% if include.title %}

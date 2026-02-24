@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="prompt-page">
+
+<a href="{{ '/prompts/' | relative_url }}" class="prompt-back">
+  &larr; Back to Prompt Collections
+</a>
+
+<h1>{{ page.title }}</h1>
+
+<div class="prompt-header">
+  {% if page.group %}
+    <span class="prompt-group">{{ page.group }}</span>
+  {% endif %}
+
+  {% if page.tags %}
+    <div class="prompt-tags">
+      {% for tag in page.tags %}
+        <span class="prompt-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if page.paper %}
+    <a href="{{ page.paper }}" class="prompt-paper" target="_blank" rel="noopener">
+      Associated Paper &rarr;
+    </a>
+  {% endif %}
+</div>
+
+{{ content }}
+
+</div>
+
+<script>
+  // Add copy buttons to prompt blocks
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".prompt-block").forEach(function (block) {
+      var btn = document.createElement("button");
+      btn.className = "prompt-copy";
+      btn.textContent = "Copy";
+      btn.addEventListener("click", function () {
+        var pre = block.querySelector("pre");
+        if (pre) {
+          navigator.clipboard.writeText(pre.textContent).then(function () {
+            btn.textContent = "Copied!";
+            setTimeout(function () { btn.textContent = "Copy"; }, 2000);
+          });
+        }
+      });
+      block.appendChild(btn);
+    });
+  });
+</script>

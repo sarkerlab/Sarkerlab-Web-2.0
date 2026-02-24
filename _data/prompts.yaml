@@ -1,0 +1,106 @@
+- title: "RAG-Based Dynamic Prompting for Biomedical NER"
+  group: Information Extraction
+  link: /prompts/rag-biomedical-ner/
+  description: "Few-shot biomedical named entity recognition using retrieval-augmented generation with dynamic prompting."
+  tags:
+    - NER
+    - RAG
+    - few-shot
+
+- title: "Automated Thematic Analysis of Health Content"
+  group: Text Analysis
+  link: /prompts/thematic-analysis/
+  description: "Automating inductive thematic analyses of health-related social media content using LLMs."
+  tags:
+    - thematic analysis
+    - social media
+
+- title: "HILGEN: NER Data Generation with Knowledge Bases"
+  group: Data Augmentation
+  link: /prompts/hilgen-ner-datagen/
+  description: "Hierarchically-informed data generation for biomedical NER using knowledge bases and LLMs."
+  tags:
+    - NER
+    - data augmentation
+
+- title: "Healthcare Text Classification"
+  group: Classification
+  link: /prompts/healthcare-text-classification/
+  description: "Benchmarking open-source LLMs on healthcare text classification tasks including adverse drug events and health mentions."
+  tags:
+    - classification
+    - social media
+
+- title: "Two-Layer RAG for Medical Question Answering"
+  group: Question Answering
+  link: /prompts/two-layer-rag-qa/
+  description: "Retrieval-augmented generation framework for low-resource medical question answering using social media data."
+  tags:
+    - RAG
+    - question answering
+
+- title: "Medical Error Detection and Correction"
+  group: Error Detection
+  link: /prompts/medical-error-correction/
+  description: "Knowledge-enhanced few-shot in-context learning for detecting and correcting errors in clinical text."
+  tags:
+    - few-shot
+    - clinical NLP
+
+- title: "Blood Pressure Extraction from Literature"
+  group: Information Extraction
+  link: /prompts/blood-pressure-extraction/
+  description: "Extracting blood pressure values and demographic breakdowns from scientific literature using LLMs."
+  tags:
+    - information extraction
+    - literature mining
+
+- title: "Headache Frequency Extraction from EHR"
+  group: Information Extraction
+  link: /prompts/headache-frequency-ehr/
+  description: "LLM-based framework for extracting headache frequency information from clinical notes in electronic health records."
+  tags:
+    - clinical NLP
+    - EHR
+
+- title: "Lupus Pain Narrative Analysis"
+  group: Text Analysis
+  link: /prompts/lupus-pain-analysis/
+  description: "Biopsychosocial analysis of patient narratives about lupus pain from Reddit using LLMs."
+  tags:
+    - social media
+    - patient narratives
+
+- title: "ADHD Detection from Narrative Transcripts"
+  group: Classification
+  link: /prompts/adhd-detection/
+  description: "Leveraging LLMs for ADHD detection from naturalistic movie viewing narrative transcripts."
+  tags:
+    - classification
+    - mental health
+
+- title: "Xylazine Wound Management Thematic Analysis"
+  group: Text Analysis
+  link: /prompts/xylazine-thematic-analysis/
+  description: "Automated thematic analysis of xylazine wound management discussions from social media."
+  tags:
+    - thematic analysis
+    - opioids
+
+- title: "Health-Related Social Media Text Classification"
+  group: Classification
+  link: /prompts/health-social-media-classification/
+  description: "Evaluating LLMs as zero-shot classifiers for health-related text classification on social media."
+  tags:
+    - classification
+    - zero-shot
+    - social media
+
+- title: "SMM4H Shared Task: Social Media NER and Classification"
+  group: Information Extraction
+  link: /prompts/smm4h-social-media-nlp/
+  description: "LLM-based approaches for social media mining for health applications including NER and generalizability tasks."
+  tags:
+    - NER
+    - social media
+    - shared task
