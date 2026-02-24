@@ -1,7 +1,7 @@
 ---
 title: Login Page
 nav:
-  order: 7
+  order: 9
 ---
 
 <div class="login-container">

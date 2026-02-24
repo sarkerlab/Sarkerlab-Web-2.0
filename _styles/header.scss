@@ -41,7 +41,7 @@ header a {
 }
 
 .logo {
-  height: $logo;
+  height: $logo-big;
 }
 
 .logo > * {
@@ -62,11 +62,12 @@ header a {
 
 // main title
 .title > *:first-child {
-  font-size: var(--large);
+  font-size: var(--xl);
 }
 
 // subtitle
 .title > *:last-child {
+  font-size: var(--large);
   opacity: 0.65;
   font-weight: var(--thin);
 }

@@ -1,7 +1,7 @@
 ---
 title: Team
 nav:
-  order: 6
+  order: 2
   tooltip: Meet our team!
 ---
 

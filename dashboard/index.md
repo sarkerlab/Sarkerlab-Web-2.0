@@ -1,7 +1,7 @@
 ---
 title: Dashboards
 nav:
-  order: 4
+  order: 6
   tooltip:
 ---
 

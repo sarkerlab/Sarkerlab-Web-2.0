@@ -2,7 +2,7 @@
 layout: default
 title: Lab News
 nav:
-  order: 5
+  order: 4
 permalink: /lab-news/
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: Prompt Collections
 nav:
-  order: 1
-  parent: Research
+  order: 8
   tooltip: LLM prompt templates
 ---
 

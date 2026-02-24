@@ -41,6 +41,12 @@
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
   <nav>
+    <a
+      href="{{ "/" | relative_url }}"
+      {% if page.url == "/" %}data-active{% endif %}
+    >
+      Home
+    </a>
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
