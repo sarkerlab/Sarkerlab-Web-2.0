@@ -11,10 +11,14 @@ nav:
 
 ## Featured
 
+<div class="grid">
 {% include list.html component="card" data="media" filters="group: featured" %}
+</div>
 
 {% include section.html %}
 
 ## More
 
+<div class="grid">
 {% include list.html component="card" data="media" filters="group: " style="small" %}
+</div>
