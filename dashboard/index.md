@@ -1,5 +1,5 @@
 ---
-title: Dashboards
+title: Social Media Dashboards
 nav:
   order: 5
   icon: fa-solid fa-chart-bar

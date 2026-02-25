@@ -1,12 +1,12 @@
 ---
-title: Research
+title: Research Projects
 nav:
   order: 2
   icon: fa-solid fa-flask
 
 ---
 
-# Research
+# Research Projects
 
 
 {% include section.html %}

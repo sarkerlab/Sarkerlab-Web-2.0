@@ -1,12 +1,12 @@
 ---
-title: Benchmarks
+title: Open Source LLM Benchmarks
 nav:
   order: 6
   icon: fa-solid fa-ranking-star
   tooltip:
 ---
 
-# LLM BENCHMARKS
+# Open Source LLM Benchmarks
 
 
 {% include section.html %}
