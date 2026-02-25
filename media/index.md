@@ -2,6 +2,7 @@
 title: Media
 nav:
   order: 5
+  icon: fa-solid fa-photo-film
 ---
 
 # Media

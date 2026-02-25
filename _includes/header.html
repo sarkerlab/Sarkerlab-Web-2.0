@@ -45,7 +45,8 @@
       href="{{ "/" | relative_url }}"
       {% if page.url == "/" %}data-active{% endif %}
     >
-      Home
+      <i class="fa-solid fa-house fa-fw"></i>
+      <span>Home</span>
     </a>
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
@@ -57,7 +58,10 @@
           href="{{ page.dir | relative_url }}"
           data-tooltip="{{ page.nav.tooltip }}"
         >
-          {{ page.title }}
+          {% if page.nav.icon %}
+            <i class="{{ page.nav.icon }} fa-fw"></i>
+          {% endif %}
+          <span>{{ page.title }}</span>
         </a>
       {% endif %}
     {% endfor %}

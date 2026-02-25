@@ -2,6 +2,7 @@
 title: Benchmarks
 nav:
   order: 7
+  icon: fa-solid fa-ranking-star
   tooltip:
 ---
 

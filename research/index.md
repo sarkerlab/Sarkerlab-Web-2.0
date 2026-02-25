@@ -2,7 +2,8 @@
 title: Research
 nav:
   order: 1
-  
+  icon: fa-solid fa-flask
+
 ---
 
 # Research

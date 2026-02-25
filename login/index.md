@@ -2,6 +2,7 @@
 title: Login Page
 nav:
   order: 9
+  icon: fa-solid fa-right-to-bracket
 ---
 
 <div class="login-container">

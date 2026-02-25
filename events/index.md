@@ -3,6 +3,7 @@ layout: default
 title: Lab News
 nav:
   order: 4
+  icon: fa-solid fa-newspaper
 permalink: /lab-news/
 ---
 

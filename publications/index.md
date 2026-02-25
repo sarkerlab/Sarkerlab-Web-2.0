@@ -2,6 +2,7 @@
 title: Publications
 nav:
   order: 3
+  icon: fa-solid fa-book-open
   tooltip: Published works
 ---
 
