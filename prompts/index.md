@@ -16,4 +16,6 @@ Reusable prompt templates developed by our lab for biomedical NLP tasks.
 
 {% include search-info.html %}
 
+<div class="grid">
 {% include list.html data="prompts" component="card" %}
+</div>
