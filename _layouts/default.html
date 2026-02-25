@@ -10,5 +10,48 @@
       {% include content.html content=content %}
     </main>
     {% include footer.html %}
+    <button id="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    <style>
+      #back-to-top {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 9999;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        border: none;
+        background: var(--primary);
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s, visibility 0.3s;
+      }
+      #back-to-top.visible {
+        opacity: 1;
+        visibility: visible;
+      }
+      #back-to-top:hover {
+        background: var(--primary-dark, var(--primary));
+        filter: brightness(0.85);
+      }
+    </style>
+    <script>
+      (function() {
+        var btn = document.getElementById('back-to-top');
+        window.addEventListener('scroll', function() {
+          if (window.scrollY > 300) {
+            btn.classList.add('visible');
+          } else {
+            btn.classList.remove('visible');
+          }
+        }, {passive: true});
+      })();
+    </script>
   </body>
 </html>
