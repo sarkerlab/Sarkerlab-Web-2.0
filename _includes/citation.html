@@ -70,14 +70,11 @@
       {% endif %}
       tabindex="0"
     >
-      {{
-        citation.authors
-        | join: ","
-        | split: ","
-        | array_carve: 5
-        | join: ", "
-        | default: "[no author info]"
-      }}
+      {% if citation.authors.size > 0 %}
+        {% include authors.html authors=citation.authors %}
+      {% else %}
+        [no author info]
+      {% endif %}
     </div>
 
     <div class="citation-details">

@@ -1,0 +1,20 @@
+{% comment %}
+  Render a citation's author list with lab members bolded.
+  Usage: {% include authors.html authors=citation.authors %}
+  Replicates array_carve:5 logic (show first+last 5 with "..." if >10 authors).
+{% endcomment %}
+
+{% assign _member_names = site.members | map: "name" %}
+{% assign _all = include.authors %}
+{% assign _count = _all | size %}
+
+{% if _count > 10 %}
+  {% assign _show_first = _all | slice: 0, 5 %}
+  {% assign _show_last  = _all | slice: -5, 5 %}
+  {% assign _ellipsis = true %}
+{% else %}
+  {% assign _show_first = _all %}
+  {% assign _ellipsis = false %}
+{% endif %}
+
+{% for _author in _show_first %}{% unless forloop.first %}, {% endunless %}{% assign _is_member = false %}{% assign _al = _author | strip | downcase %}{% for _mn in _member_names %}{% assign _ml = _mn | downcase %}{% assign _mw = _ml | split: " " %}{% assign _mc = 0 %}{% for _w in _mw %}{% if _w.size > 1 and _al contains _w %}{% assign _mc = _mc | plus: 1 %}{% endif %}{% endfor %}{% if _mc >= 2 %}{% assign _is_member = true %}{% endif %}{% endfor %}{% if _is_member %}<strong>{{ _author | strip }}</strong>{% else %}{{ _author | strip }}{% endif %}{% endfor %}{% if _ellipsis %}, ...{% for _author in _show_last %}, {% assign _is_member = false %}{% assign _al = _author | strip | downcase %}{% for _mn in _member_names %}{% assign _ml = _mn | downcase %}{% assign _mw = _ml | split: " " %}{% assign _mc = 0 %}{% for _w in _mw %}{% if _w.size > 1 and _al contains _w %}{% assign _mc = _mc | plus: 1 %}{% endif %}{% endfor %}{% if _mc >= 2 %}{% assign _is_member = true %}{% endif %}{% endfor %}{% if _is_member %}<strong>{{ _author | strip }}</strong>{% else %}{{ _author | strip }}{% endif %}{% endfor %}{% endif %}
