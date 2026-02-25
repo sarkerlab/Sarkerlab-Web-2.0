@@ -1,11 +1,11 @@
 ---
-title: Media
+title: Media Coverage
 nav:
   order: 1
   icon: fa-solid fa-photo-film
 ---
 
-# Media
+# Media Coverage
 
 {% include section.html %}
 
