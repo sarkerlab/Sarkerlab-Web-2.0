@@ -31,14 +31,6 @@
     - classification
     - social media
 
-- title: "Two-Layer RAG for Medical Question Answering"
-  group: Question Answering
-  link: /prompts/two-layer-rag-qa/
-  description: "Retrieval-augmented generation framework for low-resource medical question answering using social media data."
-  tags:
-    - RAG
-    - question answering
-
 - title: "Medical Error Detection and Correction"
   group: Error Detection
   link: /prompts/medical-error-correction/
@@ -54,22 +46,6 @@
   tags:
     - information extraction
     - literature mining
-
-- title: "Headache Frequency Extraction from EHR"
-  group: Information Extraction
-  link: /prompts/headache-frequency-ehr/
-  description: "LLM-based framework for extracting headache frequency information from clinical notes in electronic health records."
-  tags:
-    - clinical NLP
-    - EHR
-
-- title: "Lupus Pain Narrative Analysis"
-  group: Text Analysis
-  link: /prompts/lupus-pain-analysis/
-  description: "Biopsychosocial analysis of patient narratives about lupus pain from Reddit using LLMs."
-  tags:
-    - social media
-    - patient narratives
 
 - title: "ADHD Detection from Narrative Transcripts"
   group: Classification
@@ -95,12 +71,3 @@
     - classification
     - zero-shot
     - social media
-
-- title: "SMM4H Shared Task: Social Media NER and Classification"
-  group: Information Extraction
-  link: /prompts/smm4h-social-media-nlp/
-  description: "LLM-based approaches for social media mining for health applications including NER and generalizability tasks."
-  tags:
-    - NER
-    - social media
-    - shared task

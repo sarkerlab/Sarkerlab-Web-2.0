@@ -10,24 +10,36 @@ tags:
   - few-shot
 ---
 
-## System Prompt
+## Prompt Structure
+
+The full dataset-specific prompts are provided in supplementary materials (Tables 8–12) of the paper. The base prompt begins with:
 
 <div class="prompt-block" markdown="0">
 <pre>
-You are a biomedical named entity recognition (NER) system. Your task is to identify and extract biomedical named entities from the given text.
+You are a medical AI ...
+[Dynamically retrieved annotated examples inserted here via RAG]
+Input: ['token1', 'token2', ...]
+Output: ['token1-TAG', 'token2-TAG', ...]
+</pre>
+</div>
 
-Entity types to extract:
-- Drug/Medication names
-- Diseases/Conditions
-- Adverse Drug Events (ADEs)
-- Signs and Symptoms
+### Input/Output Format
 
-For each entity found, output the entity text and its type.
+The paper uses two equivalent I/O formats. Example from the paper:
 
-Here are some examples:
-[Dynamically retrieved examples based on similarity to the input text are inserted here]
+**Token-level format:**
+<div class="prompt-block" markdown="0">
+<pre>
+Input: ['I', 'was', 'a', 'codeine', 'addict.']
+Output: ['I-O', 'was-O', 'a-O', 'codeine-B-Clinical_Impacts', 'addict.I-Clinical_Impacts']
+</pre>
+</div>
 
-Now, identify all biomedical named entities in the following text:
+**Sentence-level format:**
+<div class="prompt-block" markdown="0">
+<pre>
+Input: ['I was a codeine addict.']
+Output: ['I-O', 'was-O', 'a-O', 'codeine-B-Clinical_Impacts', 'addict.I-Clinical_Impacts']
 </pre>
 </div>
 
@@ -38,4 +50,4 @@ This prompt is from the paper "Retrieval augmented generation based dynamic prom
 - **Approach:** Uses RAG to dynamically select the most relevant annotated examples as in-context learning demonstrations for each input, rather than using a fixed set of examples.
 - **Retrieval methods evaluated:** TF-IDF, SBERT, ColBERT, and DPR for selecting contextually relevant examples.
 - **Key innovation:** The prompt is not static — for each input text, similar annotated examples are retrieved and inserted as few-shot demonstrations.
-- **Datasets:** Evaluated on multiple biomedical NER benchmarks.
+- **Full prompts:** Dataset-specific prompts are available in supplementary materials (Tables 8–12) of the paper.
