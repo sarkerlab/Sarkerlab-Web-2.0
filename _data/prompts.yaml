@@ -1,6 +1,7 @@
 - title: "RAG-Based Dynamic Prompting for Biomedical NER"
   group: Information Extraction
   link: /prompts/rag-biomedical-ner/
+  paper: https://doi.org/10.21203/rs.3.rs-7216581/v1
   description: "Few-shot biomedical named entity recognition using retrieval-augmented generation with dynamic prompting."
   tags:
     - NER
@@ -10,6 +11,7 @@
 - title: "Automated Thematic Analysis of Health Content"
   group: Text Analysis
   link: /prompts/thematic-analysis/
+  paper: https://doi.org/10.1093/jamiaopen/ooaf102
   description: "Automating inductive thematic analyses of health-related social media content using LLMs."
   tags:
     - thematic analysis
@@ -18,6 +20,7 @@
 - title: "HILGEN: NER Data Generation with Knowledge Bases"
   group: Data Augmentation
   link: /prompts/hilgen-ner-datagen/
+  paper: https://doi.org/10.48550/arXiv.2503.04930
   description: "Hierarchically-informed data generation for biomedical NER using knowledge bases and LLMs."
   tags:
     - NER
@@ -26,6 +29,7 @@
 - title: "Healthcare Text Classification"
   group: Classification
   link: /prompts/healthcare-text-classification/
+  paper: https://www.semanticscholar.org/paper/29db094f3bd4757300167efd94286fca04921d73
   description: "Benchmarking open-source LLMs on healthcare text classification tasks including adverse drug events and health mentions."
   tags:
     - classification
@@ -34,6 +38,7 @@
 - title: "Medical Error Detection and Correction"
   group: Error Detection
   link: /prompts/medical-error-correction/
+  paper: https://doi.org/10.18653/v1/2024.clinicalnlp-1.56
   description: "Knowledge-enhanced few-shot in-context learning for detecting and correcting errors in clinical text."
   tags:
     - few-shot
@@ -42,6 +47,7 @@
 - title: "Blood Pressure Extraction from Literature"
   group: Information Extraction
   link: /prompts/blood-pressure-extraction/
+  paper: https://arxiv.org/abs/2402.01826
   description: "Extracting blood pressure values and demographic breakdowns from scientific literature using LLMs."
   tags:
     - information extraction
@@ -50,6 +56,7 @@
 - title: "ADHD Detection from Narrative Transcripts"
   group: Classification
   link: /prompts/adhd-detection/
+  paper: https://doi.org/10.48550/arXiv.2505.21324
   description: "Leveraging LLMs for ADHD detection from naturalistic movie viewing narrative transcripts."
   tags:
     - classification
@@ -58,6 +65,7 @@
 - title: "Xylazine Wound Management Thematic Analysis"
   group: Text Analysis
   link: /prompts/xylazine-thematic-analysis/
+  paper: https://doi.org/10.48550/arXiv.2507.10803
   description: "Automated thematic analysis of xylazine wound management discussions from social media."
   tags:
     - thematic analysis
@@ -66,6 +74,7 @@
 - title: "Health-Related Social Media Text Classification"
   group: Classification
   link: /prompts/health-social-media-classification/
+  paper: https://academic.oup.com/jamia/article/31/10/2181/7731085
   description: "Evaluating LLMs as zero-shot classifiers for health-related text classification on social media."
   tags:
     - classification
