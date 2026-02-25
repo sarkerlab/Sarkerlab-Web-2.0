@@ -1,157 +1,155 @@
 - title: "Swati Rajwal has been named to the 2025 cohort of AMIA LEAD Fund Trainee Awards."
-  date: "11/2025"
+  date: "2025-11-01"
   categories: ["academic"]
   image: "swati_amia_2025_award.png"
   description: ""
 
 - title: "Dr. Abeed Sarker was officially inducted as a Fellow of the American College of Medical Informatics (ACMI) during the AMIA 2025 Annual Symposium."
-  date: "11/2025"
+  date: "2025-11-01"
   categories: ["academic"]
   image: "abeed_amia_2025_fellow.png"
   description: ""
 
 - title: "Swati Rajwal wrapped up an amazing experience in Denver as part of her New Writers Fellowship 2025."
-  date: "11/2025"
+  date: "2025-11-01"
   categories: ["academic"]
   image: "swati_new_writers_fellowship_2025.png"
   description: "The New Writers Fellowship is awarded by the Family Process Institute and supports the development of emerging scholars who will advance systemic theory, research, and practice, grounded in a commitment to social justice. Between five and ten scholars are selected each year during a competitive process."
 
 - title: "Lab attendence at AMIA 2025!"
-  date: "11/2025"
+  date: "2025-11-01"
   categories: ["academic"]
   image: "2025AMIA.jpg"
   description: "Our lab members presented poster sessions and oral presentations at AMIA 2025."
 
 - title: "Lab dinner at Arepa Mia!"
-  date: "11/2025"
+  date: "2025-11-01"
   categories: ["social"]
   image: "Lab_dinner_14_nov.JPG"
   description: "Our lab members enjoyed a pre-conference dinner together at Arepa Mia restaurant."
 
 - title: "Dr. Abeed Sarker has been elected as a Fellow of the American College of Medical Informatics (ACMI) 2025🎉"
-  date: "09/2025"
+  date: "2025-09-01"
   categories: ["academic"]
   image: "AS_ACMI_2025_3.png"
   description: "Congratulations to Dr. Abeed Sarker elected as a Fellow of the American College of Medical Informatics (ACMI)."
 
 - title: "BMI Awards 2025 are released! Graduate Student award for Excellence in Research Award was awarded to Yuting Guo and Dissertation Award was awarded to Yao Ge."
-  date: "05/2025"
+  date: "2025-05-01"
   categories: ["academic"]
   image: "BMI_awards_2025.jpeg"
   description: "Congratulations to Yuting Guo and Yao Ge for receiving prestigious BMI awards in 2025!"
 
 - title: "We celebrated Dr. Yao Ge's farewell party and made DIY pizzas!"
-  date: "01/2025"
+  date: "2025-01-01"
   categories: ["social"]
   image: "diy_pizza_party.jpeg"
   description: "We hosted a farewell party for Dr. Yao Ge, complete with a fun DIY pizza-making session!"
 
 - title: "Congratulations to our PhD student Yao Ge on successfully passing the defense!"
-  date: "12/2024"
+  date: "2024-12-01"
   categories: ["academic"]
   image: "yao_defense.jpeg"
   description: "Yao Ge successfully defended their PhD dissertation—congratulations on this major milestone!"
 
 - title: "BMI Holiday Party in 2024!"
-  date: "11/2024"
+  date: "2024-11-01"
   categories: ["social"]
   image: "bmi_holiday_party_24.jpeg"
   description: "The lab came together for a festive celebration during the 2024 holiday season."
 
 - title: "Lab dinner at Wagaya!"
-  date: "10/2024"
+  date: "2024-10-01"
   categories: ["social"]
   image: "lab_dinner_10112024.jpeg"
   description: "Our lab members enjoyed their first dinner together at Wagaya restaurant."
 
 - title: "Our lab celebrated Dr. Sarker's birthday at the BMI department!"
-  date: "05/2024"
+  date: "2024-05-01"
   categories: ["social"]
   image: "abeed_birthday.jpg"
   description: "We surprised Dr. Sarker with a birthday celebration in the department!"
 
 - title: "Congratulations to JaMor on being a 2024 GA HIMSS David Cowan Scholarship winner!"
-  date: "05/2024"
+  date: "2024-05-01"
   categories: ["academic"]
   image: ""
   description: "JaMor was honored with the 2024 GA HIMSS David Cowan Scholarship for academic excellence."
 
 - title: "BMI Awards 2024 are released! Faculty Mentorship and Teaching Award was awarded to Dr. Abeed Sarker. Graduate Student award for Excellence in Research Award and Graduate Student Award for Diversity, Equity and Inclusion were awarded to Jeanne Powell."
-  date: "05/2024"
+  date: "2024-05-01"
   categories: ["academic"]
   image: "BMI_awards.jpeg"
   description: "Congratulations to Dr. Sarker and Jeanne Powell for receiving prestigious BMI awards in 2024!"
 
 - title: "Congratulations to JaMor for being elected to serve as a University Senate Representative on the 2024-2025 LGSC Exec Board!"
-  date: "04/2024"
+  date: "2024-04-01"
   categories: ["academic", "leadership"]
   image: ""
   description: "JaMor was elected to represent the student body on the LGSC Executive Board for 2024–2025."
 
 - title: "Our team showcased six posters during three poster sessions at the Biomedical STAR-AI symposium at Georgia Tech! Congratulations to JaMor for securing first place in session 1, and to Jeanne for clinching third place in session 3."
-  date: "04/2024"
+  date: "2024-04-01"
   categories: ["academic"]
   image: "bioAI_symposium.jpg"
   description: "Our lab presented six posters at STAR-AI. Congrats to JaMor and Jeanne for placing 1st and 3rd!"
 
 - title: "Congratulations to our Ph.D. student Swati Rajwal, who has been selected as an ambassador for Women in Data Science Worldwide in 2024!"
-  date: "02/2024"
+  date: "2024-02-01"
   categories: ["academic", "leadership"]
   image: ""
   description: "Swati Rajwal was selected as a 2024 WiDS ambassador—promoting women in data science globally."
 
+- title: "BMI's Chrismas holiday party!"
+  date: "2023-12-01"
+  categories: ["social"]
+  image: "team_cover.jpeg"
+  description: "The team celebrated the winter holidays together with food, games, and laughter!"
+
 - title: "Dr. Sarker was selected as a fellow of AMIA (FAMIA). Congratulations!"
-  date: "12/2023"
+  date: "2023-12-01"
   categories: ["academic", "recognition"]
   image: ""
   description: "Dr. Sarker was inducted as a FAMIA fellow in recognition of his contributions to medical informatics."
 
 - title: "Dr. Sarker co-organized a session with NIH/NIDA entitled \"NIH HEAL Initiative--Leveraging Existing Data and Predictive Analytics to Combat the Opioid and Overdose Epidemic\"."
-  date: "11/2023"
+  date: "2023-11-01"
   categories: ["academic", "outreach"]
   image: ""
   description: "Dr. Sarker co-led an NIH session focused on data analytics in combating opioid misuse."
 
 - title: "JaMor Hairston, a Ph.D. student working with us, has been elected as the Student Director of the AMIA Board of Directors. Starting January 2024, JaMor will serve a one-year term in this new role, advocating for and representing the AMIA student body!"
-  date: "11/2023"
+  date: "2023-11-01"
   categories: ["leadership", "academic"]
   image: "AMIA23_jamor.jpg"
   description: "JaMor was elected Student Director of the AMIA Board—advocating for students nationally."
 
 - title: "Our postdoctoral fellow Sudeshna Das has been selected as the Women Breakthrough Award winner for Gender Mainstreaming by Falling Walls and Elsevier Foundation. She is one of four awardees for the year 2023, selected from 82 candidates from 39 countries."
-  date: "10/2023"
+  date: "2023-10-01"
   categories: ["academic", "recognition"]
   image: "sudeshna_award.png"
   description: "Sudeshna Das won the global Falling Walls Women Breakthrough Award for Gender Mainstreaming!"
 
 - title: "Four PhD students in our lab (Yao Ge, Yuting Guo, Jeanne Powell, and Echo Zhang) had poster presentations in AMIA 2023."
-  date: "10/2023"
+  date: "2023-10-01"
   categories: ["academic"]
   image: "amia23_students_poster.jpeg"
   description: "Our PhD students presented their research posters at AMIA 2023—great representation!"
 
-- title: "Dr. Sarker discussed the significance of health data on social media during the interview with Scripps National News. The interview is available on YouTube."
-  date: "05/2022"
-  categories: ["outreach"]
-  image: ""
-  description: "Dr. Sarker highlighted the impact of social media data in health research in a national interview."
-
-- title: "BMI's Chrismas holiday party!"
-  date: "12/2023"
-  categories: ["social"]
-  image: "team_cover.jpeg"
-  description: "The team celebrated the winter holidays together with food, games, and laughter!"
-
 - title: "Our team attended AMIA 2023 and had a dinner in New Orleans."
-  date: "10/2023"
+  date: "2023-10-01"
   categories: ["social", "academic"]
   image: "AMIA23_new_orleans_dinner.jpeg"
   description: "After presenting at AMIA 2023, our team enjoyed a memorable dinner in New Orleans."
 
+- title: "Dr. Sarker discussed the significance of health data on social media during the interview with Scripps National News. The interview is available on YouTube."
+  date: "2022-05-01"
+  categories: ["outreach"]
+  image: ""
+  description: "Dr. Sarker highlighted the impact of social media data in health research in a national interview."
+
 - title: "Constructive Collisions February 2022: Associate Vice President for Research, Kimberly Eck (bottom-right) with participating Emory Faculty members Xiao Hu, Lars Ruthotto, Razieh Nabi, Donald Lee, Abeed Sarker, Lauren Klein, John Banja, and Joyce Hu."
-  date: "03/2022"
+  date: "2022-03-01"
   categories: ["academic"]
   image: "cc_thumb.jpg"
   description: "Constructive Collisions February 2022"
-
-

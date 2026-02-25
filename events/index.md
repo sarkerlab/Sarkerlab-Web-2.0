@@ -10,14 +10,15 @@ permalink: /lab-news/
 <section class="lab-news">
   <h1>Lab Events & Highlights</h1>
   <div class="news-grid">
-    {% for event in site.data.events %}
+    {% assign sorted_events = site.data.events | sort: "date" | reverse %}
+    {% for event in sorted_events %}
       <div class="news-item">
 	{% assign alt_text = event.title | default: "Lab event image" %}
 	{% if event.image and event.image != "" %}
 	  {% picture {{ event.image }} alt="{{ alt_text }}" %}
 	{% endif %}
 
-        <p class="meta">{{ event.categories | join: ', ' }} • {{ event.date }}</p>
+        <p class="meta">{{ event.categories | join: ', ' }} • {{ event.date | date: "%m/%Y" }}</p>
         <h2>{% unless event.image and event.image != "" %}📢 {% endunless %}{{ event.title }}</h2>
       </div>
     {% endfor %}
