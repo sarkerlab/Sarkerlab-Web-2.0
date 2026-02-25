@@ -4,6 +4,7 @@
 $logo-big: 80px;
 $logo: 40px;
 $big-padding: 100px;
+$sidebar-width: 260px;
 $sidebar-collapse: 768px;
 
 // --- Desktop: vertical sidebar ---
@@ -16,8 +17,10 @@ header {
   box-shadow: var(--shadow);
   border-right: 2px solid var(--light-gray);
   border-bottom: none;
-  position: sticky;
+  position: fixed;
+  left: 0;
   top: 0;
+  width: $sidebar-width;
   height: 100vh;
   overflow-y: auto;
   z-index: 10;
@@ -182,6 +185,8 @@ header[data-big] {
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    left: unset;
+    width: 100%;
     height: auto;
     overflow-y: visible;
     border-right: none;
