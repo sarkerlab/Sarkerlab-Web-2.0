@@ -1,7 +1,7 @@
 ---
 title: Dashboards
 nav:
-  order: 6
+  order: 5
   icon: fa-solid fa-chart-bar
   tooltip:
 ---

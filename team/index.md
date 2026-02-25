@@ -1,7 +1,7 @@
 ---
 title: Team
 nav:
-  order: 2
+  order: 8
   icon: fa-solid fa-users
   tooltip: Meet our team!
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lab News
+title: Lab Events
 nav:
   order: 4
   icon: fa-solid fa-newspaper
@@ -8,7 +8,7 @@ permalink: /lab-news/
 ---
 
 <section class="lab-news">
-  <h1>Lab News & Highlights</h1>
+  <h1>Lab Events & Highlights</h1>
   <div class="news-grid">
     {% for event in site.data.events %}
       <div class="news-item">
