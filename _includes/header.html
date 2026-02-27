@@ -48,20 +48,22 @@
       <i class="fa-solid fa-house fa-fw"></i>
       <span>Home</span>
     </a>
-    {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
+    {% assign current_url = page.url %}
+    {% assign nav_pages = site.pages
+      | where_exp: "item", "item.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for nav_page in nav_pages %}
+      {% if nav_page.nav %}
         <a
-          href="{{ page.dir | relative_url }}"
-          data-tooltip="{{ page.nav.tooltip }}"
+          href="{{ nav_page.dir | relative_url }}"
+          {% if current_url == nav_page.url or (nav_page.dir != "/" and current_url contains nav_page.dir) %}data-active{% endif %}
+          data-tooltip="{{ nav_page.nav.tooltip }}"
         >
-          {% if page.nav.icon %}
-            <i class="{{ page.nav.icon }} fa-fw"></i>
+          {% if nav_page.nav.icon %}
+            <i class="{{ nav_page.nav.icon }} fa-fw"></i>
           {% endif %}
-          <span>{{ page.title }}</span>
+          <span>{{ nav_page.title }}</span>
         </a>
       {% endif %}
     {% endfor %}
