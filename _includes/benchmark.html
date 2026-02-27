@@ -111,13 +111,11 @@ function hexToRgba(hex, alpha) {
 }
 
 function renderDatasetChart(selectedDataset) {
-  const dark = isDark();
   const primary = cssVar('--primary');
   const secondary = cssVar('--secondary');
   const textColor = cssVar('--text-light');
   const gridColor = cssVar('--light-gray');
-  // A third accent color: purple-ish that works in both modes
-  const tertiary = dark ? '#A78BFA' : '#7C3AED';
+  const tertiary = cssVar('--gray');
 
   const data = rawData.filter(d => d.dataset === selectedDataset);
   const fullNames = data.map(d => `${d.model_alias || d.model}: ${d.model}`);
