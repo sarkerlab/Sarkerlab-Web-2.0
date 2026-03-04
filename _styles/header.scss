@@ -15,9 +15,20 @@ header {
   gap: 20px;
   padding: 20px;
   box-shadow: var(--shadow);
-  border-right: 2px solid var(--light-gray);
+  border-right: none;
   border-bottom: none;
   position: fixed;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--light-gray) 40%, transparent 100%);
+    pointer-events: none;
+  }
   left: 0;
   top: 0;
   width: $sidebar-width;
