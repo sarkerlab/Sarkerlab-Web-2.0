@@ -1,7 +1,7 @@
 ---
 title: Login Page
 nav:
-  order: 9
+  order: 10
   icon: fa-solid fa-right-to-bracket
 ---
 

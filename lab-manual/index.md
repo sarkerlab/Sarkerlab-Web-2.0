@@ -1,7 +1,7 @@
 ---
 title: Lab Manual
 nav:
-  order: 10
+  order: 9
   icon: fa-solid fa-book-open
   tooltip: SarkerLab Manual
 ---
