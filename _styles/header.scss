@@ -14,7 +14,7 @@ header {
   align-items: stretch;
   gap: 20px;
   padding: 20px;
-  background: transparent;
+  background: transparent !important;
   box-shadow: none;
   border-right: none;
   border-bottom: none;
@@ -26,6 +26,10 @@ header {
   overflow-y: auto;
   z-index: 10;
   box-sizing: border-box;
+}
+
+header.background::before {
+  display: none;
 }
 
 header a {
