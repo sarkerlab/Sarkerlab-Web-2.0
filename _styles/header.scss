@@ -32,6 +32,11 @@ header.background::before {
   display: none;
 }
 
+header[data-dark="true"] {
+  --text: #1E293B;
+  --primary: #0D7C8F;
+}
+
 header a {
   color: var(--text);
   text-decoration: none;
