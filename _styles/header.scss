@@ -14,9 +14,8 @@ header {
   align-items: stretch;
   gap: 20px;
   padding: 20px;
-  background: transparent !important;
-  box-shadow: none;
-  border-right: none;
+  box-shadow: var(--shadow);
+  border-right: 2px solid var(--light-gray);
   border-bottom: none;
   position: fixed;
   left: 0;
@@ -26,15 +25,7 @@ header {
   overflow-y: auto;
   z-index: 10;
   box-sizing: border-box;
-}
-
-header.background::before {
-  display: none;
-}
-
-header[data-dark="true"] {
-  --text: #1E293B;
-  --primary: #0D7C8F;
+  background: var(--background-alt);
 }
 
 header a {
@@ -200,7 +191,7 @@ header[data-big] {
     height: auto;
     overflow-y: visible;
     border-right: none;
-    border-bottom: none;
+    border-bottom: 2px solid var(--light-gray);
   }
 
   .home {
