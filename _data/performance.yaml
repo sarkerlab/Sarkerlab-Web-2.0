@@ -607,22 +607,6 @@
   - 0.31
   - 0.46
 - category: SOCIAL MEDIA DATA
-  dataset: Adverse pregnancy outcomes
-  model: GEMMA-4-31B
-  model_alias: Gemma4
-  precision: 0.67
-  precision_ci:
-  - 0.4
-  - 0.92
-  recall: 0.8
-  recall_ci:
-  - 0.5
-  - 1.0
-  f1: 0.73
-  f1_ci:
-  - 0.47
-  - 0.91
-- category: SOCIAL MEDIA DATA
   dataset: Potential cases of COVID-19
   model: GEMMA-4-31B
   model_alias: Gemma4
