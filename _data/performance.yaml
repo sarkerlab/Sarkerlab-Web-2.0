@@ -1008,6 +1008,118 @@
   - 0.44
 - category: SOCIAL MEDIA DATA
   dataset: Breast cancer
+  model: DEEPSEEK-R1-DISTILL-70B
+  model_alias: DSR1
+  precision: 0.27
+  precision_ci:
+  - 0.24
+  - 0.29
+  recall: 1.0
+  recall_ci:
+  - 1.0
+  - 1.0
+  f1: 0.42
+  f1_ci:
+  - 0.39
+  - 0.45
+- category: SOCIAL MEDIA DATA
+  dataset: Changes in medication regimen
+  model: DEEPSEEK-R1-DISTILL-70B
+  model_alias: DSR1
+  precision: 0.09
+  precision_ci:
+  - 0.08
+  - 0.11
+  recall: 0.98
+  recall_ci:
+  - 0.95
+  - 1.0
+  f1: 0.17
+  f1_ci:
+  - 0.15
+  - 0.2
+- category: SOCIAL MEDIA DATA
+  dataset: Adverse pregnancy outcomes
+  model: DEEPSEEK-R1-DISTILL-70B
+  model_alias: DSR1
+  precision: 0.47
+  precision_ci:
+  - 0.44
+  - 0.5
+  recall: 1.0
+  recall_ci:
+  - 1.0
+  - 1.0
+  f1: 0.64
+  f1_ci:
+  - 0.61
+  - 0.67
+- category: SOCIAL MEDIA DATA
+  dataset: Potential cases of COVID-19
+  model: DEEPSEEK-R1-DISTILL-70B
+  model_alias: DSR1
+  precision: 0.17
+  precision_ci:
+  - 0.15
+  - 0.2
+  recall: 0.84
+  recall_ci:
+  - 0.79
+  - 0.89
+  f1: 0.29
+  f1_ci:
+  - 0.26
+  - 0.32
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: DEEPSEEK-R1-DISTILL-70B
+  model_alias: DSR1
+  precision: 0.97
+  precision_ci:
+  - 0.94
+  - 0.99
+  recall: 0.26
+  recall_ci:
+  - 0.22
+  - 0.29
+  f1: 0.41
+  f1_ci:
+  - 0.36
+  - 0.45
+- category: CLINICAL NOTES
+  dataset: Stigma labeling
+  model: DEEPSEEK-R1-DISTILL-70B
+  model_alias: DSR1
+  precision: 0.67
+  precision_ci:
+  - 0.57
+  - 0.76
+  recall: 0.7
+  recall_ci:
+  - 0.6
+  - 0.79
+  f1: 0.69
+  f1_ci:
+  - 0.6
+  - 0.76
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: DEEPSEEK-R1-DISTILL-70B
+  model_alias: DSR1
+  precision: 0.26
+  precision_ci:
+  - 0.23
+  - 0.29
+  recall: 0.82
+  recall_ci:
+  - 0.77
+  - 0.86
+  f1: 0.39
+  f1_ci:
+  - 0.36
+  - 0.43
+- category: SOCIAL MEDIA DATA
+  dataset: Breast cancer
   model: DEEPSEEK-V3-0324
   model_alias: DSv3
   precision: 0.87
@@ -1118,195 +1230,3 @@
   f1_ci:
   - 0.53
   - 0.62
-- category: SOCIAL MEDIA DATA
-  dataset: Breast cancer
-  model: QWEN3-32B
-  model_alias: Qwen3
-  precision: 0.46
-  precision_ci:
-  - 0.42
-  - 0.5
-  recall: 0.97
-  recall_ci:
-  - 0.94
-  - 0.99
-  f1: 0.62
-  f1_ci:
-  - 0.58
-  - 0.66
-- category: SOCIAL MEDIA DATA
-  dataset: Changes in medication regimen
-  model: QWEN3-32B
-  model_alias: Qwen3
-  precision: 0.15
-  precision_ci:
-  - 0.12
-  - 0.18
-  recall: 0.73
-  recall_ci:
-  - 0.65
-  - 0.81
-  f1: 0.25
-  f1_ci:
-  - 0.21
-  - 0.29
-- category: SOCIAL MEDIA DATA
-  dataset: Adverse pregnancy outcomes
-  model: QWEN3-32B
-  model_alias: Qwen3
-  precision: 0.53
-  precision_ci:
-  - 0.49
-  - 0.56
-  recall: 0.87
-  recall_ci:
-  - 0.85
-  - 0.9
-  f1: 0.66
-  f1_ci:
-  - 0.63
-  - 0.68
-- category: SOCIAL MEDIA DATA
-  dataset: Potential cases of COVID-19
-  model: QWEN3-32B
-  model_alias: Qwen3
-  precision: 0.28
-  precision_ci:
-  - 0.24
-  - 0.31
-  recall: 0.55
-  recall_ci:
-  - 0.49
-  - 0.62
-  f1: 0.37
-  f1_ci:
-  - 0.32
-  - 0.41
-- category: CLINICAL NOTES
-  dataset: Natal sex
-  model: QWEN3-32B
-  model_alias: Qwen3
-  precision: 0.87
-  precision_ci:
-  - 0.83
-  - 0.9
-  recall: 0.65
-  recall_ci:
-  - 0.61
-  - 0.69
-  f1: 0.74
-  f1_ci:
-  - 0.71
-  - 0.78
-- category: SOCIAL MEDIA DATA
-  dataset: Breast cancer
-  model: LLAMA3-70B
-  model_alias: Llama3
-  precision: 0.84
-  precision_ci:
-  - 0.8
-  - 0.88
-  recall: 0.92
-  recall_ci:
-  - 0.88
-  - 0.94
-  f1: 0.88
-  f1_ci:
-  - 0.85
-  - 0.9
-- category: SOCIAL MEDIA DATA
-  dataset: Changes in medication regimen
-  model: LLAMA3-70B
-  model_alias: Llama3
-  precision: 0.27
-  precision_ci:
-  - 0.22
-  - 0.33
-  recall: 0.49
-  recall_ci:
-  - 0.41
-  - 0.57
-  f1: 0.35
-  f1_ci:
-  - 0.28
-  - 0.41
-- category: SOCIAL MEDIA DATA
-  dataset: Adverse pregnancy outcomes
-  model: LLAMA3-70B
-  model_alias: Llama3
-  precision: 0.72
-  precision_ci:
-  - 0.68
-  - 0.75
-  recall: 0.82
-  recall_ci:
-  - 0.79
-  - 0.85
-  f1: 0.77
-  f1_ci:
-  - 0.74
-  - 0.79
-- category: SOCIAL MEDIA DATA
-  dataset: Potential cases of COVID-19
-  model: LLAMA3-70B
-  model_alias: Llama3
-  precision: 0.66
-  precision_ci:
-  - 0.59
-  - 0.74
-  recall: 0.4
-  recall_ci:
-  - 0.33
-  - 0.46
-  f1: 0.5
-  f1_ci:
-  - 0.43
-  - 0.55
-- category: CLINICAL NOTES
-  dataset: Stigma labeling
-  model: LLAMA3-70B
-  model_alias: Llama3
-  precision: 0.52
-  precision_ci:
-  - 0.44
-  - 0.6
-  recall: 0.91
-  recall_ci:
-  - 0.84
-  - 0.96
-  f1: 0.66
-  f1_ci:
-  - 0.59
-  - 0.73
-- category: CLINICAL NOTES
-  dataset: Medication change discussion
-  model: LLAMA3-70B
-  model_alias: Llama3
-  precision: 0.4
-  precision_ci:
-  - 0.36
-  - 0.44
-  recall: 0.84
-  recall_ci:
-  - 0.79
-  - 0.88
-  f1: 0.54
-  f1_ci:
-  - 0.5
-  - 0.58
-- category: CLINICAL NOTES
-  dataset: Natal sex
-  model: LLAMA3-70B
-  model_alias: Llama3
-  precision: 0.95
-  precision_ci:
-  - 0.92
-  - 0.98
-  recall: 0.39
-  recall_ci:
-  - 0.35
-  - 0.43
-  f1: 0.55
-  f1_ci:
-  - 0.51
-  - 0.6
