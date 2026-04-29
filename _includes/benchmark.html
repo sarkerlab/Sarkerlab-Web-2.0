@@ -34,6 +34,16 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0"></script>
 
 <script>
+const robertaF1 = {
+  "Breast cancer":                   { f1: 0.89, f1_ci: [0.85, 0.90] },
+  "Changes in medication regimen":   { f1: 0.62, f1_ci: [0.55, 0.69] },
+  "Adverse pregnancy outcomes":      { f1: 0.90, f1_ci: [0.87, 0.91] },
+  "Potential cases of COVID-19":     { f1: 0.76, f1_ci: [0.69, 0.81] },
+  "Natal sex":                       { f1: 0.94, f1_ci: [0.94, 0.96] },
+  "Stigma labeling":                 { f1: 0.69, f1_ci: [0.63, 0.75] },
+  "Medication change discussion":    { f1: 0.93, f1_ci: [0.92, 0.94] }
+};
+
 const rawData = [
   {% for item in site.data.performance %}
     {
@@ -138,6 +148,23 @@ function renderDatasetChart(selectedDataset) {
     buildMetricDataset("f1", hexToRgba(primary, 0.8))
   ];
 
+  const roberta = robertaF1[selectedDataset];
+  if (roberta) {
+    const modelAliases = data.map(d => d.model_alias || d.model);
+    datasets.push({
+      type: "line",
+      label: "RoBERTa F1",
+      data: modelAliases.map(alias => ({ x: alias, y: roberta.f1 })),
+      borderColor: hexToRgba(primary, 0.8),
+      borderDash: [8, 4],
+      borderWidth: 0,
+      pointRadius: 0,
+      fill: false,
+      tension: 0,
+      order: -1
+    });
+  }
+
   if (chart) chart.destroy();
 
   chart = new Chart(document.getElementById("performanceChart").getContext("2d"), {
@@ -165,7 +192,25 @@ function renderDatasetChart(selectedDataset) {
             }
           }
         },
-        legend: { position: "top", labels: { color: textColor } },
+        legend: {
+          position: "top",
+          labels: {
+            color: textColor,
+            generateLabels: function(chart) {
+              const original = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+              original.forEach(item => {
+                if (item.text === "RoBERTa F1 (baseline)") {
+                  item.lineDash = [8, 4];
+                  item.lineWidth = 1.5;
+                  item.strokeStyle = hexToRgba(primary, 0.8);
+                  item.fillStyle = 'transparent';
+                  item.borderRadius = 0;
+                }
+              });
+              return original;
+            }
+          }
+        },
         title: {
           display: true,
           text: `Model Performance: ${selectedDataset}`,
@@ -189,6 +234,25 @@ function renderDatasetChart(selectedDataset) {
       }
     },
     plugins: [{
+      id: 'roberta-full-line',
+      afterDraw(chart) {
+        const robertaDs = chart.data.datasets.find(d => d.label === "RoBERTa F1 (baseline)");
+        if (!robertaDs || !robertaDs.data.length) return;
+        const f1Value = robertaDs.data[0].y;
+        const ctx = chart.ctx;
+        const { left, right } = chart.chartArea;
+        const y = chart.scales.y.getPixelForValue(f1Value);
+        ctx.save();
+        ctx.beginPath();
+        ctx.setLineDash([8, 4]);
+        ctx.moveTo(left, y);
+        ctx.lineTo(right, y);
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = hexToRgba(primary, 0.8);
+        ctx.stroke();
+        ctx.restore();
+      }
+    }, {
       id: 'ci-lines',
       afterDatasetsDraw(chart) {
         const ctx = chart.ctx;
