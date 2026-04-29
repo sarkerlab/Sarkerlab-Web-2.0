@@ -156,6 +156,7 @@ function renderDatasetChart(selectedDataset) {
       label: "RoBERTa F1",
       data: modelAliases.map(alias => ({ x: alias, y: roberta.f1 })),
       borderColor: hexToRgba(primary, 0.8),
+      backgroundColor: 'transparent',
       borderDash: [8, 4],
       borderWidth: 0,
       pointRadius: 0,
@@ -196,18 +197,17 @@ function renderDatasetChart(selectedDataset) {
           position: "top",
           labels: {
             color: textColor,
-            generateLabels: function(chart) {
-              const original = Chart.defaults.plugins.legend.labels.generateLabels(chart);
-              original.forEach(item => {
-                if (item.text === "RoBERTa F1 (baseline)") {
-                  item.lineDash = [8, 4];
+            generateLabels(chart) {
+              const items = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+              items.forEach(item => {
+                if (item.text === "RoBERTa F1") {
                   item.lineWidth = 1.5;
+                  item.lineDash = [8, 4];
                   item.strokeStyle = hexToRgba(primary, 0.8);
                   item.fillStyle = 'transparent';
-                  item.borderRadius = 0;
                 }
               });
-              return original;
+              return items;
             }
           }
         },
@@ -236,7 +236,7 @@ function renderDatasetChart(selectedDataset) {
     plugins: [{
       id: 'roberta-full-line',
       afterDraw(chart) {
-        const robertaDs = chart.data.datasets.find(d => d.label === "RoBERTa F1 (baseline)");
+        const robertaDs = chart.data.datasets.find(d => d.label === "RoBERTa F1");
         if (!robertaDs || !robertaDs.data.length) return;
         const f1Value = robertaDs.data[0].y;
         const ctx = chart.ctx;
@@ -248,7 +248,7 @@ function renderDatasetChart(selectedDataset) {
         ctx.moveTo(left, y);
         ctx.lineTo(right, y);
         ctx.lineWidth = 1.5;
-        ctx.strokeStyle = hexToRgba(primary, 0.8);
+        ctx.strokeStyle = robertaDs.borderColor;
         ctx.stroke();
         ctx.restore();
       }
