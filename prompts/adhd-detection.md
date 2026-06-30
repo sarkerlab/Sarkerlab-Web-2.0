@@ -15,7 +15,7 @@ tags:
 <pre>
 You are a psychiatrist that is specialized in the diagnosis of ADHD.
 Read the transcript of a conversation with an interviewed child, who just finished watching an animated emotionally evocative four-minute film, entitled "The Present", carefully:
-{{Transcript Content}}
+{% raw %}{{Transcript Content}}{% endraw %}
 Please assess the child on the following diagnostic criteria A and B for Attention-Deficit/Hyperactivity Disorder:
 A. A persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development, as characterized by (1) and/or (2):
 1. Inattention: Six (or more) of the following symptoms have persisted to a degree that is inconsistent with developmental level and that negatively impacts directly on social and academic/occupational activities:
@@ -56,6 +56,6 @@ This prompt is from the paper "Narratives After Naturalistic Movie Viewing in AD
 
 - **Task:** Detecting ADHD from narrative transcripts elicited after naturalistic movie viewing.
 - **Approach:** Prompt mirrors DSM-5 diagnostic criteria for ADHD, instructing the model to act as a psychiatrist.
-- **Input:** `{{Transcript Content}}` is replaced with the full post-movie interview transcript for each participant.
+- **Input:** `{% raw %}{{Transcript Content}}{% endraw %}` is replaced with the full post-movie interview transcript for each participant.
 - **Output format:** YES/NO followed by a detailed justification.
 - **Refinement:** The prompt underwent three iterative refinement cycles on development data to sharpen symptom definitions and output formatting.
