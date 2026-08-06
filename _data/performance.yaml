@@ -1230,3 +1230,115 @@
   f1_ci:
   - 0.53
   - 0.62
+- category: SOCIAL MEDIA DATA
+  dataset: Breast cancer
+  model: GLM-5.2-Q4
+  model_alias: GLM-5.2-Q4
+  precision: 0.75
+  precision_ci:
+  - 0.70
+  - 0.79
+  recall: 0.91
+  recall_ci:
+  - 0.88
+  - 0.94
+  f1: 0.82
+  f1_ci:
+  - 0.79
+  - 0.85
+- category: SOCIAL MEDIA DATA
+  dataset: Changes in medication regimen
+  model: GLM-5.2-Q4
+  model_alias: GLM-5.2-Q4
+  precision: 0.30
+  precision_ci:
+  - 0.24
+  - 0.35
+  recall: 0.57
+  recall_ci:
+  - 0.48
+  - 0.65
+  f1: 0.39
+  f1_ci:
+  - 0.33
+  - 0.45
+- category: SOCIAL MEDIA DATA
+  dataset: Adverse pregnancy outcomes
+  model: GLM-5.2-Q4
+  model_alias: GLM-5.2-Q4
+  precision: 0.69
+  precision_ci:
+  - 0.66
+  - 0.73
+  recall: 0.74
+  recall_ci:
+  - 0.70
+  - 0.77
+  f1: 0.72
+  f1_ci:
+  - 0.69
+  - 0.75
+- category: SOCIAL MEDIA DATA
+  dataset: Potential cases of COVID-19
+  model: GLM-5.2-Q4
+  model_alias: GLM-5.2-Q4
+  precision: 0.38
+  precision_ci:
+  - 0.31
+  - 0.44
+  recall: 0.41
+  recall_ci:
+  - 0.35
+  - 0.47
+  f1: 0.39
+  f1_ci:
+  - 0.34
+  - 0.45
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: GLM-5.2-Q4
+  model_alias: GLM-5.2-Q4
+  precision: 0.98
+  precision_ci:
+  - 0.97
+  - 0.99
+  recall: 0.73
+  recall_ci:
+  - 0.69
+  - 0.77
+  f1: 0.84
+  f1_ci:
+  - 0.81
+  - 0.86
+- category: CLINICAL NOTES
+  dataset: Stigma labeling
+  model: GLM-5.2-Q4
+  model_alias: GLM-5.2-Q4
+  precision: 0.65
+  precision_ci:
+  - 0.55
+  - 0.75
+  recall: 0.60
+  recall_ci:
+  - 0.49
+  - 0.70
+  f1: 0.63
+  f1_ci:
+  - 0.53
+  - 0.71
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: GLM-5.2-Q4
+  model_alias: GLM-5.2-Q4
+  precision: 0.36
+  precision_ci:
+  - 0.33
+  - 0.40
+  recall: 0.93
+  recall_ci:
+  - 0.89
+  - 0.96
+  f1: 0.52
+  f1_ci:
+  - 0.48
+  - 0.56
