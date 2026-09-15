@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NPS Surveillance &amp; Trends Dashboard</title>
+<script src="./d3.min.js"></script>
+<script src="./chart.umd.js"></script>
+<style>
+:root{
+  --bg:#f7f8fa; --card:#fff; --ink:#1a202c; --mut:#6b7280; --line:#e2e5ea;
+  --acc:#2563eb; --acc-dark:#1d4ed8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:14px;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.topbar{background:#fff;border-bottom:1px solid var(--line);padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:56px;position:sticky;top:0;z-index:100}
+.topbar-brand{display:flex;align-items:center;gap:10px}
+.topbar-brand .dot{width:8px;height:8px;border-radius:50%;background:var(--acc);animation:pulse-dot 2s infinite}
+@keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.topbar-brand span{font-weight:600;font-size:15px;letter-spacing:-.2px;color:#1a1d23}
+.topbar-brand small{font-size:11px;color:var(--mut);font-weight:400;margin-left:4px}
+.topbar-right{display:flex;align-items:center;gap:16px;font-size:12px;color:var(--mut)}
+.badge-live{background:#dcfce7;color:#166534;border:1px solid #bbf7d0;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:500}
+.badge-source{background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;border-radius:4px;padding:2px 8px;font-size:11px}
+.page{max-width:1400px;margin:0 auto;padding:24px 32px 48px}
+.page-title{font-size:20px;font-weight:600;color:#111827;margin-bottom:4px}
+.page-sub{font-size:13px;color:var(--mut);margin-bottom:24px}
+.section{margin-bottom:36px}
+.sec-head{display:flex;align-items:baseline;gap:10px;margin-bottom:14px}
+.sec-num{font-size:11px;font-weight:600;color:var(--acc);font-family:monospace;background:#eff6ff;border-radius:4px;padding:2px 6px}
+.sec-title{font-size:15px;font-weight:600;color:#111827}
+.sec-sub{font-size:12px;color:#9ca3af;margin-top:2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.card h2{font-size:15px;margin:0 0 2px}
+.card .hint{color:var(--mut);font-size:12px;margin:0 0 10px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:950px){.row2{grid-template-columns:1fr}}
+svg{display:block;width:100%;height:auto}
+/* ALERTS */
+.alerts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.alert-card{background:#fff;border:1px solid var(--line);border-left:4px solid var(--line);border-radius:8px;padding:14px 16px;overflow:hidden}
+.alert-card.spike{border-left-color:#f59e0b}
+.alert-card.new{border-left-color:#7c3aed}
+.alert-card.both{border-left-color:#dc2626}
+.alert-card.fast_riser{border-left-color:#e8590c}
+.alert-card.most_discussed{border-left-color:#2563eb}
+.alert-tag{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:600;border-radius:3px;padding:2px 6px;margin:0 4px 4px 0;text-transform:uppercase;letter-spacing:.3px}
+.tag-spike{background:#fef3c7;color:#92400e}
+.tag-new{background:#ede9fe;color:#5b21b6}
+.tag-both{background:#fee2e2;color:#991b1b}
+.tag-fast_riser{background:#ffe8d9;color:#9a3412}
+.tag-most_discussed{background:#dbeafe;color:#1e40af}
+.alert-tags-row{display:flex;flex-wrap:wrap}
+.alert-substance{font-size:14px;font-weight:600;color:#111827;font-family:monospace;margin-bottom:4px;text-transform:capitalize}
+.alert-category{font-size:11px;color:var(--mut);margin-bottom:10px}
+.alert-stats{display:flex;gap:12px}
+.alert-stat{display:flex;flex-direction:column}
+.alert-stat-val{font-size:16px;font-weight:600;color:#111827}
+.alert-stat-val.up{color:#d97706}
+.alert-stat-val.new-flag{color:#7c3aed}
+.alert-stat-lbl{font-size:10px;color:#9ca3af;text-transform:uppercase;letter-spacing:.3px}
+.alert-sparkline{margin-top:10px}
+.alerts-empty{color:var(--mut);font-size:13px;font-style:italic;padding:8px 0}
+/* TOP MEDICATIONS */
+.topmed-list{display:flex;flex-direction:column;gap:8px}
+.topmed-row{display:flex;align-items:center;gap:12px}
+.topmed-rank{font-size:11px;font-weight:700;color:#9ca3af;width:22px;flex-shrink:0;font-family:monospace}
+.topmed-name{font-size:13px;font-weight:600;color:#111827;width:170px;flex-shrink:0;text-transform:capitalize;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topmed-cat{font-size:10px;color:var(--mut);width:140px;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topmed-bar-wrap{flex:1;height:16px;background:#f3f4f6;border-radius:4px;overflow:hidden}
+.topmed-bar{height:100%;border-radius:4px}
+.topmed-count{font-size:12px;font-weight:600;color:#111827;width:50px;text-align:right;flex-shrink:0}
+.topmed-change{font-size:10.5px;width:54px;text-align:right;flex-shrink:0}
+.topmed-change.up{color:#d97706}
+.topmed-change.down{color:#16a34a}
+.topmed-change.flat{color:#9ca3af}
+/* CHIPS */
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 8px}
+.chip{font-size:12px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;display:flex;align-items:center;gap:6px}
+.chip .dot{width:9px;height:9px;border-radius:50%}
+.chip.off{opacity:.32}
+.axis text{font-size:10px;fill:var(--mut)}
+.axis line,.axis path{stroke:var(--line)}
+.grid line{stroke:var(--line);stroke-dasharray:2,3}
+#tooltip{position:absolute;pointer-events:none;background:#1a202c;color:#fff;font-size:12px;padding:6px 9px;border-radius:6px;opacity:0;transition:opacity .1s;max-width:260px;z-index:10;line-height:1.4}
+.smgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:10px}
+.smcell{border:1px solid var(--line);border-radius:8px;padding:8px 8px 2px}
+.smcell .t{font-size:11px;font-weight:600;margin:0 0 2px;display:flex;gap:6px;align-items:center;text-transform:capitalize}
+.smcell .t .dot{width:8px;height:8px;border-radius:50%;flex:none}
+.dhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+select{font:inherit;padding:3px 6px;border-radius:6px;border:1px solid var(--line);background:#fff}
+/* TEMPORAL */
+.temporal-filters{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.cat-btn{border:1px solid #d1d5db;border-radius:5px;padding:4px 10px;font-size:11px;color:#374151;background:#fff;cursor:pointer;font-weight:500}
+.cat-btn.active{background:var(--acc);color:#fff;border-color:var(--acc)}
+.cat-btn:hover:not(.active){background:#f3f4f6}
+.legend-row{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:10px;font-size:11px;color:var(--mut)}
+.leg-item{display:flex;align-items:center;gap:5px}
+.leg-swatch{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+/* FOOTER */
+.foot{border-top:1px solid var(--line);padding-top:16px;margin-top:8px;display:flex;justify-content:space-between;align-items:center;font-size:11px;color:#9ca3af;flex-wrap:wrap;gap:8px}
+.empty-state{color:var(--mut);font-size:12px;font-style:italic;padding:8px 0}
+/* radial ctl */
+.ctl{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:13px;margin:0 0 10px}
+.ctl label{display:flex;gap:6px;align-items:center}
+/* info button */
+.info-btn{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;background:#e2e5ea;color:#6b7280;font-size:10px;font-weight:700;cursor:pointer;border:none;line-height:1;flex-shrink:0;position:relative}
+.info-btn:hover .info-tip{display:block}
+.info-tip{display:none;position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1a202c;color:#fff;font-size:11px;font-weight:400;padding:7px 10px;border-radius:6px;white-space:nowrap;max-width:320px;white-space:normal;line-height:1.45;z-index:20;width:280px}
+</style>
+</head>
+<body>
+<nav class="topbar">
+  <div class="topbar-brand">
+    <div class="dot"></div>
+    <span>NPS Surveillance &amp; Trends Dashboard</span>
+    <small>/ Sarker Lab — Public Health Intelligence</small>
+  </div>
+  <div class="topbar-right">
+    <span class="badge-live">● Live</span>
+    <span class="badge-source">Reddit</span>
+    <span id="last-updated">Loading…</span>
+  </div>
+</nav>
+<div class="page">
+  <div class="page-title">Novel Psychoactive Substance Surveillance &amp; Trends</div>
+  <div class="page-sub">Monthly analysis of NPS mentions across Reddit, identified via NLP pipeline.</div>
+  <div class="card" style="margin-bottom:24px;display:flex;gap:24px;flex-wrap:wrap;align-items:flex-start" id="stat-row"></div>
+
+  <!-- 01 ALERTS -->
+  <div class="section">
+    <div class="sec-head"><span class="sec-num">01</span>
+      <div><div class="sec-title">Monthly NPS Alerts</div>
+      <div class="sec-sub">Substances flagged for volume spike (≥2× prior month) or first appearance · evaluated on most recent month</div></div>
+    </div>
+    <div class="alerts-grid" id="alerts-container"></div>
+  </div>
+
+  <!-- 02 DRUG GROUP LINES (was 03) -->
+  <div class="section">
+    <div class="sec-head"><span class="sec-num">02</span>
+      <div><div class="sec-title">Multi-Line Temporal Trends by Drug Group</div>
+      <div class="sec-sub">Select a drug group to show all its substances as individual lines · combined NPS (existing + new) · hover for values</div></div>
+    </div>
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap">
+        <span style="font-size:12px;color:var(--mut);flex-shrink:0">Drug group:</span>
+        <div class="chips" id="group-chips"></div>
+      </div>
+      <div id="lines"></div>
+    </div>
+  </div>
+
+  <!-- 03 SMALL MULTIPLES (was 05) — top 10 by last month -->
+  <div class="section">
+    <div class="sec-head"><span class="sec-num">03</span>
+      <div><div class="sec-title">Small Multiples — Top 10 Existing NPS</div>
+      <div class="sec-sub">Top 10 existing NPS by last month mention volume · independent y-axes · red dots = anomaly months (z &gt; 2)</div></div>
+    </div>
+    <div class="card"><div class="smgrid" id="smallmult"></div></div>
+  </div>
+
+  <!-- 04 BUMP + GROWTH — new NPS only -->
+  <div class="section">
+    <div class="sec-head"><span class="sec-num">04</span>
+      <div><div class="sec-title">Rank Shifts &amp; Recent Growth — New NPS Only</div>
+      <div class="sec-sub">Substances from new_meds_identified pipeline only · rising lines = emerging NPS gaining discussion volume</div></div>
+    </div>
+    <div class="row2">
+      <div class="card">
+        <h2 style="font-size:13px;color:#374151">Bump chart — rank over time</h2>
+        <p class="hint">Rank 1 = most discussed new NPS that month.</p>
+        <div id="bump"></div>
+      </div>
+      <div class="card">
+        <h2 style="font-size:13px;color:#374151">Recent growth — avg. MoM %</h2>
+        <p class="hint">Average month-over-month change, last 3 months (smoothed).</p>
+        <div id="growth"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 05 TOP SUBSTANCES (was 02) — existing meds only -->
+  <div class="section">
+    <div class="sec-head"><span class="sec-num">05</span>
+      <div><div class="sec-title">Top Substances — Most Recent Month</div>
+      <div class="sec-sub" id="topmed-sub">Existing tracked NPS only · ranked by mention volume with month-over-month change</div></div>
+    </div>
+    <div class="card"><div class="topmed-list" id="topmed-list"></div></div>
+  </div>
+
+  <div class="section">
+    <div class="sec-head"><span class="sec-num">06–07</span>
+      <div><div class="sec-title">Co-Mention Connections &amp; Seasonality</div>
+      <div class="sec-sub">See per-panel notes — data scope differs between the two</div></div>
+    </div>
+    <div class="row2">
+      <div class="card">
+        <h2 style="font-size:13px;color:#374151">Chord diagram — co-mention connections</h2>
+        <p class="hint">Combined NPS (existing + new) · ribbon width = posts mentioning both substances · hover to isolate connections</p>
+        <div style="display:flex;justify-content:center">
+          <div id="chord" style="max-width:560px;width:100%"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2 style="font-size:13px;color:#374151">Radial seasonality</h2>
+        <p class="hint">Existing tracked NPS only · angle = calendar month · one loop per year · overlapping loops reveal seasonal patterns</p>
+        <div class="ctl"><label>Substance <select id="radSel"></select></label></div>
+        <div style="display:flex;justify-content:center">
+          <div id="radial" style="max-width:560px;width:100%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 08 DRILL-DOWN (combined) -->
+  <div class="section">
+    <div class="sec-head"><span class="sec-num">08</span>
+      <div><div class="sec-title">Drill-Down</div>
+      <div class="sec-sub">Monthly mentions with cumulative total and anomaly flags</div></div>
+    </div>
+    <div class="card">
+      <div class="dhead" style="margin-bottom:10px">
+        <span style="font-size:12px;color:var(--mut)">Substance:</span>
+        <select id="drillSel"></select>
+      </div>
+      <div id="drillBar"></div>
+    </div>
+  </div>
+
+  <!-- 09 TEMPORAL BY CATEGORY (combined) -->
+  <div class="section">
+    <div class="sec-head"><span class="sec-num">09</span>
+      <div><div class="sec-title">Temporal Analysis by Drug Category</div>
+      <div class="sec-sub">Monthly mention volume by drug category · filter below</div></div>
+    </div>
+    <div class="card">
+      <div class="temporal-filters" id="cat-filters"></div>
+      <div class="legend-row" id="temporal-legend"></div>
+      <div style="position:relative;height:280px">
+        <canvas id="chart-temporal">Temporal NPS trends by category</canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div><strong>Data source:</strong> Reddit, aggregated monthly · medication mentions identified via curated reference list + NLP pipeline</div>
+    <div>NPS Surveillance Lab · For research use · Updated monthly</div>
+  </div>
+</div>
+<div id="tooltip"></div>
+<script>
+'use strict';
+const DATA_PATH = './data/dashboard_data.json';
+let DATA = null;
+let NAMES = [];           // combined monthly_series medications (sections 03, 06)
+let EXISTING_NAMES = [];  // existing_series medications (sections 02, 05, 08, 09)
+let NEW_NAMES = [];       // new_series medications (section 04)
+let months = [];
+let color = null;
+const fmt = d3.timeFormat("%b '%y");
+
+const CATEGORY_COLORS_POOL = [
+  {fill:'#2563eb',alpha:'rgba(37,99,235,.12)'},
+  {fill:'#16a34a',alpha:'rgba(22,163,74,.12)'},
+  {fill:'#7c3aed',alpha:'rgba(124,58,237,.12)'},
+  {fill:'#dc2626',alpha:'rgba(220,38,38,.12)'},
+  {fill:'#f59e0b',alpha:'rgba(245,158,11,.12)'},
+  {fill:'#0891b2',alpha:'rgba(8,145,178,.12)'},
+  {fill:'#db2777',alpha:'rgba(219,39,119,.12)'},
+  {fill:'#65a30d',alpha:'rgba(101,163,13,.12)'},
+  {fill:'#9333ea',alpha:'rgba(147,51,234,.12)'},
+  {fill:'#ea580c',alpha:'rgba(234,88,12,.12)'},
+  {fill:'#0d9488',alpha:'rgba(13,148,136,.12)'},
+  {fill:'#475569',alpha:'rgba(71,85,105,.12)'},
+];
+let CATEGORY_COLORS = {};
+function assignCategoryColors(cats){ CATEGORY_COLORS={}; cats.forEach((c,i)=>CATEGORY_COLORS[c]=CATEGORY_COLORS_POOL[i%CATEGORY_COLORS_POOL.length]); }
+
+function titleCase(s){ return s; /* names are pre-title-cased by export script */ }
+function fmtV(v){ return d3.format(',')(Math.round(v)); }
+const tip=()=>d3.select('#tooltip');
+function showTip(ev,html){ tip().html(html).style('opacity',1).style('left',(ev.pageX+12)+'px').style('top',(ev.pageY-10)+'px'); }
+function hideTip(){ tip().style('opacity',0); }
+function makeSvg(sel,W,H){ const el=d3.select(sel);el.selectAll('*').remove();return el.append('svg').attr('viewBox',`0 0 ${W} ${H}`); }
+function monthLabel(ym){ if(!ym)return'—';const[y,m]=ym.split('-').map(Number);return fmt(new Date(y,m-1,1)); }
+
+// series accessors by type
+function combinedSeries(name){ return DATA.monthly_series.series[name]||months.map(()=>0); }
+function existingSeries(name){ return DATA.existing_series.series[name]||months.map(()=>0); }
+function newSeries(name){ return DATA.new_series.series[name]||months.map(()=>0); }
+
+function anomalies(arr){
+  const out=[];
+  for(let i=6;i<arr.length;i++){
+    const w=arr.slice(i-6,i),m=d3.mean(w),sd=d3.deviation(w)||1e-9;
+    const z=(arr[i]-m)/sd;
+    if(z>2&&arr[i]>5) out.push({i,z});
+  }
+  return out;
+}
+
+/* ── STATS ── */
+function renderStats(){
+  const s=DATA.summary;
+  const row=d3.select('#stat-row'); row.selectAll('*').remove();
+  const stats=[
+    {label:'Total posts analyzed',value:(s.total_posts||0).toLocaleString(),info:null},
+    {label:'Months covered',value:s.total_months_covered??'—',info:null},
+    {label:'Unique substances tracked',value:s.total_unique_medications??'—',info:null},
+    {label:'Polysubstance posts',value:(s.polysubstance_rate_pct??'—')+'%',
+     info:'A "polysubstance post" contained mentions of two or more distinct substances identified through our keyword matching algorithms.'},
+  ];
+  stats.forEach(st=>{
+    const c=row.append('div');
+    c.append('div').style('font-size','20px').style('font-weight','700').text(st.value);
+    const lrow=c.append('div').style('display','flex').style('align-items','center').style('gap','5px').style('margin-top','2px');
+    lrow.append('span').style('font-size','11px').style('color','var(--mut)').style('text-transform','uppercase').style('letter-spacing','.3px').text(st.label);
+    if(st.info){
+      const btn=lrow.append('button').attr('class','info-btn').attr('title',st.info).html('i');
+      btn.append('span').attr('class','info-tip').text(st.info);
+    }
+  });
+  const upd=s.last_updated?new Date(s.last_updated):null;
+  const updStr=upd?upd.toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'}):'unknown';
+  const cov=s.earliest_month&&s.latest_month?`${monthLabel(s.earliest_month)} – ${monthLabel(s.latest_month)}`:'';
+  document.getElementById('last-updated').textContent=`Last updated ${updStr} · Covering ${cov}`;
+}
+
+/* ── 01 ALERTS ── */
+function renderAlerts(){
+  const container=document.getElementById('alerts-container');
+  const alerts=DATA.alerts||[];
+  if(!alerts.length){container.innerHTML=`<p class="alerts-empty">No alerts for the most recent month.</p>`;return;}
+
+  const tagMap={
+    new:{cls:'tag-new',txt:'★ New NPS'},
+    spike:{cls:'tag-spike',txt:'↑ Volume spike'},
+    fast_riser:{cls:'tag-fast_riser',txt:'⚡ Fastest riser'},
+    most_discussed:{cls:'tag-most_discussed',txt:'● Most discussed'},
+  };
+  // border-color priority when a card has multiple tags: new > spike > fast_riser > most_discussed
+  const borderPriority=['new','spike','fast_riser','most_discussed'];
+  const barColorMap={new:'#7c3aed',spike:'#f59e0b',fast_riser:'#e8590c',most_discussed:'#2563eb'};
+
+  container.innerHTML=alerts.map(a=>{
+    const trend=a.trend&&a.trend.length?a.trend:[a.mentions];
+    const mx=Math.max(...trend)||1;
+    const primaryTag=borderPriority.find(t=>a.tags.includes(t))||a.tags[0];
+    const borderClass=a.tags.length>1?'both':primaryTag;
+    const barColor=barColorMap[primaryTag]||'#9ca3af';
+    const bars=trend.map((v,i)=>{
+      const h=Math.round((v/mx)*24)||1;
+      const isLast=i===trend.length-1;
+      return `<div style="width:8px;height:${h}px;background:${isLast?barColor:'#e2e5ea'};border-radius:2px;align-self:flex-end"></div>`;
+    }).join('');
+    const pct=a.prev_mentions===0?'NEW':(a.pct_change>=0?'+':'')+a.pct_change+'%';
+    const tagsHtml=a.tags.map(t=>`<span class="alert-tag ${tagMap[t].cls}">${tagMap[t].txt}</span>`).join('');
+    return `<div class="alert-card ${borderClass}">
+      <div class="alert-tags-row">${tagsHtml}</div>
+      <div class="alert-substance">${titleCase(a.medication)}</div>
+      <div class="alert-category">${a.category}</div>
+      <div class="alert-stats">
+        <div class="alert-stat"><span class="alert-stat-val ${a.prev_mentions===0?'new-flag':'up'}">${pct}</span><span class="alert-stat-lbl">${a.prev_mentions===0?'first seen':'vs prev month'}</span></div>
+        <div class="alert-stat"><span class="alert-stat-val">${a.mentions.toLocaleString()}</span><span class="alert-stat-lbl">mentions (latest)</span></div>
+      </div>
+      <div class="alert-sparkline"><div style="display:flex;gap:2px;align-items:flex-end;height:28px">${bars}</div></div>
+    </div>`;
+  }).join('');
+}
+
+/* ── 02 TOP MEDICATIONS — existing meds only ── */
+function renderTopMedications(){
+  const list=document.getElementById('topmed-list');
+  const rows=DATA.top_medications||[];
+  if(!rows.length){list.innerHTML=`<p class="empty-state">No existing NPS data for the most recent month.</p>`;return;}
+  const maxM=Math.max(...rows.map(r=>r.mentions))||1;
+  list.innerHTML=rows.map((r,i)=>{
+    const cat=CATEGORY_COLORS[r.category]||CATEGORY_COLORS_POOL[CATEGORY_COLORS_POOL.length-1];
+    const w=Math.round((r.mentions/maxM)*100);
+    let ch=`<span class="topmed-change flat">—</span>`;
+    if(r.prev_mentions===0&&r.mentions>0) ch=`<span class="topmed-change" style="color:#7c3aed;font-weight:600">NEW</span>`;
+    else if(r.pct_change!=null){const cl=r.pct_change>0?'up':r.pct_change<0?'down':'flat';ch=`<span class="topmed-change ${cl}">${r.pct_change>0?'+':''}${r.pct_change}%</span>`;}
+    return `<div class="topmed-row">
+      <span class="topmed-rank">#${i+1}</span>
+      <span class="topmed-name" title="${titleCase(r.medication)}">${titleCase(r.medication)}</span>
+      <span class="topmed-cat" title="${r.category}">${r.category}</span>
+      <span class="topmed-bar-wrap"><span class="topmed-bar" style="width:${w}%;background:${cat.fill}"></span></span>
+      <span class="topmed-count">${r.mentions.toLocaleString()}</span>
+      ${ch}
+    </div>`;
+  }).join('');
+}
+
+/* ── 03 MULTI-LINE BY DRUG GROUP — combined ── */
+const state={selectedGroup:null, drill:null};
+
+function drawGroupChips(){
+  const c=d3.select('#group-chips'); c.selectAll('*').remove();
+  const groups = Object.keys(DATA.group_series.groups).sort();
+  groups.forEach(g=>{
+    const meds = DATA.group_series.groups[g].medications;
+    const isActive = g === state.selectedGroup;
+    // pick a representative color from the first med in the group
+    const repColor = color(meds[0]) || '#6b7280';
+    c.append('button')
+      .attr('class','chip'+(isActive?'':' off'))
+      .on('click',()=>{ state.selectedGroup = g; drawGroupChips(); drawLines(); })
+      .html(`<span class="dot" style="background:${repColor}"></span>${g} <span style="font-size:10px;color:#9ca3af">(${meds.length})</span>`);
+  });
+}
+
+function drawLines(){
+  const m={t:14,r:160,b:26,l:55},W=1150,H=420;
+  const svg=makeSvg('#lines',W,H);
+
+  if(!state.selectedGroup || !DATA.group_series.groups[state.selectedGroup]){
+    svg.append('text').attr('x',W/2).attr('y',H/2).attr('text-anchor','middle').attr('font-size',13).attr('fill','#9ca3af').text('Select a drug group above to view trends');
+    return;
+  }
+
+  const grp = DATA.group_series.groups[state.selectedGroup];
+  const keys = grp.medications;
+  if(!keys.length){ svg.append('text').attr('x',W/2).attr('y',H/2).attr('text-anchor','middle').attr('font-size',13).attr('fill','#9ca3af').text('No data for this group'); return; }
+
+  // use a fresh per-group color scale so colors are stable within the group
+  const grpColor = d3.scaleOrdinal().domain(keys).range(d3.schemeTableau10.concat(d3.schemePastel1));
+
+  const ser={}; keys.forEach(k=>ser[k]=grp.series[k]||months.map(()=>0));
+  const x=d3.scaleTime().domain(d3.extent(months,d=>d.date)).range([m.l,W-m.r]);
+  const mx=d3.max(keys.flatMap(k=>ser[k]))||1;
+  const y=d3.scaleLinear().domain([0,mx*1.05]).range([H-m.b,m.t]);
+
+  svg.append('g').attr('class','grid').selectAll('line').data(y.ticks(6)).join('line').attr('x1',m.l).attr('x2',W-m.r).attr('y1',d=>y(d)).attr('y2',d=>y(d));
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${H-m.b})`).call(d3.axisBottom(x).ticks(12).tickFormat(fmt).tickSizeOuter(0));
+  svg.append('g').attr('class','axis').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(6,'~s'));
+
+  const line=d3.line().x((v,i)=>x(months[i].date)).y(v=>y(v)).curve(d3.curveMonotoneX);
+  keys.forEach(k=>{
+    const col = grpColor(k);
+    svg.append('path').attr('d',line(ser[k])).attr('fill','none').attr('stroke',col).attr('stroke-width',1.8).attr('opacity',0.85)
+      .on('mousemove',function(ev){ d3.select(this).attr('stroke-width',3).attr('opacity',1); showTip(ev,`<b>${titleCase(k)}</b>`); })
+      .on('mouseleave',function(){ d3.select(this).attr('stroke-width',1.8).attr('opacity',0.85); hideTip(); });
+    // label only the line with the highest value in latest month to keep labels readable
+    const lastVal = ser[k][ser[k].length-1];
+    if(lastVal > 0){
+      svg.append('text').attr('x',W-m.r+4).attr('y',y(lastVal)+3).attr('font-size',9).attr('fill',col).text(titleCase(k));
+    }
+    svg.append('g').selectAll('circle').data(months).join('circle')
+      .attr('cx',d=>x(d.date)).attr('cy',d=>y(ser[k][d.i])).attr('r',6).attr('fill','transparent')
+      .on('mousemove',(ev,d)=>showTip(ev,`<b>${titleCase(k)}</b><br>${d.label}: ${fmtV(ser[k][d.i])}`))
+      .on('mouseleave',hideTip);
+  });
+}
+
+/* ── 04 BUMP + GROWTH — new NPS only ── */
+function drawBump(){
+  const m={t:14,r:150,b:26,l:30},W=560,H=330;
+  const svg=makeSvg('#bump',W,H);
+  if(!NEW_NAMES.length){svg.append('text').attr('x',W/2).attr('y',H/2).attr('text-anchor','middle').attr('font-size',13).attr('fill','#9ca3af').text('No new NPS identified in this period');return;}
+  const ranks={};NEW_NAMES.forEach(n=>ranks[n]=[]);
+  const ser={};NEW_NAMES.forEach(n=>ser[n]=newSeries(n));
+  months.forEach(mo=>{
+    const order=NEW_NAMES.slice().sort((a,b)=>ser[b][mo.i]-ser[a][mo.i]);
+    order.forEach((n,r)=>ranks[n].push(r+1));
+  });
+  const x=d3.scaleTime().domain(d3.extent(months,d=>d.date)).range([m.l,W-m.r]);
+  const y=d3.scalePoint().domain(d3.range(1,NEW_NAMES.length+1)).range([m.t,H-m.b]);
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${H-m.b})`).call(d3.axisBottom(x).ticks(6).tickFormat(fmt).tickSizeOuter(0));
+  svg.append('g').selectAll('text').data(d3.range(1,NEW_NAMES.length+1)).join('text').attr('x',m.l-8).attr('y',r=>y(r)+3).attr('text-anchor','end').attr('font-size',10).attr('fill','#64748b').text(r=>'#'+r);
+  const line=d3.line().x((r,i)=>x(months[i].date)).y(r=>y(r)).curve(d3.curveMonotoneX);
+  NEW_NAMES.forEach(n=>{
+    svg.append('path').attr('d',line(ranks[n])).attr('fill','none').attr('stroke',color(n)).attr('stroke-width',2).attr('opacity',0.85)
+      .on('mousemove',function(ev){d3.select(this).attr('stroke-width',4).attr('opacity',1);showTip(ev,`<b>${titleCase(n)}</b> (new NPS)<br>now rank #${ranks[n][ranks[n].length-1]}`);})
+      .on('mouseleave',function(){d3.select(this).attr('stroke-width',2).attr('opacity',0.85);hideTip();});
+    svg.append('text').attr('x',W-m.r+6).attr('y',y(ranks[n][ranks[n].length-1])+3).attr('font-size',10).attr('fill',color(n)).text(titleCase(n));
+  });
+}
+function drawGrowth(){
+  const m={t:8,r:60,b:24,l:160},W=560,H=330;
+  const svg=makeSvg('#growth',W,H);
+  if(!NEW_NAMES.length){svg.append('text').attr('x',W/2).attr('y',H/2).attr('text-anchor','middle').attr('font-size',13).attr('fill','#9ca3af').text('No new NPS identified in this period');return;}
+  const rows=NEW_NAMES.map(n=>{
+    const s=newSeries(n),len=s.length;
+    let a,b;
+    if(len>=6){const sm=s.map((v,i)=>d3.mean(s.slice(Math.max(0,i-2),i+1)));a=d3.mean(sm.slice(len-3));b=d3.mean(sm.slice(len-6,len-3));}
+    else if(len>=2){a=s[len-1];b=d3.mean(s.slice(0,len-1));}
+    else{a=s[0]??0;b=undefined;}
+    const g=(b>0)?(a-b)/b*100:null;
+    return{n,g,insufficientData:g===null};
+  }).sort((a,b)=>(b.g??-Infinity)-(a.g??-Infinity));
+  const validRows=rows.filter(d=>d.g!==null);
+  const domain=validRows.length?[Math.min(0,d3.min(validRows,d=>d.g)),Math.max(0,d3.max(validRows,d=>d.g))]:[-10,10];
+  const x=d3.scaleLinear().domain(domain).nice().range([m.l,W-m.r]);
+  const y=d3.scaleBand().domain(rows.map(d=>d.n)).range([m.t,H-m.b]).padding(0.25);
+  svg.append('g').selectAll('rect').data(rows).join('rect')
+    .attr('x',d=>x(Math.min(0,d.g??0))).attr('y',d=>y(d.n))
+    .attr('width',d=>d.g===null?0:Math.abs(x(d.g)-x(0))).attr('height',y.bandwidth()).attr('rx',3)
+    .attr('fill',d=>d.g===null?'#d1d5db':color(d.n))
+    .on('mousemove',(ev,d)=>showTip(ev,d.g===null?`<b>${titleCase(d.n)}</b><br>not enough history yet`:`<b>${titleCase(d.n)}</b> (new NPS)<br>${d.g>=0?'+':''}${d.g.toFixed(1)}% avg MoM`))
+    .on('mouseleave',hideTip);
+  svg.append('g').selectAll('text.lab').data(rows).join('text').attr('x',m.l-8).attr('y',d=>y(d.n)+y.bandwidth()/2+3).attr('text-anchor','end').attr('font-size',10.5).attr('fill','#1a202c').text(d=>titleCase(d.n));
+  svg.append('g').selectAll('text.val').data(rows).join('text').attr('x',d=>x(Math.max(0,d.g??0))+5).attr('y',d=>y(d.n)+y.bandwidth()/2+3).attr('font-size',10).attr('fill','#64748b').text(d=>d.g===null?'n/a':(d.g>=0?'+':'')+d.g.toFixed(1)+'%');
+  svg.append('line').attr('x1',x(0)).attr('x2',x(0)).attr('y1',m.t).attr('y2',H-m.b).attr('stroke','#94a3b8');
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${H-m.b})`).call(d3.axisBottom(x).ticks(5).tickFormat(d=>d+'%').tickSizeOuter(0));
+}
+
+/* ── 05 SMALL MULTIPLES — existing meds only ── */
+function drawSmallMultiples(){
+  const grid=d3.select('#smallmult');grid.selectAll('*').remove();
+  EXISTING_NAMES.forEach(n=>{
+    const s=existingSeries(n),an=anomalies(s);
+    const cell=grid.append('div').attr('class','smcell');
+    cell.append('div').attr('class','t').html(`<span class="dot" style="background:${color(n)}"></span>${titleCase(n)}`);
+    const W=210,H=84,mg={t:6,r:6,b:4,l:6};
+    const svg=cell.append('svg').attr('viewBox',`0 0 ${W} ${H}`);
+    const x=d3.scaleLinear().domain([0,s.length-1]).range([mg.l,W-mg.r]);
+    const y=d3.scaleLinear().domain([0,(d3.max(s)||1)*1.08]).range([H-mg.b,mg.t]);
+    svg.append('path').attr('d',d3.area().x((v,i)=>x(i)).y0(H-mg.b).y1(v=>y(v)).curve(d3.curveMonotoneX)(s)).attr('fill',color(n)).attr('opacity',0.14);
+    svg.append('path').attr('d',d3.line().x((v,i)=>x(i)).y(v=>y(v)).curve(d3.curveMonotoneX)(s)).attr('fill','none').attr('stroke',color(n)).attr('stroke-width',1.6);
+    svg.selectAll('circle.an').data(an).join('circle').attr('cx',d=>x(d.i)).attr('cy',d=>y(s[d.i])).attr('r',3).attr('fill','#e03131')
+      .on('mousemove',(ev,d)=>showTip(ev,`<b>${titleCase(n)}</b><br>${months[d.i].label}: ${fmtV(s[d.i])} (z=${d.z.toFixed(1)})`))
+      .on('mouseleave',hideTip);
+    svg.append('text').attr('x',W-mg.r).attr('y',mg.t+8).attr('text-anchor','end').attr('font-size',9).attr('fill','#64748b').text('max '+fmtV(d3.max(s)||0));
+  });
+}
+
+/* ── 06 DRILL-DOWN — combined ── */
+function drawDrill(){
+  const n=state.drill;if(!n)return;
+  const m={t:14,r:60,b:26,l:55},W=1100,H=340;
+  const svg=makeSvg('#drillBar',W,H);
+  const s=combinedSeries(n),an=anomalies(s);
+  const cum=[];s.reduce((a,v)=>{cum.push(a+v);return a+v;},0);
+  const x=d3.scaleBand().domain(months.map(d=>d.key)).range([m.l,W-m.r]).padding(0.2);
+  const y=d3.scaleLinear().domain([0,(d3.max(s)||1)*1.1]).range([H-m.b,m.t]);
+  const y2=d3.scaleLinear().domain([0,cum[cum.length-1]||1]).range([H-m.b,m.t]);
+  svg.append('g').selectAll('rect').data(months).join('rect')
+    .attr('x',d=>x(d.key)).attr('y',d=>y(s[d.i])).attr('width',x.bandwidth()).attr('height',d=>(H-m.b)-y(s[d.i])).attr('rx',1.5)
+    .attr('fill',d=>an.some(a=>a.i===d.i)?'#e03131':color(n))
+    .on('mousemove',(ev,d)=>{const a=an.find(q=>q.i===d.i);showTip(ev,`<b>${titleCase(n)}</b><br>${d.label}: ${fmtV(s[d.i])}${a?`<br>⚑ anomaly (z=${a.z.toFixed(1)})`:''}`);})
+    .on('mouseleave',hideTip);
+  svg.append('path').attr('d',d3.line().x(d=>x(d.key)+x.bandwidth()/2).y(d=>y2(cum[d.i])).curve(d3.curveMonotoneX)(months)).attr('fill','none').attr('stroke','#495057').attr('stroke-width',1.8).attr('stroke-dasharray','4,3');
+  svg.append('g').attr('class','axis').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5,'~s'));
+  svg.append('g').attr('class','axis').attr('transform',`translate(${W-m.r},0)`).call(d3.axisRight(y2).ticks(5,'~s'));
+  svg.append('g').selectAll('text').data(months.filter(d=>d.i%2===0)).join('text').attr('x',d=>x(d.key)+x.bandwidth()/2).attr('y',H-m.b+15).attr('text-anchor','middle').attr('font-size',9.5).attr('fill','#64748b').text(d=>d.label);
+  svg.append('text').attr('x',W-m.r+4).attr('y',m.t-2).attr('font-size',9.5).attr('fill','#495057').text('cumulative →');
+}
+
+/* ── 07 TEMPORAL BY CATEGORY — combined ── */
+let activeCats=new Set();
+let charts={};
+function destroyChart(id){if(charts[id]){charts[id].destroy();delete charts[id];}}
+function renderTemporalFilters(){
+  const wrap=document.getElementById('cat-filters');
+  wrap.innerHTML=DATA.category_series.categories.map(c=>`<button class="cat-btn ${activeCats.has(c)?'active':''}" onclick="toggleCat('${c.replace(/'/g,"\\'")}')">${c}</button>`).join('');
+  renderTemporalLegend();
+}
+function toggleCat(c){
+  if(activeCats.has(c)){if(activeCats.size>1)activeCats.delete(c);}
+  else activeCats.add(c);
+  renderTemporalFilters();renderTemporal();
+}
+function renderTemporalLegend(){
+  document.getElementById('temporal-legend').innerHTML=[...activeCats].map(c=>{
+    const col=CATEGORY_COLORS[c]||CATEGORY_COLORS_POOL[CATEGORY_COLORS_POOL.length-1];
+    return `<span class="leg-item"><span class="leg-swatch" style="background:${col.fill}"></span>${c}</span>`;
+  }).join('');
+}
+function renderTemporal(){
+  destroyChart('temporal');
+  const cs=DATA.category_series;
+  charts.temporal=new Chart(document.getElementById('chart-temporal'),{
+    type:'line',
+    data:{labels:cs.months.map(monthLabel),datasets:[...activeCats].map(c=>{
+      const col=CATEGORY_COLORS[c]||CATEGORY_COLORS_POOL[CATEGORY_COLORS_POOL.length-1];
+      return{label:c,data:cs.series[c]||[],borderColor:col.fill,backgroundColor:col.alpha,borderWidth:1.5,fill:true,pointRadius:0};
+    })},
+    options:{responsive:true,maintainAspectRatio:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>`${ctx.dataset.label}: ${ctx.parsed.y.toLocaleString()}`}}},
+      scales:{x:{ticks:{font:{size:10},maxTicksLimit:14,maxRotation:0},grid:{display:false}},y:{ticks:{font:{size:10}}}}
+    }
+  });
+}
+
+/* ── 08 CHORD DIAGRAM — existing meds only ── */
+function drawChord(){
+  const chordData=DATA.chord_data;
+  const meds=chordData.medications||[];
+  const M=chordData.matrix||[];
+  const W=520,H=460,R=Math.min(W,H)/2-70;
+  const svg=makeSvg('#chord',W,H);
+  if(!meds.length||!M.length){svg.append('text').attr('x',W/2).attr('y',H/2).attr('text-anchor','middle').attr('font-size',13).attr('fill','#9ca3af').text('No co-occurrence data available');return;}
+  const chordColor=d3.scaleOrdinal().domain(meds).range(d3.schemeTableau10);
+  const g=svg.append('g').attr('transform',`translate(${W/2},${H/2})`);
+  const chord=d3.chord().padAngle(0.04).sortSubgroups(d3.descending)(M);
+  const arc=d3.arc().innerRadius(R).outerRadius(R+12);
+  const ribbon=d3.ribbon().radius(R-2);
+  const grp=g.append('g').selectAll('g').data(chord.groups).join('g');
+  const ribbons=g.append('g').selectAll('path').data(chord).join('path')
+    .attr('d',ribbon).attr('fill',d=>chordColor(meds[d.source.index])).attr('opacity',0.55)
+    .on('mousemove',(ev,d)=>showTip(ev,`<b>${titleCase(meds[d.source.index])} ↔ ${titleCase(meds[d.target.index])}</b><br>${fmtV(M[d.source.index][d.target.index])} co-mention posts`))
+    .on('mouseleave',hideTip);
+  grp.append('path').attr('d',arc).attr('fill',d=>chordColor(meds[d.index]))
+    .on('mousemove',function(ev,d){
+      ribbons.attr('opacity',r=>r.source.index===d.index||r.target.index===d.index?0.85:0.06);
+      showTip(ev,`<b>${titleCase(meds[d.index])}</b><br>${fmtV(Math.round(d.value))} total co-mentions`);
+    })
+    .on('mouseleave',()=>{ribbons.attr('opacity',0.55);hideTip();});
+  grp.append('text')
+    .attr('transform',d=>{const a=(d.startAngle+d.endAngle)/2-Math.PI/2;return`translate(${Math.cos(a)*(R+18)},${Math.sin(a)*(R+18)}) rotate(${a*180/Math.PI+(Math.cos(a)<0?180:0)})`;})
+    .attr('text-anchor',d=>{const a=(d.startAngle+d.endAngle)/2-Math.PI/2;return Math.cos(a)<0?'end':'start';})
+    .attr('font-size',9.5).attr('fill','#1a202c').text(d=>titleCase(meds[d.index]));
+}
+
+/* ── 09 RADIAL SEASONALITY — existing meds only ── */
+function drawRadial(){
+  const n=document.getElementById('radSel').value;
+  if(!n){return;}
+  const s=existingSeries(n);
+  const W=520,H=420,cx=W/2,cy=H/2+6,R=160;
+  const svg=makeSvg('#radial',W,H);
+  const g=svg.append('g').attr('transform',`translate(${cx},${cy})`);
+  const mx=d3.max(s)||1;
+  const r=d3.scaleLinear().domain([0,mx*1.1]).range([22,R]);
+  const ang=m=>m/12*2*Math.PI;
+  r.ticks(4).slice(1).forEach(t=>{
+    g.append('circle').attr('r',r(t)).attr('fill','none').attr('stroke','#e2e8f0');
+    g.append('text').attr('x',4).attr('y',-r(t)-2).attr('font-size',9).attr('fill','#94a3b8').text(fmtV(t));
+  });
+  const MN=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  MN.forEach((mn,i)=>{
+    const a=ang(i)-Math.PI/2;
+    g.append('line').attr('x1',Math.cos(a)*22).attr('y1',Math.sin(a)*22).attr('x2',Math.cos(a)*R).attr('y2',Math.sin(a)*R).attr('stroke','#eef1f5');
+    g.append('text').attr('x',Math.cos(a)*(R+14)).attr('y',Math.sin(a)*(R+14)+3).attr('text-anchor','middle').attr('font-size',10).attr('fill','#64748b').text(mn);
+  });
+  // group months[] by year
+  const yearGroups={};
+  months.forEach(mo=>{
+    const yr=mo.date.getFullYear();
+    if(!yearGroups[yr]) yearGroups[yr]=[];
+    yearGroups[yr].push({a:ang(mo.date.getMonth()),v:s[mo.i],lab:mo.label});
+  });
+  const years=Object.keys(yearGroups).map(Number).sort();
+  const yCol=d3.scaleOrdinal().domain(years).range(['#94a3b8','#4dabf7','#3b5bdb','#e8590c','#2f9e44','#f59f00']);
+  years.forEach(yr=>{
+    const pts=yearGroups[yr];
+    const line=d3.lineRadial().angle(p=>p.a).radius(p=>r(p.v)).curve(d3.curveCatmullRom);
+    g.append('path').attr('d',line(pts)).attr('fill','none').attr('stroke',yCol(yr)).attr('stroke-width',2.2).attr('opacity',0.9);
+    g.selectAll(null).data(pts).join('circle')
+      .attr('cx',p=>Math.cos(p.a-Math.PI/2)*r(p.v)).attr('cy',p=>Math.sin(p.a-Math.PI/2)*r(p.v))
+      .attr('r',3).attr('fill',yCol(yr))
+      .on('mousemove',(ev,p)=>showTip(ev,`<b>${titleCase(n)}</b><br>${p.lab}: ${fmtV(p.v)} mentions`))
+      .on('mouseleave',hideTip);
+  });
+  const lg=svg.append('g').attr('transform','translate(14,16)');
+  years.forEach((yr,i)=>{
+    lg.append('line').attr('x1',0).attr('x2',16).attr('y1',i*16).attr('y2',i*16).attr('stroke',yCol(yr)).attr('stroke-width',2.5);
+    lg.append('text').attr('x',21).attr('y',i*16+3.5).attr('font-size',11).attr('fill','#1a202c').text(yr);
+  });
+}
+
+/* ── INIT ── */
+async function init(){
+  try{
+    const res=await fetch(DATA_PATH,{cache:'no-store'});
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    DATA=await res.json();
+  }catch(err){
+    console.error('Failed to load dashboard data:',err);
+    document.getElementById('last-updated').textContent='Unable to load dashboard data.';
+    return;
+  }
+  // build months index from combined series (full history)
+  months=DATA.monthly_series.months.map((key,i)=>{
+    const[y,m]=key.split('-').map(Number);
+    const d=new Date(y,m-1,1);
+    return{i,date:d,key,label:fmt(d)};
+  });
+  NAMES=DATA.monthly_series.medications;
+  EXISTING_NAMES=DATA.existing_series.medications;
+  NEW_NAMES=DATA.new_series.medications;
+  // single unified color scale across all substance pools for visual consistency
+  const allNames=[...new Set([...NAMES,...EXISTING_NAMES,...NEW_NAMES])];
+  color=d3.scaleOrdinal().domain(allNames).range(d3.schemeTableau10);
+  // default selected group = first group alphabetically that has data
+  const availableGroups = Object.keys(DATA.group_series.groups).sort();
+  state.selectedGroup = availableGroups[0] || null;
+  state.drill=NAMES[0]||EXISTING_NAMES[0]||null;
+  assignCategoryColors(DATA.category_series.categories);
+  activeCats=new Set(DATA.category_series.categories);
+
+  renderStats();
+  renderAlerts();
+  renderTopMedications();
+  drawGroupChips();
+  drawLines();
+  drawBump();
+  drawGrowth();
+  drawSmallMultiples();
+  drawDrill();
+
+  // temporal
+  renderTemporalFilters();
+  renderTemporal();
+
+  // drill-down select — populated from combined NAMES
+  const ds=d3.select('#drillSel');
+  ds.selectAll('option').data(NAMES).join('option').attr('value',d=>d).text(d=>titleCase(d));
+  if(state.drill) ds.property('value',state.drill);
+  ds.on('change',function(){state.drill=this.value;drawDrill();});
+
+  // chord
+  drawChord();
+
+  // radial - populate select with existing meds
+  const rs=d3.select('#radSel');
+  rs.selectAll('option').data(EXISTING_NAMES).join('option').attr('value',d=>d).text(d=>titleCase(d));
+  if(EXISTING_NAMES.length) rs.property('value',EXISTING_NAMES[0]);
+  rs.on('change',drawRadial);
+  drawRadial();
+}
+init();
+</script>
+</body>
+</html>
