@@ -1,7 +1,7 @@
 ---
 name: Anise
 image: images/team/Anise.jpeg
-role: member
+role: alumni
 position: mascot
 description: Code Quality Control Manager (Mascot)
 ---

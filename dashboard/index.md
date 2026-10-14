@@ -1,5 +1,5 @@
 ---
-title: Social Media Dashboards
+title: Substance Use Dashboards
 nav:
   order: 5
   icon: fa-solid fa-chart-bar

@@ -1,7 +1,7 @@
 ---
 name: Jeanne Powell
 image: images/team/jeanne.png
-role: member
+role: alumni
 position: Postdoctoral Scholar
 description: Postdoctoral Scholar
 links: 
