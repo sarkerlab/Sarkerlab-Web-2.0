@@ -1,9 +1,6 @@
 ---
 ---
 
-$sidebar-width: 260px;
-$sidebar-collapse: 768px;
-
 html,
 body {
   margin: 0;
@@ -15,47 +12,21 @@ body {
 }
 
 body {
-  display: grid;
-  grid-template-columns: $sidebar-width 1fr;
-  grid-template-rows: auto 1fr auto;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow-x: hidden;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
-  // header spans the full left column
-  > header {
-    grid-column: 1;
-    grid-row: 1 / -1;
-  }
+body > main {
+  width: 100%;
+  flex: 1 0 auto;
+}
 
-  // main and footer in the right column
-  > main {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-  }
-
-  > footer {
-    grid-column: 2;
-    grid-row: 3;
-  }
-
-  @media (max-width: $sidebar-collapse) {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-
-    > header {
-      grid-column: 1;
-      grid-row: 1;
-    }
-
-    > main {
-      grid-column: 1;
-      grid-row: 2;
-    }
-
-    > footer {
-      grid-column: 1;
-      grid-row: 3;
-    }
-  }
+body > footer {
+  width: 100%;
+  flex: 0 0 auto;
 }

@@ -1,12 +1,12 @@
 ---
-title: Prompt Collections
+title: Prompt Library
 nav:
   order: 7
   icon: fa-solid fa-terminal
   tooltip: LLM prompt templates
 ---
 
-# Prompt Collections
+# Prompt Library
 
 Reusable prompt templates developed by our lab for biomedical NLP tasks.
 

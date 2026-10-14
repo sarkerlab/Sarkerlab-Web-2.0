@@ -1,71 +1,91 @@
-{% assign image = page.header | default: site.header | relative_url %}
-{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
-
 {% assign svg = "images/logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
+{% assign current_url = page.url %}
+{% assign research_active = false %}
+{% assign resources_active = false %}
+{% assign news_active = false %}
+{% if current_url contains "/research/" or current_url contains "/publications/" or page.collection == "posts" and page.layout != "prompt" %}
+  {% assign research_active = true %}
+{% endif %}
+{% if current_url contains "/dashboard/" or current_url contains "/nps-dashboard/" or current_url contains "/benchmark/" or current_url contains "/prompts/" or page.layout == "prompt" %}
+  {% assign resources_active = true %}
+{% endif %}
+{% if current_url contains "/media/" or current_url contains "/lab-news/" %}
+  {% assign news_active = true %}
+{% endif %}
 
-<header
-  class="background"
-  style="--image: url('{{ image }}')"
-  {% if dark == true or dark == false %}
-    data-dark="{{ dark }}"
-  {% endif %}
-  {% if page.url == "/" %}
-    data-big
-  {% endif %}
->
-  <a href="{{ "/" | relative_url }}" class="home">
-    {% if logo %}
-      <span class="logo">
-        {% if svg %}
-          {{ svg | file_read }}
-        {% else %}
-          <img src="{{ logo | relative_url }}" alt="logo">
-        {% endif %}
-      </span>
-    {% endif %}
-    {% if site.logo-text != false %}
-      <span class="title" data-tooltip="Home">
-        {% if site.title and site.show-title != false %}
-          <span>{{ site.title }}</span>
-        {% endif %}
-        {% if site.subtitle and site.show-subtitle != false %}
-          <span>{{ site.subtitle }}</span>
-        {% endif %}
-      </span>
-    {% endif %}
-  </a>
-
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
-
-  <nav>
-    <a
-      href="{{ "/" | relative_url }}"
-      {% if page.url == "/" %}data-active{% endif %}
-    >
-      <i class="fa-solid fa-house fa-fw"></i>
-      <span>Home</span>
-    </a>
-    {% assign current_url = page.url %}
-    {% assign nav_pages = site.pages
-      | where_exp: "item", "item.nav"
-      | sort: "nav.order"
-    %}
-    {% for nav_page in nav_pages %}
-      {% if nav_page.nav %}
-        <a
-          href="{{ nav_page.dir | relative_url }}"
-          {% if current_url == nav_page.url or (nav_page.dir != "/" and current_url contains nav_page.dir) %}data-active{% endif %}
-          data-tooltip="{{ nav_page.nav.tooltip }}"
-        >
-          {% if nav_page.nav.icon %}
-            <i class="{{ nav_page.nav.icon }} fa-fw"></i>
+<header class="site-header" data-dark="false">
+  <div class="site-header__inner">
+    <a href="{{ "/" | relative_url }}" class="site-brand" aria-label="Sarker Lab home">
+      {% if logo %}
+        <span class="site-brand__logo" aria-hidden="true">
+          {% if svg %}
+            {{ svg | file_read }}
+          {% else %}
+            <img src="{{ logo | relative_url }}" alt="">
           {% endif %}
-          <span>{{ nav_page.title }}</span>
-        </a>
+        </span>
       {% endif %}
-    {% endfor %}
-  </nav>
+      <span class="site-brand__text">
+        <span class="site-brand__title">{{ site.title }}</span>
+        {% if site.subtitle %}<span class="site-brand__subtitle">{{ site.subtitle }}</span>{% endif %}
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+      <span class="nav-toggle__icon" aria-hidden="true"></span>
+    </button>
+
+    <nav id="primary-navigation" class="site-nav" aria-label="Primary navigation">
+      <ul class="site-nav__list">
+        <li class="site-nav__item">
+          <a href="{{ "/" | relative_url }}" class="site-nav__link" {% if current_url == "/" %}aria-current="page"{% endif %}>Home</a>
+        </li>
+
+        <li class="site-nav__item site-nav__item--dropdown{% if research_active %} is-active{% endif %}">
+          <button class="site-nav__link dropdown-toggle" type="button" aria-expanded="false" aria-controls="research-menu">
+            Research <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <ul id="research-menu" class="submenu">
+            <li><a href="{{ "/research/" | relative_url }}" {% if current_url == "/research/" %}aria-current="page"{% endif %}>Research Projects</a></li>
+            <li><a href="{{ "/publications/" | relative_url }}" {% if current_url == "/publications/" %}aria-current="page"{% endif %}>Publications</a></li>
+          </ul>
+        </li>
+
+        <li class="site-nav__item site-nav__item--dropdown{% if resources_active %} is-active{% endif %}">
+          <button class="site-nav__link dropdown-toggle" type="button" aria-expanded="false" aria-controls="resources-menu">
+            Resources <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <ul id="resources-menu" class="submenu">
+            <li><a href="{{ "/dashboard/" | relative_url }}" {% if current_url == "/dashboard/" %}aria-current="page"{% endif %}>Substance Use Dashboards</a></li>
+            <li><a href="{{ "/nps-dashboard/" | relative_url }}" {% if current_url == "/nps-dashboard/" %}aria-current="page"{% endif %}>NPS Dashboards</a></li>
+            <li><a href="{{ "/benchmark/" | relative_url }}" {% if current_url == "/benchmark/" %}aria-current="page"{% endif %}>LLM Benchmarks</a></li>
+            <li><a href="{{ "/prompts/" | relative_url }}" {% if current_url == "/prompts/" %}aria-current="page"{% endif %}>Prompt Library</a></li>
+          </ul>
+        </li>
+
+        <li class="site-nav__item site-nav__item--dropdown{% if news_active %} is-active{% endif %}">
+          <button class="site-nav__link dropdown-toggle" type="button" aria-expanded="false" aria-controls="news-menu">
+            News &amp; Events <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <ul id="news-menu" class="submenu">
+            <li><a href="{{ "/media/" | relative_url }}" {% if current_url == "/media/" %}aria-current="page"{% endif %}>Media Coverage</a></li>
+            <li><a href="{{ "/lab-news/" | relative_url }}" {% if current_url == "/lab-news/" %}aria-current="page"{% endif %}>Lab Events</a></li>
+          </ul>
+        </li>
+
+        <li class="site-nav__item">
+          <a href="{{ "/team/" | relative_url }}" class="site-nav__link" {% if current_url contains "/team/" or page.collection == "members" %}aria-current="page"{% endif %}>Team</a>
+        </li>
+
+        <li class="site-nav__item">
+          <a href="{{ "/lab-manual/" | relative_url }}" class="site-nav__link" {% if current_url contains "/lab-manual/" %}aria-current="page"{% endif %}>Lab Manual</a>
+        </li>
+      </ul>
+
+      <a href="{{ "/login/" | relative_url }}" class="member-login" {% if current_url contains "/login/" %}aria-current="page"{% endif %}>Member Login</a>
+    </nav>
+  </div>
 </header>
