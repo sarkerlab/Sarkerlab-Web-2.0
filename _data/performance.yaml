@@ -1342,3 +1342,115 @@
   f1_ci:
   - 0.48
   - 0.56
+- category: SOCIAL MEDIA DATA
+  dataset: Breast cancer
+  model: typesafe/jev-1.13
+  model_alias: JEV
+  precision: 0.87
+  precision_ci:
+  - 0.84
+  - 0.91
+  recall: 0.92
+  recall_ci:
+  - 0.89
+  - 0.95
+  f1: 0.90
+  f1_ci:
+  - 0.87
+  - 0.92
+- category: SOCIAL MEDIA DATA
+  dataset: Changes in medication regimen
+  model: typesafe/jev-1.13
+  model_alias: JEV
+  precision: 0.31
+  precision_ci:
+  - 0.26
+  - 0.37
+  recall: 0.58
+  recall_ci:
+  - 0.50
+  - 0.66
+  f1: 0.41
+  f1_ci:
+  - 0.35
+  - 0.47
+- category: SOCIAL MEDIA DATA
+  dataset: Adverse pregnancy outcomes
+  model: typesafe/jev-1.13
+  model_alias: JEV
+  precision: 0.78
+  precision_ci:
+  - 0.74
+  - 0.81
+  recall: 0.66
+  recall_ci:
+  - 0.62
+  - 0.70
+  f1: 0.71
+  f1_ci:
+  - 0.68
+  - 0.74
+- category: SOCIAL MEDIA DATA
+  dataset: Potential cases of COVID-19
+  model: typesafe/jev-1.13
+  model_alias: JEV
+  precision: 0.56
+  precision_ci:
+  - 0.50
+  - 0.63
+  recall: 0.47
+  recall_ci:
+  - 0.41
+  - 0.54
+  f1: 0.52
+  f1_ci:
+  - 0.46
+  - 0.57
+- category: CLINICAL NOTES
+  dataset: Natal sex
+  model: typesafe/jev-1.13
+  model_alias: JEV
+  precision: 0.91
+  precision_ci:
+  - 0.88
+  - 0.93
+  recall: 0.79
+  recall_ci:
+  - 0.76
+  - 0.83
+  f1: 0.84
+  f1_ci:
+  - 0.82
+  - 0.87
+- category: CLINICAL NOTES
+  dataset: Stigma labeling
+  model: typesafe/jev-1.13
+  model_alias: JEV
+  precision: 0.70
+  precision_ci:
+  - 0.56
+  - 0.83
+  recall: 0.36
+  recall_ci:
+  - 0.26
+  - 0.46
+  f1: 0.48
+  f1_ci:
+  - 0.37
+  - 0.57
+- category: CLINICAL NOTES
+  dataset: Medication change discussion
+  model: typesafe/jev-1.13
+  model_alias: JEV
+  precision: 0.44
+  precision_ci:
+  - 0.40
+  - 0.48
+  recall: 0.82
+  recall_ci:
+  - 0.77
+  - 0.87
+  f1: 0.57
+  f1_ci:
+  - 0.53
+  - 0.61
